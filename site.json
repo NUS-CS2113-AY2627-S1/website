@@ -59,7 +59,7 @@
   "intrasiteLinkValidation": {
     "enabled": false
   },
-  "enableSearch": true,
+  "enableSearch": false,
   "headingIndexingLevel": 5,
   "plugins": ["custardui", "filterTags", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons", "dataTable", "mermaid"],
   "pluginsContext": {
