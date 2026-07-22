@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Issue Replacement Review</title>
+  <style>
+:root {
+  color-scheme: light;
+  --bg: #f5f6f8;
+  --panel: #ffffff;
+  --text: #20242a;
+  --muted: #68707c;
+  --line: #d9dee7;
+  --line-soft: #eef1f5;
+  --old-bg: #fff0f0;
+  --old-text: #8f1d1d;
+  --new-bg: #ebf8ef;
+  --new-text: #17643a;
+  --mark-old: #ffd7d7;
+  --mark-new: #bfedcc;
+  --accent-bg: #eef4fb;
+  --accent-text: #245377;
+  --code-bg: #fafbfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px 22px 48px;
+}
+
+header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.summary {
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+button {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text);
+  border-radius: 6px;
+  padding: 7px 10px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button[aria-pressed="true"] {
+  border-color: #87acd4;
+  background: #edf5ff;
+  color: #174b80;
+}
+
+.issue-list {
+  display: grid;
+  gap: 14px;
+}
+
+.issue {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 1px 2px rgb(20 25 35 / 5%);
+}
+
+.issue-header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--line-soft);
+  background: #fbfcfe;
+}
+
+.index {
+  min-width: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.title {
+  min-width: 0;
+  font-weight: 700;
+}
+
+.path {
+  margin-top: 2px;
+  overflow: hidden;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge {
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent-text);
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.issue-body {
+  padding: 16px;
+}
+
+.comment {
+  display: flex;
+  gap: 9px;
+  align-items: baseline;
+  margin-bottom: 12px;
+  color: #343a42;
+}
+
+.comment-label {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: #f0f2f5;
+  color: #515a66;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.comment-text {
+  min-width: 0;
+}
+
+.unified {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--code-bg);
+}
+
+.diff-line {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  min-height: 24px;
+  border-top: 1px solid #f1f3f6;
+  font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.diff-line:first-child {
+  border-top: 0;
+}
+
+.diff-line.hidden-unchanged {
+  display: none;
+}
+
+.sign {
+  user-select: none;
+  border-right: 1px solid var(--line-soft);
+  color: var(--muted);
+  text-align: center;
+}
+
+.diff-line.minus {
+  background: var(--old-bg);
+}
+
+.diff-line.minus .sign,
+.diff-line.minus .content {
+  color: var(--old-text);
+}
+
+.diff-line.plus {
+  background: var(--new-bg);
+}
+
+.diff-line.plus .sign,
+.diff-line.plus .content {
+  color: var(--new-text);
+}
+
+.content {
+  min-width: 0;
+  padding: 2px 9px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+del,
+ins {
+  border-radius: 3px;
+  padding: 0 1px;
+  text-decoration: none;
+}
+
+del {
+  background: var(--mark-old);
+  color: var(--old-text);
+}
+
+ins {
+  background: var(--mark-new);
+  color: var(--new-text);
+}
+
+@media (max-width: 760px) {
+  header,
+  .issue-header {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    align-items: start;
+  }
+
+  .toolbar {
+    justify-content: flex-start;
+  }
+}
+</style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Issue Replacement Review</h1>
+        <div class="summary">17 suggested replacements from issues_found.py</div>
+      </div>
+      <div class="toolbar" aria-label="Display controls">
+        
+        <button type="button" id="expandAll">Expand All</button>
+        <button type="button" id="collapseAll">Collapse All</button>
+      </div>
+    </header>
+
+    <section class="issue-list">
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">1</div>
+          <div class="title">
+            Clarify comment example wording
+            <div class="path">codeQuality/commentMinimally/intermediate/explainWhatWhyNotHow/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Tightens awkward wording and removes an unnecessary &#x27;to&#x27;.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">{{ icon_example }} Example: This method i<del>s</del> <del>possi</del>b<del>ly</del> buggy because the implementation does not seem to match the comment. In this case, the comment could help the reader <del>to </del>detect the bug.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">{{ icon_example }} Example: This method <ins>m</ins>i<ins>ght</ins> b<ins>e</ins> buggy because the implementation does not seem to match the comment. In this case, the comment could help the reader detect the bug.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">2</div>
+          <div class="title">
+            Clarify comment rationale example
+            <div class="path">codeQuality/commentMinimally/intermediate/explainWhatWhyNotHow/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Rephrases a wordy sentence more directly.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">{{ icon_example }} Example: Without this comment, the reader <del>w</del>i<del>ll</del> not know <del>t</del>h<del>e reason for calling</del> this method.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">{{ icon_example }} Example: Without this comment, the reader <ins>m</ins>i<ins>ght</ins> not know <ins>w</ins>h<ins>y</ins> this method<ins> is called</ins>.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">3</div>
+          <div class="title">
+            Fix optimization saying phrasing
+            <div class="path">codeQuality/maximizeReadability/intermediate/avoidPrematureOptimizations/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Adds a missing article and improves comma placement.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**_Make it work, make it right, make it fast_** is <del>popular saying in the industry, which means</del> in most cases, getting the code to perform correctly should take priority over optimizing it. If the code doesn&#x27;t work correctly, it has no value<del> no matter how fast/</del>efficient it is.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**_Make it work, make it right, make it fast_** is <ins>a popular saying in the industry, which means that</ins> in most cases, getting the code to perform correctly should take priority over optimizing it. If the code doesn&#x27;t work correctly, it has no value<ins>, no matter how fast or </ins>efficient it is.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">4</div>
+          <div class="title">
+            Fix misleading-name explanation
+            <div class="path">codeQuality/nameWell/intermediate/avoidMisleadingNames/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Uses the adverb &#x27;similarly&#x27; and adds a clarifying comma.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">This is misleading because `colorBlue` is named similar to `colorWhite` and `colorBlack` but has a different purpose while `hexForRed` is named differently but has a very similar purpose to the first two variables. The following is better:</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">This is misleading because `colorBlue` is named similar<ins>ly</ins> to `colorWhite` and `colorBlack` but has a different purpose<ins>,</ins> while `hexForRed` is named differently but has a very similar purpose to the first two variables. The following is better:</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">5</div>
+          <div class="title">
+            Fix default branch tense
+            <div class="path">codeQuality/avoidShortcuts/basic/useDefaultBranch/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Uses present tense for the general conditional case.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Furthermore, use the `default` branch for the intended default action and not just to execute the last option.** If there is no default action, you can use the `default` branch to detect errors (i.e., if execution reache<del>d</del> the `default` branch, raise a suitable error). This also applies to the final `else` of an `if-else` construct. That is, the final `else` should mean &#x27;everything else&#x27;, and not the final option. Do not use `else` when an `if` condition can be explicitly specified, unless there is absolutely no other possibility.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Furthermore, use the `default` branch for the intended default action and not just to execute the last option.** If there is no default action, you can use the `default` branch to detect errors (i.e., if execution reache<ins>s</ins> the `default` branch, raise a suitable error). This also applies to the final `else` of an `if-else` construct. That is, the final `else` should mean &#x27;everything else&#x27;, and not the final option. Do not use `else` when an `if` condition can be explicitly specified, unless there is absolutely no other possibility.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">6</div>
+          <div class="title">
+            Tighten variable reuse guidance
+            <div class="path">codeQuality/avoidShortcuts/basic/dontRecycleVarsOrParams/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">verbosity issue</span><span class="comment-text">Removes redundant wording without changing the meaning.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* **Use one variable for one purpose.** Do not reuse a variable for a<del> different</del> purpose other than its intended one, just because the data type is the same.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* **Use one variable for one purpose.** Do not reuse a variable for a purpose other than its intended one, just because the data type is the same.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">7</div>
+          <div class="title">
+            Improve long-method guidance
+            <div class="path">codeQuality/maximizeReadability/basic/avoidLongMethods/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces awkward wording with a clearer formulation.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Avoid long methods** as they often contain more information than wh<del>at the reader can process at a time. Consider if shortening is possi</del>b<del>le</del> when <del>a method</del> goes beyond 30 &lt;tooltip content=&quot;Lines of Code&quot;&gt;LoC&lt;/tooltip&gt;. The bigger the haystack, the harder it is to find a needle.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Avoid long methods** as they often contain more information than <ins>a reader can process at a time. Consider </ins>wh<ins>ether a method can </ins>b<ins>e shortened</ins> when <ins>it</ins> goes beyond 30 &lt;tooltip content=&quot;Lines of Code&quot;&gt;LoC&lt;/tooltip&gt;. The bigger the haystack, the harder it is to find a needle.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">8</div>
+          <div class="title">
+            Add comma in readability rationale
+            <div class="path">codeQuality/maximizeReadability/introduction/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds commas around an introductory phrase.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Among various dimensions of code quality, such as run-time efficiency, security, and robustness, one of the most important is readability** (aka understandability). This is because in any non-trivial software project, code needs to be read, understood, and modified by other developers later on. Even if you do not intend to pass the code to someone else, code quality is still important because you will become a &#x27;stranger&#x27; to your own code someday.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Among various dimensions of code quality, such as run-time efficiency, security, and robustness, one of the most important is readability** (aka understandability). This is because<ins>,</ins> in any non-trivial software project, code needs to be read, understood, and modified by other developers later on. Even if you do not intend to pass the code to someone else, code quality is still important because you will become a &#x27;stranger&#x27; to your own code someday.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">9</div>
+          <div class="title">
+            Tighten expression guidance
+            <div class="path">codeQuality/maximizeReadability/basic/avoidComplicatedExpressions/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Makes the instruction more direct and natural.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Avoid complicated expressions, especially those <del>having</del> many negations and nested parentheses.** If you must evaluate complicated expressions, <del>have it done</del> in steps (i.e., calculate some intermediate values first and use them to calculate the final value).</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Avoid complicated expressions, especially those <ins>with</ins> many negations and nested parentheses.** If you must evaluate complicated expressions, <ins>do it</ins> in steps (i.e., calculate some intermediate values first and use them to calculate the final value).</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">10</div>
+          <div class="title">
+            Polish logical structure guidance
+            <div class="path">codeQuality/maximizeReadability/intermediate/structureCodeLogically/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Improves parallel wording, comma placement, and spacing.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Lay out the code so that it adheres to the logical structure.** The code should read like a story. Just <del>li</del>k<del>e how you use section</del> b<del>rea</del>k<del>s, chapters and paragraphs to organize a story, use classes, </del>me<del>thods, indentation and line spacing in your code to group related segments of the code</del>.<del>  For example, you can use blank lines to separate groups of related statements.</del></div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Lay out the code so that it adheres to the logical structure.** The code should read like a story. Just <ins>as you use section brea</ins>k<ins>s, chapters, and paragraphs to organize a story, use classes, methods, indentation, and line spacing in your code to group related segments of the code. For example, you can use</ins> b<ins>lan</ins>k<ins> lines to separate groups of related state</ins>me<ins>nts</ins>.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">11</div>
+          <div class="title">
+            Use American phrasing in naming example
+            <div class="path">codeQuality/nameWell/intermediate/useNameExplain/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Uses American wording and expands the contraction.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Imagine going to the doctor&#x27;s and saying &quot;My eye1 is swollen&quot;! Don<del>’</del>t use numbers or case to distinguish names.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Imagine going to the doctor&#x27;s<ins> office</ins> and saying &quot;My eye1 is swollen&quot;! Do<ins> </ins>n<ins>o</ins>t use numbers or case to distinguish names.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">12</div>
+          <div class="title">
+            Clarify misleading-name list
+            <div class="path">codeQuality/nameWell/intermediate/avoidMisleadingNames/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Adds the missing conjunction and improves compound modifiers.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Avoid misleading or ambiguous names (e.g., those with multiple meanings), similar<del> </del>sounding names, hard-to-pronounce <del>on</del>es (e.g., avoid ambiguities like &quot;is that a lowercase L, capital I or number 1?&quot;, or &quot;is that number 0 or letter O?&quot;), a<del>lmost similar names.</del></div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Avoid misleading or ambiguous names (e.g., those with multiple meanings), similar<ins>-</ins>sounding names, hard-to-pronounce <ins>nam</ins>es (e.g., avoid ambiguities like &quot;is that a lowercase L, capital I<ins>,</ins> or number 1?&quot;, or &quot;is that number 0 or letter O?&quot;), a<ins>nd almost-similar names.</ins></div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">13</div>
+          <div class="title">
+            Fix subject-verb agreement
+            <div class="path">codeQuality/nameWell/intermediate/avoidMisleadingNames/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Uses plural agreement for two terms.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">|`redBooks` `readBooks`  |`redColorBooks` `booksRead` |  `red` and `read` (past tense) sound<del>s</del> the same |</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">|`redBooks` `readBooks`  |`redColorBooks` `booksRead` |  `red` and `read` (past tense) sound the same |</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">14</div>
+          <div class="title">
+            Remove unnecessary article
+            <div class="path">codeQuality/commentMinimally/introduction/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Removes an unnecessary article before an abstract noun.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Some think commenting heavily increases <del>the &#x27;</del>code quality<del>&#x27;</del>. That is not so. Avoid writing comments to explain bad code. Improve the code to make it self-explanatory.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Some think commenting heavily increases code quality. That is not so. Avoid writing comments to explain bad code. Improve the code to make it self-explanatory.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">15</div>
+          <div class="title">
+            Fix comment guidance spacing
+            <div class="path">codeQuality/commentMinimally/basic/writeToReader/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Removes an extra space and fixes capitalization after a comma.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Write comments targeting other programmers reading the code.** Do not write comments as if they are private notes to yourself. Instead, <del> O</del>ne type of comment that is almost always useful is the _header comment_ that you write for a class or an operation to explain its purpose.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Write comments targeting other programmers reading the code.** Do not write comments as if they are private notes to yourself. Instead, <ins>o</ins>ne type of comment that is almost always useful is the _header comment_ that you write for a class or an operation to explain its purpose.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">16</div>
+          <div class="title">
+            Fix coding standard example punctuation
+            <div class="path">codeQuality/followStandard/introduction/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds the needed comma before an example phrase.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">IDEs can help<del> to</del> enforce some parts of a coding standard e.g., indentation rules.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">IDEs can help enforce some parts of a coding standard<ins>,</ins> e.g., indentation rules.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">17</div>
+          <div class="title">
+            Clarify naming context wording
+            <div class="path">codeQuality/nameWell/basic/useStandardWords/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces slash wording with clearer prose.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Use correct spelling in names. Avoid &#x27;texting-style&#x27; spelling. **Avoid foreign language words, slang, and names that are only meaningful within specific contexts<del>/</del>times** %%e.g., terms from private jokes, a TV show currently popular in your country.%%</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Use correct spelling in names. Avoid &#x27;texting-style&#x27; spelling. **Avoid foreign language words, slang, and names that are only meaningful within specific contexts<ins> or </ins>times** %%e.g., terms from private jokes, a TV show currently popular in your country.%%</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script>
+const toggleUnchanged = document.getElementById("toggleUnchanged");
+const setUnchangedVisibility = () => {
+  if (!toggleUnchanged) {
+    return;
+  }
+  const show = toggleUnchanged.getAttribute("aria-pressed") === "true";
+  document.querySelectorAll(".diff-line.same").forEach((line) => {
+    line.classList.toggle("hidden-unchanged", !show);
+  });
+};
+
+if (toggleUnchanged) {
+  toggleUnchanged.addEventListener("click", () => {
+    const pressed = toggleUnchanged.getAttribute("aria-pressed") === "true";
+    toggleUnchanged.setAttribute("aria-pressed", String(!pressed));
+    toggleUnchanged.textContent = pressed ? "Show Unchanged Lines" : "Hide Unchanged Lines";
+    setUnchangedVisibility();
+  });
+}
+
+document.getElementById("expandAll").addEventListener("click", () => {
+  document.querySelectorAll("details").forEach((item) => { item.open = true; });
+});
+
+document.getElementById("collapseAll").addEventListener("click", () => {
+  document.querySelectorAll("details").forEach((item) => { item.open = false; });
+});
+
+setUnchangedVisibility();
+</script>
+</body>
+</html>

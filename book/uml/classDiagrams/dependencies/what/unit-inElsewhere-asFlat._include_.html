@@ -1,0 +1,32 @@
+<p><span class="dimmed"><strong><span>Tools → UML → Class Diagrams → Dependencies →
+</span></strong></span></p>
+<div id="title-and-body">
+<div><h4 id="dependencies"><span>Dependencies</span><a class="fa fa-anchor" href="#dependencies" onclick="event.stopPropagation()"></a></h4></div>
+<div id="main">
+<div>
+<p><strong>UML uses a dashed arrow to show dependencies.</strong></p>
+<pic eager src="/website/book/uml/classDiagrams/dependencies/what/images/notation.png" width="350"></pic>
+<box>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Two examples of dependencies:</p>
+<pic eager src="/website/book/uml/classDiagrams/dependencies/what/images/examples.png" width="450"></pic>
+<p></p></box>
+<p><strong>Dependencies vs other relationships:</strong></p>
+<ul>
+<li>An association is a relationship resulting from one object keeping a reference to another object (i.e., storing an object in an instance variable). While such a relationship also creates a <em>dependency</em>, we need not show that as a dependency arrow in the class diagram if the association is already indicated in the diagram. That is, showing a dependency arrow does not add any value to the diagram.<br></li>
+<li>Similarly, an inheritance results in a dependency from the child class to the parent class, but we don't show it as a dependency arrow either, for the same reason as above.</li>
+<li><strong>In general, use a dependency arrow to indicate a dependency only if that dependency is not already captured by the diagram in another way</strong> e.g., class <code class="hljs inline no-lang" v-pre>Foo</code> accessing a constant in <code class="hljs inline no-lang" v-pre>Bar</code> but there is no association/inheritance from <code class="hljs inline no-lang" v-pre>Foo</code> to <code class="hljs inline no-lang" v-pre>Bar</code>. Here are some examples:</li></ul>
+<div class="d-none">
+<pic src="/website/book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png"></pic>
+<pic src="/website/book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png"></pic>
+<pic src="/website/book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png"></pic></div>
+<div class="indented-level1">
+<div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
+<tr>
+<th><span style="color: red"><span><strong><span aria-hidden="true" class="fas fa-thumbs-down"></span> Bad</strong></span></span></th>
+<th><span style="color: red"><span><strong><span aria-hidden="true" class="fas fa-thumbs-down"></span> Bad</strong></span></span></th>
+<th><span style="color: green"><span><strong><span aria-hidden="true" class="fas fa-thumbs-up"></span> Good</strong></span></span></th></tr></thead>
+<tbody class="table-group-divider"><tr>
+<td><img src="/website/book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png"><br>The association already implies dependency</td>
+<td><img src="/website/book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png"><br>The inheritance already implies dependency</td>
+<td><img src="/website/book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png"><br>The dependency is not implied by the association</td></tr></tbody></table></div></div></div>
+<div></div></div></div>

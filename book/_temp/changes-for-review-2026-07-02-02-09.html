@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Issue Replacement Review</title>
+  <style>
+:root {
+  color-scheme: light;
+  --bg: #f5f6f8;
+  --panel: #ffffff;
+  --text: #20242a;
+  --muted: #68707c;
+  --line: #d9dee7;
+  --line-soft: #eef1f5;
+  --old-bg: #fff0f0;
+  --old-text: #8f1d1d;
+  --new-bg: #ebf8ef;
+  --new-text: #17643a;
+  --mark-old: #ffd7d7;
+  --mark-new: #bfedcc;
+  --accent-bg: #eef4fb;
+  --accent-text: #245377;
+  --code-bg: #fafbfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px 22px 48px;
+}
+
+header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.summary {
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+button {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text);
+  border-radius: 6px;
+  padding: 7px 10px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button[aria-pressed="true"] {
+  border-color: #87acd4;
+  background: #edf5ff;
+  color: #174b80;
+}
+
+.issue-list {
+  display: grid;
+  gap: 14px;
+}
+
+.issue {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 1px 2px rgb(20 25 35 / 5%);
+}
+
+.issue-header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--line-soft);
+  background: #fbfcfe;
+}
+
+.index {
+  min-width: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.title {
+  min-width: 0;
+  font-weight: 700;
+}
+
+.path {
+  margin-top: 2px;
+  overflow: hidden;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge {
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent-text);
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.issue-body {
+  padding: 16px;
+}
+
+.comment {
+  display: flex;
+  gap: 9px;
+  align-items: baseline;
+  margin-bottom: 12px;
+  color: #343a42;
+}
+
+.comment-label {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: #f0f2f5;
+  color: #515a66;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.comment-text {
+  min-width: 0;
+}
+
+.unified {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--code-bg);
+}
+
+.diff-line {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  min-height: 24px;
+  border-top: 1px solid #f1f3f6;
+  font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.diff-line:first-child {
+  border-top: 0;
+}
+
+.diff-line.hidden-unchanged {
+  display: none;
+}
+
+.sign {
+  user-select: none;
+  border-right: 1px solid var(--line-soft);
+  color: var(--muted);
+  text-align: center;
+}
+
+.diff-line.minus {
+  background: var(--old-bg);
+}
+
+.diff-line.minus .sign,
+.diff-line.minus .content {
+  color: var(--old-text);
+}
+
+.diff-line.plus {
+  background: var(--new-bg);
+}
+
+.diff-line.plus .sign,
+.diff-line.plus .content {
+  color: var(--new-text);
+}
+
+.content {
+  min-width: 0;
+  padding: 2px 9px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+del,
+ins {
+  border-radius: 3px;
+  padding: 0 1px;
+  text-decoration: none;
+}
+
+del {
+  background: var(--mark-old);
+  color: var(--old-text);
+}
+
+ins {
+  background: var(--mark-new);
+  color: var(--new-text);
+}
+
+@media (max-width: 760px) {
+  header,
+  .issue-header {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    align-items: start;
+  }
+
+  .toolbar {
+    justify-content: flex-start;
+  }
+}
+</style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Issue Replacement Review</h1>
+        <div class="summary">14 suggested replacements from issues_found.py</div>
+      </div>
+      <div class="toolbar" aria-label="Display controls">
+        
+        <button type="button" id="expandAll">Expand All</button>
+        <button type="button" id="collapseAll">Collapse All</button>
+      </div>
+    </header>
+
+    <section class="issue-list">
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">1</div>
+          <div class="title">
+            Clarify disabled assertion warning
+            <div class="path">errorHandling/assertions/when/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replace ambiguous &#x27;If not&#x27; with the specific condition.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Do not use assertions to do _work_** because assertions can be disabled. If n<del>ot</del>, your program will stop working when assertions are not enabled.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Do not use assertions to do _work_** because assertions can be disabled. If <ins>assertio</ins>n<ins>s are disabled</ins>, your program will stop working when assertions are not enabled.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">2</div>
+          <div class="title">
+            Fix log file analogy agreement
+            <div class="path">errorHandling/logging/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Make the pronouns agree with the singular &#x27;log file&#x27;.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">{{ icon_tip }} **A log file is like the &lt;tooltip content=&quot;flight data recorder&quot;&gt;black box&lt;/tooltip&gt; of an airplane**; <del>they don&#x27;</del>t prevent problems but <del>they</del> can be helpful in understanding what went wrong after the fact.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">{{ icon_tip }} **A log file is like the &lt;tooltip content=&quot;flight data recorder&quot;&gt;black box&lt;/tooltip&gt; of an airplane**; <ins>it does no</ins>t prevent problems<ins>,</ins> but <ins>it</ins> can be helpful in understanding what went wrong after the fact.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">3</div>
+          <div class="title">
+            Clarify exception source example
+            <div class="path">errorHandling/assertions/when/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Add the missing comma after &#x27;e.g.&#x27; and the missing subject.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* The raising of an exception indicates an unusual condition created by the user %%(e.g.<del> </del> user inputs an unacceptable input)%% or the environment %%(e.g., a file needed for the program is missing)%%.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* The raising of an exception indicates an unusual condition created by the user %%(e.g.<ins>, the</ins> user inputs an unacceptable input)%% or the environment %%(e.g., a file needed for the program is missing)%%.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">4</div>
+          <div class="title">
+            Improve exception handling wording
+            <div class="path">errorHandling/exceptions/how/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replace slash wording with a clearer &#x27;or&#x27; construction.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Most languages allow code that encountered an &quot;exceptional&quot; situation to encapsulate details of the situation in an _Exception_ object and _throw_<del>/</del>_raise_ that object so that another piece of code can _catch_ it and deal with it.** This is especially useful when the code that encountered the unusual situation does not know how to deal with it.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Most languages allow code that encountered an &quot;exceptional&quot; situation to encapsulate details of the situation in an _Exception_ object and _throw_<ins> or </ins>_raise_ that object so that another piece of code can _catch_ it and deal with it.** This is especially useful when the code that encountered the unusual situation does not know how to deal with it.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">5</div>
+          <div class="title">
+            Use excerpt for quoted material
+            <div class="path">errorHandling/exceptions/how/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Use the more natural noun for quoted material.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">The ex<del>t</del>r<del>ac</del>t below from the {{ oracle }} (with slight adaptations) explains how exceptions are typically handled.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">The ex<ins>ce</ins>r<ins>p</ins>t below from the {{ oracle }} (with slight adaptations) explains how exceptions are typically handled.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">6</div>
+          <div class="title">
+            Tighten assertion performance note
+            <div class="path">errorHandling/assertions/when/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Remove the unnecessary comma between compound complements.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**It is recommended that assertions be used liberally in the code.** Their impact on performance is low<del>,</del> and worth the additional safety they provide.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**It is recommended that assertions be used liberally in the code.** Their impact on performance is low and worth the additional safety they provide.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">7</div>
+          <div class="title">
+            Improve logging definition punctuation
+            <div class="path">errorHandling/logging/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Add the comma before &#x27;but&#x27; and after &#x27;e.g.&#x27;.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**_Logging_ is the deliberate recording of certain information during a program execution for future reference.** Logs are typically written to a log file but it is also possible to log information in other ways %%e.g. into a database or a remote server%%.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**_Logging_ is the deliberate recording of certain information during a program execution for future reference.** Logs are typically written to a log file<ins>,</ins> but it is also possible to log information in other ways %%e.g.<ins>,</ins> into a database or a remote server%%.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">8</div>
+          <div class="title">
+            Tighten logging troubleshooting text
+            <div class="path">errorHandling/logging/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replace conversational wording and tighten the causal sentence.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**_Logging_ can be useful for troubleshooting problems**. A good logging system records some system information regularly. When <del>bad things happen to</del> a system %%e.g. an unanticipated failure%%, the<del>ir associated log files may pro</del>v<del>ide indications of what went wrong and actions can then be taken to prevent it from happening again.</del></div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**_Logging_ can be useful for troubleshooting problems**. A good logging system records some system information regularly. When <ins>problems occur in</ins> a system %%e.g.<ins>,</ins> an unanticipated failure%%, the<ins> associated log files may indicate what went wrong, and actions can then be taken to pre</ins>v<ins>ent it from happening again.</ins></div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">9</div>
+          <div class="title">
+            Remove extra logging space
+            <div class="path">errorHandling/logging/how/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">spacing issue</span><span class="comment-text">Remove the extra space after the popover element.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Now, you can use the `Logger` object to log information. Note the use of a &lt;popover content=&quot;`INFO`, `WARNING` etc.&quot;&gt;logging level&lt;/popover&gt; <del> </del>for each message.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Now, you can use the `Logger` object to log information. Note the use of a &lt;popover content=&quot;`INFO`, `WARNING` etc.&quot;&gt;logging level&lt;/popover&gt; for each message.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">10</div>
+          <div class="title">
+            Add comma in association explanation
+            <div class="path">errorHandling/defensiveProgramming/1to1Associations/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Add the comma before the nonrestrictive &#x27;which&#x27; clause.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Consider the association given below. A defensive implementation requires us to ensure that a `MinedCell` cannot exist without a `Mine` and vice versa which requires simultaneous object creation.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Consider the association given below. A defensive implementation requires us to ensure that a `MinedCell` cannot exist without a `Mine` and vice versa<ins>,</ins> which requires simultaneous object creation.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">11</div>
+          <div class="title">
+            Fix compulsory association punctuation
+            <div class="path">errorHandling/defensiveProgramming/compulsoryAssociations/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Add the comma before &#x27;i.e.&#x27;.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Here, the association is compulsory i.e., an `Account` object should always be linked to a `Guarantor`.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Here, the association is compulsory<ins>,</ins> i.e., an `Account` object should always be linked to a `Guarantor`.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">12</div>
+          <div class="title">
+            Improve code level phrasing
+            <div class="path">errorHandling/defensiveProgramming/referentialIntegrity/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Use the standard phrase &#x27;at the code level&#x27;.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">A bidirectional association in the design (shown in (a)) is usually emulated at code level using two variables (as shown in (b)).</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">A bidirectional association in the design (shown in (a)) is usually emulated at <ins>the </ins>code level using two variables (as shown in (b)).</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">13</div>
+          <div class="title">
+            Add comma in DbC definition
+            <div class="path">errorHandling/designByContract/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Add the serial comma for a three-item adjective list.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**&lt;tooltip content=&quot;term was coined by Bertrand Meyer&quot;&gt;Design by contract (DbC)&lt;/tooltip&gt; is an approach for designing software that requires defining formal, precise and verifiable interface specifications for software components.**</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**&lt;tooltip content=&quot;term was coined by Bertrand Meyer&quot;&gt;Design by contract (DbC)&lt;/tooltip&gt; is an approach for designing software that requires defining formal, precise<ins>,</ins> and verifiable interface specifications for software components.**</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">14</div>
+          <div class="title">
+            Add comma before etc in DbC text
+            <div class="path">errorHandling/designByContract/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Add the comma before &#x27;etc.&#x27;.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Suppose an operation is implemented with the behavior specified precisely in the API (preconditions, postconditions, exceptions etc.).</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Suppose an operation is implemented with the behavior specified precisely in the API (preconditions, postconditions, exceptions<ins>,</ins> etc.).</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script>
+const toggleUnchanged = document.getElementById("toggleUnchanged");
+const setUnchangedVisibility = () => {
+  if (!toggleUnchanged) {
+    return;
+  }
+  const show = toggleUnchanged.getAttribute("aria-pressed") === "true";
+  document.querySelectorAll(".diff-line.same").forEach((line) => {
+    line.classList.toggle("hidden-unchanged", !show);
+  });
+};
+
+if (toggleUnchanged) {
+  toggleUnchanged.addEventListener("click", () => {
+    const pressed = toggleUnchanged.getAttribute("aria-pressed") === "true";
+    toggleUnchanged.setAttribute("aria-pressed", String(!pressed));
+    toggleUnchanged.textContent = pressed ? "Show Unchanged Lines" : "Hide Unchanged Lines";
+    setUnchangedVisibility();
+  });
+}
+
+document.getElementById("expandAll").addEventListener("click", () => {
+  document.querySelectorAll("details").forEach((item) => { item.open = true; });
+});
+
+document.getElementById("collapseAll").addEventListener("click", () => {
+  document.querySelectorAll("details").forEach((item) => { item.open = false; });
+});
+
+setUnchangedVisibility();
+</script>
+</body>
+</html>

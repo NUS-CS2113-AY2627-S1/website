@@ -1,0 +1,110 @@
+2026-02-18T08:16:30.208Z - info: Website generation started at 16:16:29
+2026-02-18T08:16:30.624Z - info: Building assets...
+2026-02-18T08:16:31.927Z - info: Assets built
+2026-02-18T08:16:31.927Z - info: Generating pages...
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.173Z - debug:  
+2026-02-18T08:16:39.174Z - debug:  
+2026-02-18T08:16:39.174Z - debug:  
+2026-02-18T08:16:39.174Z - debug:  
+2026-02-18T08:16:39.174Z - debug:  
+2026-02-18T08:16:39.174Z - debug:  
+2026-02-18T08:16:39.174Z - debug:  
+2026-02-18T08:16:43.351Z - debug:  
+2026-02-18T08:16:43.352Z - debug:  
+2026-02-18T08:16:43.509Z - debug:  
+2026-02-18T08:16:43.509Z - debug:  
+2026-02-18T08:16:43.609Z - debug:  
+2026-02-18T08:16:43.617Z - debug:  
+2026-02-18T08:16:53.263Z - debug:  
+2026-02-18T08:17:37.284Z - debug:  
+2026-02-18T08:17:37.285Z - debug:  
+2026-02-18T08:17:48.447Z - debug:  
+2026-02-18T08:18:03.015Z - debug:  
+2026-02-18T08:18:03.034Z - debug:  
+2026-02-18T08:18:12.315Z - info: Pages built
+2026-02-18T08:18:12.397Z - info: Site data built
+2026-02-18T08:18:12.397Z - info: Website generation complete! Total build time: 102.959s
+2026-02-18T08:18:12.397Z - info: Build success!
+2026-02-18T08:18:41.017Z - info: The website has been deployed at: https://nus-cs2103-ay2526-s2.github.io/website
+2026-02-18T11:13:41.315Z - info: Website generation started at 19:13:40
+2026-02-18T11:13:41.770Z - info: Building assets...
+2026-02-18T11:13:43.644Z - info: Assets built
+2026-02-18T11:13:43.648Z - info: Generating pages...
+2026-02-18T11:13:51.643Z - debug:  
+2026-02-18T11:13:52.565Z - debug:  
+2026-02-18T11:13:52.565Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:52.566Z - debug:  
+2026-02-18T11:13:56.183Z - debug:  
+2026-02-18T11:13:56.342Z - debug:  
+2026-02-18T11:13:56.363Z - debug:  
+2026-02-18T11:13:56.397Z - debug:  
+2026-02-18T11:13:56.421Z - debug:  
+2026-02-18T11:13:56.459Z - debug:  
+2026-02-18T11:14:06.713Z - debug:  
+2026-02-18T11:14:50.627Z - debug:  
+2026-02-18T11:14:50.628Z - debug:  
+2026-02-18T11:15:03.642Z - debug:  
+2026-02-18T11:15:16.859Z - debug:  
+2026-02-18T11:15:16.889Z - debug:  
+2026-02-18T11:15:25.693Z - info: Pages built
+2026-02-18T11:15:25.868Z - info: Site data built
+2026-02-18T11:15:25.868Z - info: Website generation complete! Total build time: 105.355s
+2026-02-18T11:15:25.868Z - info: Build success!
+2026-02-18T11:15:52.269Z - info: The website has been deployed at: https://nus-cs2103-ay2526-s2.github.io/website
+2026-02-18T15:12:57.731Z - info: Website generation (lazy) started at 23:12:56
+2026-02-18T15:12:58.299Z - info: Building assets...
+2026-02-18T15:12:59.807Z - info: Assets built
+2026-02-18T15:12:59.807Z - info: Generating landing page...
+2026-02-18T15:13:00.300Z - info: Landing page built, other pages will be built as you navigate to them!
+2026-02-18T15:13:00.372Z - info: Site data built
+2026-02-18T15:13:00.372Z - info: Website generation (lazy) complete! Total build time: 3.519s
+2026-02-18T15:13:00.385Z - info: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-02-18T15:13:00.385Z - info: Press CTRL+C to stop ...
+2026-02-18T15:13:17.382Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/index as some of its dependencies were changed since the last visit
+2026-02-18T15:13:17.858Z - info: Site data built
+2026-02-18T15:13:17.858Z - info: Lazy website regeneration complete! Total build time: 0.477s
+2026-02-18T15:16:29.261Z - info: [23:16:29] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/alternativePaths/text.md
+2026-02-18T15:16:29.266Z - info: Synchronizing opened pages list before reload
+2026-02-18T15:16:29.268Z - info: Current opened pages, from most-to-least recent:
+2026-02-18T15:16:29.272Z - info: 1. schedule/week7/index
+2026-02-18T15:16:30.283Z - info: Assets built
+2026-02-18T15:17:58.431Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/admin as some of its dependencies were changed since the last visit
+2026-02-18T15:17:58.650Z - info: Site data built
+2026-02-18T15:17:58.650Z - info: Lazy website regeneration complete! Total build time: 0.22s
+2026-02-18T15:18:01.737Z - info: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/topics as some of its dependencies were changed since the last visit
+2026-02-18T15:18:02.337Z - info: Site data built
+2026-02-18T15:18:02.337Z - info: Lazy website regeneration complete! Total build time: 0.601s
+2026-02-18T15:39:44.005Z - info: [23:39:43] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTextbookTopics-fragment.md
+2026-02-18T15:39:44.017Z - info: Synchronizing opened pages list before reload
+2026-02-18T15:39:44.021Z - info: Current opened pages, from most-to-least recent:
+2026-02-18T15:39:44.022Z - info: 1. schedule/week7/topics
+2026-02-18T15:39:44.038Z - info: [23:39:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/alternativePaths/text.md
+2026-02-18T15:39:44.038Z - info: Synchronizing opened pages list before reload
+2026-02-18T15:39:44.039Z - info: Current opened pages, from most-to-least recent:
+2026-02-18T15:39:44.039Z - info: 1. schedule/week7/topics
+2026-02-18T15:39:45.054Z - info: Rebuilding 1 pages
+2026-02-18T15:39:45.626Z - info: Assets built
+2026-02-18T15:39:45.682Z - info: Site data built
+2026-02-18T15:39:45.682Z - info: Pages rebuilt
+2026-02-18T15:39:45.682Z - info: Website regeneration complete! Total build time: 0.641s

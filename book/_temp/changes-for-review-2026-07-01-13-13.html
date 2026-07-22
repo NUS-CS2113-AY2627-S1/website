@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Issue Replacement Review</title>
+  <style>
+:root {
+  color-scheme: light;
+  --bg: #f5f6f8;
+  --panel: #ffffff;
+  --text: #20242a;
+  --muted: #68707c;
+  --line: #d9dee7;
+  --line-soft: #eef1f5;
+  --old-bg: #fff0f0;
+  --old-text: #8f1d1d;
+  --new-bg: #ebf8ef;
+  --new-text: #17643a;
+  --mark-old: #ffd7d7;
+  --mark-new: #bfedcc;
+  --accent-bg: #eef4fb;
+  --accent-text: #245377;
+  --code-bg: #fafbfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px 22px 48px;
+}
+
+header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.summary {
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+button {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text);
+  border-radius: 6px;
+  padding: 7px 10px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button[aria-pressed="true"] {
+  border-color: #87acd4;
+  background: #edf5ff;
+  color: #174b80;
+}
+
+.issue-list {
+  display: grid;
+  gap: 14px;
+}
+
+.issue {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 1px 2px rgb(20 25 35 / 5%);
+}
+
+.issue-header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--line-soft);
+  background: #fbfcfe;
+}
+
+.index {
+  min-width: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.title {
+  min-width: 0;
+  font-weight: 700;
+}
+
+.path {
+  margin-top: 2px;
+  overflow: hidden;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge {
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent-text);
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.issue-body {
+  padding: 16px;
+}
+
+.comment {
+  display: flex;
+  gap: 9px;
+  align-items: baseline;
+  margin-bottom: 12px;
+  color: #343a42;
+}
+
+.comment-label {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: #f0f2f5;
+  color: #515a66;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.comment-text {
+  min-width: 0;
+}
+
+.unified {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--code-bg);
+}
+
+.diff-line {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  min-height: 24px;
+  border-top: 1px solid #f1f3f6;
+  font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.diff-line:first-child {
+  border-top: 0;
+}
+
+.diff-line.hidden-unchanged {
+  display: none;
+}
+
+.sign {
+  user-select: none;
+  border-right: 1px solid var(--line-soft);
+  color: var(--muted);
+  text-align: center;
+}
+
+.diff-line.minus {
+  background: var(--old-bg);
+}
+
+.diff-line.minus .sign,
+.diff-line.minus .content {
+  color: var(--old-text);
+}
+
+.diff-line.plus {
+  background: var(--new-bg);
+}
+
+.diff-line.plus .sign,
+.diff-line.plus .content {
+  color: var(--new-text);
+}
+
+.content {
+  min-width: 0;
+  padding: 2px 9px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+del,
+ins {
+  border-radius: 3px;
+  padding: 0 1px;
+  text-decoration: none;
+}
+
+del {
+  background: var(--mark-old);
+  color: var(--old-text);
+}
+
+ins {
+  background: var(--mark-new);
+  color: var(--new-text);
+}
+
+@media (max-width: 760px) {
+  header,
+  .issue-header {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    align-items: start;
+  }
+
+  .toolbar {
+    justify-content: flex-start;
+  }
+}
+</style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Issue Replacement Review</h1>
+        <div class="summary">9 suggested replacements from issues_found.py</div>
+      </div>
+      <div class="toolbar" aria-label="Display controls">
+        
+        <button type="button" id="expandAll">Expand All</button>
+        <button type="button" id="collapseAll">Collapse All</button>
+      </div>
+    </header>
+
+    <section class="issue-list">
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">1</div>
+          <div class="title">
+            Clarify IDE build support wording
+            <div class="path">ides/introduction/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces slash-separated actions with a clearer list.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* A compiler and/or an interpreter (together with other build automation support) that facilitates the compilation<del>/</del>linking<del>/</del>running<del>/</del>deployment of a program.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* A compiler and/or an interpreter (together with other build automation support) that facilitates the compilation<ins>, </ins>linking<ins>, </ins>running<ins>, and </ins>deployment of a program.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">2</div>
+          <div class="title">
+            Tighten IDE tooling examples
+            <div class="path">ides/introduction/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation/phrasing issue</span><span class="comment-text">Adds punctuation around e.g. and completes the list with and.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* Other tools that aid various aspects of coding e.g., support for automated testing, drag-and-drop construction of UI components, version management support, simulation of the target runtime platform, modeling support, AI-assisted coding help, collaborative coding with others.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* Other tools that aid various aspects of coding<ins>,</ins> e.g., support for automated testing, drag-and-drop construction of UI components, version management support, simulation of the target runtime platform, modeling support, AI-assisted coding help, <ins>and </ins>collaborative coding with others.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">3</div>
+          <div class="title">
+            Improve web-based IDE example phrasing
+            <div class="path">ides/introduction/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Makes the time reference and example punctuation smoother.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Some web-based IDEs have appeared in recent <del>tim</del>es too e.g., Amazon&#x27;s [Cloud9 IDE](https://aws.amazon.com/cloud9/).</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Some web-based IDEs have appeared in recent <ins>y</ins>e<ins>ar</ins>s too<ins>,</ins> e.g., Amazon&#x27;s [Cloud9 IDE](https://aws.amazon.com/cloud9/).</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">4</div>
+          <div class="title">
+            Improve print-statement debugging wording
+            <div class="path">ides/debugging/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation/phrasing issue</span><span class="comment-text">Removes the unnecessary hyphen in ad hoc and turns e.g. into a sentence.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* {{ bad }} -- **By inserting temporary print statements**: This is an ad<del>-</del>hoc approach in which print statements are inserted in the program to print information relevant to debugging, such as variable values. <del>e.g.</del>, `Exiting process() method, x is 5.347`. This approach is not recommended due to these reasons:</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* {{ bad }} -- **By inserting temporary print statements**: This is an ad<ins> </ins>hoc approach in which print statements are inserted in the program to print information relevant to debugging, such as variable values. <ins>For example</ins>, `Exiting process() method, x is 5.347`. This approach is not recommended due to these reasons:</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">5</div>
+          <div class="title">
+            Remove extra article before debugging
+            <div class="path">ides/debugging/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Removes the unnatural article before debugging.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">  * These print statements, if not removed promptly after<del> the</del> debugging, may even appear unexpectedly in the production version. </div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">  * These print statements, if not removed promptly after debugging, may even appear unexpectedly in the production version. </div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">6</div>
+          <div class="title">
+            Clarify manual tracing description
+            <div class="path">ides/debugging/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Uses clearer wording than cons and standardizes eyeballing.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* {{ bad }} -- **By manually tracing through the code**: Otherwise known as ‘eye<del>-</del>balling’, this approach does<del>n&#x27;</del>t have the <del>con</del>s of the previous approach, but it too is not recommended (other than as a &#x27;quick try&#x27;) due to these reasons:</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* {{ bad }} -- **By manually tracing through the code**: Otherwise known as ‘eyeballing’, this approach does<ins> no</ins>t have the <ins>drawback</ins>s of the previous approach, but it too is not recommended (other than as a &#x27;quick try&#x27;) due to these reasons:</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">7</div>
+          <div class="title">
+            Hyphenate time-consuming
+            <div class="path">ides/debugging/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Hyphenates a compound modifier before a noun.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">  * It is a difficult, time<del> </del>consuming, and error-prone technique.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">  * It is a difficult, time<ins>-</ins>consuming, and error-prone technique.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">8</div>
+          <div class="title">
+            Improve debugger wording
+            <div class="path">ides/debugging/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Removes extra spacing and uses built-in, which is more idiomatic.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* {{ good }} -- **Using a debugger**:<del> </del> A debugger tool allows you to pause the execution, then step through the code one statement at a time while examining the internal state if necessary. Most IDEs come with a<del>n inbuilt</del> debugger. **This is the recommended approach for debugging**.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* {{ good }} -- **Using a debugger**: A debugger tool allows you to pause the execution, then step through the code one statement at a time while examining the internal state if necessary. Most IDEs come with a<ins> built-in</ins> debugger. **This is the recommended approach for debugging**.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">9</div>
+          <div class="title">
+            Fix Xcode capitalization
+            <div class="path">ides/introduction/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">spelling issue</span><span class="comment-text">Corrects the product capitalization.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* Swift: X<del>C</del>ode</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* Swift: X<ins>c</ins>ode</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script>
+const toggleUnchanged = document.getElementById("toggleUnchanged");
+const setUnchangedVisibility = () => {
+  if (!toggleUnchanged) {
+    return;
+  }
+  const show = toggleUnchanged.getAttribute("aria-pressed") === "true";
+  document.querySelectorAll(".diff-line.same").forEach((line) => {
+    line.classList.toggle("hidden-unchanged", !show);
+  });
+};
+
+if (toggleUnchanged) {
+  toggleUnchanged.addEventListener("click", () => {
+    const pressed = toggleUnchanged.getAttribute("aria-pressed") === "true";
+    toggleUnchanged.setAttribute("aria-pressed", String(!pressed));
+    toggleUnchanged.textContent = pressed ? "Show Unchanged Lines" : "Hide Unchanged Lines";
+    setUnchangedVisibility();
+  });
+}
+
+document.getElementById("expandAll").addEventListener("click", () => {
+  document.querySelectorAll("details").forEach((item) => { item.open = true; });
+});
+
+document.getElementById("collapseAll").addEventListener("click", () => {
+  document.querySelectorAll("details").forEach((item) => { item.open = false; });
+});
+
+setUnchangedVisibility();
+</script>
+</body>
+</html>

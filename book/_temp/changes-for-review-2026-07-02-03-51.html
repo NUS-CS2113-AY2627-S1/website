@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Issue Replacement Review</title>
+  <style>
+:root {
+  color-scheme: light;
+  --bg: #f5f6f8;
+  --panel: #ffffff;
+  --text: #20242a;
+  --muted: #68707c;
+  --line: #d9dee7;
+  --line-soft: #eef1f5;
+  --old-bg: #fff0f0;
+  --old-text: #8f1d1d;
+  --new-bg: #ebf8ef;
+  --new-text: #17643a;
+  --mark-old: #ffd7d7;
+  --mark-new: #bfedcc;
+  --accent-bg: #eef4fb;
+  --accent-text: #245377;
+  --code-bg: #fafbfc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px 22px 48px;
+}
+
+header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.summary {
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+button {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text);
+  border-radius: 6px;
+  padding: 7px 10px;
+  font: inherit;
+  cursor: pointer;
+}
+
+button[aria-pressed="true"] {
+  border-color: #87acd4;
+  background: #edf5ff;
+  color: #174b80;
+}
+
+.issue-list {
+  display: grid;
+  gap: 14px;
+}
+
+.issue {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 1px 2px rgb(20 25 35 / 5%);
+}
+
+.issue-header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 13px 16px;
+  border-bottom: 1px solid var(--line-soft);
+  background: #fbfcfe;
+}
+
+.index {
+  min-width: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.title {
+  min-width: 0;
+  font-weight: 700;
+}
+
+.path {
+  margin-top: 2px;
+  overflow: hidden;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge {
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent-text);
+  padding: 3px 9px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.issue-body {
+  padding: 16px;
+}
+
+.comment {
+  display: flex;
+  gap: 9px;
+  align-items: baseline;
+  margin-bottom: 12px;
+  color: #343a42;
+}
+
+.comment-label {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: #f0f2f5;
+  color: #515a66;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.comment-text {
+  min-width: 0;
+}
+
+.unified {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--code-bg);
+}
+
+.diff-line {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  min-height: 24px;
+  border-top: 1px solid #f1f3f6;
+  font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.diff-line:first-child {
+  border-top: 0;
+}
+
+.diff-line.hidden-unchanged {
+  display: none;
+}
+
+.sign {
+  user-select: none;
+  border-right: 1px solid var(--line-soft);
+  color: var(--muted);
+  text-align: center;
+}
+
+.diff-line.minus {
+  background: var(--old-bg);
+}
+
+.diff-line.minus .sign,
+.diff-line.minus .content {
+  color: var(--old-text);
+}
+
+.diff-line.plus {
+  background: var(--new-bg);
+}
+
+.diff-line.plus .sign,
+.diff-line.plus .content {
+  color: var(--new-text);
+}
+
+.content {
+  min-width: 0;
+  padding: 2px 9px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+del,
+ins {
+  border-radius: 3px;
+  padding: 0 1px;
+  text-decoration: none;
+}
+
+del {
+  background: var(--mark-old);
+  color: var(--old-text);
+}
+
+ins {
+  background: var(--mark-new);
+  color: var(--new-text);
+}
+
+@media (max-width: 760px) {
+  header,
+  .issue-header {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    align-items: start;
+  }
+
+  .toolbar {
+    justify-content: flex-start;
+  }
+}
+</style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Issue Replacement Review</h1>
+        <div class="summary">21 suggested replacements from issues_found.py</div>
+      </div>
+      <div class="toolbar" aria-label="Display controls">
+        
+        <button type="button" id="expandAll">Expand All</button>
+        <button type="button" id="collapseAll">Collapse All</button>
+      </div>
+    </header>
+
+    <section class="issue-list">
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">1</div>
+          <div class="title">
+            Clarify software reuse benefits
+            <div class="path">reuse/introduction/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces awkward wording and clarifies that a whole software system can be reused.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Reuse is a major theme in software engineering practices. **By reusing tried-and-tested components, the robustness of a new software system can be enhanced while reducing the manpower and time require<del>ment</del>.** Reusable components come in many forms; a reused component can be a piece of code, a subsystem, or a whole software.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Reuse is a major theme in software engineering practices. **By reusing tried-and-tested components, the robustness of a new software system can be enhanced while reducing the manpower and time require<ins>d</ins>.** Reusable components come in many forms; a reused component can be a piece of code, a subsystem, or a whole software<ins> system</ins>.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">2</div>
+          <div class="title">
+            Tighten reuse cost introduction
+            <div class="path">reuse/introduction/when/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces the conversational phrase crop up on a regular basis with simpler wording.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">While you may be tempted to use many libraries/frameworks/platforms that <del>s</del>e<del>em to c</del>r<del>op up on a</del> regular<del> basis</del> and promise to bring great benefits, note that **there are costs associated with reuse**. Here are some:</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">While you may be tempted to use many libraries/frameworks/platforms that <ins>app</ins>e<ins>a</ins>r regular<ins>ly</ins> and promise to bring great benefits, note that **there are costs associated with reuse**. Here are some:</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">3</div>
+          <div class="title">
+            Fix overkill wording
+            <div class="path">reuse/introduction/when/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Removes the unnecessary article before overkill.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* The reused code **may be<del> an</del> overkill** (think _using a sledgehammer to crack a nut_), increasing the size of, and/or degrading the performance of, your software.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* The reused code **may be overkill** (think _using a sledgehammer to crack a nut_), increasing the size of, and/or degrading the performance of, your software.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">4</div>
+          <div class="title">
+            Improve immature software wording
+            <div class="path">reuse/introduction/when/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Uses the more natural adjective immature.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* <del>Non-</del>mature software has the **risk of dying off** as fast as it emerged, leaving you with a dependency that is no longer maintained.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* <ins>Im</ins>mature software has the **risk of dying off** as fast as it emerged, leaving you with a dependency that is no longer maintained.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">5</div>
+          <div class="title">
+            Clarify reuse license restriction
+            <div class="path">reuse/introduction/when/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces slash wording with a clearer or construction.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* The license of the reused software (or its dependencies) **restricts how you can use<del>/</del>develop your software**.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* The license of the reused software (or its dependencies) **restricts how you can use<ins> or </ins>develop your software**.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">6</div>
+          <div class="title">
+            Add comma in API example
+            <div class="path">reuse/apis/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds the comma before the nonrestrictive which-clause.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">{{ icon_example }} A class has an API (e.g., [API of the Java `String` class]({{ java_api }}/java/lang/String.html), [API of the Python `str` class](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)) which is a collection of public methods that you can invoke to make use of the class.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">{{ icon_example }} A class has an API (e.g., [API of the Java `String` class]({{ java_api }}/java/lang/String.html), [API of the Python `str` class](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str))<ins>,</ins> which is a collection of public methods that you can invoke to make use of the class.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">7</div>
+          <div class="title">
+            Improve API design wording
+            <div class="path">reuse/apis/designingAPIs/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Uses cater to, which is the more natural collocation here.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">An API should be well-designed (i.e., should cater <del>f</del>o<del>r</del> the needs of its users) and well-documented.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">An API should be well-designed (i.e., should cater <ins>t</ins>o the needs of its users) and well-documented.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">8</div>
+          <div class="title">
+            Fix Natty example punctuation
+            <div class="path">reuse/libraries/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds the comma before the e.g. example.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">{{ icon_example }} [Natty](https://github.com/joestelmach/natty) is a Java library that can be used for parsing strings that represent dates e.g., `The 31st of April in the year 2008`</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">{{ icon_example }} [Natty](https://github.com/joestelmach/natty) is a Java library that can be used for parsing strings that represent dates<ins>,</ins> e.g., `The 31st of April in the year 2008`</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">9</div>
+          <div class="title">
+            Add comma in Python class list
+            <div class="path">reuse/libraries/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds and before the last item in the list.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">{{ icon_example }} Built-in modules you get with Python (such as `csv`, `random`, `sys`, etc.) are libraries that are provided in the default Python distribution. Classes such as `list`, `str`, `dict` are built-in library classes that you get with Python.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">{{ icon_example }} Built-in modules you get with Python (such as `csv`, `random`, `sys`, etc.) are libraries that are provided in the default Python distribution. Classes such as `list`, `str`, <ins>and </ins>`dict` are built-in library classes that you get with Python.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">10</div>
+          <div class="title">
+            Improve framework reuse wording
+            <div class="path">reuse/frameworks/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces awkward at a high scale wording with a clearer phrase.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**The overall structure and execution flow of a specific category of software systems can be very similar. Th<del>e</del> similarity is an opportunity <del>t</del>o reuse<del> at a high scale</del>.**</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**The overall structure and execution flow of a specific category of software systems can be very similar. Th<ins>is</ins> similarity is an opportunity <ins>f</ins>o<ins>r large-scale</ins> reuse.**</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">11</div>
+          <div class="title">
+            Clarify software framework definition
+            <div class="path">reuse/frameworks/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Removes the unnecessary article before software and clarifies the modifier.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**A _software framework_ is a reusable implementation of <del>a </del>software (or part thereof) provid<del>ing</del> _generic_ functionality that can be selectively customized to produce a _specific_ application.**</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**A _software framework_ is a reusable implementation of software (or part thereof) <ins>that </ins>provid<ins>es</ins> _generic_ functionality that can be selectively customized to produce a _specific_ application.**</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">12</div>
+          <div class="title">
+            Add comma in framework behavior note
+            <div class="path">reuse/frameworks/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds the comma before the nonrestrictive which-clause.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Some frameworks provide a complete implementation of a _default_ behavior which makes them immediately usable.**</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Some frameworks provide a complete implementation of a _default_ behavior<ins>,</ins> which makes them immediately usable.**</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">13</div>
+          <div class="title">
+            Add comma in framework comparison
+            <div class="path">reuse/frameworks/frameworksVsLibraries/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds the comma before while in a contrastive clause.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">* **Libraries are meant to be used ‘as is’ while frameworks are meant to be customized/extended.**</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">* **Libraries are meant to be used ‘as is’<ins>,</ins> while frameworks are meant to be customized/extended.**</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">14</div>
+          <div class="title">
+            Clarify inversion of control wording
+            <div class="path">reuse/frameworks/frameworksVsLibraries/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces aka and clarifies that client code calls library code.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Frameworks use a technique called _inversion of control_, ak<del>a</del> the “Hollywood principle”** (i.e., don’t call us, we’ll call you!). That is, you write code that will be called by the framework, %%e.g., writing test methods that will be called by the JUnit framework.%% In the case of libraries, your code calls librar<del>ies.</del></div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Frameworks use a technique called _inversion of control_, a<ins>lso </ins>k<ins>nown as</ins> the “Hollywood principle”** (i.e., don’t call us, we’ll call you!). That is, you write code that will be called by the framework, %%e.g., writing test methods that will be called by the JUnit framework.%% In the case of libraries, your code calls librar<ins>y code.</ins></div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">15</div>
+          <div class="title">
+            Add comma in platform definition
+            <div class="path">reuse/platforms/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds the comma before but in a compound sentence.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**A _platform_ provides a runtime environment for applications.** A platform is often bundled with various libraries, tools, frameworks, and technologies in addition to a runtime environment but the defining characteristic of a software platform is the presence of a runtime environment.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**A _platform_ provides a runtime environment for applications.** A platform is often bundled with various libraries, tools, frameworks, and technologies in addition to a runtime environment<ins>,</ins> but the defining characteristic of a software platform is the presence of a runtime environment.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">16</div>
+          <div class="title">
+            Improve platform example wording
+            <div class="path">reuse/platforms/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Adds the missing article and the comma before while.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">{{ icon_example }} Technically, an operating system can be called a platform. For example, Windows PC is a platform for desktop applications while iOS is a platform for mobile applications.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">{{ icon_example }} Technically, an operating system can be called a platform. For example, <ins>a </ins>Windows PC is a platform for desktop applications<ins>,</ins> while iOS is a platform for mobile applications.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">17</div>
+          <div class="title">
+            Improve enterprise platform example
+            <div class="path">reuse/platforms/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Removes an unnecessary comma and fixes punctuation around etc.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">{{ icon_example }} **Two well-known examples of platforms are JavaEE and .NET**, both of which sit above the operating systems layer<del>,</del> and are used to develop &lt;trigger for=&quot;modal:enterprise-application&quot; trigger=&quot;click&quot;&gt;enterprise applications&lt;/trigger&gt;. Infrastructure services such as connection pooling, load balancing, remote code execution, transaction management, authentication, security, messaging etc. are <del>done</del> similarly in most enterprise applications. Both JavaEE and .NET provide these services to applications in a customizable way without developers having to implement them from scratch every time.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">{{ icon_example }} **Two well-known examples of platforms are JavaEE and .NET**, both of which sit above the operating systems layer and are used to develop &lt;trigger for=&quot;modal:enterprise-application&quot; trigger=&quot;click&quot;&gt;enterprise applications&lt;/trigger&gt;. Infrastructure services such as connection pooling, load balancing, remote code execution, transaction management, authentication, security, messaging<ins>,</ins> etc. are <ins>provided</ins> similarly in most enterprise applications. Both JavaEE and .NET provide these services to applications in a customizable way without developers having to implement them from scratch every time.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">18</div>
+          <div class="title">
+            Improve cloud computing explanation
+            <div class="path">reuse/cloudComputing/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">grammar issue</span><span class="comment-text">Fixes subject-verb agreement and tightens payment wording.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">**Cloud computing is the delivery of computing as a service over the network**, rather than a product running on a local machine. This means the actual hardware and software <del>is</del> located at a remote location, typically<del>,</del> at a large server farm, while users access them over the network. Maintenance of the hardware and software is managed by the cloud provider<del> while users typically pay for only the amount of</del> services they use.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">**Cloud computing is the delivery of computing as a service over the network**, rather than a product running on a local machine. This means the actual hardware and software <ins>are</ins> located at a remote location, typically at a large server farm, while users access them over the network. Maintenance of the hardware and software is managed by the cloud provider<ins>, while users typically pay only for the</ins> services they use.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">19</div>
+          <div class="title">
+            Clarify cloud scaling wording
+            <div class="path">reuse/cloudComputing/what/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces slash wording with a clearer phrase.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">Furthermore, users can scale <del>up/down </del>their utilization at will without having to upgrade their hardware and software.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">Furthermore, users can scale their utilizatio<ins>n up or dow</ins>n at will without having to upgrade their hardware and software.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">20</div>
+          <div class="title">
+            Clarify IaaS provider example
+            <div class="path">reuse/cloudComputing/services/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">phrasing issue</span><span class="comment-text">Replaces vague one with example.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">1. **Infrastructure as a service (IaaS) delivers computer infrastructure as a service.** For example, a user can deploy virtual servers on the cloud instead of buying physical hardware and installing server software on them. Another example would be a customer using storage space on the cloud for off-site storage of data. %%Rackspace is an example of an IaaS cloud provider. Amazon Elastic Compute Cloud (Amazon EC2) is another <del>on</del>e.%%</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">1. **Infrastructure as a service (IaaS) delivers computer infrastructure as a service.** For example, a user can deploy virtual servers on the cloud instead of buying physical hardware and installing server software on them. Another example would be a customer using storage space on the cloud for off-site storage of data. %%Rackspace is an example of an IaaS cloud provider. Amazon Elastic Compute Cloud (Amazon EC2) is another <ins>exampl</ins>e.%%</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+      <article class="issue">
+        <div class="issue-header">
+          <div class="index">21</div>
+          <div class="title">
+            Add comma in PaaS explanation
+            <div class="path">reuse/cloudComputing/services/text.md</div>
+          </div>
+          <div class="badge">1 line</div>
+        </div>
+        <div class="issue-body">
+          <div class="comment"><span class="comment-label">punctuation issue</span><span class="comment-text">Adds the comma before the explanatory as-clause.</span></div>
+          <details open>
+            <summary>Unified diff</summary>
+            <div class="unified">
+              <div class="diff-line minus">
+                <div class="sign">-</div>
+                <div class="content">2. **Platform as a service (PaaS) provides a platform on which developers can build applications.** Developers do not have to worry about infrastructure issues such as deploying servers or load balancing as is required when using IaaS.</div>
+              </div>
+              <div class="diff-line plus">
+                <div class="sign">+</div>
+                <div class="content">2. **Platform as a service (PaaS) provides a platform on which developers can build applications.** Developers do not have to worry about infrastructure issues such as deploying servers or load balancing<ins>,</ins> as is required when using IaaS.</div>
+              </div>
+            </div>
+          </details>
+        </div>
+      </article>
+    </section>
+  </main>
+  <script>
+const toggleUnchanged = document.getElementById("toggleUnchanged");
+const setUnchangedVisibility = () => {
+  if (!toggleUnchanged) {
+    return;
+  }
+  const show = toggleUnchanged.getAttribute("aria-pressed") === "true";
+  document.querySelectorAll(".diff-line.same").forEach((line) => {
+    line.classList.toggle("hidden-unchanged", !show);
+  });
+};
+
+if (toggleUnchanged) {
+  toggleUnchanged.addEventListener("click", () => {
+    const pressed = toggleUnchanged.getAttribute("aria-pressed") === "true";
+    toggleUnchanged.setAttribute("aria-pressed", String(!pressed));
+    toggleUnchanged.textContent = pressed ? "Show Unchanged Lines" : "Hide Unchanged Lines";
+    setUnchangedVisibility();
+  });
+}
+
+document.getElementById("expandAll").addEventListener("click", () => {
+  document.querySelectorAll("details").forEach((item) => { item.open = true; });
+});
+
+document.getElementById("collapseAll").addEventListener("click", () => {
+  document.querySelectorAll("details").forEach((item) => { item.open = false; });
+});
+
+setUnchangedVisibility();
+</script>
+</body>
+</html>
