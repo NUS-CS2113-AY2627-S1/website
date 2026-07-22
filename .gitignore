@@ -1,0 +1,13 @@
+.idea/*
+_site/
+_temp/
+.temp/
+node_modules/
+*.iml
+_markbind/logs/
+pullall.sh
+pullallmods.sh
+pushall.sh
+debug.log
+AGENTS.md
+CLAUDE.md
