@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editorial fixes applied from issues-noted.md</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    max-width: 880px; margin: 2rem auto; padding: 0 1.2rem; line-height: 1.5; color: #1c1c1e; }
+  h1 { margin-bottom: .2rem; }
+  h2 { margin-top: 2rem; border-bottom: 2px solid #eee; padding-bottom: .3rem; }
+  .src, .stamp { color: #6b6b70; font-size: .9rem; margin: .2rem 0; }
+  .count { background: #e8e8ed; border-radius: 1rem; padding: .05rem .55rem; font-size: .85rem; color: #444; }
+  .cards { display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem; }
+  .card { border: 1px solid #e3e3e8; border-radius: 10px; padding: .9rem 1rem; background: #fbfbfd; }
+  .tag { display: inline-block; font-size: .72rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .04em; color: #3a3a8a; background: #ececf7; border-radius: 5px; padding: .12rem .5rem; }
+  .note { margin: .5rem 0 .2rem; color: #555; font-style: italic; }
+  .diff { position: relative; padding: .45rem .6rem .45rem 4.6rem; margin-top: .5rem;
+    border-radius: 6px; white-space: pre-wrap; word-break: break-word; font-size: .98rem; }
+  .lbl { position: absolute; left: .6rem; top: .45rem; font-size: .66rem; text-transform: uppercase;
+    letter-spacing: .05em; color: #8a8a90; font-weight: 700; }
+  .before { background: #fff4f4; }
+  .after { background: #f1faf1; }
+  .inline { background: #f6f6fb; }
+  del { background: #ffd9d9; color: #a30000; text-decoration: line-through; border-radius: 3px; padding: 0 1px; }
+  ins { background: #cdebcd; color: #0a6000; text-decoration: none; border-radius: 3px; padding: 0 1px; }
+  .note-card { background: #fff9ec; border-color: #f0e0bb; }
+  .note-card .issue { margin: 0 0 .4rem; font-weight: 600; }
+  .note-card .body { margin: 0; color: #555; }
+  .empty { color: #6b6b70; }
+  code { background: #ececf0; border-radius: 4px; padding: 0 .3rem; }
+</style>
+</head>
+<body>
+  <h1>Editorial fixes applied from issues-noted.md</h1>
+  <p class="src"><code>book — 26 changes across the superproject</code></p>
+  <p class="stamp">Generated 2026-07-23 13:10 &middot; 26 change(s), 6 note(s)</p>
+
+  <h2>Changes <span class="count">26</span></h2>
+  <div class="cards">
+    <div class="card">
+      <span class="tag">Missing article before named object</span>
+      <p class="note">oop/objects/what/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, `You` object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.</div>
+      <div class="diff after"><span class="lbl">after</span>You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, `the You` object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.</div>
+      <div class="diff inline"><span class="lbl">change</span>You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, <del>`You`</del><ins>`the You`</ins> object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Missing article before class name</span>
+      <p class="note">oop/inheritance/what/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from `Person` class.</div>
+      <div class="diff after"><span class="lbl">after</span>{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from `the Person` class.</div>
+      <div class="diff inline"><span class="lbl">change</span>{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from <del>`Person`</del><ins>`the Person`</ins> class.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Incorrect verb form in user story</span>
+      <p class="note">specifyingRequirements/userStories/details/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>As a user, I can login to the system ~~so that I can access my data~~</div>
+      <div class="diff after"><span class="lbl">after</span>As a user, I can log in to the system ~~so that I can access my data~~</div>
+      <div class="diff inline"><span class="lbl">change</span>As a user, I can <del>login</del><ins>log in</ins> to the system ~~so that I can access my data~~</div>
+    </div>
+    <div class="card">
+      <span class="tag">Missing hyphen in compound modifier</span>
+      <p class="note">specifyingRequirements/userStories/usage/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>**User stories differ from &lt;popover content=&quot;e.g. a description of the requirements written in prose&quot;&gt;traditional requirements specifications&lt;/popover&gt; mainly in the level of detail.** User stories should only provide enough details to make a reasonably low risk estimate of how long the user story will take to implement. When the time comes to implement the user story, the developers will meet with the customer face-to-face to work out a more detailed description of the requirements. %%[&lt;trigger for=&quot;modal:xp-user-stories&quot; trigger=&quot;click&quot;&gt;more...&lt;/trigger&gt;]%%
+&gt;One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably low risk estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face.</div>
+      <div class="diff after"><span class="lbl">after</span>**User stories differ from &lt;popover content=&quot;e.g. a description of the requirements written in prose&quot;&gt;traditional requirements specifications&lt;/popover&gt; mainly in the level of detail.** User stories should only provide enough details to make a reasonably low-risk estimate of how long the user story will take to implement. When the time comes to implement the user story, the developers will meet with the customer face-to-face to work out a more detailed description of the requirements. %%[&lt;trigger for=&quot;modal:xp-user-stories&quot; trigger=&quot;click&quot;&gt;more...&lt;/trigger&gt;]%%
+&gt;One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably low-risk estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face.</div>
+      <div class="diff inline"><span class="lbl">change</span>**User stories differ from &lt;popover content=&quot;e.g. a description of the requirements written in prose&quot;&gt;traditional requirements specifications&lt;/popover&gt; mainly in the level of detail.** User stories should only provide enough details to make a reasonably <del>low risk</del><ins>low-risk</ins> estimate of how long the user story will take to implement. When the time comes to implement the user story, the developers will meet with the customer face-to-face to work out a more detailed description of the requirements. %%[&lt;trigger for=&quot;modal:xp-user-stories&quot; trigger=&quot;click&quot;&gt;more...&lt;/trigger&gt;]%%
+&gt;One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably <del>low risk</del><ins>low-risk</ins> estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Singular verb with a compound subject</span>
+      <p class="note">designFundamentals/coupling/what/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>* **Testing and reuse of the module is harder** due to its dependence on other modules.</div>
+      <div class="diff after"><span class="lbl">after</span>* **Testing and reuse of the module are harder** due to its dependence on other modules.</div>
+      <div class="diff inline"><span class="lbl">change</span>* **Testing and reuse of the module <del>is</del><ins>are</ins> harder** due to its dependence on other modules.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Repeated use of “used”</span>
+      <p class="note">common/definitions.md</p>
+      <div class="diff before"><span class="lbl">before</span>[**Unified Modeling Language (UML)**](http://www.uml.org/#UML2.0) is a graphical notation to describe various aspects of a software system. UML is the brainchild of three software modeling specialists James Rumbaugh, Grady Booch and Ivar Jacobson (also known as the Three Amigos). Each of them had developed their own notation for modeling software systems before joining forces to create a unified modeling language (hence, the term ‘Unified’ in UML). UML is currently the most commonly used modeling notation used in the software industry.</div>
+      <div class="diff after"><span class="lbl">after</span>[**Unified Modeling Language (UML)**](http://www.uml.org/#UML2.0) is a graphical notation to describe various aspects of a software system. UML is the brainchild of three software modeling specialists James Rumbaugh, Grady Booch and Ivar Jacobson (also known as the Three Amigos). Each of them had developed their own notation for modeling software systems before joining forces to create a unified modeling language (hence, the term ‘Unified’ in UML). UML is currently the most commonly used modeling notation in the software industry.</div>
+      <div class="diff inline"><span class="lbl">change</span>[**Unified Modeling Language (UML)**](http://www.uml.org/#UML2.0) is a graphical notation to describe various aspects of a software system. UML is the brainchild of three software modeling specialists James Rumbaugh, Grady Booch and Ivar Jacobson (also known as the Three Amigos). Each of them had developed their own notation for modeling software systems before joining forces to create a unified modeling language (hence, the term ‘Unified’ in UML). UML is currently the most commonly used modeling notation <del>used </del>in the software industry.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Incorrect preposition after “comprising”</span>
+      <p class="note">uml/classDiagrams/associationsAsAttributes/what/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>{{ icon_example }} The diagram below depicts a multi-player _Square Game_ being played on a board comprising of 100 squares. Each of the squares may be occupied with any number of pieces, each belonging to a certain player.</div>
+      <div class="diff after"><span class="lbl">after</span>{{ icon_example }} The diagram below depicts a multi-player _Square Game_ being played on a board comprising 100 squares. Each of the squares may be occupied with any number of pieces, each belonging to a certain player.</div>
+      <div class="diff inline"><span class="lbl">change</span>{{ icon_example }} The diagram below depicts a multi-player _Square Game_ being played on a board comprising<del> of</del> 100 squares. Each of the squares may be occupied with any number of pieces, each belonging to a certain player.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Singular association-role label with plural verb</span>
+      <p class="note">uml/classDiagrams/associations/roles/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>**_Association Role_ are used to indicate the role played by the classes in the association.**</div>
+      <div class="diff after"><span class="lbl">after</span>**_Association Role_s are used to indicate the role played by the classes in the association.**</div>
+      <div class="diff inline"><span class="lbl">change</span>**_Association <del>Role_</del><ins>Role_s</ins> are used to indicate the role played by the classes in the association.**</div>
+    </div>
+    <div class="card">
+      <span class="tag">Incorrect idiom for a moment in time</span>
+      <p class="note">uml/objectDiagrams/introduction/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>**An object diagram shows an object structure at a given point of time.** While a class diagram defines the static structure of a system in terms of classes and their relationships, an object diagram shows a concrete snapshot of that class structure at a particular moment by depicting specific instances and how they are linked. In essence, **object diagrams are instantiations of class diagrams**, depicting runtime states of a class structure.</div>
+      <div class="diff after"><span class="lbl">after</span>**An object diagram shows an object structure at a given point in time.** While a class diagram defines the static structure of a system in terms of classes and their relationships, an object diagram shows a concrete snapshot of that class structure at a particular moment by depicting specific instances and how they are linked. In essence, **object diagrams are instantiations of class diagrams**, depicting runtime states of a class structure.</div>
+      <div class="diff inline"><span class="lbl">change</span>**An object diagram shows an object structure at a given point <del>of</del><ins>in</ins> time.** While a class diagram defines the static structure of a system in terms of classes and their relationships, an object diagram shows a concrete snapshot of that class structure at a particular moment by depicting specific instances and how they are linked. In essence, **object diagrams are instantiations of class diagrams**, depicting runtime states of a class structure.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Missing article before “ref frame”</span>
+      <p class="note">uml/sequenceDiagrams/referenceFrames/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>**UML uses _ref frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.</div>
+      <div class="diff after"><span class="lbl">after</span>**UML uses _a ref frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.</div>
+      <div class="diff inline"><span class="lbl">change</span>**UML uses <del>_ref</del><ins>_a ref</ins> frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Missing articles in API reference</span>
+      <p class="note">modeling/modelingASolution/intermediate/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>And it adds the following operation to Logic API:</div>
+      <div class="diff after"><span class="lbl">after</span>And it adds the following operation to the Logic API:</div>
+      <div class="diff inline"><span class="lbl">change</span>And it adds the following operation to <ins>the </ins>Logic API:</div>
+    </div>
+    <div class="card">
+      <span class="tag">Incorrect “other than” construction</span>
+      <p class="note">codeQuality/avoidShortcuts/basic/dontRecycleVarsOrParams/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>* **Use one variable for one purpose.** Do not reuse a variable for a different purpose other than its intended one, just because the data type is the same.</div>
+      <div class="diff after"><span class="lbl">after</span>* **Use one variable for one purpose.** Do not reuse a variable for a purpose other than its intended one, just because the data type is the same.</div>
+      <div class="diff inline"><span class="lbl">change</span>* **Use one variable for one purpose.** Do not reuse a variable for a <del>different </del>purpose other than its intended one, just because the data type is the same.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Four-dot ellipsis</span>
+      <p class="note">testCaseDesign/introduction/what/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>* Add an item when there are 2, 3, .... n items in the collection.</div>
+      <div class="diff after"><span class="lbl">after</span>* Add an item when there are 2, 3, ..., n items in the collection.</div>
+      <div class="diff inline"><span class="lbl">change</span>* Add an item when there are 2, 3, <del>....</del><ins>...,</ins> n items in the collection.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Faulty parallelism in class responsibilities</span>
+      <p class="note">principles/singleResponsibilityPrinciple/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>{{ icon_example }} Consider a `TextUi` class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP.</div>
+      <div class="diff after"><span class="lbl">after</span>{{ icon_example }} Consider a `TextUi` class that parses user commands as well as interacts with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP.</div>
+      <div class="diff inline"><span class="lbl">change</span>{{ icon_example }} Consider a `TextUi` class that <del>does parsing of the</del><ins>parses</ins> user commands as well as <del>interacting</del><ins>interacts</ins> with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Unnecessary “as” after “considered”</span>
+      <p class="note">cppToJava/gettingStarted/helloWorld/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>* There is no need to `return 0` at the end of the main method to indicate the execution was successful. It is considered as a successful execution unless an error is signalled specifically.</div>
+      <div class="diff after"><span class="lbl">after</span>* There is no need to `return 0` at the end of the main method to indicate the execution was successful. It is considered a successful execution unless an error is signalled specifically.</div>
+      <div class="diff inline"><span class="lbl">change</span>* There is no need to `return 0` at the end of the main method to indicate the execution was successful. It is considered <del>as </del>a successful execution unless an error is signalled specifically.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Singular verb needed after “example”</span>
+      <p class="note">cppToJava/objects/usingObjects/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>{{ icon_example }} This example imports the `java.awt.Point` class (i.e., the `Point` class in the `java.awt` package) -- which can be used to represent &lt;trigger for=&quot;pop:usingObjects-coordinates&quot;&gt;the coordinates of a location in a Cartesian plane&lt;/trigger&gt;  -- and use it in the `main` method.</div>
+      <div class="diff after"><span class="lbl">after</span>{{ icon_example }} This example imports the `java.awt.Point` class (i.e., the `Point` class in the `java.awt` package) -- which can be used to represent &lt;trigger for=&quot;pop:usingObjects-coordinates&quot;&gt;the coordinates of a location in a Cartesian plane&lt;/trigger&gt;  -- and uses it in the `main` method.</div>
+      <div class="diff inline"><span class="lbl">change</span>{{ icon_example }} This example imports the `java.awt.Point` class (i.e., the `Point` class in the `java.awt` package) -- which can be used to represent &lt;trigger for=&quot;pop:usingObjects-coordinates&quot;&gt;the coordinates of a location in a Cartesian plane&lt;/trigger&gt;  -- and <del>use</del><ins>uses</ins> it in the `main` method.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Incorrect capitalization of a preposition</span>
+      <p class="note">cppToJava/exceptions/what/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>**There are three basic categories of exceptions In Java:**</div>
+      <div class="diff after"><span class="lbl">after</span>**There are three basic categories of exceptions in Java:**</div>
+      <div class="diff inline"><span class="lbl">change</span>**There are three basic categories of exceptions <del>In</del><ins>in</ins> Java:**</div>
+    </div>
+    <div class="card">
+      <span class="tag">Missing article before “fail() line”</span>
+      <p class="note">cppToJava/junit/basic/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach `fail()` line and will fail as a result.</div>
+      <div class="diff after"><span class="lbl">after</span>* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach `the fail()` line and will fail as a result.</div>
+      <div class="diff inline"><span class="lbl">change</span>* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach <del>`fail()`</del><ins>`the fail()`</ins> line and will fail as a result.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Move articles outside code and italic spans</span>
+      <p class="note">cppToJava/junit/basic/text.md, oop/inheritance/what/text.md, oop/objects/what/text.md, uml/sequenceDiagrams/referenceFrames/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach `the fail()` line and will fail as a result.
+{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from `the Person` class.
+You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, `the You` object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.
+**UML uses _a ref frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.</div>
+      <div class="diff after"><span class="lbl">after</span>* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach the `fail()` line and will fail as a result.
+{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from the `Person` class.
+You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, the `You` object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.
+**UML uses a _ref frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.</div>
+      <div class="diff inline"><span class="lbl">change</span>* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach <del>`the</del><ins>the</ins> <del>fail()`</del><ins>`fail()`</ins> line and will fail as a result.
+{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from <del>`the</del><ins>the</ins> <del>Person`</del><ins>`Person`</ins> class.
+You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, <del>`the</del><ins>the</ins> <del>You`</del><ins>`You`</ins> object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.
+**UML uses <del>_a</del><ins>a</ins> <del>ref</del><ins>_ref</ins> frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Restore verbatim wording in quoted XP passage</span>
+      <p class="note">specifyingRequirements/userStories/usage/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>&gt;One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably low-risk estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face.</div>
+      <div class="diff after"><span class="lbl">after</span>&gt;One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably low risk estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face.</div>
+      <div class="diff inline"><span class="lbl">change</span>&gt;One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably <del>low-risk</del><ins>low risk</ins> estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Missing preposition before &#x27;the inputs&#x27;</span>
+      <p class="note">oop/classes/what/text.md</p>
+      <div class="diff before"><span class="lbl">before</span> 2. **provide it the inputs to produce the outcome you want.**</div>
+      <div class="diff after"><span class="lbl">after</span> 2. **provide it with the inputs to produce the outcome you want.**</div>
+      <div class="diff inline"><span class="lbl">change</span> 2. **provide it<ins> with</ins> the inputs to produce the outcome you want.**</div>
+    </div>
+    <div class="card">
+      <span class="tag">Unidiomatic possessive reference phrasing</span>
+      <p class="note">oop/associations/navigability/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>* **Unidirectional**: If the navigability is from `Box` to `Rope`, `b` will have a reference to `r` but `r` will not have a reference to `b`. That is, one can _navigate_ from `b` to `r` using the `b`&#x27;s object reference of `r` (but not in the other direction).&lt;br&gt;</div>
+      <div class="diff after"><span class="lbl">after</span>* **Unidirectional**: If the navigability is from `Box` to `Rope`, `b` will have a reference to `r` but `r` will not have a reference to `b`. That is, one can _navigate_ from `b` to `r` using `b`&#x27;s reference to `r` (but not in the other direction).&lt;br&gt;</div>
+      <div class="diff inline"><span class="lbl">change</span>* **Unidirectional**: If the navigability is from `Box` to `Rope`, `b` will have a reference to `r` but `r` will not have a reference to `b`. That is, one can _navigate_ from `b` to `r` using <del>the </del>`b`&#x27;s<del> object</del> reference <del>of</del><ins>to</ins> `r` (but not in the other direction).&lt;br&gt;</div>
+    </div>
+    <div class="card">
+      <span class="tag">Run-on sentence in use case guidance</span>
+      <p class="note">specifyingRequirements/useCases/details/useCaseSteps.md</p>
+      <div class="diff before"><span class="lbl">before</span>**A use case describes only the externally visible behavior, not internal details, of a system** i.e., should minimize details that are not part of the interaction between the user and the system.</div>
+      <div class="diff after"><span class="lbl">after</span>**A use case describes only the externally visible behavior, not the internal details, of a system.** Therefore, it should minimize details that are not part of the interaction between the user and the system.</div>
+      <div class="diff inline"><span class="lbl">change</span>**A use case describes only the externally visible behavior, not <ins>the </ins>internal details, of a <del>system**</del><ins>system.**</ins> <del>i.e.,</del><ins>Therefore, it</ins> should minimize details that are not part of the interaction between the user and the system.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Unclear wording in assertion example</span>
+      <p class="note">errorHandling/assertions/what/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>{{ icon_example }} An assertion can be used to express something like _when the execution comes to this point, the variable `v` cannot be null_.</div>
+      <div class="diff after"><span class="lbl">after</span>{{ icon_example }} An assertion can be used to express something like: _when execution reaches this point, the variable `v` cannot be null_.</div>
+      <div class="diff inline"><span class="lbl">change</span>{{ icon_example }} An assertion can be used to express something <del>like</del><ins>like:</ins> _when <del>the </del>execution <del>comes to</del><ins>reaches</ins> this point, the variable `v` cannot be null_.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Sentence fragment after &#x27;More generally&#x27;</span>
+      <p class="note">integration/approaches/bigBangVsIncremental/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>**_Big-bang integration_: integrate all (or too many) components at the same time.** More generally, integrating too many changes at the same time.</div>
+      <div class="diff after"><span class="lbl">after</span>**_Big-bang integration_: integrate all (or too many) components at the same time.** More generally, it means integrating too many changes at the same time.</div>
+      <div class="diff inline"><span class="lbl">change</span>**_Big-bang integration_: integrate all (or too many) components at the same time.** More generally, <ins>it means </ins>integrating too many changes at the same time.</div>
+    </div>
+    <div class="card">
+      <span class="tag">Missing noun modifier before &#x27;code&#x27;</span>
+      <p class="note">cppToJava/inheritance/polymorphism/text.md</p>
+      <div class="diff before"><span class="lbl">before</span>{{ icon_example }} The following code `PetShelter` keeps a list of `Cat` objects and makes them `speak`. The code will not work with any other type, for example, `Dog` objects.</div>
+      <div class="diff after"><span class="lbl">after</span>{{ icon_example }} The following `PetShelter` code keeps a list of `Cat` objects and makes them `speak`. The code will not work with any other type, for example, `Dog` objects.</div>
+      <div class="diff inline"><span class="lbl">change</span>{{ icon_example }} The following <ins>`PetShelter` </ins>code<del> `PetShelter`</del> keeps a list of `Cat` objects and makes them `speak`. The code will not work with any other type, for example, `Dog` objects.</div>
+    </div>
+  </div>
+
+  <h2>Decisions and caveats to review <span class="count">6</span></h2>
+  <div class="cards">
+    <div class="card note-card">
+      <p class="issue">Four auto-applied fixes landed inside markup — corrected by hand</p>
+      <p class="body">The matcher inserted an article INSIDE a code span or italic span: `the fail()`, `the Person`, `the You`, and _a ref frame_. These were corrected so the article sits outside the markup: the `fail()` line, the `Person` class, the `You` object, a _ref frame_. The rendered result now matches what each issue intended.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">REVERTED — needs your decision: hyphen inside a quoted passage</p>
+      <p class="body">The &#x27;low risk&#x27; -&gt; &#x27;low-risk&#x27; fix was recorded for two places. The second (specifyingRequirements/userStories/usage/text.md) sits inside a blockquote quoted verbatim from extremeprogramming.org, introduced by a link to that page. Editing it would silently alter a cited source, so it was reverted. The first occurrence (userStories/details/text.md), which is the book&#x27;s own prose, was kept. Re-apply the quoted one if you want the hyphen there anyway.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">Big-bang integration — narrowed to preserve parallelism</p>
+      <p class="body">The recorded fix rewrote the entry to &#x27;Big-bang integration means integrating all ... components&#x27;. That would break parallelism with the sibling entry four lines below, which uses the same &#x27;**_Term_: gloss**&#x27; pattern (_Incremental integration_: integrate a few components at a time.). Only the trailing sentence fragment was fixed — &#x27;More generally, it means integrating too many changes at the same time.&#x27; — keeping the definitional pattern intact.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">Assertion example — italics kept instead of curly quotes</p>
+      <p class="body">The recorded fix wrapped the assertion in curly double quotes. The source already marks it with italics, so the italics were kept and only the colon and the wording were changed, to avoid swapping one markup convention for another.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">Build parity confirmed against the base commit</p>
+      <p class="body">markbind build passes. It reports 9 markdown-it-attrs errors and 10 intra-link warnings, but a build of the base commit (bf7fdaf19) in a scratch worktree produces exactly the same 9 errors and 10 warnings — they are pre-existing and unrelated to these edits.</p>
+    </div>
+    <div class="card note-card">
+      <p class="issue">No submodules involved</p>
+      <p class="body">The scan found no git submodules, so there is no submodule push to coordinate.</p>
+    </div>
+  </div>
+</body>
+</html>

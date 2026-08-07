@@ -40,6 +40,8 @@
 &nbsp;<span class="badge rounded-pill bg-light text-dark"><span class="font-weight-bold text-{{ show_priority_style(priority) }}"><md>:glyphicon-flash:{{ priority }}</md></span></span>
 {%- endmacro %}
 
+{# also repeated in topics.njk #}
+{%- macro slugify(text) %}{{ text | lower | replace(r/[\'\s\/]/g, '-') | replace(r/[\(\)%:,&\`\[\]\+]/g, '') }}{% endmacro -%}
 
 {% macro show_admin_section_to_read(heading, priority, source, is_flat=false) %}
 {% set panel_title %} Admin {{ icon_embedding | safe }} {{ heading }} {{ show_stars(priority) }}{% endset %}
@@ -229,4 +231,131 @@
 {% endmacro %}
 
 
-{% macro show_gm_lesson_link(lesson_id, lesson_name)%}<md>++<span style="background-color: #e6f4ea;" class="badge rounded-pill text-success">:octicon-git-branch: Git-Mastery → <a href="https://git-mastery.org/lessons/{{ lesson_id }}/" target="_blank">**Lesson: {{ lesson_name }}**</a></span>++</md>{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_github_username_entry()%}
+<box class="d-print-none" seamless>
+
+Your GitHub username : <cv-placeholder-input name="username" appearance="underline" layout="inline"></cv-placeholder-input>&nbsp;<img src="https://github.com/[[username : github ]].png"
+  style="height: 1.8rem; vertical-align: middle; border-radius: 50%; margin-left: 0.5rem;"
+  class="cv-bind"
+  alt="GitHub Avatar"
+/><br>
+%%<small>Note: Type your GitHub username in the blank above so that we can customize sample commands to fit you.</small>%%
+</box>
+<p/>
+{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_duke_extension_title(extId, extHeading, extStyle) %}
+### <span class="badge rounded-pill bg-{{ extStyle }}">{{ extId }}</span>
+{{ indented_arrow | safe }} **{{ extHeading }}**
+
+{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_ai_guidance(subject)%}
+<div id="ai-guidance-{{ slugify(subject) }}">
+
+<panel type="codex" expanded >
+<div slot="header"><md><span style="color: #dfe3ff;">:fas-robot: AI Guidance &raquo;</span> **{{ subject }}**</md></div>
+
+{{ caller() }}
+</panel>
+</div>
+<p/>
+{% endmacro %}
+<!-- ============================================================ -->
+
+{#
+  mdblock -- renders a block of Markdown inside a bordered box, with a
+  'Copy as Markdown' button that puts the original Markdown on the clipboard.
+
+  Usage:
+    {% call mdblock() %}
+    * **Add more test cases** to cover edge cases and incorrect inputs.
+    {% endcall %}
+
+  The `urlencode` is load-bearing, for two reasons:
+    1. It strips newlines, keeping the whole opening tag on one physical line.
+       Otherwise a blank line inside the attribute terminates the HTML block
+       and markdown-it parses the rest of the attribute as page content.
+    2. It removes quotes and ampersands, which MarkBind's HTML serializer
+       decodes back to literal characters -- a literal `"` would close the
+       attribute early and silently truncate the copied Markdown.
+  The button's JS calls decodeURIComponent() to undo it.
+#}
+{% macro mdblock(label="Copy as Markdown") %}
+<div class="mdblock" data-md="{{ (caller() + "") | trim | urlencode }}">
+<button class="mdblock-copy" type="button" data-label="{{ label }}" onclick="mdblockCopy(this)">{{ label }}</button>
+
+{{ caller() }}
+
+</div>
+{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_prompt_part1(requirements, sample_output)%}
+
+First part of a possible prompt:
+
+{% call mdblock() %}
+
+The requirement given to me:
+
+{{ req_start }}
+{{ requirements | trim }}
+{{ req_end }}
+
+An example output:
+
+{{ sample_output | trim }}
+{% endcall %}
+
+{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_prompt_part2()%}
+Second part of a possible prompt:
+
+<tabs>
+  <tab header="Sample prompt - part 2 (less AI)">
+
+{% call mdblock() %}
+
+{{ review_prompt }}
+{% endcall %}
+  </tab>
+  <tab header="Sample prompt - part 2 (more AI)">
+
+{% call mdblock() %}
+
+{{ update_prompt }}
+{% endcall %}
+</tab>
+</tabs>
+{% endmacro %}
+
+<!-- ============================================================ -->
+
+{% macro show_gm_lesson_link(lesson_id, lesson_name)%}<md>++<span style="background-color: #e6f4ea;" class="badge rounded-pill text-success">:octicon-git-branch: Git-Mastery → <a href="https://git-mastery.org/lessons/{{ lesson_id }}/#/{{ course | lower }}" target="_blank">**Lesson: {{ lesson_name }}**</a></span>++</md>{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro ask_chatgpt(visible_text, prompt) %}<span class="badge bg-light rounded-pill text-dark fw-normal d-print-none"><a href="https://chatgpt.com/?q={{ (prompt if prompt else visible_text) | urlencode }}" target="_blank">{{ visible_text }}</a> %%:bi-openai:%%</span>{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro ask_chatgpt_for_three_os(visible_text, prompt) %}<small>{{ visible_text }}</small> {{ ask_chatgpt(":fab-windows: Windows", prompt + " I'm using Windows") }} | {{ ask_chatgpt(":fab-apple: macOS", prompt + " I'm using macOS")  }} | {{ ask_chatgpt(":fab-linux: Linux", prompt + " I'm using Linux") }}{% endmacro %}
+<!-- ============================================================ -->
+
+{% macro show_example() %}
+<cv-toggle xtoggle-id="examples">
+<div class="indented-level1 example">
+
+<box type="info" theme="light" seamless no-icon>
+
+  <span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><md><small>%%:fas-cube: Example%%</small></md></span> {{ caller() | trim }}
+</box>
+</div>
+</cv-toggle>
+{% endmacro %}
+<!-- ============================================================ -->

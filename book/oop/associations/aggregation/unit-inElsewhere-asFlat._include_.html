@@ -4,13 +4,14 @@
 <div><h4 id="aggregation"><span>Aggregation</span><a class="fa fa-anchor" href="#aggregation" onclick="event.stopPropagation()"></a></h4></div>
 <div id="main">
 <div>
-<p><strong><em>Aggregation</em> represents a <em>container-contained</em> relationship.</strong> It is a weaker relationship than composition.</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> <code class="hljs inline no-lang" v-pre>SportsClub</code> can act as a <em>container</em> for <code class="hljs inline no-lang" v-pre>Person</code> objects who are members of the club. <code class="hljs inline no-lang" v-pre>Person</code> objects can survive without a <code class="hljs inline no-lang" v-pre>SportsClub</code> object.</p></box>
+<p><strong><span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">Aggregation</span></span> represents a <em>container-contained</em> relationship.</strong> It is a weaker relationship than composition.<br>
+<span class="badge bg-light text-secondary"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example </span> <span class="dimmed"><code class="hljs inline no-lang" v-pre>SportsClub</code> can act as a <em>container</em> for <code class="hljs inline no-lang" v-pre>Person</code> objects who are members of the club. <code class="hljs inline no-lang" v-pre>Person</code> objects can survive without a <code class="hljs inline no-lang" v-pre>SportsClub</code> object.</span></p>
 <h5 id="implementing-aggregation">Implementing aggregation<a class="fa fa-anchor" href="#implementing-aggregation" onclick="event.stopPropagation()"></a></h5>
 <p>Implementation is similar to that of composition except the <em>containee</em> object can exist even after the <em>container</em> object is deleted.</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, there is an aggregation association between the <code class="hljs inline no-lang" v-pre>Team</code> class and the <code class="hljs inline no-lang" v-pre>Person</code> class in that a <code class="hljs inline no-lang" v-pre>Team</code> contains a <code class="hljs inline no-lang" v-pre>Person</code> object who is the leader of the team.</p>
+<cv-toggle xtoggle-id="examples">
+<div class="indented-level1 example">
+<box type="info" theme="light" seamless no-icon>
+<p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> In the code below, there is an aggregation association between the <code class="hljs inline no-lang" v-pre>Team</code> class and the <code class="hljs inline no-lang" v-pre>Person</code> class in that a <code class="hljs inline no-lang" v-pre>Team</code> contains a <code class="hljs inline no-lang" v-pre>Person</code> object who is the leader of the team.</p>
 <div class="alt-java">
 <pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Team</span> </span>{
 </span><span>    Person leader;
@@ -110,5 +111,5 @@
 
     </div>
     </div>
-    </button></div></pre></div></box></div>
+    </button></div></pre></div></box></div></cv-toggle></div>
 <div></div></div></div>

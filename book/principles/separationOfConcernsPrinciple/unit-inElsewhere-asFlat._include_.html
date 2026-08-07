@@ -5,42 +5,54 @@
 <div>
 <box type="definition" seamless>
 <div><p><strong>Separation of concerns principle (SoC)</strong>: To achieve better modularity, separate the code into distinct sections, such that each section addresses a separate <em>concern</em>. -- Proposed by <a href="https://en.wikipedia.org/wiki/Edsger_W._Dijkstra">Edsger W. Dijkstra</a></p></div></box>
-<p>A <em>concern</em> in this context is a set of information that affects the code of a computer program.</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Examples for <em>concerns</em>:</p>
+<p>A <span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">concern</span></span> in this context is a set of information that affects the code of a computer program.</p>
+<cv-toggle xtoggle-id="examples">
+<div class="indented-level1 example">
+<box type="info" theme="light" seamless no-icon>
+<p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> Some concerns in a payroll application:</p>
 <ul>
 <li>A specific feature, such as the code related to the <code class="hljs inline no-lang" v-pre>add employee</code> feature</li>
 <li>A specific aspect, such as the code related to <code class="hljs inline no-lang" v-pre>persistence</code> or <code class="hljs inline no-lang" v-pre>security</code></li>
-<li>A specific entity, such as the code related to the <code class="hljs inline no-lang" v-pre>Employee</code> entity</li></ul></box>
-<p><strong>Applying <tooltip><template #content>Separation of Concerns</template>SoC</tooltip> reduces functional overlaps among code sections and also limits the ripple effect when changes are introduced to a specific part of the system.</strong></p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> If the code related to <em>persistence</em> is separated from the code related to <em>security</em>, a change to how the data are persisted will not need changes to how the security is implemented.</p></box>
-<p><strong>This principle can be applied at the class level, as well as at higher levels.</strong></p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <trigger trigger="click" for="modal:soc-nTier">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with the other layers.</p></box>
-<modal id="modal:soc-nTier" class="algolia-no-index"><template #header>Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span></template>
+<li>A specific entity, such as the code related to the <code class="hljs inline no-lang" v-pre>Employee</code> entity</li></ul></box></div></cv-toggle>
+<p><strong>Applying <span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><popover><template #content>Separation of Concerns</template><span class="large">SoC</span></popover></span> reduces functional overlaps among code sections and also limits the ripple effect when changes are introduced to a specific part of the system.</strong><br>
+<span class="badge bg-light text-secondary"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example </span> <span class="dimmed">If the code related to <em>persistence</em> is separated from the code related to <em>security</em>, a change to how the data are persisted will not need changes to how the security is implemented.</span></p>
+<p><strong>This principle can be applied at the class level, as well as at higher levels.</strong><br>
+<span class="badge bg-light text-secondary"><span><span aria-hidden="true" class="fas fa-cube"></span></span> Example </span> <span class="dimmed">The <trigger trigger="click" for="modal:soc-layered">n-tier architecture</trigger> utilizes this principle. Each layer in the architecture has a well-defined functionality that has no functional overlap with the other layers.</span></p>
+<modal id="modal:soc-layered" class="algolia-no-index"><template #header>Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span></template>
   <div><div class="indented">
 <div>
-<p><strong>In the <em>n-tier</em> style, higher layers make use of services provided by lower layers.</strong> Lower layers are independent of higher layers. Other names: <em>multi-layered</em>, <em>layered</em>.</p>
-<pic eager src="/website/book/architecture/architecturalStyles/nTier/what/images/nTier.png" height="150"></pic>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Operating systems and network communication software often use n-tier style.<br>
-<pic eager src="/website/book/architecture/architecturalStyles/nTier/what/images/nTierExamples.png" height="150"></pic></p></box>
+<box type="info" seamless no-icon>
+<p><span class="dimmed">Aspect:</span> <strong>This style focuses on how the code inside a program is organized.</strong></p></box>
+<p><strong>In the <span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">layered</span></span> style, the software is divided into layers whose dependencies all point one way — downward.</strong> Higher layers use services provided by lower ones; lower layers know nothing about the layers above.</p>
+<pic eager src="/website/book/architecture/architecturalStyles/layered/what/images/layered.svg" width="450"></pic>
+<p><strong>Layered designs differ in how strictly they enforce the separation.</strong> In <em>strict</em> (or <em>closed</em>) layering, a layer may use only the layer immediately below it. In the more common <em>relaxed</em> form, a layer may use any lower layer, skipping intermediate ones. <strong>What both share, and what actually matters, is that dependencies never point back up.</strong> Because a lower layer depends on nothing above it, you can understand, test, and replace it on its own. The moment <code class="hljs inline no-lang" v-pre>Storage</code> calls back into <code class="hljs inline no-lang" v-pre>Ui</code> to show an error dialog, that property is lost and the two must be understood together.</p>
+<cv-toggle xtoggle-id="examples">
+<div class="indented-level1 example">
+<box type="info" theme="light" seamless no-icon>
+<p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> The invoice manager follows relaxed layering, as <code class="hljs inline no-lang" v-pre>Logic</code> depends on <code class="hljs inline no-lang" v-pre>Storage</code> as well as <code class="hljs inline no-lang" v-pre>Model</code>. Operating systems and network communication software are the classic examples of layering.</p>
+<p><pic src="/website/book/architecture/introduction/what/images/architecture.png"></pic><pic eager src="/website/book/architecture/architecturalStyles/layered/what/images/layeredExamples.svg" width="230"></pic></p></box></div></cv-toggle>
+<p><strong>Layers are not tiers.</strong> A <em>layer</em> is a logical division inside the software; a <em>tier</em> is a part that is deployed separately. The two are often confused, partly because the term <em>n-tier</em> is frequently used to mean <em>layered</em>.</p>
+<cv-toggle xtoggle-id="examples">
+<div class="indented-level1 example">
+<box type="info" theme="light" seamless no-icon>
+<p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> A desktop invoice manager has several layers but runs as a single tier — one program, one computer. <strong>Layering does not require distribution and does not imply it.</strong> Another style can split the program across a network, gaining a second tier while keeping much the same layering.</p></box></div></cv-toggle>
 <p></p></div>
 <div></div></div></div></modal>
 <p><strong>This principle should lead to higher <trigger trigger="click" for="soc-cohesion">cohesion</trigger> and lower <trigger trigger="click" for="soc-coupling">coupling</trigger>.</strong></p>
 <modal id="soc-coupling" class="algolia-no-index"><template #header>Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span></template>
   <div><div class="indented">
 <div>
-<p><strong><em>Coupling</em> is a measure of the degree of <em>dependence</em></strong> between components, classes, methods, etc. Low coupling indicates that a component is less dependent on other components. <strong>High coupling (aka <em>tight</em> coupling or <em>strong</em> coupling) is discouraged</strong> due to the following disadvantages:</p>
+<p><strong><span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">Coupling</span></span> is a measure of the degree of <em>dependence</em></strong> between components, classes, methods, etc. Low coupling indicates that a component is less dependent on other components. <strong>High coupling (aka <em>tight</em> coupling or <em>strong</em> coupling) is discouraged</strong> due to the following disadvantages:</p>
 <ul>
 <li><strong>Maintenance is harder</strong> because a change in one module could cause changes in other modules coupled to it (i.e., a ripple effect).</li>
 <li><strong>Integration is harder</strong> because multiple components coupled with each other have to be integrated at the same time.</li>
-<li><strong>Testing and reuse of the module is harder</strong> due to its dependence on other modules.</li></ul>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the example below, design <code class="hljs inline no-lang" v-pre>A</code> appears to have more coupling between the components than design <code class="hljs inline no-lang" v-pre>B</code>.</p>
+<li><strong>Testing and reuse of the module are harder</strong> due to its dependence on other modules.</li></ul>
+<cv-toggle xtoggle-id="examples">
+<div class="indented-level1 example">
+<box type="info" theme="light" seamless no-icon>
+<p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> Design <code class="hljs inline no-lang" v-pre>A</code> appears to have more coupling between the components than design <code class="hljs inline no-lang" v-pre>B</code>.</p>
 <pic eager src="/website/book/designFundamentals/coupling/what/images/playerPuzzleManager.png" height="220"></pic>
-<p></p></box></div>
+<p></p></box></div></cv-toggle></div>
 <div>
 <div><br>
 <h5 id="exercises"><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span></span> Exercises:<a class="fa fa-anchor" href="#exercises" onclick="event.stopPropagation()"></a></h5>
@@ -73,7 +85,7 @@
 <modal id="soc-cohesion" class="algolia-no-index"><template #header>Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span></template>
   <div><div class="indented">
 <div>
-<p><strong><em>Cohesion</em> is a measure of how strongly related and focused the various responsibilities of a component are.</strong> A highly cohesive component keeps related functionalities together while keeping out all other unrelated things.</p>
+<p><strong><span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">Cohesion</span></span> is a measure of how strongly related and focused the various responsibilities of a component are.</strong> A highly cohesive component keeps related functionalities together while keeping out all other unrelated things.</p>
 <p><strong>Higher cohesion is better.</strong> Disadvantages of low cohesion (aka <em>weak</em> cohesion):</p>
 <ul>
 <li>Lowers the understandability of modules as it is difficult to express module functionalities at a higher level.</li>

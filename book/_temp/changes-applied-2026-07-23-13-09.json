@@ -1,0 +1,189 @@
+{
+  "title": "Editorial fixes applied from issues-noted.md",
+  "subtitle": "book — 26 changes across the superproject",
+  "changes": [
+    {
+      "label": "Missing article before named object",
+      "note": "oop/objects/what/text.md",
+      "before": "You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, `You` object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.",
+      "after": "You are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, `the You` object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write."
+    },
+    {
+      "label": "Missing article before class name",
+      "note": "oop/inheritance/what/text.md",
+      "before": "{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from `Person` class.",
+      "after": "{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from `the Person` class."
+    },
+    {
+      "label": "Incorrect verb form in user story",
+      "note": "specifyingRequirements/userStories/details/text.md",
+      "before": "As a user, I can login to the system ~~so that I can access my data~~",
+      "after": "As a user, I can log in to the system ~~so that I can access my data~~"
+    },
+    {
+      "label": "Missing hyphen in compound modifier",
+      "note": "specifyingRequirements/userStories/usage/text.md",
+      "before": "**User stories differ from <popover content=\"e.g. a description of the requirements written in prose\">traditional requirements specifications</popover> mainly in the level of detail.** User stories should only provide enough details to make a reasonably low risk estimate of how long the user story will take to implement. When the time comes to implement the user story, the developers will meet with the customer face-to-face to work out a more detailed description of the requirements. %%[<trigger for=\"modal:xp-user-stories\" trigger=\"click\">more...</trigger>]%%\n>One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably low risk estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face.",
+      "after": "**User stories differ from <popover content=\"e.g. a description of the requirements written in prose\">traditional requirements specifications</popover> mainly in the level of detail.** User stories should only provide enough details to make a reasonably low-risk estimate of how long the user story will take to implement. When the time comes to implement the user story, the developers will meet with the customer face-to-face to work out a more detailed description of the requirements. %%[<trigger for=\"modal:xp-user-stories\" trigger=\"click\">more...</trigger>]%%\n>One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably low-risk estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face."
+    },
+    {
+      "label": "Singular verb with a compound subject",
+      "note": "designFundamentals/coupling/what/text.md",
+      "before": "* **Testing and reuse of the module is harder** due to its dependence on other modules.",
+      "after": "* **Testing and reuse of the module are harder** due to its dependence on other modules."
+    },
+    {
+      "label": "Repeated use of “used”",
+      "note": "common/definitions.md",
+      "before": "[**Unified Modeling Language (UML)**](http://www.uml.org/#UML2.0) is a graphical notation to describe various aspects of a software system. UML is the brainchild of three software modeling specialists James Rumbaugh, Grady Booch and Ivar Jacobson (also known as the Three Amigos). Each of them had developed their own notation for modeling software systems before joining forces to create a unified modeling language (hence, the term ‘Unified’ in UML). UML is currently the most commonly used modeling notation used in the software industry.",
+      "after": "[**Unified Modeling Language (UML)**](http://www.uml.org/#UML2.0) is a graphical notation to describe various aspects of a software system. UML is the brainchild of three software modeling specialists James Rumbaugh, Grady Booch and Ivar Jacobson (also known as the Three Amigos). Each of them had developed their own notation for modeling software systems before joining forces to create a unified modeling language (hence, the term ‘Unified’ in UML). UML is currently the most commonly used modeling notation in the software industry."
+    },
+    {
+      "label": "Incorrect preposition after “comprising”",
+      "note": "uml/classDiagrams/associationsAsAttributes/what/text.md",
+      "before": "{{ icon_example }} The diagram below depicts a multi-player _Square Game_ being played on a board comprising of 100 squares. Each of the squares may be occupied with any number of pieces, each belonging to a certain player.",
+      "after": "{{ icon_example }} The diagram below depicts a multi-player _Square Game_ being played on a board comprising 100 squares. Each of the squares may be occupied with any number of pieces, each belonging to a certain player."
+    },
+    {
+      "label": "Singular association-role label with plural verb",
+      "note": "uml/classDiagrams/associations/roles/text.md",
+      "before": "**_Association Role_ are used to indicate the role played by the classes in the association.**",
+      "after": "**_Association Role_s are used to indicate the role played by the classes in the association.**"
+    },
+    {
+      "label": "Incorrect idiom for a moment in time",
+      "note": "uml/objectDiagrams/introduction/text.md",
+      "before": "**An object diagram shows an object structure at a given point of time.** While a class diagram defines the static structure of a system in terms of classes and their relationships, an object diagram shows a concrete snapshot of that class structure at a particular moment by depicting specific instances and how they are linked. In essence, **object diagrams are instantiations of class diagrams**, depicting runtime states of a class structure.",
+      "after": "**An object diagram shows an object structure at a given point in time.** While a class diagram defines the static structure of a system in terms of classes and their relationships, an object diagram shows a concrete snapshot of that class structure at a particular moment by depicting specific instances and how they are linked. In essence, **object diagrams are instantiations of class diagrams**, depicting runtime states of a class structure."
+    },
+    {
+      "label": "Missing article before “ref frame”",
+      "note": "uml/sequenceDiagrams/referenceFrames/text.md",
+      "before": "**UML uses _ref frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.",
+      "after": "**UML uses _a ref frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing."
+    },
+    {
+      "label": "Missing articles in API reference",
+      "note": "modeling/modelingASolution/intermediate/text.md",
+      "before": "And it adds the following operation to Logic API:",
+      "after": "And it adds the following operation to the Logic API:"
+    },
+    {
+      "label": "Incorrect “other than” construction",
+      "note": "codeQuality/avoidShortcuts/basic/dontRecycleVarsOrParams/text.md",
+      "before": "* **Use one variable for one purpose.** Do not reuse a variable for a different purpose other than its intended one, just because the data type is the same.",
+      "after": "* **Use one variable for one purpose.** Do not reuse a variable for a purpose other than its intended one, just because the data type is the same."
+    },
+    {
+      "label": "Four-dot ellipsis",
+      "note": "testCaseDesign/introduction/what/text.md",
+      "before": "* Add an item when there are 2, 3, .... n items in the collection.",
+      "after": "* Add an item when there are 2, 3, ..., n items in the collection."
+    },
+    {
+      "label": "Faulty parallelism in class responsibilities",
+      "note": "principles/singleResponsibilityPrinciple/text.md",
+      "before": "{{ icon_example }} Consider a `TextUi` class that does parsing of the user commands as well as interacting with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP.",
+      "after": "{{ icon_example }} Consider a `TextUi` class that parses user commands as well as interacts with the user. That class needs to change when the formatting of the UI changes as well as when the syntax of the user command changes. Hence, such a class does not follow the SRP."
+    },
+    {
+      "label": "Unnecessary “as” after “considered”",
+      "note": "cppToJava/gettingStarted/helloWorld/text.md",
+      "before": "* There is no need to `return 0` at the end of the main method to indicate the execution was successful. It is considered as a successful execution unless an error is signalled specifically.",
+      "after": "* There is no need to `return 0` at the end of the main method to indicate the execution was successful. It is considered a successful execution unless an error is signalled specifically."
+    },
+    {
+      "label": "Singular verb needed after “example”",
+      "note": "cppToJava/objects/usingObjects/text.md",
+      "before": "{{ icon_example }} This example imports the `java.awt.Point` class (i.e., the `Point` class in the `java.awt` package) -- which can be used to represent <trigger for=\"pop:usingObjects-coordinates\">the coordinates of a location in a Cartesian plane</trigger>  -- and use it in the `main` method.",
+      "after": "{{ icon_example }} This example imports the `java.awt.Point` class (i.e., the `Point` class in the `java.awt` package) -- which can be used to represent <trigger for=\"pop:usingObjects-coordinates\">the coordinates of a location in a Cartesian plane</trigger>  -- and uses it in the `main` method."
+    },
+    {
+      "label": "Incorrect capitalization of a preposition",
+      "note": "cppToJava/exceptions/what/text.md",
+      "before": "**There are three basic categories of exceptions In Java:**",
+      "after": "**There are three basic categories of exceptions in Java:**"
+    },
+    {
+      "label": "Missing article before “fail() line”",
+      "note": "cppToJava/junit/basic/text.md",
+      "before": "* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach `fail()` line and will fail as a result.",
+      "after": "* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach `the fail()` line and will fail as a result."
+    },
+    {
+      "label": "Move articles outside code and italic spans",
+      "note": "cppToJava/junit/basic/text.md, oop/inheritance/what/text.md, oop/objects/what/text.md, uml/sequenceDiagrams/referenceFrames/text.md",
+      "before": "* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach `the fail()` line and will fail as a result.\n{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from `the Person` class.\nYou are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, `the You` object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.\n**UML uses _a ref frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing.",
+      "after": "* There are [several ways to verify the code throws the correct exception](https://howtodoinjava.com/junit5/expected-exception-example/). The second test method in the example above shows one of the simpler methods. If the exception is thrown, it will be caught and further verified inside the `catch` block. But if it is not thrown as expected, the test will reach the `fail()` line and will fail as a result.\n{{ icon_example }} `Man` and `Woman` behave the same way for certain things. However, the two classes cannot be simply replaced with a more general class `Person` because of the need to distinguish between `Man` and `Woman` for certain other things. A solution is to add the `Person` class as a superclass (to contain the code common to men and women) and let `Man` and `Woman` inherit from the `Person` class.\nYou are asked to find out the average age of a group of people Adam, Beth, Charlie, and Daisy. You take a piece of paper and pen, go to each person, ask for their age, and note it down. After collecting the age of all four, you enter it into a calculator to find the total. And then, use the same calculator to divide the total by four, to get the average age. This can be viewed as the objects `You`, `Pen`, `Paper`, `Calculator`, `Adam`, `Beth`, `Charlie`, and `Daisy` interacting to accomplish the end result of calculating the average age of the four persons. These objects can be considered as _connected_ in a certain _network_ of certain structure that dictates how these objects can interact. For example, the `You` object is connected to the `Pen` object, and hence `You` can use the `Pen` object to write.\n**UML uses a _ref frame_ to allow a segment of the interaction to be omitted and shown as a separate sequence diagram.** Reference frames help you to break complicated sequence diagrams into multiple parts or simply to omit details you are not interested in showing."
+    },
+    {
+      "label": "Restore verbatim wording in quoted XP passage",
+      "note": "specifyingRequirements/userStories/usage/text.md",
+      "before": ">One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably low-risk estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face.",
+      "after": ">One of the biggest misunderstandings with user stories is how they differ from traditional requirements specifications. The biggest difference is in the level of detail. User stories should only provide enough detail to make a reasonably low risk estimate of how long the story will take to implement. When the time comes to implement the story developers will go to the customer and receive a detailed description of the requirements face to face."
+    },
+    {
+      "label": "Missing preposition before 'the inputs'",
+      "note": "oop/classes/what/text.md",
+      "before": " 2. **provide it the inputs to produce the outcome you want.**",
+      "after": " 2. **provide it with the inputs to produce the outcome you want.**"
+    },
+    {
+      "label": "Unidiomatic possessive reference phrasing",
+      "note": "oop/associations/navigability/text.md",
+      "before": "* **Unidirectional**: If the navigability is from `Box` to `Rope`, `b` will have a reference to `r` but `r` will not have a reference to `b`. That is, one can _navigate_ from `b` to `r` using the `b`'s object reference of `r` (but not in the other direction).<br>",
+      "after": "* **Unidirectional**: If the navigability is from `Box` to `Rope`, `b` will have a reference to `r` but `r` will not have a reference to `b`. That is, one can _navigate_ from `b` to `r` using `b`'s reference to `r` (but not in the other direction).<br>"
+    },
+    {
+      "label": "Run-on sentence in use case guidance",
+      "note": "specifyingRequirements/useCases/details/useCaseSteps.md",
+      "before": "**A use case describes only the externally visible behavior, not internal details, of a system** i.e., should minimize details that are not part of the interaction between the user and the system.",
+      "after": "**A use case describes only the externally visible behavior, not the internal details, of a system.** Therefore, it should minimize details that are not part of the interaction between the user and the system."
+    },
+    {
+      "label": "Unclear wording in assertion example",
+      "note": "errorHandling/assertions/what/text.md",
+      "before": "{{ icon_example }} An assertion can be used to express something like _when the execution comes to this point, the variable `v` cannot be null_.",
+      "after": "{{ icon_example }} An assertion can be used to express something like: _when execution reaches this point, the variable `v` cannot be null_."
+    },
+    {
+      "label": "Sentence fragment after 'More generally'",
+      "note": "integration/approaches/bigBangVsIncremental/text.md",
+      "before": "**_Big-bang integration_: integrate all (or too many) components at the same time.** More generally, integrating too many changes at the same time.",
+      "after": "**_Big-bang integration_: integrate all (or too many) components at the same time.** More generally, it means integrating too many changes at the same time."
+    },
+    {
+      "label": "Missing noun modifier before 'code'",
+      "note": "cppToJava/inheritance/polymorphism/text.md",
+      "before": "{{ icon_example }} The following code `PetShelter` keeps a list of `Cat` objects and makes them `speak`. The code will not work with any other type, for example, `Dog` objects.",
+      "after": "{{ icon_example }} The following `PetShelter` code keeps a list of `Cat` objects and makes them `speak`. The code will not work with any other type, for example, `Dog` objects."
+    }
+  ],
+  "notes_title": "Decisions and caveats to review",
+  "notes": [
+    {
+      "heading": "Four auto-applied fixes landed inside markup — corrected by hand",
+      "body": "The matcher inserted an article INSIDE a code span or italic span: `the fail()`, `the Person`, `the You`, and _a ref frame_. These were corrected so the article sits outside the markup: the `fail()` line, the `Person` class, the `You` object, a _ref frame_. The rendered result now matches what each issue intended."
+    },
+    {
+      "heading": "REVERTED — needs your decision: hyphen inside a quoted passage",
+      "body": "The 'low risk' -> 'low-risk' fix was recorded for two places. The second (specifyingRequirements/userStories/usage/text.md) sits inside a blockquote quoted verbatim from extremeprogramming.org, introduced by a link to that page. Editing it would silently alter a cited source, so it was reverted. The first occurrence (userStories/details/text.md), which is the book's own prose, was kept. Re-apply the quoted one if you want the hyphen there anyway."
+    },
+    {
+      "heading": "Big-bang integration — narrowed to preserve parallelism",
+      "body": "The recorded fix rewrote the entry to 'Big-bang integration means integrating all ... components'. That would break parallelism with the sibling entry four lines below, which uses the same '**_Term_: gloss**' pattern (_Incremental integration_: integrate a few components at a time.). Only the trailing sentence fragment was fixed — 'More generally, it means integrating too many changes at the same time.' — keeping the definitional pattern intact."
+    },
+    {
+      "heading": "Assertion example — italics kept instead of curly quotes",
+      "body": "The recorded fix wrapped the assertion in curly double quotes. The source already marks it with italics, so the italics were kept and only the colon and the wording were changed, to avoid swapping one markup convention for another."
+    },
+    {
+      "heading": "Build parity confirmed against the base commit",
+      "body": "markbind build passes. It reports 9 markdown-it-attrs errors and 10 intra-link warnings, but a build of the base commit (bf7fdaf19) in a scratch worktree produces exactly the same 9 errors and 10 warnings — they are pre-existing and unrelated to these edits."
+    },
+    {
+      "heading": "No submodules involved",
+      "body": "The scan found no git submodules, so there is no submodule push to coordinate."
+    }
+  ]
+}

@@ -1,0 +1,1492 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How Peer Software Engineering Courses Run Projects</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --muted: #5b6873;
+      --paper: #ffffff;
+      --page: #f2f5f7;
+      --line: #d9e0e5;
+      --navy: #16324f;
+      --blue: #176b87;
+      --cyan: #e8f5f8;
+      --green: #236b49;
+      --green-bg: #e9f6ef;
+      --amber: #8a5b08;
+      --amber-bg: #fff5dc;
+      --red: #9a3f38;
+      --red-bg: #fcecea;
+      --gray-bg: #eef1f3;
+      --shadow: 0 12px 30px rgba(22, 50, 79, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family:
+        Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      line-height: 1.58;
+    }
+
+    a {
+      color: #075e82;
+      text-underline-offset: 0.16em;
+    }
+
+    a:hover {
+      color: #003e59;
+    }
+
+    .page {
+      width: min(1180px, calc(100% - 32px));
+      margin: 28px auto 72px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(32px, 6vw, 70px);
+      border-radius: 24px;
+      background:
+        radial-gradient(circle at 88% 16%, rgba(75, 197, 222, 0.25), transparent 24%),
+        linear-gradient(132deg, #12283d 0%, #174b62 65%, #176b87 100%);
+      color: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: #aee9f2;
+      font-size: 0.78rem;
+      font-weight: 750;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 850px;
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 4.2rem);
+      line-height: 1.03;
+      letter-spacing: -0.045em;
+    }
+
+    .subtitle {
+      max-width: 780px;
+      margin: 24px 0 0;
+      color: #e5f5f8;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 28px;
+    }
+
+    .meta span {
+      padding: 7px 11px;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #f5fdff;
+      font-size: 0.82rem;
+    }
+
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 18px 0;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+
+    .toc a {
+      padding: 7px 11px;
+      border-radius: 9px;
+      background: var(--gray-bg);
+      color: var(--navy);
+      font-size: 0.86rem;
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    main > section {
+      margin-top: 18px;
+      padding: clamp(22px, 4vw, 40px);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      color: var(--navy);
+      font-size: clamp(1.45rem, 3vw, 2.1rem);
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+    }
+
+    h3 {
+      margin: 0 0 12px;
+      color: var(--navy);
+      font-size: 1.15rem;
+      line-height: 1.3;
+    }
+
+    p {
+      margin: 0.75rem 0;
+    }
+
+    ul {
+      margin: 0.75rem 0;
+      padding-left: 1.25rem;
+    }
+
+    li + li {
+      margin-top: 0.45rem;
+    }
+
+    strong {
+      color: #102f47;
+    }
+
+    .lede {
+      max-width: 900px;
+      color: #35434f;
+      font-size: 1.04rem;
+    }
+
+    .takeaways,
+    .pattern-grid,
+    .course-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .takeaways {
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      margin-top: 24px;
+    }
+
+    .takeaway {
+      padding: 18px;
+      border-left: 4px solid var(--blue);
+      border-radius: 12px;
+      background: var(--cyan);
+    }
+
+    .takeaway p {
+      margin: 0;
+    }
+
+    .callout {
+      margin: 20px 0 0;
+      padding: 16px 18px;
+      border: 1px solid #edd7a5;
+      border-radius: 12px;
+      background: var(--amber-bg);
+      color: #593c08;
+    }
+
+    .table-wrap {
+      margin-top: 18px;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      font-size: 0.86rem;
+    }
+
+    th,
+    td {
+      min-width: 128px;
+      padding: 13px 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: var(--navy);
+      color: #fff;
+      font-size: 0.77rem;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
+    }
+
+    th:first-child,
+    td:first-child {
+      min-width: 175px;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f8fafb;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .badge {
+      display: inline-block;
+      margin: 1px 3px 4px 0;
+      padding: 3px 7px;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 750;
+      line-height: 1.3;
+      white-space: nowrap;
+    }
+
+    .green {
+      background: var(--green-bg);
+      color: var(--green);
+    }
+
+    .amber {
+      background: var(--amber-bg);
+      color: var(--amber);
+    }
+
+    .red {
+      background: var(--red-bg);
+      color: var(--red);
+    }
+
+    .gray {
+      background: var(--gray-bg);
+      color: #53606a;
+    }
+
+    .blue {
+      background: var(--cyan);
+      color: var(--blue);
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    .pattern-grid {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      margin-top: 18px;
+    }
+
+    .pattern {
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fbfcfd;
+    }
+
+    .pattern .number {
+      display: inline-grid;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 12px;
+      place-items: center;
+      border-radius: 9px;
+      background: var(--navy);
+      color: white;
+      font-weight: 800;
+    }
+
+    .course-grid {
+      grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+      margin-top: 18px;
+    }
+
+    .course {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      background: #fff;
+    }
+
+    .course .school {
+      margin: 0 0 6px;
+      color: var(--blue);
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .course dl {
+      display: grid;
+      grid-template-columns: 108px 1fr;
+      gap: 8px 12px;
+      margin: 16px 0;
+      font-size: 0.89rem;
+    }
+
+    .course dt {
+      color: var(--muted);
+      font-weight: 720;
+    }
+
+    .course dd {
+      margin: 0;
+    }
+
+    .course .interesting {
+      margin-top: 16px;
+      padding: 13px 14px;
+      border-radius: 10px;
+      background: var(--cyan);
+      color: #17465a;
+      font-size: 0.9rem;
+    }
+
+    .course .sources {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+
+    .evidence-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .evidence-list > div {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fbfcfd;
+    }
+
+    .evidence-list p {
+      margin: 0.4rem 0 0;
+      font-size: 0.9rem;
+    }
+
+    .recommendations {
+      counter-reset: recommendation;
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .recommendations li {
+      counter-increment: recommendation;
+      position: relative;
+      min-height: 52px;
+      margin: 0;
+      padding: 14px 16px 14px 58px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fbfcfd;
+    }
+
+    .recommendations li::before {
+      content: counter(recommendation);
+      position: absolute;
+      top: 12px;
+      left: 14px;
+      display: grid;
+      width: 30px;
+      height: 30px;
+      place-items: center;
+      border-radius: 9px;
+      background: var(--navy);
+      color: #fff;
+      font-weight: 800;
+    }
+
+    footer {
+      padding: 26px 8px 0;
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      .page {
+        width: min(100% - 18px, 1180px);
+        margin-top: 9px;
+      }
+
+      .hero,
+      main > section {
+        border-radius: 15px;
+      }
+
+      .course-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .course dl {
+        grid-template-columns: 1fr;
+        gap: 2px;
+      }
+
+      .course dd + dt {
+        margin-top: 8px;
+      }
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        font-size: 10.5pt;
+      }
+
+      .page {
+        width: 100%;
+        margin: 0;
+      }
+
+      .hero,
+      main > section {
+        box-shadow: none;
+      }
+
+      .toc {
+        display: none;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .course,
+      .pattern,
+      .takeaway {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <p class="eyebrow">Comparative course-design report</p>
+      <h1>How peer software engineering courses run projects</h1>
+      <p class="subtitle">
+        A comparison of greenfield and brownfield work, individual and team
+        structures, technology choices, application types, peer evaluation,
+        contribution-aware grading, and AI coding policies.
+      </p>
+      <div class="meta">
+        <span>10 undergraduate courses</span>
+        <span>2025–2026 evidence</span>
+        <span>Prepared 23 July 2026</span>
+        <span>Source: <code>_temp/peer-courses.md</code> and its official links</span>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Report sections">
+      <a href="#executive-summary">Executive summary</a>
+      <a href="#comparison">Comparison matrix</a>
+      <a href="#grading">Contribution grading</a>
+      <a href="#ai">AI coding</a>
+      <a href="#profiles">Course profiles</a>
+      <a href="#implications">Design implications</a>
+      <a href="#method">Method and caveats</a>
+    </nav>
+
+    <main>
+      <section id="executive-summary">
+        <h2>Executive summary</h2>
+        <p class="lede">
+          <strong>The dominant design is a staged greenfield team project, preceded
+          by smaller individual or paired work.</strong> The strongest examples do
+          not give students a completely blank canvas: they constrain the domain,
+          provide starter infrastructure, release requirements in stages, or require
+          an end-to-end baseline before extensions. This preserves design freedom
+          while keeping novice teams within a tractable problem.
+        </p>
+
+        <div class="takeaways">
+          <article class="takeaway">
+            <p>
+              <strong>Greenfield work dominates substantial team projects.</strong>
+              Brown, MIT, UNSW, Edinburgh, and UT Austin all ask teams to construct
+              a new system, although most provide scaffolding or an evolving
+              specification.
+            </p>
+          </article>
+          <article class="takeaway">
+            <p>
+              <strong>Brownfield learning usually appears in focused exercises.</strong>
+              Imperial makes students compare, test, and refactor increasingly large
+              existing systems; Berkeley explicitly includes adding functionality
+              to a legacy codebase. Neither exposes a public, term-long brownfield
+              team-project brief.
+            </p>
+          </article>
+          <article class="takeaway">
+            <p>
+              <strong>Web and client–server systems are the most common application
+              form.</strong> Brown, MIT, UNSW, UT Austin, and Berkeley use browser,
+              HTTP, API, SaaS, or cloud contexts. Desktop applications are not the
+              dominant public project form.
+            </p>
+          </article>
+          <article class="takeaway">
+            <p>
+              <strong>Only a few courses publish a concrete method for differentiating
+              team members’ grades.</strong> UT Austin and Georgia Tech are the
+              clearest; UNSW gathers rich contribution evidence but keeps its exact
+              adjustment formula private.
+            </p>
+          </article>
+          <article class="takeaway">
+            <p>
+              <strong>Peer evaluation serves three different purposes.</strong> It can
+              teach reviewing, alert staff to teamwork problems, or directly affect
+              an individual grade. Treating these as one mechanism obscures important
+              design choices.
+            </p>
+          </article>
+          <article class="takeaway">
+            <p>
+              <strong>AI policy is fragmented, not convergent.</strong> Brown integrates
+              AI into the curriculum under an agreement; MIT and UNSW prohibit
+              generated project code; Georgia Tech permits ideation and explanation
+              but prohibits generated submissions and IDE code generation.
+            </p>
+          </article>
+        </div>
+
+        <div class="callout">
+          <strong>The most interesting overall tension is between authenticity and
+          attribution.</strong> Larger, realistic teams make coordination more
+          authentic, but they also make individual grading harder. The courses with
+          the clearest accountability combine several signals—peer reports, Git
+          activity, demonstrations, mentor check-ins, reflection, and direct
+          questioning—rather than equating contribution with commit count.
+        </div>
+      </section>
+
+      <section id="comparison">
+        <h2>Comparison matrix</h2>
+        <p>
+          <strong>“Greenfield” below means constructing a new system, even when staff
+          provide starter code, data, or a framework.</strong> “Brownfield” means
+          understanding and changing a substantial existing codebase. “Not public”
+          means the available evidence does not justify a confident classification.
+        </p>
+
+        <div class="legend" aria-label="Evidence legend">
+          <span><span class="badge green">Public detail</span> direct public evidence</span>
+          <span><span class="badge amber">Partial</span> broad design known; mechanics hidden</span>
+          <span><span class="badge gray">Not public</span> no reliable public detail</span>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Greenfield / brownfield</th>
+                <th>Individual / team</th>
+                <th>Application and stack</th>
+                <th>Project grading</th>
+                <th>Individual attribution</th>
+                <th>AI coding</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Brown CSCI 0320</strong></td>
+                <td>
+                  <span class="badge green">Greenfield</span><br>
+                  Nine bounded sprints lead to a student-proposed, requirements-driven
+                  term project.
+                </td>
+                <td>
+                  Preparatory sprint ownership is not explicit in the public site;
+                  the final project is a group project.
+                </td>
+                <td>
+                  TypeScript, React, API servers/proxies, Firebase/cloud, testing;
+                  mainly web and client–server.
+                </td>
+                <td>
+                  <span class="badge gray">Weights not public</span><br>
+                  Weekly demos plus a public final demonstration.
+                </td>
+                <td>
+                  <span class="badge gray">Method not public</span>
+                </td>
+                <td>
+                  <span class="badge blue">Integrated and governed</span><br>
+                  AI-use agreement, gear-up, and responsible/productive AI content;
+                  exact coding permissions are not public.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>MIT 6.102</strong></td>
+                <td>
+                  <span class="badge green">Greenfield with scaffold</span><br>
+                  A new Star Battle client/server system using provided files,
+                  examples, and starter structure.
+                </td>
+                <td>
+                  Five individual problem sets; paired classwork; final team of three.
+                </td>
+                <td>
+                  TypeScript, Node/Express, browser canvas, Git, Mocha; networked web GUI.
+                </td>
+                <td>
+                  Problem sets 45%, code review 5%, project 10%. Within the project:
+                  design ~30%, implementation ~35%, testing ~25%, contract/reflection
+                  ~5% each.
+                </td>
+                <td>
+                  <span class="badge amber">One team grade</span><br>
+                  TA check-ins, Git log, assigned cross-cutting tasks, and individual
+                  reflection expose contribution, but all members receive one grade.
+                </td>
+                <td>
+                  <span class="badge red">Generated code prohibited</span><br>
+                  ChatGPT, Copilot, and automatic code/text generation forbidden in
+                  Spring 2025.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>UNSW COMP1531</strong></td>
+                <td>
+                  <span class="badge green">Greenfield, evolving scaffold</span><br>
+                  Teams build a new service while staff inject later starter changes
+                  through merge requests.
+                </td>
+                <td>
+                  Nine-week project in teams of five; project is 80% of the course;
+                  no final exam.
+                </td>
+                <td>
+                  JavaScript/TypeScript, Jest, HTTP APIs, persistence, CI, deployment;
+                  principally a backend/API application.
+                </td>
+                <td>
+                  Automated and manual marking by iteration, demonstrations,
+                  previews, reruns, and a final team presentation.
+                </td>
+                <td>
+                  <span class="badge amber">Evidence-based; formula private</span><br>
+                  Tutors may examine check-ins, demos, GitLab contributions, peer
+                  reviews, email, and approved Teams communication.
+                </td>
+                <td>
+                  <span class="badge red">Generated code prohibited</span><br>
+                  AI is taught and an AI chatbot is provided; an LLM may also be a
+                  product feature. Students may not use coding assistants to produce
+                  project code.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Edinburgh INFR08032</strong></td>
+                <td>
+                  <span class="badge green">Greenfield</span><br>
+                  A Java system is built from scratch from an incomplete and changing
+                  specification.
+                </td>
+                <td>
+                  Team project in groups of three or four in the 2025/26 description;
+                  individual forum/quiz engagement also contributes.
+                </td>
+                <td>
+                  Java, UML, IDE, version control, issue tracking; application domain
+                  is not public.
+                </td>
+                <td>
+                  100% coursework: requirements, design, construction/testing,
+                  documentation, professional-issues work, and peer interaction.
+                  Exact current component weights are not public.
+                </td>
+                <td>
+                  <span class="badge amber">Partly individualized</span><br>
+                  Group product plus individually visible peer/forum engagement;
+                  no public teammate-rating adjustment formula.
+                </td>
+                <td><span class="badge gray">Not stated publicly</span></td>
+              </tr>
+              <tr>
+                <td><strong>Illinois CS 427</strong></td>
+                <td><span class="badge gray">Project brief not public</span></td>
+                <td>
+                  Five individual machine problems plus a five-milestone project in
+                  teams of six to eight.
+                </td>
+                <td>
+                  Java/build systems, patterns, testing, debugging, static analysis;
+                  project application type is not public.
+                </td>
+                <td>
+                  For three credits: quizzes 15%, individual programming 25%, team
+                  project 40%, final exam 20%.
+                </td>
+                <td><span class="badge gray">No public adjustment method</span></td>
+                <td>
+                  <span class="badge gray">No explicit public GenAI rule found</span><br>
+                  The syllabus requires submitted code and text to be the student’s
+                  own, but does not name coding assistants.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>UT Austin CS 373</strong></td>
+                <td>
+                  <span class="badge green">Greenfield</span><br>
+                  A new, data-backed “IMDB for a useful topic” site grows through
+                  three phases.
+                </td>
+                <td>
+                  Team project; other skill-building assignments are present. Team
+                  size is not stated in the public project specification.
+                </td>
+                <td>
+                  React, Bootstrap, Python, Flask, SQLAlchemy, PostgreSQL/MySQL,
+                  REST/Postman, GitLab CI, cloud hosting, D3; full-stack web.
+                </td>
+                <td>
+                  Three phases worth 12% each (36% total), each with product,
+                  documentation, tests, workflow, and presentation expectations.
+                </td>
+                <td>
+                  <span class="badge green">Explicit cooperation points</span><br>
+                  Each student distributes 20 points among teammates per phase. A
+                  persistently low average triggers a one-third-letter course-grade
+                  reduction.
+                </td>
+                <td>
+                  <span class="badge gray">Current public rule not stated</span><br>
+                  Canvas is the policy source of truth.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Washington CSE 331</strong></td>
+                <td><span class="badge gray">No substantial project visible</span></td>
+                <td>
+                  Public calendar shows individual homework, labs, worksheets, and
+                  exams; no major team-project mechanism is exposed.
+                </td>
+                <td>
+                  Java-centered construction with comparisons to Rust, TypeScript,
+                  and Python; no public project application.
+                </td>
+                <td><span class="badge gray">Project grading not applicable/visible</span></td>
+                <td><span class="badge gray">No team attribution mechanism visible</span></td>
+                <td>
+                  <span class="badge amber">AI as motivation</span><br>
+                  Materials explain why precise specifications still matter when AI
+                  writes code; permission boundaries are not public.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Imperial COMP50002</strong></td>
+                <td>
+                  <span class="badge blue">Brownfield-oriented exercises</span><br>
+                  Students test, refactor, and compare designs in real, increasingly
+                  large systems rather than complete one large project.
+                </td>
+                <td>
+                  Weekly paired practical exercises; final individual computer-based
+                  examination.
+                </td>
+                <td>
+                  Interactive GUI, integration, distribution, web/REST/services;
+                  implementation language is not public.
+                </td>
+                <td>
+                  Paired exercises 20%; individual practical exam 80%.
+                </td>
+                <td>
+                  <span class="badge amber">Exam verifies individual ability</span><br>
+                  No teammate peer-rating mechanism is stated.
+                </td>
+                <td><span class="badge gray">Not stated publicly</span></td>
+              </tr>
+              <tr>
+                <td><strong>Berkeley CS 169A</strong></td>
+                <td>
+                  <span class="badge blue">Mixed outcomes</span><br>
+                  SaaS construction plus explicit work on adding functionality to a
+                  legacy codebase.
+                </td>
+                <td>
+                  Agile team organization is an outcome, but offering-level project
+                  and individual-work details are behind bCourses.
+                </td>
+                <td>
+                  SaaS, BDD/TDD, cloud deployment, security and performance; web/cloud.
+                </td>
+                <td>
+                  <span class="badge gray">Weights and project rubric not public</span>
+                </td>
+                <td><span class="badge gray">Not public</span></td>
+                <td><span class="badge gray">Not stated publicly</span></td>
+              </tr>
+              <tr>
+                <td><strong>Georgia Tech CS 2340</strong></td>
+                <td>
+                  <span class="badge amber">Likely greenfield; brief hidden</span><br>
+                  Public syllabus confirms a substantial iterative team system but
+                  not its starting code or application domain.
+                </td>
+                <td>
+                  Team project plus individual exams, quizzes, activities, and
+                  participation.
+                </td>
+                <td>
+                  Object-oriented design, Agile, version control, testing,
+                  refactoring, SonarQube; application type and language not public.
+                </td>
+                <td>
+                  Setup 8%, implementation 32%, CATME peer review 10%, exams 30%,
+                  weekly quizzes/activities 15%, surveys/participation 5%.
+                </td>
+                <td>
+                  <span class="badge green">CATME directly graded</span><br>
+                  CATME contributes 10%; CATME, reflections, and Git activity can
+                  support instructor-decided grade adjustments or team changes.
+                </td>
+                <td>
+                  <span class="badge red">Learning aid only</span><br>
+                  Brainstorming and concept clarification allowed; generated
+                  submissions and in-IDE code generation prohibited.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="grading">
+        <h2>How courses attribute grades within teams</h2>
+        <p>
+          <strong>The courses reveal four materially different accountability
+          designs.</strong> The choice is not merely whether to “have peer
+          evaluation”; it is what decision the evidence is allowed to drive.
+        </p>
+
+        <div class="pattern-grid">
+          <article class="pattern">
+            <span class="number">1</span>
+            <h3>Shared grade, strong observation</h3>
+            <p>
+              <strong>MIT gives every member the same project grade.</strong> It
+              counters free-riding through a prescribed cross-cutting division of
+              work, five graded mentor check-ins, Git-log inspection, an individual
+              reflection, and the possibility of asking for an accounting of work.
+            </p>
+            <p>
+              This model prioritizes collaboration over competitive point allocation,
+              but relies on staff capacity and does not formally reward unequal
+              contributions.
+            </p>
+          </article>
+
+          <article class="pattern">
+            <span class="number">2</span>
+            <h3>Diagnostic peer evaluation</h3>
+            <p>
+              <strong>UNSW explicitly says its teamwork evaluation never directly
+              affects marks.</strong> It is a repeated early-warning mechanism for
+              tutors. Individual marks may instead draw on observable evidence:
+              check-ins, demonstrations, GitLab activity, peer reviews, university
+              email, and approved team communication.
+            </p>
+            <p>
+              This separates honest developmental feedback from grade bargaining,
+              although the private adjustment formula reduces transparency to
+              outsiders.
+            </p>
+          </article>
+
+          <article class="pattern">
+            <span class="number">3</span>
+            <h3>Direct, quantified peer allocation</h3>
+            <p>
+              <strong>UT Austin turns contribution judgments into cooperation
+              points.</strong> Each student allocates 20 points among teammates for
+              every project phase, cannot award points to themselves, and receives
+              the sum assigned by peers.
+            </p>
+            <p>
+              A student whose average remains at or below 50% in every phase loses
+              one-third of a course letter grade. This is unusually explicit, but it
+              creates incentives for strategic point trading and requires careful
+              handling of collusion or interpersonal bias.
+            </p>
+          </article>
+
+          <article class="pattern">
+            <span class="number">4</span>
+            <h3>Peer score plus instructor judgment</h3>
+            <p>
+              <strong>Georgia Tech gives CATME evaluations a visible 10% course
+              weight.</strong> CATME results, reflections, and Git activity can also
+              support a request for a grade adjustment or team change, with the
+              instructor making the final decision.
+            </p>
+            <p>
+              This is the clearest hybrid: a routine peer-assessment grade plus an
+              evidence-based escalation path for serious imbalance.
+            </p>
+          </article>
+        </div>
+
+        <div class="evidence-list">
+          <div>
+            <h3>Peer review is not always teammate rating</h3>
+            <p>
+              MIT grades the quality of reviews students give on individual problem
+              sets. Edinburgh assesses a group’s review of another group’s code and
+              tests, and individual engagement with professional-issues posts. These
+              mechanisms teach evaluation skill; they do not directly estimate each
+              teammate’s share of the product.
+            </p>
+          </div>
+          <div>
+            <h3>Commit counts are supporting evidence</h3>
+            <p>
+              UT Austin publishes commits, issues, tests, and responsibilities on the
+              application itself. MIT and UNSW inspect repository history. Georgia
+              Tech admits Git activity as evidence. None of the stronger designs
+              treats raw commit count alone as contribution.
+            </p>
+          </div>
+          <div>
+            <h3>Individual assessment can bound team risk</h3>
+            <p>
+              Imperial places 80% on an individual practical exam. Illinois uses
+              individual programming problems, quizzes, and a final exam alongside
+              its 40% team project. These designs verify individual competence
+              without needing to perfectly decompose the team artifact.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="ai">
+        <h2>How AI coding is used or allowed</h2>
+        <p>
+          <strong>The public evidence supports four AI-policy categories, and only
+          four courses expose enough detail to place confidently.</strong> A course
+          mentioning AI in teaching does not necessarily allow AI-generated
+          coursework.
+        </p>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Policy pattern</th>
+                <th>Courses</th>
+                <th>What it means in practice</th>
+                <th>Interesting mechanic</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Integrated and governed</strong></td>
+                <td>Brown</td>
+                <td>
+                  Productive and responsible AI use is a learning goal, backed by an
+                  AI-use agreement and dedicated teaching activities.
+                </td>
+                <td>
+                  Students encounter AI as a software-engineering subject, not only
+                  as an academic-integrity exception. Exact permission boundaries
+                  remain non-public.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Learn about AI; do not generate code</strong></td>
+                <td>UNSW</td>
+                <td>
+                  Guest teaching and a course chatbot coexist with an explicit ban on
+                  ChatGPT-, Copilot-, Gemini-, or similar generated project code.
+                </td>
+                <td>
+                  The project itself can contain an LLM-backed feature. This separates
+                  <em>building with an AI service</em> from <em>using AI to author the
+                  submitted implementation</em>.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>No generated code or text</strong></td>
+                <td>MIT</td>
+                <td>
+                  ChatGPT, Copilot, advanced code completion, and generated code/text
+                  are prohibited for coursework.
+                </td>
+                <td>
+                  The restriction sits inside a detailed collaboration policy, making
+                  AI assistance analogous to receiving impermissibly specific help.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Ideation allowed; authored submission required</strong></td>
+                <td>Georgia Tech</td>
+                <td>
+                  Students may brainstorm, explore ideas, or clarify concepts, but
+                  cannot submit generated content or use tools that insert code into
+                  the workspace.
+                </td>
+                <td>
+                  The policy asks students to separate the AI conversation from the
+                  act of writing, treating AI like preparatory reading or discussion.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>AI discussed, permission unclear</strong></td>
+                <td>Washington</td>
+                <td>
+                  Course material uses AI-assisted development to motivate precise
+                  specifications, but the public pages do not expose an assignment-use
+                  rule.
+                </td>
+                <td>
+                  AI changes the rationale for a traditional topic without necessarily
+                  changing project mechanics.
+                </td>
+              </tr>
+              <tr>
+                <td><strong>Not publicly specified</strong></td>
+                <td>Edinburgh, Illinois, UT Austin, Imperial, Berkeley</td>
+                <td>
+                  The reviewed public evidence does not support a reliable claim about
+                  current coding-assistant permission.
+                </td>
+                <td>
+                  “Not stated” should not be read as “allowed”; policies may live in
+                  authenticated systems or general university rules.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="callout">
+          <strong>A useful policy should distinguish at least four activities:</strong>
+          asking for explanations, brainstorming designs, generating submitted code,
+          and integrating an AI model or API as a feature of the product. UNSW’s
+          design makes the last distinction especially visible.
+        </div>
+      </section>
+
+      <section id="profiles">
+        <h2>Course profiles and interesting mechanics</h2>
+        <p>
+          <strong>These profiles emphasize project mechanics rather than general
+          syllabus coverage.</strong>
+        </p>
+
+        <div class="course-grid">
+          <article class="course">
+            <p class="school">Brown University</p>
+            <h3>CSCI 0320 Introduction to Software Engineering</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>Nine one-week, course-defined sprints followed by a substantial group term project.</dd>
+              <dt>Starting point</dt>
+              <dd>Early sprints build progressively; the final project is proposed, requirements-gathered, designed, and implemented by students.</dd>
+              <dt>Delivery</dt>
+              <dd>Alternating recorded and synchronous sprint demos, then a public final demo.</dd>
+              <dt>Tech</dt>
+              <dd>TypeScript, React, APIs, cloud/Firebase, advanced testing, security and accessibility.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> the course front-loads nine
+              tightly bounded rehearsals, then opens the design space. Students reach
+              the greenfield project having already practiced a cadence of
+              implementation and demonstration.
+            </p>
+            <p class="sources">
+              Sources:
+              <a href="https://cs.brown.edu/courses/cs032/">Fall 2025 course site</a>,
+              <a href="https://cs.brown.edu/courses/info/csci0320/">current listing</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">Massachusetts Institute of Technology</p>
+            <h3>6.102 Software Construction</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>Five individual alpha–review–beta problem sets, then a short team-of-three project.</dd>
+              <dt>Starting point</dt>
+              <dd>A provided Star Battle domain, sample puzzles, starter files, and a detailed behavioral specification; the design and implementation are new.</dd>
+              <dt>Delivery</dt>
+              <dd>Team contract, two iterations, five mentor check-ins, final repository, individual reflection.</dd>
+              <dt>Tech</dt>
+              <dd>TypeScript, Node/Express, browser canvas, Git, Mocha, parsing and networking.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> two students independently draft
+              each component in iteration 0; the third owns iteration 1 of that
+              component. The prescribed rotation ensures every student contributes
+              across design, testing, and implementation rather than becoming only
+              “the front-end person” or “the tester.”
+            </p>
+            <p class="sources">
+              Sources:
+              <a href="https://web.mit.edu/6.102/www/sp25/general/">course structure and grading</a>,
+              <a href="https://web.mit.edu/6.102/www/sp25/project/starb/">project brief</a>,
+              <a href="https://web.mit.edu/6.102/www/sp25/general/collaboration.html">collaboration and AI policy</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">UNSW Sydney</p>
+            <h3>COMP1531 Software Engineering Fundamentals</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>A nine-week, three-iteration project in teams of five, worth 80% with no final exam.</dd>
+              <dt>Starting point</dt>
+              <dd>New service built in a course repository; later starter changes arrive as merge requests and can create deliberate merge conflicts.</dd>
+              <dt>Delivery</dt>
+              <dd>Pre-submission previews, automated and manual marks, reruns, iteration demos, teamwork evaluations, final presentation.</dd>
+              <dt>Tech</dt>
+              <dd>JavaScript/TypeScript, HTTP API, Jest, linting, CI, persistence and deployment.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> staff inject changes into a live
+              student repository between iterations. Students must merge the new
+              starter code into their own evolving solution, turning requirements
+              change and integration conflict into assessed experience.
+            </p>
+            <p class="sources">
+              Source:
+              <a href="https://cgi.cse.unsw.edu.au/~cs1531/25T1/dashboard">Term 1, 2025 announcement archive</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">University of Edinburgh</p>
+            <h3>INFR08032 Software Engineering and Professional Practice</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>Requirements, design, construction/testing, documentation, and professional-issues work across one coursework project.</dd>
+              <dt>Starting point</dt>
+              <dd>A Java system built from scratch from an incomplete specification, with interpretation and later change.</dd>
+              <dt>Delivery</dt>
+              <dd>Formative feedback on early requirements/design, team reflection, code/test review of another group, and summative final submission.</dd>
+              <dt>Tech</dt>
+              <dd>Java, UML, IDE, version control, issue tracking, testing and code review.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> requirements ambiguity and
+              requirements change are deliberate features, while legal, ethical, and
+              social concerns are connected to the same technical scenario rather
+              than taught as a separate appendix.
+            </p>
+            <p class="sources">
+              Sources:
+              <a href="https://www.drps.ed.ac.uk/25-26/dpt/cxinfr08032.htm">2025/26 catalog entry</a>,
+              <a href="https://opencourse.inf.ed.ac.uk/inf2-sepp/labs">open lab design</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">University of Illinois Urbana-Champaign</p>
+            <h3>CS 427 Software Engineering I</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>Five individual machine problems and a five-milestone team project.</dd>
+              <dt>Starting point</dt>
+              <dd>The project brief is private, so greenfield/brownfield and application type cannot be classified.</dd>
+              <dt>Delivery</dt>
+              <dd>Milestones align with requirements/design, testing, debugging, and maintenance topics over a 16-week term.</dd>
+              <dt>Tech</dt>
+              <dd>Java/build systems, patterns, testing, debugging, code smells and static analysis.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> the five individual machine
+              problems mirror the lifecycle topics used in the team project. This
+              creates individual practice evidence alongside a large six-to-eight
+              person team artifact.
+            </p>
+            <p class="sources">
+              Source:
+              <a href="https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=512">Spring 2025 syllabus</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">University of Texas at Austin</p>
+            <h3>CS 373 Software Engineering</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>Three phases, each worth 12% of the course, growing one full-stack web product.</dd>
+              <dt>Starting point</dt>
+              <dd>Teams choose a useful linked-data topic but must follow an “IMDB-like” three-model architecture.</dd>
+              <dt>Delivery</dt>
+              <dd>Static cloud site, then database-backed dynamic site, then search/filter/visualization and presentation.</dd>
+              <dt>Tech</dt>
+              <dd>React, Bootstrap, Flask, SQLAlchemy, PostgreSQL/MySQL, REST/Postman, GitLab CI, cloud, D3 and documentation.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> the public About page must expose
+              each member’s responsibilities, commits, issues, and tests. In the last
+              phase, teams visualize another team’s data and critique that product,
+              creating cross-team API consumption and review.
+            </p>
+            <p class="sources">
+              Sources:
+              <a href="https://www.cs.utexas.edu/~fares/cs373summer26/projects/IDB1.html">Summer 2026 project specification</a>,
+              <a href="https://www.cs.utexas.edu/~fares/cs373summer26/index.html">course schedule</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">University of Washington</p>
+            <h3>CSE 331 Software Design and Implementation</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>No substantial team project is visible in the Autumn 2025 public material.</dd>
+              <dt>Starting point</dt>
+              <dd>Individual topic-driven homework, labs, worksheets and exams.</dd>
+              <dt>Delivery</dt>
+              <dd>A ten-topic progression through specification, correctness, abstraction, mutation, types, generics and recursion.</dd>
+              <dt>Tech</dt>
+              <dd>Primarily Java, with comparative language-design examples.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> this is a useful negative case.
+              A beginner software-engineering course can prioritize deep construction
+              reasoning and individual verification without using a large team
+              project as its organizing device.
+            </p>
+            <p class="sources">
+              Sources:
+              <a href="https://courses.cs.washington.edu/courses/cse331/25au/topics/">Autumn 2025 topics</a>,
+              <a href="https://courses.cs.washington.edu/courses/cse331/25au/calendar/calendar.html">calendar</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">Imperial College London</p>
+            <h3>COMP50002 Software Engineering Design</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>Weekly paired exercises on progressively larger systems, not one term-long product.</dd>
+              <dt>Starting point</dt>
+              <dd>Real existing software in which students implement alternatives, test, refactor, and compare trade-offs.</dd>
+              <dt>Delivery</dt>
+              <dd>Automated feedback plus staff feedback every week; final individual computer-based practical exam.</dd>
+              <dt>Tech</dt>
+              <dd>TDD, mocks, metrics, patterns, GUI, integration, distribution, web and REST.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> practical skill is assessed in
+              its natural environment. Pair work supports learning, but an 80%
+              computer-based individual exam makes personal competence unmistakable.
+            </p>
+            <p class="sources">
+              Source:
+              <a href="https://www.imperial.ac.uk/computing/current-students/courses/50002/">current module page</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">University of California, Berkeley</p>
+            <h3>CS 169A Introduction to Software Engineering</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>Offering-level assignments are private; catalog outcomes combine SaaS development and legacy-code evolution.</dd>
+              <dt>Starting point</dt>
+              <dd>Mixed: customer-driven service construction plus adding functionality to an existing legacy codebase.</dd>
+              <dt>Delivery</dt>
+              <dd>Agile/XP, user stories, estimation, BDD/TDD, deployment, refactoring and operations.</dd>
+              <dt>Tech</dt>
+              <dd>Web/SaaS and public cloud; exact current framework is not public.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> legacy-code change is an explicit
+              learning outcome, an uncommon counterweight to the greenfield bias of
+              large student projects.
+            </p>
+            <p class="sources">
+              Source:
+              <a href="https://www2.eecs.berkeley.edu/Courses/CS169A/">current official course page</a>.
+            </p>
+          </article>
+
+          <article class="course">
+            <p class="school">Georgia Institute of Technology</p>
+            <h3>CS 2340 Objects and Design</h3>
+            <dl>
+              <dt>Project arc</dt>
+              <dd>A substantial Agile team system; setup and implementation together carry 40%.</dd>
+              <dt>Starting point</dt>
+              <dd>Project brief, codebase status, language, and application domain are private.</dd>
+              <dt>Delivery</dt>
+              <dd>Sprints, mentor check-ins, CATME, conflict escalation, testing, refactoring and quality feedback.</dd>
+              <dt>Tech</dt>
+              <dd>Object-oriented architecture, UML, GRASP/SOLID, patterns, version control and SonarQube.</dd>
+            </dl>
+            <p class="interesting">
+              <strong>Interesting mechanic:</strong> teams can request a membership
+              change before the end of Sprint 2, but must provide evidence such as
+              CATME results, reflections, or Git activity. The escalation window
+              encourages early intervention rather than end-of-term complaints.
+            </p>
+            <p class="sources">
+              Source:
+              <a href="https://syllabus.gatech.edu/sites/default/files/2026-04/2340-spr26.pdf">Spring 2026 syllabus</a>.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="implications">
+        <h2>Implications for designing a beginner software engineering project</h2>
+        <p>
+          <strong>The peers suggest a practical design space rather than a single
+          best model.</strong> The following ideas appear especially portable.
+        </p>
+
+        <ol class="recommendations">
+          <li>
+            <strong>Use constrained greenfield rather than a blank canvas.</strong>
+            Fix the domain shape, interfaces, minimum end-to-end behavior, or
+            technology boundaries while leaving architecture and implementation
+            choices to students. MIT and UT Austin show two strong versions.
+          </li>
+          <li>
+            <strong>Add one real brownfield experience.</strong> A focused lab that
+            requires reading, testing, refactoring, or extending unfamiliar code can
+            cover a professional reality that a student-owned project rarely
+            reproduces. Imperial and Berkeley provide the clearest rationale.
+          </li>
+          <li>
+            <strong>Separate peer feedback from peer punishment.</strong> Repeated
+            low-stakes teamwork surveys can surface issues early, as at UNSW. If
+            peer input affects grades, publish the decision rule and retain
+            instructor review, as UT Austin and Georgia Tech do in different ways.
+          </li>
+          <li>
+            <strong>Triangulate contribution evidence.</strong> Combine planned task
+            ownership, Git history, issue activity, demos, check-ins, reflection, and
+            oral questioning. Raw commits are too easy to game and undervalue design,
+            review, debugging, mentoring, and coordination.
+          </li>
+          <li>
+            <strong>Require breadth of contribution.</strong> MIT’s rotation across
+            component design, tests, and implementation prevents premature
+            specialization and gives each student evidence of multiple engineering
+            skills.
+          </li>
+          <li>
+            <strong>Inject change deliberately.</strong> UNSW’s staff-authored merge
+            requests and Edinburgh’s changing requirements let students experience
+            integration and change without the uncontrolled risk of a genuine
+            external client.
+          </li>
+          <li>
+            <strong>Keep an individual verification channel.</strong> Individual
+            programming work, practical assessment, reflection, or a short oral
+            defense limits uncertainty about personal attainment. Imperial,
+            Illinois, and MIT each demonstrate a different mechanism.
+          </li>
+          <li>
+            <strong>Write AI policy by activity, not by tool name alone.</strong>
+            State separately whether students may seek explanations, brainstorm,
+            generate submitted code, refactor with AI, create tests with AI, and
+            call an AI service from their product. Tool lists age quickly; activity
+            boundaries express the learning intent.
+          </li>
+        </ol>
+      </section>
+
+      <section id="method">
+        <h2>Method, evidence quality, and limitations</h2>
+        <p>
+          <strong>This report starts from the ten-course review in
+          <code>_temp/peer-courses.md</code> and follows its official course links
+          where public mechanics needed clarification.</strong> It favors 2025 and
+          2026 offerings and does not infer hidden assignment rules from course
+          titles or older folklore.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Strongest project evidence:</strong> MIT and UT Austin publish
+            detailed specifications; UNSW publishes a rich operational announcement
+            trail; Georgia Tech publishes contribution and AI policies.
+          </li>
+          <li>
+            <strong>Moderate evidence:</strong> Brown publishes its sprint cadence and
+            course outcomes but not the final project rubric; Edinburgh and Illinois
+            publish structure but not current deliverable weights or full briefs.
+          </li>
+          <li>
+            <strong>Limited offering-level evidence:</strong> Berkeley exposes rich
+            outcomes but hides assignments; Washington exposes rich teaching material
+            but no substantial team project; Imperial exposes exercise and assessment
+            design but not examples or a language.
+          </li>
+          <li>
+            <strong>“Not public” is a finding, not a negative policy claim.</strong>
+            A course may have detailed team, grading, or AI rules inside Canvas,
+            Coursera, bCourses, Gradescope, or another authenticated system.
+          </li>
+          <li>
+            <strong>Peer evaluation and peer review are kept distinct.</strong>
+            Rating teammate contribution, reviewing another student’s code, and
+            critiquing another team’s product have different learning and grading
+            functions.
+          </li>
+        </ul>
+
+        <p class="callout">
+          <strong>Bottom line:</strong> the most fully specified peer projects combine
+          bounded greenfield construction, staged delivery, observable individual
+          activity, repeated feedback, and a separately stated AI boundary. The
+          least common—but potentially most valuable—addition is meaningful
+          brownfield work on an unfamiliar codebase.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      Comparative report prepared from the peer-course research dated 23 July 2026.
+      All course links point to official university or course-staff sources.
+    </footer>
+  </div>
+</body>
+</html>

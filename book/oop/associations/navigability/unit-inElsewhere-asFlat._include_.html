@@ -4,15 +4,17 @@
 <div><h4 id="navigability"><span>Navigability</span><a class="fa fa-anchor" href="#navigability" onclick="event.stopPropagation()"></a></h4></div>
 <div id="main">
 <div>
-<p>When two classes are linked by an association, it does not necessarily mean both objects taking part in an instance of the association <em>know about</em> (i.e., have a reference to) each other. <strong>The concept of <em>navigability</em> tells us if an object taking part in an association knows about the other.</strong> In other words, it tells us if we can 'navigate' from the one object to the other in a given direction -- because if the object 'knows' about the other, it has a reference to the other object, and we can use that reference to 'navigate to' (i.e., access) that other object.</p>
+<p>When two classes are linked by an association, it does not necessarily mean both objects taking part in an instance of the association <em>know about</em> (i.e., have a reference to) each other. <strong>The concept of <span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">navigability</span></span> tells us if an object taking part in an association knows about the other.</strong> In other words, it tells us if we can 'navigate' from the one object to the other in a given direction -- because if the object 'knows' about the other, it has a reference to the other object, and we can use that reference to 'navigate to' (i.e., access) that other object.</p>
 <p><strong>Navigability can be <em>unidirectional</em> or <em>bidirectional</em></strong>. Suppose there is an association between the classes <code class="hljs inline no-lang" v-pre>Box</code> and <code class="hljs inline no-lang" v-pre>Rope</code>, and the <code class="hljs inline no-lang" v-pre>Box</code> object <code class="hljs inline no-lang" v-pre>b</code> and the <code class="hljs inline no-lang" v-pre>Rope</code> object <code class="hljs inline no-lang" v-pre>r</code> are taking part in one instance of that association.</p>
 <ul>
-<li><strong>Unidirectional</strong>: If the navigability is from <code class="hljs inline no-lang" v-pre>Box</code> to <code class="hljs inline no-lang" v-pre>Rope</code>, <code class="hljs inline no-lang" v-pre>b</code> will have a reference to <code class="hljs inline no-lang" v-pre>r</code> but <code class="hljs inline no-lang" v-pre>r</code> will not have a reference to <code class="hljs inline no-lang" v-pre>b</code>. That is, one can <em>navigate</em> from <code class="hljs inline no-lang" v-pre>b</code> to <code class="hljs inline no-lang" v-pre>r</code> using the <code class="hljs inline no-lang" v-pre>b</code>'s object reference of <code class="hljs inline no-lang" v-pre>r</code> (but not in the other direction).<br>
+<li><strong>Unidirectional</strong>: If the navigability is from <code class="hljs inline no-lang" v-pre>Box</code> to <code class="hljs inline no-lang" v-pre>Rope</code>, <code class="hljs inline no-lang" v-pre>b</code> will have a reference to <code class="hljs inline no-lang" v-pre>r</code> but <code class="hljs inline no-lang" v-pre>r</code> will not have a reference to <code class="hljs inline no-lang" v-pre>b</code>. That is, one can <em>navigate</em> from <code class="hljs inline no-lang" v-pre>b</code> to <code class="hljs inline no-lang" v-pre>r</code> using <code class="hljs inline no-lang" v-pre>b</code>'s reference to <code class="hljs inline no-lang" v-pre>r</code> (but not in the other direction).<br>
 Similarly, if the navigability is in the other direction, <code class="hljs inline no-lang" v-pre>r</code> will have a reference to <code class="hljs inline no-lang" v-pre>b</code> but <code class="hljs inline no-lang" v-pre>b</code> will not have a reference to <code class="hljs inline no-lang" v-pre>r</code>.</li>
 <li><strong>Bidirectional</strong>: <code class="hljs inline no-lang" v-pre>b</code> will have a reference to <code class="hljs inline no-lang" v-pre>r</code> and <code class="hljs inline no-lang" v-pre>r</code> will have a reference to <code class="hljs inline no-lang" v-pre>b</code> i.e., the two objects will be pointing to each other for the same single instance of the association.</li></ul>
 <p>Note that two <tooltip><template #content>i.e., an association with unidirectional navigability</template>unidirectional associations </tooltip> in opposite directions do not add up to a single bidirectional association.</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, there is a bidirectional association between the <code class="hljs inline no-lang" v-pre>Person</code> class and the <code class="hljs inline no-lang" v-pre>Cat</code> class i.e., if <code class="hljs inline no-lang" v-pre>Person</code> <code class="hljs inline no-lang" v-pre>p</code> is the owner of the <code class="hljs inline no-lang" v-pre>Cat</code> <code class="hljs inline no-lang" v-pre>c</code>, it will result in <code class="hljs inline no-lang" v-pre>p</code> and <code class="hljs inline no-lang" v-pre>c</code> having references to each other.</p>
+<cv-toggle xtoggle-id="examples">
+<div class="indented-level1 example">
+<box type="info" theme="light" seamless no-icon>
+<p><span style="position: relative; left: -32px; margin-right: -25px; background-color: var(--bs-light-border-subtle);" class="badge rounded-pill fs-6 fw-normal"><span><small><span class="dimmed"><span aria-hidden="true" class="fas fa-cube"></span> Example</span></small></span></span> In the code below, there is a bidirectional association between the <code class="hljs inline no-lang" v-pre>Person</code> class and the <code class="hljs inline no-lang" v-pre>Cat</code> class i.e., if <code class="hljs inline no-lang" v-pre>Person</code> <code class="hljs inline no-lang" v-pre>p</code> is the owner of the <code class="hljs inline no-lang" v-pre>Cat</code> <code class="hljs inline no-lang" v-pre>c</code>, it will result in <code class="hljs inline no-lang" v-pre>p</code> and <code class="hljs inline no-lang" v-pre>c</code> having references to each other.</p>
 <div class="alt-java">
 <pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
 </span><span>    Cat pet;
@@ -70,7 +72,6 @@ Similarly, if the navigability is in the other direction, <code class="hljs inli
 </span><span>
 </span><span>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self</span>):</span>
 </span><span>    self.pet = <span class="hljs-literal">None</span>  <span class="hljs-comment"># a Cat object</span>
-</span><span>
 </span><span>
 </span><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Cat</span>:</span>
 </span><span>
@@ -177,7 +178,6 @@ Similarly, if the navigability is in the other direction, <code class="hljs inli
 </span><span>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self</span>):</span>
 </span><span>    self.pet = <span class="hljs-literal">None</span>  <span class="hljs-comment"># a Cat object</span>
 </span><span>
-</span><span>
 </span><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Cat</span>:</span>
 </span><span>
 </span><span>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self</span>):</span>
@@ -223,5 +223,5 @@ Similarly, if the navigability is in the other direction, <code class="hljs inli
 
     </div>
     </div>
-    </button></div></pre></div></box></div>
+    </button></div></pre></div></box></div></cv-toggle></div>
 <div></div></div></div>

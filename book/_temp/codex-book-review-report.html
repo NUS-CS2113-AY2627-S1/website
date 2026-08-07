@@ -1,0 +1,1297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2103/T Textbook Curriculum Review</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #5f6b7a;
+      --paper: #ffffff;
+      --canvas: #f3f6fa;
+      --line: #d9e0e8;
+      --navy: #17375e;
+      --blue: #2764b8;
+      --blue-soft: #eaf2ff;
+      --green: #19734b;
+      --green-soft: #e8f7ef;
+      --amber: #996515;
+      --amber-soft: #fff5dc;
+      --red: #a22b2b;
+      --red-soft: #fff0f0;
+      --purple: #6f42a6;
+      --purple-soft: #f4edff;
+      --shadow: 0 10px 30px rgba(23, 55, 94, 0.08);
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--canvas);
+      font: 16px/1.58 Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+    }
+    a { color: var(--blue); }
+    a:hover { text-decoration-thickness: 2px; }
+    strong { color: #0f2949; }
+    code {
+      padding: 0.1rem 0.34rem;
+      border: 1px solid #d9e2ef;
+      border-radius: 5px;
+      background: #f6f8fb;
+      font-size: 0.92em;
+    }
+    .page {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      max-width: 1500px;
+      margin: 0 auto;
+    }
+    aside {
+      position: sticky;
+      top: 0;
+      align-self: start;
+      height: 100vh;
+      overflow: auto;
+      padding: 28px 22px;
+      color: #dce9f7;
+      background: var(--navy);
+    }
+    aside .eyebrow { color: #a8c8ed; }
+    aside h2 {
+      margin: 0.2rem 0 1.2rem;
+      color: white;
+      font-size: 1.1rem;
+      line-height: 1.3;
+    }
+    aside nav a {
+      display: block;
+      margin: 0.18rem 0;
+      padding: 0.48rem 0.62rem;
+      border-radius: 7px;
+      color: #dce9f7;
+      text-decoration: none;
+      font-size: 0.91rem;
+    }
+    aside nav a:hover { background: rgba(255, 255, 255, 0.1); }
+    aside .small {
+      margin-top: 1.5rem;
+      color: #aac0d9;
+      font-size: 0.78rem;
+    }
+    main {
+      min-width: 0;
+      padding: 48px clamp(24px, 5vw, 72px) 80px;
+    }
+    header.hero {
+      overflow: hidden;
+      position: relative;
+      padding: clamp(30px, 6vw, 64px);
+      border-radius: 22px;
+      color: white;
+      background:
+        radial-gradient(circle at 87% 10%, rgba(94, 171, 255, 0.42), transparent 28%),
+        linear-gradient(135deg, #102b4b 0%, #194b82 62%, #2265a7 100%);
+      box-shadow: var(--shadow);
+    }
+    .hero h1 {
+      max-width: 900px;
+      margin: 0.35rem 0 0.8rem;
+      font-size: clamp(2.1rem, 5vw, 4rem);
+      line-height: 1.06;
+      letter-spacing: -0.035em;
+    }
+    .hero p {
+      max-width: 850px;
+      margin: 0.6rem 0;
+      color: #e5f0fc;
+      font-size: 1.08rem;
+    }
+    .hero strong { color: white; }
+    .eyebrow {
+      margin: 0;
+      color: #bfd8f7;
+      font-size: 0.77rem;
+      font-weight: 800;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 1.4rem;
+    }
+    .meta span, .pill {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 750;
+    }
+    .meta span {
+      padding: 0.36rem 0.7rem;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      background: rgba(255, 255, 255, 0.1);
+    }
+    section {
+      scroll-margin-top: 24px;
+      margin-top: 54px;
+    }
+    h2 {
+      margin: 0 0 0.5rem;
+      color: var(--navy);
+      font-size: clamp(1.65rem, 3vw, 2.35rem);
+      line-height: 1.16;
+      letter-spacing: -0.02em;
+    }
+    h3 {
+      margin: 1.65rem 0 0.55rem;
+      color: #24496f;
+      font-size: 1.25rem;
+    }
+    .lede {
+      max-width: 950px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 22px;
+    }
+    .card {
+      grid-column: span 4;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+      box-shadow: 0 4px 14px rgba(23, 55, 94, 0.04);
+    }
+    .card.wide { grid-column: span 6; }
+    .card.full { grid-column: 1 / -1; }
+    .card h3 { margin-top: 0; }
+    .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+    .number {
+      display: block;
+      margin-bottom: 0.35rem;
+      color: var(--blue);
+      font-size: 2rem;
+      font-weight: 850;
+      line-height: 1;
+    }
+    .callout {
+      margin: 22px 0;
+      padding: 20px 22px;
+      border-left: 5px solid var(--blue);
+      border-radius: 0 12px 12px 0;
+      background: var(--blue-soft);
+    }
+    .callout.warning {
+      border-color: var(--amber);
+      background: var(--amber-soft);
+    }
+    .callout.critical {
+      border-color: var(--red);
+      background: var(--red-soft);
+    }
+    .pill { padding: 0.2rem 0.58rem; }
+    .p0 { color: var(--red); background: var(--red-soft); }
+    .p1 { color: var(--amber); background: var(--amber-soft); }
+    .p2 { color: var(--blue); background: var(--blue-soft); }
+    .keep { color: var(--green); background: var(--green-soft); }
+    .reduce { color: var(--purple); background: var(--purple-soft); }
+    table {
+      width: 100%;
+      margin: 18px 0 28px;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      background: var(--paper);
+      box-shadow: 0 3px 12px rgba(23, 55, 94, 0.035);
+    }
+    th, td {
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      color: #29496c;
+      background: #edf2f8;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    tr:last-child td { border-bottom: 0; }
+    tbody tr:hover { background: #fafcff; }
+    .chapter { width: 19%; font-weight: 760; color: #153d67; }
+    .direction { width: 13%; }
+    .priority { width: 8%; white-space: nowrap; }
+    .compact td { padding-top: 10px; padding-bottom: 10px; }
+    ul, ol { padding-left: 1.25rem; }
+    li { margin: 0.34rem 0; }
+    .bars { margin-top: 18px; }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 190px minmax(120px, 1fr) 82px;
+      gap: 12px;
+      align-items: center;
+      margin: 8px 0;
+      font-size: 0.9rem;
+    }
+    .bar-track {
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e6ebf2;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #2a6fc2, #64a9ed);
+    }
+    .bar-fill.gap { background: linear-gradient(90deg, #d4862d, #f3ba66); }
+    .muted, .note { color: var(--muted); }
+    .note { font-size: 0.84rem; }
+    .roadmap {
+      counter-reset: phase;
+      display: grid;
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .phase {
+      counter-increment: phase;
+      position: relative;
+      padding: 20px 22px 20px 74px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--paper);
+    }
+    .phase::before {
+      content: counter(phase);
+      position: absolute;
+      left: 22px;
+      top: 22px;
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border-radius: 50%;
+      color: white;
+      background: var(--blue);
+      font-weight: 800;
+    }
+    .phase h3 { margin: 0 0 0.35rem; }
+    footer {
+      margin-top: 60px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+    @media (max-width: 1050px) {
+      .page { grid-template-columns: 1fr; }
+      aside { position: static; height: auto; }
+      aside nav { display: flex; flex-wrap: wrap; }
+      aside nav a { margin-right: 4px; }
+      .card, .card.wide { grid-column: span 6; }
+    }
+    @media (max-width: 720px) {
+      main { padding: 24px 14px 56px; }
+      .card, .card.wide { grid-column: 1 / -1; }
+      .bar-row { grid-template-columns: 120px 1fr 66px; }
+      table { display: block; overflow-x: auto; }
+      th, td { min-width: 150px; }
+      .chapter { min-width: 190px; }
+    }
+    @media print {
+      body { background: white; }
+      .page { display: block; }
+      aside { display: none; }
+      main { padding: 0; }
+      header.hero { color: var(--ink); background: white; box-shadow: none; border: 1px solid var(--line); }
+      .hero p, .hero .eyebrow { color: var(--muted); }
+      .hero strong { color: var(--ink); }
+      .meta span { color: var(--ink); border-color: var(--line); }
+      section { break-inside: avoid; }
+      table { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+  <aside>
+    <p class="eyebrow">Curriculum audit</p>
+    <h2>Software Engineering for Self-Directed Learners — CS2103/T edition</h2>
+    <nav aria-label="Report sections">
+      <a href="#verdict">Executive verdict</a>
+      <a href="#benchmark">Generic-syllabus comparison</a>
+      <a href="#rebalancing">Rebalancing</a>
+      <a href="#wrinkles">Concept wrinkles</a>
+      <a href="#gaps">Missing internship basics</a>
+      <a href="#chapters">Chapter-by-chapter</a>
+      <a href="#supplements">Supplementary material</a>
+      <a href="#shape">Proposed curriculum shape</a>
+      <a href="#roadmap">Implementation roadmap</a>
+      <a href="#method">Method and sources</a>
+    </nav>
+    <p class="small">Prepared 23 July 2026. The report reviews curriculum content, not grammar or visual design.</p>
+  </aside>
+
+  <main>
+    <header class="hero">
+      <p class="eyebrow">Independent content and curriculum review</p>
+      <h1>Make the book more internship-ready by trading taxonomy for workflow.</h1>
+      <p><strong>The book has a strong foundation in requirements, design, code quality, and systematic testing.</strong>
+        Comparison with a model syllabus synthesized from ten recent peer courses confirms those strengths. Its biggest
+        opportunity is to reallocate time from prerequisite repetition, detailed UML, test taxonomy, and historical
+        process material toward collaborative workflow, quality feedback, responsible delivery, and AI-assisted engineering.</p>
+      <div class="meta">
+        <span>25 core chapters reviewed</span>
+        <span>18 generic-syllabus topics benchmarked</span>
+        <span>10 recent peer courses inform the baseline</span>
+        <span>Live AY2026/27 deployment checked</span>
+        <span>Audience: Java + basic OOP assumed</span>
+      </div>
+    </header>
+
+    <section id="verdict">
+      <h2>Executive verdict</h2>
+      <p class="lede"><strong>The book broadly matches the conceptual center of a representative introductory software
+        engineering course, but the match is uneven.</strong> It gives strong chapter-level treatment to 9 of the model
+        syllabus's 18 topic rows, partial treatment to 8, and no evident treatment to AI-assisted software engineering.
+        Do not expand it by simply adding more chapters: reclaim space from low-return detail and deepen the partial topics.</p>
+
+      <div class="grid">
+        <article class="card">
+          <span class="number">1</span>
+          <h3>Correct the misleading parts first</h3>
+          <p><strong>Several examples and absolute claims can teach the wrong mental model.</strong> These include Java
+            composition, thread-unsafe Singleton code, “proper” isolated unit tests, a non-compiling coverage example,
+            and a 2011 description of Scrum.</p>
+        </article>
+        <article class="card">
+          <span class="number">2</span>
+          <h3>Shift from definitions to doing</h3>
+          <p><strong>Some thin chapters name techniques without teaching students how to perform them.</strong>
+            Requirements gathering, IDE/debugging, QA, project planning, and teamwork need worked workflows, failure
+            modes, and practice tasks.</p>
+        </article>
+        <article class="card">
+          <span class="number">3</span>
+          <h3>Rebalance toward internship work</h3>
+          <p><strong>The core path underweights the issue → branch → code → test → PR → review → CI → release loop.</strong>
+            This is also the clearest gap against the generic syllabus: Git is supplementary, CI is mostly definitional,
+            and review/team practices are too brief.</p>
+        </article>
+        <article class="card">
+          <span class="number">4</span>
+          <h3>Add a security baseline</h3>
+          <p><strong>Security is currently a list item, not a capability.</strong> Students need input validation,
+            authorization, secrets, dependency risk, safe logging, and secure review at beginner depth.</p>
+        </article>
+        <article class="card">
+          <span class="number">5</span>
+          <h3>Modernize examples and terminology</h3>
+          <p><strong>Replace dated product/tool references that distort the concept.</strong> Java EE, Windows-only .NET,
+            XML-centric SOA, FindBugs, old GitHub Project Boards, Firefox OS, and legacy CI tool lists are clear targets.</p>
+        </article>
+        <article class="card">
+          <span class="number">6</span>
+          <h3>Keep the book’s distinctive strengths</h3>
+          <p><strong>Preserve the beginner-friendly explanations, explicit learning outcomes, bold skim layer, and
+            project-linked examples.</strong> Code quality, requirements specification, EP/BVA, and design trade-offs
+            remain valuable after tightening; the peer benchmark confirms that these belong in the core.</p>
+        </article>
+      </div>
+
+      <div class="callout critical">
+        <strong>Recommended top-level decision:</strong> aim for a roughly 20–30% reduction in the examinable reading
+        devoted to prerequisite OOP, advanced UML notation, repeated testing taxonomy, and historical process
+        descriptions. Reinvest that space in five practical strands: collaborative workflow, secure development,
+        diagnosis and automated quality feedback, teamwork and delivery, and responsible AI-assisted engineering.
+      </div>
+    </section>
+
+    <section id="benchmark">
+      <h2>Comparison with the generic introductory SE syllabus</h2>
+      <p class="lede"><strong>The book covers the representative core more convincingly than a gap-only review might
+        suggest.</strong> The comparison below uses the 18 topic rows in the model syllabus synthesized from Brown, MIT,
+        UNSW, Edinburgh, Illinois, Texas, Washington, Imperial, Berkeley, and Georgia Tech. “Strong” means the book gives
+        the topic direct, substantial treatment; it does not mean every example is current or every skill is practiced.</p>
+
+      <div class="grid">
+        <article class="card">
+          <span class="number">9</span>
+          <h3>Strongly represented</h3>
+          <p><strong>Half of the generic topic rows have clear chapter-level coverage.</strong> Requirements, design,
+            modeling, patterns, maintainability, processes, and testing form a solid conventional SE core.</p>
+        </article>
+        <article class="card">
+          <span class="number">8</span>
+          <h3>Present but incomplete</h3>
+          <p><strong>The main issue is depth of practice, not total absence.</strong> Teamwork, collaborative workflow,
+            correctness, debugging, advanced testing, delivery, professional responsibility, and communication need
+            stronger applied treatment.</p>
+        </article>
+        <article class="card">
+          <span class="number">1</span>
+          <h3>Not evident</h3>
+          <p><strong>AI-assisted software engineering is the only model-syllabus topic with no evident book coverage.</strong>
+            Add a concise, course-wide practice rather than a large standalone theory chapter.</p>
+        </article>
+      </div>
+
+      <table class="compact">
+        <thead>
+          <tr><th>Generic-syllabus topic</th><th>Coverage</th><th>Evidence in the CS2103/T book</th><th>Curriculum implication</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="chapter">SE foundations and lifecycle</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>Software Engineering introduces the discipline, while Process Models connects work across lifecycle stages.</td>
+            <td><strong>Keep, but replace the long historical opening with a clearer map of change, quality, collaboration,
+              uncertainty, and trade-offs.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Development processes and iterative planning</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>Process Models and Project Planning cover iterative models, Scrum, XP, schedules, milestones, dependencies,
+              and planning techniques.</td>
+            <td><strong>Modernize the Scrum material and shift attention from model taxonomy and Gantt mechanics to flow,
+              feedback, risk, and adaptive planning.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Teamwork and project organization</td>
+            <td><span class="pill p1">Partial</span></td>
+            <td>Teamwork and Project Planning provide explicit coverage, but the teamwork chapter is only about 407 words
+              and centers dated team-structure categories.</td>
+            <td><strong>Teach team norms, shared ownership, communication, review etiquette, conflict resolution,
+              accountability, onboarding, and retrospectives through the team project.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Collaborative development workflow</td>
+            <td><span class="pill p1">Partial</span></td>
+            <td>Integration, QA code reviews, and the supplementary Git trail cover parts of the workflow; the core book
+              does not connect issue, branch, commit, pull request, review, CI result, and merge as one practiced loop.</td>
+            <td><strong>Promote the essential Git/PR/CI path into the core and make each student complete it repeatedly.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Requirements and stakeholders</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>Requirements, Gathering Requirements, and Specifying Requirements cover stakeholders, functional and
+              nonfunctional requirements, prioritization, elicitation methods, user stories, use cases, and prototypes.</td>
+            <td><strong>Preserve the breadth, deepen elicitation practice, and connect specifications to acceptance criteria,
+              traceability, tests, and changing requirements.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Architecture and system integration</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>Architecture covers layered, client-server, n-tier, event-driven, transaction-processing, and
+              service-oriented styles; Integration and Reuse add component and API concerns.</td>
+            <td><strong>Retain the architectural reasoning, but refresh examples around HTTP/JSON or messaging, failure
+              boundaries, data ownership, deployment, and modular-monolith versus distributed trade-offs.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Design modeling</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>Modeling provides extensive structural and behavioral UML, while Architecture adds free-form architecture
+              diagrams and deployment diagrams.</td>
+            <td><strong>Keep the diagrams students must read and produce, but reduce notation edge cases and grade the
+              communication of decisions rather than diagram volume.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Modular and object-oriented design</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>OOP, Design Fundamentals, Principles, and Reuse cover abstraction, encapsulation, interfaces, coupling,
+              cohesion, polymorphism, substitutability, and dependency direction.</td>
+            <td><strong>Preserve the durable design ideas while moving prerequisite-level class mechanics to a diagnostic refresher.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Design patterns</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>Design Patterns explicitly covers recurring object-oriented design solutions, including Command, Observer,
+              Facade, and Singleton.</td>
+            <td><strong>Teach fewer patterns as contextual trade-offs, fix Singleton's thread-safety example, and consider
+              Strategy, Adapter, and dependency injection before less transferable catalog entries.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Change and maintainability</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>Code Quality, Refactoring, Documentation, Error Handling, and Principles give this area unusually broad coverage.</td>
+            <td><strong>Keep this distinctive strength, but make refactoring and documentation produce reviewable project
+              evidence in a changing codebase.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Specifications, abstraction, and correctness</td>
+            <td><span class="pill p1">Partial</span></td>
+            <td>API design, Design by Contract, assertions, OOP abstraction, and formal verification touch specifications
+              and correctness; the book does not develop behavioral specifications, ADTs, abstraction functions, or
+              representation invariants to MIT/Washington depth.</td>
+            <td><strong>Add a compact program-specification thread if this depth is a course goal; do not duplicate the
+              requirements-specification material.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Testing strategy and TDD</td>
+            <td><span class="pill keep">Strong</span></td>
+            <td>Testing and Test Case Design cover test levels, developer and acceptance testing, black- and glass-box
+              design, unit/integration/system/regression tests, automation, coverage, DI, TDD, EP, BVA, and combinations.</td>
+            <td><strong>Preserve the depth while compressing repeated taxonomy and examples; spend the saved time on
+              behavior-focused tests, CI selection, and flaky-test diagnosis.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Reviews, debugging, and automated quality checks</td>
+            <td><span class="pill p1">Partial</span></td>
+            <td>QA covers code reviews and static analysis, and IDEs mentions debugging, but the topics are not developed
+              into repeatable review and diagnosis workflows.</td>
+            <td><strong>Have students review a real diff and diagnose a real failure using reproduction, stack traces,
+              breakpoints, hypotheses, a regression test, and automated checks.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Test doubles and advanced test generation</td>
+            <td><span class="pill p1">Partial</span></td>
+            <td>Testing explains stubs, names mocks/fakes/dummies/spies, and connects DI to test isolation. Property-based,
+              fuzz, and metamorphic testing are absent.</td>
+            <td><strong>Clarify test-double roles and add one optional modern test-generation technique rather than
+              expanding the testing taxonomy further.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">CI, deployment, and release readiness</td>
+            <td><span class="pill p1">Partial</span></td>
+            <td>Integration explains build automation and CI/CD, and Modeling includes deployment diagrams, but the book
+              does not teach a maintained pipeline from automated checks to artifact, release, deployment evidence, and rollback.</td>
+            <td><strong>Replace the tool list with one current GitHub Actions path and connect CI, release, configuration,
+              deployment, and recovery to project milestones.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Security, privacy, accessibility, and professional responsibility</td>
+            <td><span class="pill p1">Partial</span></td>
+            <td>Security, privacy, and accessibility appear mainly as examples in the nonfunctional-requirements list;
+              Reuse discusses licenses, vulnerabilities, malicious dependencies, and abandonment. Ethical and professional
+              decision-making is not developed as a coherent strand.</td>
+            <td><strong>Turn selected quality attributes and dependency warnings into beginner skills practiced across
+              requirements, design, implementation, QA, and review.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">AI-assisted software engineering</td>
+            <td><span class="pill p0">Not evident</span></td>
+            <td>No AI-assisted engineering topic is evident in the published textbook index or inspected core book sources.</td>
+            <td><strong>Add a concise policy-plus-practice strand: bounded use, private-data protection, disclosure,
+              diff inspection, API verification, tests, static checks, and responsibility for the result.</strong></td>
+          </tr>
+          <tr>
+            <td class="chapter">Technical communication, delivery, and reflection</td>
+            <td><span class="pill p1">Partial</span></td>
+            <td>Documentation is substantial, and Teamwork and Project Planning support coordination; demonstrations,
+              release communication, stakeholder handover, retrospectives, and individual reflection are not a coherent book topic.</td>
+            <td><strong>Connect documentation to demonstrations, release notes, handover, peer critique, and short
+              retrospectives at project milestones.</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout">
+        <strong>The peer comparison changes the emphasis of the recommendations, not their overall direction.</strong>
+        Requirements, architecture, modeling, object-oriented design, patterns, maintainability, testing, and process
+        coverage should be tightened and refreshed—not displaced. The highest-return additions are the missing connective
+        tissue: collaborative workflow, applied quality feedback, responsible delivery, professional considerations, and AI use.
+      </div>
+
+      <h3>Optional implementation contexts are not core gaps</h3>
+      <p><strong>The generic syllabus deliberately separates transferable SE topics from platform choices.</strong> Web
+        UIs, HTTP services, databases, cloud/container deployment, concurrency, and grammars appear unevenly across the ten
+        peer courses. CS2103/T can continue using a Java desktop codebase as its main context, provided students encounter
+        realistic interfaces, dependencies, failures, integration, and release constraints. HTTP/API, data, cloud, and
+        concurrency material should be selected extensions, not a reason to turn the course into full-stack training.</p>
+    </section>
+
+    <section id="rebalancing">
+      <h2>Where to reduce and where to increase</h2>
+      <p class="lede"><strong>The current source-volume distribution is a useful warning signal, even though word count
+        is not the same as teaching time.</strong> Large bodies of modeling and testing material coexist with very small
+        chapters on requirements, debugging, QA, and teamwork. The generic-syllabus comparison indicates that the solution
+        is better balance and stronger application, not deletion of the well-covered design and testing core.</p>
+
+      <div class="grid">
+        <article class="card wide">
+          <h3>Reduce or consolidate</h3>
+          <ul>
+            <li><strong>OOP prerequisite repetition:</strong> make it a diagnostic refresher, not a second introductory course.</li>
+            <li><strong>Advanced UML mechanics:</strong> keep the diagrams students must read and produce; demote notation edge cases.</li>
+            <li><strong>Testing taxonomies:</strong> compress alpha/beta, dogfooding, and similar labels into a comparison map.</li>
+            <li><strong>Long test-input walkthroughs:</strong> retain EP, BVA, decision tables, and pairwise coverage with fewer repeated examples.</li>
+            <li><strong>Historical process descriptions:</strong> shorten waterfall/XP/Scrum history and teach modern flow and feedback.</li>
+            <li><strong>C++ to Java:</strong> remove from the core index for a cohort already assumed to know Java.</li>
+          </ul>
+        </article>
+        <article class="card wide">
+          <h3>Increase or add</h3>
+          <ul>
+            <li><strong>Collaborative delivery:</strong> issues, task slicing, branches, small commits, PRs, review, CI gates, releases.</li>
+            <li><strong>Secure engineering:</strong> validation, access control, secrets, dependency/supply-chain risk, safe logs.</li>
+            <li><strong>Debugging and diagnosis:</strong> reproduction, stack traces, breakpoints, call stacks, logs, and minimal test cases.</li>
+            <li><strong>Team effectiveness:</strong> communication, ownership, conflict, review etiquette, decisions, onboarding, async work.</li>
+            <li><strong>Responsible AI-assisted engineering:</strong> bounded use, privacy, disclosure, diff inspection, API verification, and evidence.</li>
+            <li><strong>One modern implementation context:</strong> connect Gradle dependencies, an HTTP/JSON interface,
+              configuration, failure handling, logs, and release evidence without attempting a full-stack survey.</li>
+          </ul>
+        </article>
+      </div>
+
+      <h3>Rough source-volume signal</h3>
+      <div class="bars" aria-label="Approximate word counts in local text.md source">
+        <div class="bar-row"><span>Testing</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span>~6.5k</span></div>
+        <div class="bar-row"><span>OOP</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span>~6.9k</span></div>
+        <div class="bar-row"><span>Modeling</span><div class="bar-track"><div class="bar-fill" style="width:82%"></div></div><span>~5.7k</span></div>
+        <div class="bar-row"><span>Test case design</span><div class="bar-track"><div class="bar-fill" style="width:75%"></div></div><span>~5.2k</span></div>
+        <div class="bar-row"><span>Code quality</span><div class="bar-track"><div class="bar-fill" style="width:68%"></div></div><span>~4.7k</span></div>
+        <div class="bar-row"><span>Requirements</span><div class="bar-track"><div class="bar-fill gap" style="width:13%"></div></div><span>~0.8k</span></div>
+        <div class="bar-row"><span>QA</span><div class="bar-track"><div class="bar-fill gap" style="width:12%"></div></div><span>~0.8k</span></div>
+        <div class="bar-row"><span>IDEs/debugging</span><div class="bar-track"><div class="bar-fill gap" style="width:8%"></div></div><span>~0.5k</span></div>
+        <div class="bar-row"><span>Teamwork</span><div class="bar-track"><div class="bar-fill gap" style="width:6%"></div></div><span>~0.4k</span></div>
+      </div>
+      <p class="note">Counts are from local <code>text.md</code> sources and include some optional material; they are
+        directional rather than exact measures of the deployed examinable text. The supplementary C++-to-Java source is
+        roughly 20k words by itself.</p>
+    </section>
+
+    <section id="wrinkles">
+      <h2>Concept wrinkles and correctness issues</h2>
+      <p class="lede"><strong>These are the highest-value editorial fixes because a beginner is unlikely to recognize the
+        caveat independently.</strong> They should be fixed before broader restructuring.</p>
+
+      <table>
+        <thead>
+          <tr><th>Priority</th><th>Location</th><th>Current wrinkle</th><th>Recommended correction</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="priority"><span class="pill p0">P0</span></td>
+            <td class="chapter">OOP → Composition</td>
+            <td>“Composition is implemented using a normal variable” and the part will be deleted with the whole.</td>
+            <td><strong>A Java field does not enforce exclusive ownership or deterministic deletion.</strong> Explain
+              composition as a modeling/lifecycle constraint that the design and API must preserve; other references can
+              still keep the object reachable.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Design Patterns → Singleton</td>
+            <td>The lazy <code>getInstance()</code> implementation is not thread-safe, but appears as the typical implementation.</td>
+            <td><strong>Either use an enum/eager Java example or explicitly scope the sample to single-threaded code.</strong>
+              Lead with global-state, lifecycle, and testability costs before implementation.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Testing → Coverage</td>
+            <td>The example declares <code>void findRate(int input)</code> but returns <code>0</code>, <code>-1</code>, and <code>cap</code>.</td>
+            <td><strong>Change the return type to <code>int</code>.</strong> Add an automated compile check for every Java
+              snippet that is intended to compile.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Testing → Unit tests</td>
+            <td>A “proper” unit test is said to require full isolation, and one or more tests per public method is presented as common practice.</td>
+            <td><strong>Teach isolated and sociable unit tests as legitimate choices.</strong> Test observable behavior
+              and risks rather than mechanically mirroring every public method.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Testing → TDD</td>
+            <td>TDD is said to “guarantee” that code is testable.</td>
+            <td><strong>Replace “guarantees” with “strongly encourages.”</strong> Poorly factored or over-mocked tests can
+              still accompany hard-to-test code.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Testing → GUI automation</td>
+            <td>All product-level testing of a GUI product is said to need to go through the GUI.</td>
+            <td><strong>Clarify that product-level behavior can be tested through APIs, service boundaries, and other
+              interfaces.</strong> Reserve end-to-end UI tests for critical journeys and UI-specific behavior.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Process Models → Scrum</td>
+            <td>The chapter says it is adapted from Wikipedia retrieved in 2011; it uses obsolete role language,
+              co-location assumptions, commitment wording, and the old three-question Daily Scrum format.</td>
+            <td><strong>Rewrite from the current official Scrum Guide or teach Scrum as one example rather than a
+              normative process.</strong> Emphasize the Sprint Goal, accountabilities, inspection, and adaptation.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Reuse → Platforms</td>
+            <td>Java EE is treated as current, and .NET is described as usually running on Windows.</td>
+            <td><strong>Use Jakarta EE terminology and describe modern .NET as cross-platform.</strong> Better still,
+              teach what a platform provides through current examples without relying on a fixed product list.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Requirements → NFRs</td>
+            <td>NFRs are defined only as constraints, while the examples mix quality attributes, project constraints,
+              scope exclusions, process requirements, and business rules.</td>
+            <td><strong>Separate quality attributes from constraints and business rules.</strong> Express important
+              qualities as measurable scenarios, e.g., response time under a stated workload.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Error Handling → Exceptions</td>
+            <td>Exceptions are restricted to “unusual” conditions.</td>
+            <td><strong>Frame the choice around API contracts and recovery boundaries.</strong> Cover invalid input,
+              environmental failure, domain failure, preserving causes, translation, and cleanup.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Error Handling → Assertions</td>
+            <td>Students are told to use assertions liberally, without foregrounding that Java assertions are disabled by default.</td>
+            <td><strong>State the runtime fact first.</strong> Use assertions for internal invariants during development;
+              use exceptions or validation for public/API preconditions and required production behavior.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Integration → CI/CD</td>
+            <td>CI jumps directly to continuous deployment; continuous delivery is not distinguished.</td>
+            <td><strong>Teach CI, continuous delivery, and continuous deployment as separate capabilities.</strong>
+              Include artifact creation, environment promotion, approval/rollback, and why deployment frequency depends on context.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Architecture</td>
+            <td>Architecture is described as typically designed by “the software architect,” while architecture diagrams
+              are presented as almost entirely free-form.</td>
+            <td><strong>Present architecture as a team-owned set of consequential decisions.</strong> Teach audience,
+              scope, viewpoint, legend, boundaries, dependency direction, and explicit trade-offs.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Test Case Design</td>
+            <td>“Random” testing is described as generating with another strategy and randomly selecting a subset.</td>
+            <td><strong>Distinguish random sampling, fuzzing, and property-based generation.</strong> Require reproducible
+              seeds and meaningful test oracles.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p2">P2</span></td>
+            <td class="chapter">Code Quality</td>
+            <td>Hard numbers such as “consider shortening beyond 30 LoC” can be remembered as rules rather than signals.</td>
+            <td><strong>Teach thresholds as prompts for judgment.</strong> Cohesion, naming, control flow, duplication,
+              and change frequency matter more than a universal line count.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout warning">
+        <strong>Add executable-documentation checks.</strong> Extract compilable Java snippets into a small Gradle test
+        fixture, compile them in CI, and use link checking for external references. This would have caught the
+        <code>void</code>-return example and will prevent future Java/API drift.
+      </div>
+    </section>
+
+    <section id="gaps">
+      <h2>Missing or under-covered internship basics</h2>
+      <p class="lede"><strong>The best additions are cross-cutting strands tied to the team project, not isolated theory
+        chapters.</strong> Each strand should end in a visible project artifact or workflow. Against the generic syllabus,
+        collaborative workflow, debugging/quality feedback, teamwork, professional responsibility, delivery, and AI are
+        core-alignment priorities. Dependencies, HTTP, data, operations, and concurrency are implementation-context options
+        whose depth should depend on the project.</p>
+
+      <table class="compact">
+        <thead>
+          <tr><th>Priority</th><th>Capability to add</th><th>Beginner-level outcomes</th><th>Best home</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Collaborative Git/PR/CI workflow</td>
+            <td><strong>Take a small issue from definition to merge.</strong> Slice work, branch, make reviewable commits,
+              open a PR, respond to review, interpret CI, and merge safely.</td>
+            <td>Elevate the Git trail; connect Integration, QA, Teamwork, and Project Planning.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Secure software development</td>
+            <td><strong>Recognize and prevent common beginner risks.</strong> Validate untrusted input, distinguish
+              authentication/authorization, avoid committed secrets, review dependencies, handle sensitive logs, and
+              apply least privilege.</td>
+            <td>New short core strand threaded through Requirements, Design, Reuse, QA, and Error Handling.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Debugging and diagnosis</td>
+            <td><strong>Move from a symptom to a defensible cause.</strong> Reproduce, minimize, read a stack trace, use
+              breakpoints/watch/call stack, form hypotheses, add a regression test, and verify the fix.</td>
+            <td>Expand IDEs; reinforce in Testing and Error Handling.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">Team collaboration</td>
+            <td><strong>Work effectively in a brownfield team.</strong> Communicate status and risk, ask for help, give
+              respectful review feedback, record decisions, resolve disagreements, share ownership, and onboard to unfamiliar code.</td>
+            <td>Rewrite Teamwork; practice in PRs and project retrospectives.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Dependencies and supply chain</td>
+            <td><strong>Add a dependency deliberately.</strong> Inspect direct/transitive changes, license and maintenance
+              signals, pin/lock versions appropriately, react to a vulnerability alert, and update safely.</td>
+            <td>Reuse + Integration + QA.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">HTTP/API and failure basics</td>
+            <td><strong>Read and use a small web API.</strong> Understand request/response, JSON, status codes, idempotency,
+              versioning, validation, authentication tokens, timeout, retry, and rate-limit behavior.</td>
+            <td>Architecture + Reuse/APIs + Error Handling.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Data and persistence basics</td>
+            <td><strong>Make safe changes to persistent data.</strong> Understand schema, constraints, transactions,
+              serialization, migration/backward compatibility, backup, and test isolation.</td>
+            <td>Architecture + Integration + Testing.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Operational visibility</td>
+            <td><strong>Produce diagnostic evidence without leaking data.</strong> Use useful log levels, structured
+              context, correlation identifiers, health signals, and a minimal incident timeline; know when to roll back.</td>
+            <td>Error Handling/Logging + Integration.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p1">P1</span></td>
+            <td class="chapter">Accessibility, privacy, and ethics</td>
+            <td><strong>Treat quality attributes as design inputs.</strong> Identify affected users, collect only needed
+              data, obtain consent where appropriate, make basic accessible choices, and surface ethical trade-offs.</td>
+            <td>Requirements + Design + QA.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p2">P2</span></td>
+            <td class="chapter">Concurrency and asynchronous failures</td>
+            <td><strong>Recognize shared-state and timing risks.</strong> Explain races, atomicity, thread safety, ordering,
+              cancellation, and why retries can duplicate effects.</td>
+            <td>Design Patterns + Architecture + Error Handling + Testing.</td>
+          </tr>
+          <tr>
+            <td><span class="pill p0">P0</span></td>
+            <td class="chapter">AI-assisted engineering literacy</td>
+            <td><strong>Use an AI tool without outsourcing judgment.</strong> Provide bounded context, inspect diffs,
+              verify APIs, run tests/static checks, protect private data, and disclose/attribute use as required.</td>
+            <td>Short course-wide practice note; assess the resulting engineering evidence, not prompt trivia.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="chapters">
+      <h2>Chapter-by-chapter recommendations</h2>
+      <p class="lede"><strong>Every core chapter can remain represented, but several should become shorter sections
+        inside a more coherent workflow.</strong> “Reduce” means compress or demote—not delete the concept entirely.</p>
+
+      <table>
+        <thead>
+          <tr><th>Chapter</th><th>Direction</th><th>Review and recommendation</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="chapter">Software Engineering</td>
+            <td class="direction"><span class="pill reduce">Rewrite</span></td>
+            <td><strong>Replace the long Brooks “joys and woes” extract as the main introduction.</strong> Keep a short
+              historical sidebar, then introduce SE as managing change, collaboration, uncertainty, quality, and trade-offs
+              across a socio-technical lifecycle. The current chapter is evocative but does not orient students to the course.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Object-Oriented Programming</td>
+            <td><span class="pill reduce">Reduce</span></td>
+            <td><strong>Turn this into a diagnostic refresher because Java and basic OOP are prerequisites.</strong> Retain
+              abstraction, encapsulation, polymorphism, interfaces, substitutability, and composition; demote class basics,
+              enumerations, overloading, aggregation, association classes, and binding terminology. Correct the composition
+              ownership model and avoid duplicating UML association notation.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Requirements</td>
+            <td><span class="pill p1">Increase</span></td>
+            <td><strong>Expand the unfinished foundation—the source still contains “TODO: add more details.”</strong>
+              Separate goals, functional behavior, quality attributes, constraints, assumptions, and business rules.
+              Teach measurable quality scenarios, stakeholder conflicts, scope, prioritization by value/risk, traceability,
+              and change management.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Gathering Requirements</td>
+            <td><span class="pill p0">Increase</span></td>
+            <td><strong>Convert seven one-paragraph definitions into a usable discovery workflow.</strong> Teach interview
+              and survey question design, sampling and bias, observation ethics/consent, prototype fidelity, competitive
+              analysis, triangulation, synthesis, and validation. Require students to produce evidence and decisions, not
+              merely name elicitation techniques.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Specifying Requirements</td>
+            <td><span class="pill keep">Keep + tune</span></td>
+            <td><strong>Keep user stories and structured use cases, but connect them to acceptance evidence.</strong> Add
+              acceptance criteria, examples/Given–When–Then, quality constraints, assumptions, and traceability to tests.
+              Shorten the extended use-case mechanics and the long brainstorming recipe where project instructions already
+              repeat it. Replace the obsolete GitHub Project Boards link.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Software Design</td>
+            <td><span class="pill reduce">Merge</span></td>
+            <td><strong>Merge this 139-word overview into Design Fundamentals.</strong> Use the saved chapter boundary to
+              introduce design as choosing structures under constraints, recording trade-offs, and obtaining feedback from
+              code and tests—not merely transforming problem into solution.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Design Fundamentals</td>
+            <td><span class="pill keep">Keep + increase</span></td>
+            <td><strong>Preserve abstraction, coupling, and cohesion as durable ideas.</strong> Add information hiding,
+              stable interfaces, dependency direction, data/control/deployment coupling, and examples of when duplication
+              can be cheaper than premature abstraction. Make trade-offs explicit rather than implying “lower coupling and
+              higher cohesion” are context-free maxima.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Modeling (Using UML)</td>
+            <td><span class="pill reduce">Reduce</span></td>
+            <td><strong>Shift the goal from notation mastery to communicating a decision accurately.</strong> Prioritize
+              class/object/sequence/activity basics and diagram-code consistency. Demote advanced class/sequence notation,
+              use-case diagrams, and customization details; add context/container/component views, deployment boundaries,
+              and diagrams-as-code. Teach students to choose the smallest diagram that answers an audience’s question.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Software Architecture</td>
+            <td><span class="pill p0">Modernize</span></td>
+            <td><strong>Replace the old style catalog with modern trade-off reasoning.</strong> Keep layered,
+              client–server, and event-driven foundations; update XML-centric SOA to services using HTTP APIs and/or
+              messaging; compare modular monolith and distributed services at beginner depth. Replace Firefox OS and
+              generic SOA graphics, and add data ownership, failure boundaries, deployment, and architecture decision records.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Software Design Patterns</td>
+            <td><span class="pill p1">Rebalance</span></td>
+            <td><strong>Teach patterns as contextual trade-offs, not a catalog to recognize.</strong> Demote Singleton and
+              present it first as constrained global state; if retained, fix thread safety. Keep Command/Observer/Facade
+              where they match the project, and consider Strategy/Adapter plus dependency injection as more transferable
+              internship patterns. Require “problem, forces, consequences, alternatives.”</td>
+          </tr>
+          <tr>
+            <td class="chapter">Design Approaches</td>
+            <td><span class="pill reduce">Merge</span></td>
+            <td><strong>Merge the useful ideas into Design Fundamentals and Architecture.</strong> Retain top-down/bottom-up
+              movement and evolutionary design, but remove the false binary of emergent design versus up-front design.
+              Add spikes/prototypes, decision records, and “just enough design now, revisit with evidence.”</td>
+          </tr>
+          <tr>
+            <td class="chapter">IDEs</td>
+            <td><span class="pill p0">Increase</span></td>
+            <td><strong>Make this a practical codebase-navigation and debugging chapter.</strong> Add symbol search, usages,
+              call hierarchy, debugger breakpoints, conditions, watches, call stacks, exception breakpoints, test navigation,
+              and Git diff tools. Teach a diagnosis loop—reproduce, narrow, hypothesize, inspect, prove, regress—rather than
+              only ranking print statements, eyeballing, and debugger use.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Code Quality</td>
+            <td><span class="pill keep">Keep + tune</span></td>
+            <td><strong>This is one of the book’s strongest internship-facing chapters.</strong> Preserve naming,
+              readability, scope, duplication, happy paths, and useful comments. Recast hard thresholds and slogans
+              (30-line methods, three nesting levels, “SLAP hard”) as diagnostic prompts; add immutability, null handling,
+              API consistency, automated formatting/linting, and careful handling of warnings.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Refactoring</td>
+            <td><span class="pill p1">Increase</span></td>
+            <td><strong>Expand from catalogs to a safe brownfield workflow.</strong> Add characterization tests, small
+              behavior-preserving steps, IDE-assisted refactors, frequent test runs, reviewable commits, and when not to
+              refactor. Avoid implying “make it work now, improve it later” is always safe; show continuous cleanup around
+              the code being changed.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Documentation</td>
+            <td><span class="pill p0">Increase</span></td>
+            <td><strong>Retain the strong top-down guidance and four documentation purposes, but broaden the artifacts.</strong>
+              Add README, setup/run/test instructions, CONTRIBUTING, API examples, architecture decisions, diagrams,
+              troubleshooting, and ownership/maintenance. Replace the applet-era Javadoc example and teach when generated
+              reference is insufficient.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Error Handling</td>
+            <td><span class="pill p0">Modernize</span></td>
+            <td><strong>Teach failures across boundaries, not only exceptions/assertions.</strong> Cover validation,
+              domain versus infrastructure failures, exception translation and preserved causes, try-with-resources,
+              cleanup, user-facing messages, timeouts/retries/idempotency, and safe structured logging. Qualify assertion
+              advice because Java assertions are disabled by default.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Integration</td>
+            <td><span class="pill p0">Rewrite</span></td>
+            <td><strong>Center the chapter on the modern integration loop.</strong> Keep early/frequent and incremental
+              integration, then teach reproducible Gradle builds, pull requests, automated checks, branch protection,
+              artifacts, configuration, releases, rollback, and the difference between continuous delivery and deployment.
+              Retire the generic Travis/AppVeyor/Jenkins tool list in favor of one maintained GitHub Actions walkthrough.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Reuse</td>
+            <td><span class="pill p0">Modernize</span></td>
+            <td><strong>The cost/benefit section already identifies licenses, vulnerabilities, malicious dependencies, and
+              abandonment—promote those from warnings to skills.</strong> Teach Gradle manifests, direct/transitive
+              dependencies, versions/locks, update policy, dependency review, and SBOM awareness. Update GitHub API,
+              Java EE/Jakarta EE, and .NET examples; add small HTTP/JSON API use and failure handling.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Quality Assurance</td>
+            <td><span class="pill p0">Rebalance</span></td>
+            <td><strong>Make risk-based quality strategy the chapter’s organizing idea.</strong> Expand PR review and static
+              analysis into practical workflows; include formatters, nullness/type checks, SAST, dependency review, and
+              secret scanning. Demote formal verification to a short “specialized techniques” sidebar. Replace FindBugs
+              with SpotBugs or a current project tool.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Testing</td>
+            <td><span class="pill keep">Keep + reduce</span></td>
+            <td><strong>Keep unit/integration/system/regression testing, automation, testability, coverage, DI, and TDD,
+              but compress the taxonomy.</strong> Teach behavior-focused tests, isolated versus sociable units, test-double
+              roles, parameterized tests, deterministic tests, flaky-test diagnosis, test selection in CI, and the limits
+              of coverage. Fix the non-compiling coverage snippet and qualify TDD claims.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Test Case Design</td>
+            <td><span class="pill reduce">Reduce + extend</span></td>
+            <td><strong>Retain equivalence partitioning, boundary values, decision logic, and pairwise combinations.</strong>
+              Condense repeated “valid once/invalid separately” walkthroughs into a checklist and one integrated example.
+              Correct random-testing terminology; add property-based and metamorphic testing as optional modern extensions,
+              with reproducible seeds and explicit oracles.</td>
+          </tr>
+          <tr>
+            <td class="chapter">SDLC Process Models</td>
+            <td><span class="pill p0">Modernize</span></td>
+            <td><strong>Reduce model history and teach how teams manage flow and feedback.</strong> Update Scrum from the
+              official guide, retain selected XP practices, add Kanban/WIP/lead-time concepts, and emphasize that real teams
+              adapt practices to risk and context. Avoid equating agile with little design or documentation.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Project Planning</td>
+            <td><span class="pill p0">Rebalance</span></td>
+            <td><strong>Prioritize issue quality, work slicing, dependencies, milestones, uncertainty, and risk over Gantt
+              mechanics.</strong> Teach a current GitHub Projects workflow, blockers, acceptance criteria, estimates as
+              uncertain forecasts, explicit buffers, and lightweight status/risk communication. Keep Gantt as recognition-level.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Teamwork</td>
+            <td><span class="pill p0">Rewrite</span></td>
+            <td><strong>Replace the outdated egoless/chief-programmer/strict-hierarchy taxonomy.</strong> The current
+              407-word chapter does not prepare interns for collaborative engineering. Teach team norms, shared ownership
+              with clear responsibilities, communication, conflict resolution, psychological safety, inclusive language,
+              code-review etiquette, decision records, handoffs, onboarding, and remote/async work.</td>
+          </tr>
+          <tr>
+            <td class="chapter">Principles</td>
+            <td><span class="pill keep">Keep + tune</span></td>
+            <td><strong>Teach principles as competing heuristics, not acronym recall.</strong> Keep separation of concerns,
+              SRP, LSP, and Law of Demeter with counterexamples; add composition over inheritance, information hiding, and
+              least privilege. Reduce the duplicated SOLID wrapper and make DIP/ISP concrete if they remain examinable.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="supplements">
+      <h2>Supplementary material</h2>
+      <p class="lede"><strong>The supplementary routes contain some of the most internship-relevant practice, but the
+        current labeling makes their importance unclear.</strong></p>
+
+      <div class="grid">
+        <article class="card wide">
+          <h3>C++ to Java</h3>
+          <p><strong>Remove it from the main textbook chapter list for this cohort.</strong> Students are assumed to know
+            Java, while this source is roughly 20k words and includes dated Java-edition and installation explanations.
+            Keep a separate “Java readiness check” with links to targeted refreshers: collections, exceptions, generics,
+            streams, JUnit, Gradle, and the course’s supported JDK.</p>
+          <p>Specific cleanup: replace Java EE with Jakarta EE; stop presenting the JRE as the normal separate install;
+            replace Java 8 “new features” framing; remove Java ME as a central platform category; and keep current JUnit 5
+            material as a testing quickstart.</p>
+        </article>
+        <article class="card wide">
+          <h3>Git Learning Trail</h3>
+          <p><strong>Promote the essential workflow into the course’s core skill path.</strong> Keep staging, commits,
+            branches, remotes, merge conflicts, PRs, and reviews. Reduce low-frequency operations and GUI-specific
+            screenshots; prefer <code>git switch</code>/<code>git restore</code> for beginner intent, use <code>main</code>
+            in new examples, and explain that repository branch names vary.</p>
+          <p>Add small PRs, review responses, protected branches/rulesets, required CI checks, secret avoidance, and safe
+            history rewriting. The trail currently contains extensive <code>master</code>, <code>checkout</code>, and
+            Sourcetree-specific material that creates avoidable maintenance cost.</p>
+        </article>
+        <article class="card wide">
+          <h3>Project Duke</h3>
+          <p><strong>Keep the project as the bridge from reading to doing.</strong> Map each increment explicitly to the
+            revised skills: issue, acceptance criteria, branch, focused commit, tests, refactor, PR/review, CI evidence,
+            release note, and short retrospective. A CLI remains a sensible beginner scope if the book acknowledges that
+            real internship systems may expose web, service, data, and asynchronous boundaries.</p>
+        </article>
+        <article class="card wide">
+          <h3>Definitions and combined exercises</h3>
+          <p><strong>Use definitions as reference, not as a shadow syllabus.</strong> Remove stale entries for topics that
+            are no longer taught and add terms introduced by the revised workflow. Update exercises so more questions ask
+            students to choose, diagnose, review, or justify—not only recognize a label.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="shape">
+      <h2>A more coherent curriculum shape</h2>
+      <p class="lede"><strong>Organize the book around the lifecycle of a change in an existing codebase.</strong> This
+        preserves the existing knowledge while giving beginners a mental map that matches internship work.</p>
+
+      <div class="grid">
+        <article class="card">
+          <span class="number">A</span>
+          <h3>Orient and enter the codebase</h3>
+          <p>SE overview; Java/OOP diagnostic; Git essentials; IDE navigation; build and run; debugging a known defect.</p>
+        </article>
+        <article class="card">
+          <span class="number">B</span>
+          <h3>Understand the change</h3>
+          <p>Stakeholders; discovery evidence; requirements; quality/security constraints; acceptance criteria; issue definition.</p>
+        </article>
+        <article class="card">
+          <span class="number">C</span>
+          <h3>Design the change</h3>
+          <p>Abstraction, coupling, cohesion; small models; architecture boundaries; APIs/data; patterns and principles as trade-offs.</p>
+        </article>
+        <article class="card">
+          <span class="number">D</span>
+          <h3>Implement safely</h3>
+          <p>Code quality; error handling; dependencies; secure coding; responsible AI use; refactoring; developer
+            documentation; focused commits.</p>
+        </article>
+        <article class="card">
+          <span class="number">E</span>
+          <h3>Establish confidence</h3>
+          <p>Test design; unit/integration/system tests; static/security analysis; review; coverage limitations; regression evidence.</p>
+        </article>
+        <article class="card">
+          <span class="number">F</span>
+          <h3>Integrate and learn</h3>
+          <p>PR/CI gates; artifacts and release; configuration; logs/health; rollback; teamwork; retrospective and next issue.</p>
+        </article>
+      </div>
+
+      <div class="callout">
+        <strong>Use one running brownfield scenario across the six stages.</strong> The same feature should begin as an
+        ambiguous stakeholder request, become an issue with acceptance criteria, require a design decision, introduce a
+        dependency or failure mode, receive tests and review, and pass CI. Reusing one change reduces cognitive load and
+        shows how the chapters connect.
+      </div>
+    </section>
+
+    <section id="roadmap">
+      <h2>Practical implementation roadmap</h2>
+      <p class="lede"><strong>Separate correctness work from curriculum restructuring so improvements can ship safely and
+        incrementally.</strong></p>
+
+      <div class="roadmap">
+        <article class="phase">
+          <h3>Phase 1 — Correct and refresh</h3>
+          <p><span class="pill p0">Immediate</span> Fix the composition, Singleton, coverage, unit-testing, TDD, GUI-testing,
+            assertion, Scrum, Java EE/.NET, CI/CD, GitHub API/Projects, and FindBugs issues. Replace broken/HTTP links and
+            gendered historical prose where it appears as current narration. Add snippet compilation and link checks.</p>
+        </article>
+        <article class="phase">
+          <h3>Phase 2 — Reclaim space</h3>
+          <p><span class="pill p1">Next</span> Shorten OOP, advanced UML, repeated testing taxonomy, extended test-input
+            examples, historical process descriptions, Gantt detail, and C++-to-Java placement. Merge Software Design and
+            Design Approaches into stronger neighboring chapters.</p>
+        </article>
+        <article class="phase">
+          <h3>Phase 3 — Deepen the missing and partial strands</h3>
+          <p><span class="pill p1">Next</span> Write focused beginner modules for collaborative PR/CI workflow, secure
+            development, debugging/diagnosis, teamwork/delivery, and responsible AI-assisted engineering. Add one selected
+            dependency/API/failure context to the project rather than a broad platform survey. Each module should produce
+            a project artifact and include a “common failure” exercise.</p>
+        </article>
+        <article class="phase">
+          <h3>Phase 4 — Align assessment and project work</h3>
+          <p><span class="pill p2">Then</span> Replace recognition-heavy questions with small decisions and reviews:
+            critique an issue, diagnose a stack trace, review a diff, choose a test boundary, evaluate a dependency, or
+            justify an architecture trade-off. Require verification and disclosure evidence for permitted AI use. Ensure
+            project rubrics reward the same behaviors.</p>
+        </article>
+        <article class="phase">
+          <h3>Phase 5 — Establish a maintenance cadence</h3>
+          <p><span class="pill p2">Ongoing</span> Before each academic year, run compile/link checks, review tool screenshots,
+            verify official process references, sample internship feedback, and retire examples whose product or API has
+            become obsolete. Mark time-sensitive pages with an explicit “last verified” field.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="method">
+      <h2>Method, scope, and sources</h2>
+      <p class="lede"><strong>The review combined the deployed book’s actual chapter map with the local MarkBind sources
+        and a generic syllabus synthesized from ten recent peer courses.</strong> It focused on conceptual accuracy,
+        relevance, balance, omissions, modernization for internship readiness, and coverage of a representative
+        introductory software engineering core.</p>
+
+      <h3>What was inspected</h3>
+      <ul>
+        <li>The live <a href="https://nus-cs2103-ay2627-s1.github.io/website/se-book-adapted/index.html">AY2026/27 textbook index</a>
+          and its combined printable outline, generated 23 July 2026.</li>
+        <li>All 25 core chapter families in the local <code>book</code> source, including their topic hierarchy and
+          course-specific inclusion priorities.</li>
+        <li>The 18-topic model in <a href="codex-generic-syllabus.md"><code>codex-generic-syllabus.md</code></a>, synthesized
+          from the ten recent university courses recorded in <a href="peer-courses.md"><code>peer-courses.md</code></a>.</li>
+        <li>For each model-syllabus topic, explicit chapter or subtopic evidence in the published index and local source.
+          A “partial” rating means that important elements are thin, definitional, supplementary, or disconnected from
+          a practiced workflow; “not evident” means no matching topic was found in the inspected book material.</li>
+        <li>Supplementary C++-to-Java, Git Learning Trail, Project Duke placement, definitions, and exercise structure at
+          a lower level of detail.</li>
+        <li>Source markers indicating unfinished or stale content, including explicit TODOs, old retrieval dates, legacy
+          product names, and obsolete documentation URLs.</li>
+      </ul>
+
+      <h3>Current primary references used to validate modernization findings</h3>
+      <ul>
+        <li><a href="https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf">The Scrum Guide (current official version)</a>
+          — current accountabilities, events, goals, and terminology.</li>
+        <li><a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects">GitHub Docs: Planning and tracking with Projects</a>
+          — current Projects capabilities and issue/PR integration.</li>
+        <li><a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches">GitHub Docs: Protected branches</a>
+          — required reviews and status checks.</li>
+        <li><a href="https://docs.github.com/en/actions/tutorials/build-and-test-code/java-with-gradle">GitHub Docs: Building and testing Java with Gradle</a>
+          — a current beginner CI workflow.</li>
+        <li><a href="https://docs.github.com/en/code-security/concepts/supply-chain-security/supply-chain-security">GitHub Docs: Supply-chain security</a>
+          and <a href="https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning">secret scanning</a>
+          — dependency and credential risks that interns can encounter directly.</li>
+        <li><a href="https://csrc.nist.gov/pubs/sp/800/218/final">NIST SP 800-218 Secure Software Development Framework</a>
+          — security practices integrated across the SDLC.</li>
+        <li><a href="https://owasp.org/Top10/2025/">OWASP Top 10:2025</a> — current awareness areas, including access
+          control, supply-chain failure, insecure design, logging, and exceptional conditions.</li>
+        <li><a href="https://dora.dev/capabilities/continuous-delivery/">DORA: Continuous delivery</a> — the distinction
+          between continuous delivery and continuous deployment.</li>
+        <li><a href="https://jakarta.ee/about/faq/">Jakarta EE FAQ</a> and
+          <a href="https://dotnet.microsoft.com/en-us/platform/free">official .NET platform information</a> — current
+          platform names and cross-platform status.</li>
+        <li><a href="https://docs.oracle.com/en/java/javase/21/docs/specs/man/java.html">Oracle Java launcher documentation</a>
+          — Java assertions are disabled by default.</li>
+      </ul>
+
+      <h3>Limitations</h3>
+      <p><strong>The textbook is being used as a proxy for course topic coverage, not as proof of everything students
+        experience.</strong> The comparison does not fully audit weekly briefings, tutorials, project instructions,
+        assessment rubrics, or instructor feedback, so a “partial” or “not evident” book rating may be taught elsewhere in
+        the course. This is also a content audit rather than a learning-effectiveness study: it does not use student outcome
+        data, internship supervisor interviews, quiz-item statistics, or classroom observation. Before a major rewrite,
+        validate the priority list against the full course and with recent interns, tutors, and employers.</p>
+    </section>
+
+    <footer>
+      <p><strong>Bottom line:</strong> the generic-syllabus benchmark validates the book’s requirements, design,
+        maintainability, process, and testing core. The next version should tighten that material and add a stronger
+        through-line from ambiguous request to reviewed, tested, secure, responsibly AI-assisted, integrated, and
+        communicated change in a shared codebase.</p>
+    </footer>
+  </main>
+</div>
+</body>
+</html>

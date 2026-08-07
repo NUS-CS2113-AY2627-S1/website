@@ -4,8 +4,8 @@
 <div><h4 id="parallel-paths"><span>Parallel paths</span><a class="fa fa-anchor" href="#parallel-paths" onclick="event.stopPropagation()"></a></h4></div>
 <div id="main">
 <div>
-<p><strong><em>Fork</em> nodes indicate the start of <tooltip><template #content>parallel</template>concurrent</tooltip> flows of control.</strong></p>
-<p><strong><em>Join</em> nodes indicate the end of parallel paths.</strong></p>
+<p><strong><span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">Fork</span></span> nodes indicate the start of <tooltip><template #content>parallel</template>concurrent</tooltip> flows of control.</strong></p>
+<p><strong><span class="badge text-dark" style="background-color: rgba(13, 202, 240, 0.2);"><span class="large">Join</span></span> nodes indicate the end of parallel paths.</strong></p>
 <p>Both have the same notation: a bar.</p>
 <p>In a <tooltip><template #content>paths within a matching fork-join pair</template>set of parallel paths</tooltip>, execution along <strong>all parallel paths should be complete before the execution can start on the outgoing control flow of the <em>join</em>.</strong></p>
 <pic eager src="/website/book/uml/activityDiagrams/basicNotations/parallelPaths/images/notation.png" height="130"></pic>

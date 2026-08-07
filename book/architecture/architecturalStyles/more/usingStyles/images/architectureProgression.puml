@@ -1,0 +1,18 @@
+@startuml
+skinparam backgroundColor transparent
+skinparam shadowing false
+skinparam defaultTextAlignment center
+skinparam rectangle {
+  BackgroundColor #FDFDFD
+  BorderColor #333333
+  roundCorner 8
+}
+top to bottom direction
+rectangle "Unstructured\nprogram" as a
+rectangle "Modular\nmonolith" as b
+rectangle "Client and server\n<i>(each side still</i>\n<i>modular and layered)</i>" as c
+rectangle "Microservices\n<i>(still client-server,</i>\n<i>still modular inside)</i>" as d
+a --> b : needs clearer\nresponsibilities
+b --> c : needs shared\nlive data
+c --> d : teams need\nindependent releases
+@enduml

@@ -1,0 +1,1255 @@
+2026-07-27T16:13:56.201Z - [32minfo[39m: [12:13:56 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md
+2026-07-27T16:13:57.427Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:00.560Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:00.569Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T16:14:00.576Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:02.058Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:03.110Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:03.255Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:03.256Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:03.261Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:03.261Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:03.261Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:03.308Z - [32minfo[39m: Site data built
+2026-07-27T16:14:03.308Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:03.308Z - [32minfo[39m: Website regeneration complete! Total build time: 5.985s
+2026-07-27T16:14:04.852Z - [32minfo[39m: [12:14:04 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md
+2026-07-27T16:14:05.860Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:07.484Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:08.684Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T16:14:08.704Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:08.732Z - [32minfo[39m: [12:14:08 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md
+2026-07-27T16:14:11.028Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:11.863Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:11.911Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:11.911Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:11.913Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:11.913Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:11.913Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:11.925Z - [32minfo[39m: Site data built
+2026-07-27T16:14:11.925Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:11.926Z - [32minfo[39m: Website regeneration complete! Total build time: 6.071s
+2026-07-27T16:14:11.928Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:11.932Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at createTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:110:13)
+    at handle (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:123:17)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:134:13
+    at next (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:258:7)
+    at Object.asyncIter (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:263:3)
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:116:9)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+2026-07-27T16:14:11.933Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:11.934Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:11.962Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:11.963Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:11.964Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:12.437Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:12.437Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:13.292Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:13.293Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:13.698Z - [32minfo[39m: [12:14:13 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md
+2026-07-27T16:14:13.703Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T16:14:14.898Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:14.916Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:15.517Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:15.517Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:15.518Z - [31merror[39m: Template render error: (/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md)
+  unexpected end of file
+    at Object._prettifyError (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/nunjucks/src/lib.js:32:11)
+    at Template.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:313:23)
+    at file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:55:31
+    at Environment.getTemplate (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/load-event.js:78:13)
+    at Environment.render (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/patches/nunjucks/context-overrides-frame.js:47:10)
+    at VariableRenderer.renderFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableRenderer.js:44:24)
+    at VariableProcessor.renderWithSiteVariables (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:125:57)
+    at VariableProcessor.renderIncludeFile (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/variables/VariableProcessor.js:202:38)
+    at processInclude (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/includePanelProcessor.js:166:68)
+    at NodeProcessor.processNode (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/html/NodeProcessor.js:138:28)
+2026-07-27T16:14:16.345Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:17.362Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:17.407Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:17.407Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:17.410Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:17.410Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:17.410Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:17.422Z - [32minfo[39m: Site data built
+2026-07-27T16:14:17.422Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:17.422Z - [32minfo[39m: Website regeneration complete! Total build time: 5.495s
+2026-07-27T16:14:17.424Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:18.900Z - [32minfo[39m: [12:14:18 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md
+2026-07-27T16:14:20.122Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:20.141Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T16:14:20.145Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:21.536Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:22.255Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:22.294Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:22.294Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:22.295Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:22.295Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:22.295Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:22.299Z - [32minfo[39m: Site data built
+2026-07-27T16:14:22.299Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:22.299Z - [32minfo[39m: Website regeneration complete! Total build time: 4.877s
+2026-07-27T16:14:22.300Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:25.023Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:25.050Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T16:14:25.061Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:26.579Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:26.768Z - [32minfo[39m: [12:14:26 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/text.md
+2026-07-27T16:14:27.376Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:27.419Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:27.419Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:27.421Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:27.421Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:27.421Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:27.425Z - [32minfo[39m: Site data built
+2026-07-27T16:14:27.425Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:27.425Z - [32minfo[39m: Website regeneration complete! Total build time: 5.125s
+2026-07-27T16:14:27.801Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:29.591Z - [32minfo[39m: [12:14:29 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/text.md
+2026-07-27T16:14:29.594Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:29.604Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/index.md
+2026-07-27T16:14:29.607Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:32.390Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:33.299Z - [32minfo[39m: [12:14:33 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/text.md
+2026-07-27T16:14:33.302Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:33.346Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:33.346Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:33.348Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:33.348Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:33.348Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:33.353Z - [32minfo[39m: Site data built
+2026-07-27T16:14:33.353Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:33.353Z - [32minfo[39m: Website regeneration complete! Total build time: 5.581s
+2026-07-27T16:14:33.354Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:35.050Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/index.md
+2026-07-27T16:14:36.346Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:36.364Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:37.773Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:38.556Z - [32minfo[39m: [12:14:38 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/text.md
+2026-07-27T16:14:38.559Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:38.600Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:38.600Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:38.602Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:38.602Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:38.602Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:38.606Z - [32minfo[39m: Site data built
+2026-07-27T16:14:38.606Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:38.606Z - [32minfo[39m: Website regeneration complete! Total build time: 5.253s
+2026-07-27T16:14:39.560Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:41.663Z - [32minfo[39m: [12:14:41 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/text.md
+2026-07-27T16:14:41.667Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/index.md
+2026-07-27T16:14:41.672Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:41.682Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:45.242Z - [32minfo[39m: [12:14:45 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/text.md
+2026-07-27T16:14:45.246Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:46.035Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:46.078Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:46.078Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:46.080Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:46.080Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:46.080Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:46.084Z - [32minfo[39m: Site data built
+2026-07-27T16:14:46.084Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:46.084Z - [32minfo[39m: Website regeneration complete! Total build time: 6.527s
+2026-07-27T16:14:46.085Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:14:48.753Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/index.md
+2026-07-27T16:14:48.766Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:14:48.774Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:14:50.222Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:14:51.014Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:14:51.053Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:14:51.053Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:14:51.054Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:51.054Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:51.054Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:14:51.057Z - [32minfo[39m: Site data built
+2026-07-27T16:14:51.057Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:14:51.057Z - [32minfo[39m: Website regeneration complete! Total build time: 4.973s
+2026-07-27T16:15:13.885Z - [32minfo[39m: [12:15:13 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/text.md
+2026-07-27T16:15:14.888Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:15:17.886Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:15:17.895Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:15:17.911Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/index.md
+2026-07-27T16:15:17.920Z - [32minfo[39m: [12:15:17 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/text.md
+2026-07-27T16:15:19.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:15:20.255Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:15:20.300Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:15:20.300Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:15:20.302Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:20.302Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:20.302Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:20.306Z - [32minfo[39m: Site data built
+2026-07-27T16:15:20.306Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:15:20.306Z - [32minfo[39m: Website regeneration complete! Total build time: 5.421s
+2026-07-27T16:15:20.307Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:15:22.873Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:15:22.881Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/index.md
+2026-07-27T16:15:22.891Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:15:22.902Z - [32minfo[39m: [12:15:22 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/text.md
+2026-07-27T16:15:25.120Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:15:25.972Z - [32minfo[39m: [12:15:25 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/text.md
+2026-07-27T16:15:25.976Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:15:26.020Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:15:26.021Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:15:26.023Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:26.023Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:26.023Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:26.028Z - [32minfo[39m: Site data built
+2026-07-27T16:15:26.028Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:15:26.028Z - [32minfo[39m: Website regeneration complete! Total build time: 5.722s
+2026-07-27T16:15:26.029Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:15:29.226Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:15:29.241Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/index.md
+2026-07-27T16:15:29.244Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:15:30.812Z - [32minfo[39m: [12:15:30 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/text.md
+2026-07-27T16:15:30.813Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:15:31.605Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:15:31.651Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:15:31.651Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:15:31.654Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:31.654Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:31.654Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:31.658Z - [32minfo[39m: Site data built
+2026-07-27T16:15:31.658Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:15:31.658Z - [32minfo[39m: Website regeneration complete! Total build time: 5.63s
+2026-07-27T16:15:31.814Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:15:34.578Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/index.md
+2026-07-27T16:15:34.582Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:15:34.589Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:15:36.006Z - [32minfo[39m: [12:15:36 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/fixing/text.md
+2026-07-27T16:15:36.008Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:15:36.858Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:15:36.898Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:15:36.898Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:15:36.900Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:36.900Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:36.900Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:36.904Z - [32minfo[39m: Site data built
+2026-07-27T16:15:36.904Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:15:36.904Z - [32minfo[39m: Website regeneration complete! Total build time: 5.091s
+2026-07-27T16:15:37.008Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:15:38.441Z - [32minfo[39m: [12:15:38 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/fixing/text.md
+2026-07-27T16:15:38.445Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/fixing/index.md
+2026-07-27T16:15:38.448Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:15:38.456Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:15:41.300Z - [32minfo[39m: [12:15:41 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/fixing/text.md
+2026-07-27T16:15:41.301Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:15:42.051Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:15:42.093Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:15:42.093Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:15:42.095Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:42.095Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:42.095Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:42.099Z - [32minfo[39m: Site data built
+2026-07-27T16:15:42.099Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:15:42.099Z - [32minfo[39m: Website regeneration complete! Total build time: 5.092s
+2026-07-27T16:15:42.100Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:15:43.799Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/fixing/index.md
+2026-07-27T16:15:43.803Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:15:44.951Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:15:46.392Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:15:47.178Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:15:47.252Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:15:47.252Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:15:47.253Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:47.253Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:47.253Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:47.256Z - [32minfo[39m: Site data built
+2026-07-27T16:15:47.256Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:15:47.256Z - [32minfo[39m: Website regeneration complete! Total build time: 5.157s
+2026-07-27T16:15:50.608Z - [32minfo[39m: [12:15:50 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/text.md
+2026-07-27T16:15:51.611Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:15:53.127Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/index.md
+2026-07-27T16:15:53.130Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:15:54.334Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:15:54.361Z - [32minfo[39m: [12:15:54 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/text.md
+2026-07-27T16:15:56.098Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:15:56.901Z - [32minfo[39m: [12:15:56 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/text.md
+2026-07-27T16:15:56.902Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:15:56.946Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:15:56.946Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:15:56.948Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:56.948Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:56.948Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:15:56.954Z - [32minfo[39m: Site data built
+2026-07-27T16:15:56.954Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:15:56.954Z - [32minfo[39m: Website regeneration complete! Total build time: 5.345s
+2026-07-27T16:15:56.955Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:15:59.876Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/index.md
+2026-07-27T16:15:59.880Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:15:59.896Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:16:01.372Z - [32minfo[39m: [12:16:01 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/text.md
+2026-07-27T16:16:01.372Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:16:02.142Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:16:02.198Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:16:02.198Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:16:02.199Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:16:02.200Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:16:02.200Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:16:02.205Z - [32minfo[39m: Site data built
+2026-07-27T16:16:02.205Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:16:02.205Z - [32minfo[39m: Website regeneration complete! Total build time: 5.251s
+2026-07-27T16:16:02.374Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:16:05.630Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:16:05.644Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:16:05.651Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/index.md
+2026-07-27T16:16:07.266Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:16:07.804Z - [31merror[39m: Error: ENOENT: no such file or directory, open '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/_site/codeQuality/avoidShortcuts/basic/avoidEmptyCatchBlocks/unit-inElsewhere-asFlat._include_.html'
+    at Object.openSync (node:fs:560:18)
+    at Object.readFileSync (node:fs:444:35)
+    at Object.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:289:43)
+    at exports.each (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at Page.collectHeadingsAndKeywordsInContent (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:267:14)
+    at Object.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:304:22)
+    at exports.each (/opt/homebrew/lib/node_modules/markbind-cli/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at Page.collectHeadingsAndKeywordsInContent (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:267:14)
+    at Page.collectHeadingsAndKeywords (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:251:14)
+    at Page.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Page/index.js:501:18)
+2026-07-27T16:16:07.805Z - [33mwarn[39m: Error: Error while generating /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+    at SiteGenerationManager.<anonymous> (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:609:28)
+    at Generator.throw (<anonymous>)
+    at rejected (file:///opt/homebrew/lib/node_modules/markbind-cli/node_modules/@markbind/core/src/Site/SiteGenerationManager.js:5:65)
+2026-07-27T16:16:08.017Z - [32minfo[39m: Website generation started at 12:16:07 AM
+2026-07-27T16:16:08.774Z - [32minfo[39m: Building assets...
+2026-07-27T16:16:09.057Z - [32minfo[39m: Assets built
+2026-07-27T16:16:09.058Z - [32minfo[39m: Generating pages...
+2026-07-27T16:16:12.769Z - [34mdebug[39m: 
+2026-07-27T16:16:12.772Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/clientServer/index.md
+2026-07-27T16:16:12.890Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/clientServer/what/index.md
+2026-07-27T16:16:12.896Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/eventDriven/index.md
+2026-07-27T16:16:12.912Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/eventDriven/what/index.md
+2026-07-27T16:16:21.983Z - [34mdebug[39m: 
+2026-07-27T16:16:21.984Z - [34mdebug[39m: 
+2026-07-27T16:16:21.984Z - [34mdebug[39m: 
+2026-07-27T16:16:21.984Z - [34mdebug[39m: 
+2026-07-27T16:16:21.984Z - [34mdebug[39m: 
+2026-07-27T16:16:21.984Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.087Z - [34mdebug[39m: 
+2026-07-27T16:16:26.088Z - [34mdebug[39m: 
+2026-07-27T16:16:26.088Z - [34mdebug[39m: 
+2026-07-27T16:16:26.088Z - [34mdebug[39m: 
+2026-07-27T16:16:26.384Z - [34mdebug[39m: 
+2026-07-27T16:16:26.385Z - [34mdebug[39m: 
+2026-07-27T16:16:26.390Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/references.md
+2026-07-27T16:16:26.397Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/definitions.md
+2026-07-27T16:16:26.408Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/combined/exercises.md
+2026-07-27T16:16:26.421Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:16:26.915Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/print.md
+2026-07-27T16:16:26.940Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationsAsAttributes/what/print.md
+2026-07-27T16:16:26.943Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/print.md
+2026-07-27T16:16:26.968Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/print.md
+2026-07-27T16:16:27.180Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/teamwork/print.md
+2026-07-27T16:16:27.183Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/print.md
+2026-07-27T16:16:27.198Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/softwareEngineering/print.md
+2026-07-27T16:16:27.234Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/print.md
+2026-07-27T16:16:27.288Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/print.md
+2026-07-27T16:16:27.314Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/print.md
+2026-07-27T16:16:27.320Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/print.md
+2026-07-27T16:16:27.341Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/print.md
+2026-07-27T16:16:27.507Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/print.md
+2026-07-27T16:16:27.512Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/print.md
+2026-07-27T16:16:27.514Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/print.md
+2026-07-27T16:16:27.663Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/print.md
+2026-07-27T16:16:27.927Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/print.md
+2026-07-27T16:16:27.946Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/print.md
+2026-07-27T16:16:27.949Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/print.md
+2026-07-27T16:16:27.973Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/print.md
+2026-07-27T16:16:28.057Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/print.md
+2026-07-27T16:16:28.060Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/print.md
+2026-07-27T16:16:28.062Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/print.md
+2026-07-27T16:16:28.136Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/print.md
+2026-07-27T16:16:28.177Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/print.md
+2026-07-27T16:16:28.182Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/print.md
+2026-07-27T16:16:28.192Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/print.md
+2026-07-27T16:16:28.202Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/print.md
+2026-07-27T16:16:28.568Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/design/print.md
+2026-07-27T16:16:31.463Z - [34mdebug[39m: 
+2026-07-27T16:16:31.563Z - [34mdebug[39m: 
+2026-07-27T16:16:31.615Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:16:31.622Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/print.md
+2026-07-27T16:16:31.662Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:16:31.888Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/print.md
+2026-07-27T16:16:33.538Z - [34mdebug[39m: 
+2026-07-27T16:16:33.546Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/print.md
+2026-07-27T16:16:33.565Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/about/usage.md
+2026-07-27T16:16:33.573Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/about/acknowledgements.md
+2026-07-27T16:16:33.576Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/stereotypes/what/index.md
+2026-07-27T16:16:33.625Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/stereotypes/index.md
+2026-07-27T16:16:33.627Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/staticMethods/index.md
+2026-07-27T16:16:33.630Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/selfInvocation/index.md
+2026-07-27T16:16:33.632Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/referenceFrames/index.md
+2026-07-27T16:16:33.664Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/optionalPaths/index.md
+2026-07-27T16:16:33.667Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/parallelPaths/index.md
+2026-07-27T16:16:33.669Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/objectDeletion/index.md
+2026-07-27T16:16:33.671Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/objectCreation/index.md
+2026-07-27T16:16:33.740Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/minimalNotation/index.md
+2026-07-27T16:16:33.743Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/loops/index.md
+2026-07-27T16:16:33.747Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/introduction/index.md
+2026-07-27T16:16:33.750Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/index.md
+2026-07-27T16:16:33.793Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/basic/index.md
+2026-07-27T16:16:33.797Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/alternativePaths/index.md
+2026-07-27T16:16:33.799Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/objectDiagrams/objects/index.md
+2026-07-27T16:16:33.803Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/objectDiagrams/introduction/index.md
+2026-07-27T16:16:33.847Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/objectDiagrams/associations/index.md
+2026-07-27T16:16:33.850Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/objectDiagrams/index.md
+2026-07-27T16:16:33.855Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/notes/notes/index.md
+2026-07-27T16:16:33.858Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/notes/index.md
+2026-07-27T16:16:34.177Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/notes/constraints/index.md
+2026-07-27T16:16:34.180Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/miscellaneous/objectVsClassDiagrams/index.md
+2026-07-27T16:16:34.183Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/miscellaneous/index.md
+2026-07-27T16:16:34.203Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/index.md
+2026-07-27T16:16:34.251Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/introduction/what/index.md
+2026-07-27T16:16:34.253Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/introduction/index.md
+2026-07-27T16:16:34.264Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/interfaces/what/index.md
+2026-07-27T16:16:34.405Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/interfaces/index.md
+2026-07-27T16:16:34.419Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/index.md
+2026-07-27T16:16:34.439Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/enumerations/what/index.md
+2026-07-27T16:16:34.452Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/enumerations/index.md
+2026-07-27T16:16:34.471Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/index.md
+2026-07-27T16:16:34.484Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/index.md
+2026-07-27T16:16:34.487Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/composition/what/index.md
+2026-07-27T16:16:34.509Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/composition/index.md
+2026-07-27T16:16:34.529Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/combine/index.md
+2026-07-27T16:16:34.556Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/combine/basic/index.md
+2026-07-27T16:16:34.591Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classes/what/index.md
+2026-07-27T16:16:34.595Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classes/index.md
+2026-07-27T16:16:34.609Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classLevelMembers/what/index.md
+2026-07-27T16:16:34.621Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classLevelMembers/index.md
+2026-07-27T16:16:34.642Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classInheritance/what/index.md
+2026-07-27T16:16:34.653Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classInheritance/index.md
+2026-07-27T16:16:34.658Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationsAsAttributes/what/index.md
+2026-07-27T16:16:34.676Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationsAsAttributes/index.md
+2026-07-27T16:16:34.693Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/what/index.md
+2026-07-27T16:16:34.696Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/index.md
+2026-07-27T16:16:34.716Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/navigability/index.md
+2026-07-27T16:16:34.755Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/multiplicity/index.md
+2026-07-27T16:16:34.759Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/labels/index.md
+2026-07-27T16:16:34.777Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/index.md
+2026-07-27T16:16:34.794Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationClasses/what/index.md
+2026-07-27T16:16:34.796Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationClasses/index.md
+2026-07-27T16:16:34.810Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/aggregation/what/index.md
+2026-07-27T16:16:34.819Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/aggregation/index.md
+2026-07-27T16:16:34.841Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/abstractClasses/what/index.md
+2026-07-27T16:16:34.843Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/abstractClasses/index.md
+2026-07-27T16:16:34.856Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/introduction/what/index.md
+2026-07-27T16:16:34.906Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/introduction/index.md
+2026-07-27T16:16:34.916Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/index.md
+2026-07-27T16:16:34.935Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/rakes/index.md
+2026-07-27T16:16:34.937Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/swimlanes/index.md
+2026-07-27T16:16:34.950Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/parallelPaths/index.md
+2026-07-27T16:16:34.994Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/linearPaths/index.md
+2026-07-27T16:16:35.010Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/index.md
+2026-07-27T16:16:35.018Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/alternatePaths/index.md
+2026-07-27T16:16:35.069Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/unitTesting/what/index.md
+2026-07-27T16:16:35.084Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/unitTesting/stubs/index.md
+2026-07-27T16:16:35.101Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/unitTesting/index.md
+2026-07-27T16:16:35.107Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/systemTesting/what/index.md
+2026-07-27T16:16:35.121Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/systemTesting/index.md
+2026-07-27T16:16:35.144Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/regressionTesting/what/index.md
+2026-07-27T16:16:35.147Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/regressionTesting/index.md
+2026-07-27T16:16:35.165Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/integrationTesting/what/index.md
+2026-07-27T16:16:35.177Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/integrationTesting/index.md
+2026-07-27T16:16:35.324Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/integrationTesting/how/index.md
+2026-07-27T16:16:35.327Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/index.md
+2026-07-27T16:16:35.343Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/exploratoryVsScriptedTesting/when/index.md
+2026-07-27T16:16:35.345Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/exploratoryVsScriptedTesting/what/index.md
+2026-07-27T16:16:35.405Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/exploratoryVsScriptedTesting/index.md
+2026-07-27T16:16:35.409Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/dogfooding/index.md
+2026-07-27T16:16:35.411Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/dogfooding/what/index.md
+2026-07-27T16:16:35.414Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/developerTesting/why/index.md
+2026-07-27T16:16:35.452Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/developerTesting/what/index.md
+2026-07-27T16:16:35.455Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/developerTesting/index.md
+2026-07-27T16:16:35.458Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/alphaBetaTesting/what/index.md
+2026-07-27T16:16:35.460Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/alphaBetaTesting/index.md
+2026-07-27T16:16:35.517Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/acceptanceTesting/what/index.md
+2026-07-27T16:16:35.519Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/acceptanceTesting/acceptanceVsSystemTesting/index.md
+2026-07-27T16:16:35.522Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/acceptanceTesting/index.md
+2026-07-27T16:16:35.526Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testCoverage/what/index.md
+2026-07-27T16:16:35.575Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testCoverage/index.md
+2026-07-27T16:16:35.579Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testCoverage/how/index.md
+2026-07-27T16:16:35.581Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/what/index.md
+2026-07-27T16:16:35.585Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/usingTestDrivers/index.md
+2026-07-27T16:16:35.659Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/tools/index.md
+2026-07-27T16:16:35.663Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/testingTextUis/index.md
+2026-07-27T16:16:35.668Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/testingGuis/index.md
+2026-07-27T16:16:35.672Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/index.md
+2026-07-27T16:16:35.737Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/tdd/what/index.md
+2026-07-27T16:16:35.740Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/tdd/how/index.md
+2026-07-27T16:16:35.743Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/tdd/index.md
+2026-07-27T16:16:35.745Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/introduction/what/index.md
+2026-07-27T16:16:36.044Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/introduction/index.md
+2026-07-27T16:16:36.047Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/index.md
+2026-07-27T16:16:36.075Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/introduction/testability/index.md
+2026-07-27T16:16:36.077Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/dependencyInjection/what/index.md
+2026-07-27T16:16:36.200Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/dependencyInjection/how/index.md
+2026-07-27T16:16:36.205Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/summary/recap/index.md
+2026-07-27T16:16:36.207Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/dependencyInjection/index.md
+2026-07-27T16:16:36.212Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/summary/index.md
+2026-07-27T16:16:36.343Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/summary/exercises/index.md
+2026-07-27T16:16:36.348Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/more/testingUseCases/index.md
+2026-07-27T16:16:36.351Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/introduction/what/index.md
+2026-07-27T16:16:36.354Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/more/index.md
+2026-07-27T16:16:36.582Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/introduction/positiveVsNegative/index.md
+2026-07-27T16:16:36.585Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/introduction/index.md
+2026-07-27T16:16:36.589Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/introduction/blackVsGlass/index.md
+2026-07-27T16:16:36.591Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/index.md
+2026-07-27T16:16:36.679Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/equivalencePartitions/what/index.md
+2026-07-27T16:16:36.681Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/equivalencePartitions/intermediate/index.md
+2026-07-27T16:16:36.684Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/equivalencePartitions/index.md
+2026-07-27T16:16:36.698Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/equivalencePartitions/basic/index.md
+2026-07-27T16:16:36.786Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/why/index.md
+2026-07-27T16:16:36.800Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/mix/index.md
+2026-07-27T16:16:36.806Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/index.md
+2026-07-27T16:16:36.831Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/heuristicValid/index.md
+2026-07-27T16:16:36.859Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/heuristicInvalid/index.md
+2026-07-27T16:16:36.880Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/combinationStrategies/index.md
+2026-07-27T16:16:36.884Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/boundaryValueAnalysis/what/index.md
+2026-07-27T16:16:36.887Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/boundaryValueAnalysis/index.md
+2026-07-27T16:16:36.922Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/boundaryValueAnalysis/how/index.md
+2026-07-27T16:16:36.949Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/teamwork/index.md
+2026-07-27T16:16:36.953Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/teamwork/teamStructures/index.md
+2026-07-27T16:16:36.984Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/userStories/usage/index.md
+2026-07-27T16:16:37.075Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/userStories/introduction/index.md
+2026-07-27T16:16:37.080Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/userStories/details/index.md
+2026-07-27T16:16:37.082Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/userStories/index.md
+2026-07-27T16:16:37.092Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/usage/index.md
+2026-07-27T16:16:37.194Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/introduction/index.md
+2026-07-27T16:16:37.235Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/index.md
+2026-07-27T16:16:37.244Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/details/index.md
+2026-07-27T16:16:37.249Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/identifying/index.md
+2026-07-27T16:16:37.255Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/supplementaryRequirements/what/index.md
+2026-07-27T16:16:37.446Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/supplementaryRequirements/index.md
+2026-07-27T16:16:37.449Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/prose/what/index.md
+2026-07-27T16:16:37.452Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/prose/index.md
+2026-07-27T16:16:37.474Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/index.md
+2026-07-27T16:16:37.504Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/glossary/what/index.md
+2026-07-27T16:16:37.506Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/glossary/index.md
+2026-07-27T16:16:37.520Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/featureList/what/index.md
+2026-07-27T16:16:37.523Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/featureList/index.md
+2026-07-27T16:16:37.607Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/softwareEngineering/introduction/prosAndCons/index.md
+2026-07-27T16:16:37.611Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/softwareEngineering/index.md
+2026-07-27T16:16:37.615Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/softwareEngineering/introduction/index.md
+2026-07-27T16:16:37.620Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/wrapUp/index.md
+2026-07-27T16:16:37.747Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/what/index.md
+2026-07-27T16:16:37.751Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/when/index.md
+2026-07-27T16:16:37.754Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/why/index.md
+2026-07-27T16:16:37.810Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/index.md
+2026-07-27T16:16:37.834Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/how/index.md
+2026-07-27T16:16:37.842Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/ai/index.md
+2026-07-27T16:16:37.863Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/platforms/what/index.md
+2026-07-27T16:16:37.897Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/platforms/index.md
+2026-07-27T16:16:37.901Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/libraries/index.md
+2026-07-27T16:16:37.904Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/libraries/what/index.md
+2026-07-27T16:16:37.906Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/libraries/how/index.md
+2026-07-27T16:16:38.005Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/introduction/when/index.md
+2026-07-27T16:16:38.008Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/introduction/index.md
+2026-07-27T16:16:38.011Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/introduction/what/index.md
+2026-07-27T16:16:38.013Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/index.md
+2026-07-27T16:16:38.066Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/frameworks/what/index.md
+2026-07-27T16:16:38.069Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/frameworks/index.md
+2026-07-27T16:16:38.072Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/frameworks/frameworksVsLibraries/index.md
+2026-07-27T16:16:38.075Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/cloudComputing/what/index.md
+2026-07-27T16:16:38.128Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/cloudComputing/services/index.md
+2026-07-27T16:16:38.131Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/cloudComputing/index.md
+2026-07-27T16:16:38.134Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/apis/what/index.md
+2026-07-27T16:16:38.136Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/apis/index.md
+2026-07-27T16:16:38.176Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/apis/designingAPIs/index.md
+2026-07-27T16:16:38.179Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/quality/index.md
+2026-07-27T16:16:38.182Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/prioritizing/index.md
+2026-07-27T16:16:38.184Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/nonFunctionalRequirements/index.md
+2026-07-27T16:16:38.260Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/introduction/index.md
+2026-07-27T16:16:38.264Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/index.md
+2026-07-27T16:16:38.270Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/when/index.md
+2026-07-27T16:16:38.272Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/what/index.md
+2026-07-27T16:16:38.339Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/index.md
+2026-07-27T16:16:38.346Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/how/index.md
+2026-07-27T16:16:38.349Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/staticAnalysis/index.md
+2026-07-27T16:16:38.351Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/staticAnalysis/what/index.md
+2026-07-27T16:16:38.425Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/introduction/what/index.md
+2026-07-27T16:16:38.427Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/introduction/validationVsVerification/index.md
+2026-07-27T16:16:38.430Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/index.md
+2026-07-27T16:16:38.435Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/introduction/index.md
+2026-07-27T16:16:38.485Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/formalVerification/what/index.md
+2026-07-27T16:16:38.490Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/formalVerification/index.md
+2026-07-27T16:16:38.493Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/what/index.md
+2026-07-27T16:16:38.495Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/index.md
+2026-07-27T16:16:38.531Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/workBreakdownStructure/index.md
+2026-07-27T16:16:38.536Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/pertCharts/index.md
+2026-07-27T16:16:38.538Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/milestones/index.md
+2026-07-27T16:16:38.571Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/issueTrackers/index.md
+2026-07-27T16:16:38.586Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/index.md
+2026-07-27T16:16:38.734Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/ganttCharts/index.md
+2026-07-27T16:16:38.736Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/buffers/index.md
+2026-07-27T16:16:38.759Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectDuke/index.md
+2026-07-27T16:16:38.807Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/summary/recap/index.md
+2026-07-27T16:16:38.817Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/summary/index.md
+2026-07-27T16:16:38.820Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/more/index.md
+2026-07-27T16:16:38.823Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/more/cmmi/index.md
+2026-07-27T16:16:38.867Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/what/index.md
+2026-07-27T16:16:38.869Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/sequentialModels/index.md
+2026-07-27T16:16:38.872Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/iterativeModels/index.md
+2026-07-27T16:16:38.876Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/index.md
+2026-07-27T16:16:38.974Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/agileModels/index.md
+2026-07-27T16:16:38.977Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/xp/index.md
+2026-07-27T16:16:38.979Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/index.md
+2026-07-27T16:16:38.989Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/unifiedProcess/index.md
+2026-07-27T16:16:39.091Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/scrum/index.md
+2026-07-27T16:16:39.094Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/yagniPrinciple/index.md
+2026-07-27T16:16:39.096Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/index.md
+2026-07-27T16:16:39.111Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/solidPrinciples/index.md
+2026-07-27T16:16:39.162Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/singleResponsibilityPrinciple/index.md
+2026-07-27T16:16:39.178Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/separationOfConcernsPrinciple/index.md
+2026-07-27T16:16:39.182Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/review/index.md
+2026-07-27T16:16:39.207Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/openClosedPrinciple/index.md
+2026-07-27T16:16:39.240Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/liskovSubstitutionPrinciple/index.md
+2026-07-27T16:16:39.244Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/interfaceSegregationPrinciple/index.md
+2026-07-27T16:16:39.432Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/lawOfDemeter/index.md
+2026-07-27T16:16:39.472Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/index.md
+2026-07-27T16:16:39.489Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/dryPrinciple/index.md
+2026-07-27T16:16:39.492Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/brooksLaw/index.md
+2026-07-27T16:16:39.494Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/dependencyInversionPrinciple/index.md
+2026-07-27T16:16:39.555Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/polymorphism/what/index.md
+2026-07-27T16:16:39.558Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/polymorphism/index.md
+2026-07-27T16:16:39.562Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/polymorphism/how/index.md
+2026-07-27T16:16:39.565Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/objects/what/index.md
+2026-07-27T16:16:39.634Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/objects/index.md
+2026-07-27T16:16:39.641Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/objects/encapsulation/index.md
+2026-07-27T16:16:39.649Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/objects/abstraction/index.md
+2026-07-27T16:16:39.652Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/more/review/index.md
+2026-07-27T16:16:39.670Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/more/miscellaneous/index.md
+2026-07-27T16:16:39.701Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/more/index.md
+2026-07-27T16:16:39.706Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/introduction/what/index.md
+2026-07-27T16:16:39.722Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/introduction/index.md
+2026-07-27T16:16:39.749Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/what/index.md
+2026-07-27T16:16:39.765Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/substitutability/index.md
+2026-07-27T16:16:39.775Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/overriding/index.md
+2026-07-27T16:16:39.777Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/overloading/index.md
+2026-07-27T16:16:39.891Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/interfaces/index.md
+2026-07-27T16:16:39.910Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/index.md
+2026-07-27T16:16:39.918Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/dynamicAndStaticBinding/index.md
+2026-07-27T16:16:39.923Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/abstractClasses/index.md
+2026-07-27T16:16:40.238Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/index.md
+2026-07-27T16:16:40.275Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/classes/what/index.md
+2026-07-27T16:16:40.278Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/classes/index.md
+2026-07-27T16:16:40.284Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/classes/enumerations/index.md
+2026-07-27T16:16:40.430Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/classes/classLevelMembers/index.md
+2026-07-27T16:16:40.440Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/what/index.md
+2026-07-27T16:16:40.451Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/navigability/index.md
+2026-07-27T16:16:40.475Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/multiplicity/index.md
+2026-07-27T16:16:40.689Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/dependencies/index.md
+2026-07-27T16:16:40.694Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/index.md
+2026-07-27T16:16:40.715Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/composition/index.md
+2026-07-27T16:16:40.724Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/associationClasses/index.md
+2026-07-27T16:16:40.833Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/aggregation/index.md
+2026-07-27T16:16:40.838Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/ooStructures/index.md
+2026-07-27T16:16:40.846Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/packageDiagrams/index.md
+2026-07-27T16:16:40.853Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/objectOrientedDomainModels/index.md
+2026-07-27T16:16:41.230Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/deploymentDiagrams/index.md
+2026-07-27T16:16:41.240Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/objectDiagrams/index.md
+2026-07-27T16:16:41.251Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/index.md
+2026-07-27T16:16:41.279Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/customisingUml/index.md
+2026-07-27T16:16:41.284Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/compositeStructureDiagrams/index.md
+2026-07-27T16:16:41.373Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/componentDiagrams/index.md
+2026-07-27T16:16:41.395Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/classDiagramsIntermediate/index.md
+2026-07-27T16:16:41.401Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/classDiagramsBasic/index.md
+2026-07-27T16:16:41.425Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/classDiagramsAdvanced/index.md
+2026-07-27T16:16:41.439Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/addingMoreInfo/index.md
+2026-07-27T16:16:41.442Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/useCaseDiagrams/index.md
+2026-07-27T16:16:41.455Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/timingDiagrams/index.md
+2026-07-27T16:16:41.507Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/stateMachineDiagrams/index.md
+2026-07-27T16:16:41.519Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/index.md
+2026-07-27T16:16:41.531Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/sequenceDiagramsBasic/index.md
+2026-07-27T16:16:41.539Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/sequenceDiagramsAdvanced/index.md
+2026-07-27T16:16:41.542Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/interactionOverviewDiagrams/index.md
+2026-07-27T16:16:41.673Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/index.md
+2026-07-27T16:16:41.687Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/communicationDiagrams/index.md
+2026-07-27T16:16:41.689Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/activityDiagrams/index.md
+2026-07-27T16:16:41.699Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/activityDiagramsIntermediate/index.md
+2026-07-27T16:16:41.723Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingASolution/introduction/index.md
+2026-07-27T16:16:41.775Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingASolution/intermediate/index.md
+2026-07-27T16:16:41.781Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingASolution/index.md
+2026-07-27T16:16:41.795Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingASolution/basic/index.md
+2026-07-27T16:16:41.938Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/introduction/what/index.md
+2026-07-27T16:16:41.942Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/introduction/umlModels/index.md
+2026-07-27T16:16:42.237Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/introduction/index.md
+2026-07-27T16:16:42.244Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/introduction/how/index.md
+2026-07-27T16:16:42.274Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/index.md
+2026-07-27T16:16:42.315Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/refactoring/index.md
+2026-07-27T16:16:42.317Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/projectSetup/index.md
+2026-07-27T16:16:42.319Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/productivityShortcuts/index.md
+2026-07-27T16:16:42.371Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/index.md
+2026-07-27T16:16:42.377Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/debuggingBasic/index.md
+2026-07-27T16:16:42.380Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/codeNavigation/index.md
+2026-07-27T16:16:42.382Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/more/review/index.md
+2026-07-27T16:16:42.472Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/more/index.md
+2026-07-27T16:16:42.475Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/introduction/index.md
+2026-07-27T16:16:42.478Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/introduction/what/index.md
+2026-07-27T16:16:42.481Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/index.md
+2026-07-27T16:16:42.534Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/buildAutomation/what/index.md
+2026-07-27T16:16:42.537Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/buildAutomation/index.md
+2026-07-27T16:16:42.540Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/buildAutomation/continuousIntegrationDeployment/index.md
+2026-07-27T16:16:42.544Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/approaches/topDownVsBottomUp/index.md
+2026-07-27T16:16:42.600Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/approaches/lateVsEarly/index.md
+2026-07-27T16:16:42.604Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/approaches/index.md
+2026-07-27T16:16:42.609Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/approaches/bigBangVsIncremental/index.md
+2026-07-27T16:16:42.611Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/index.md
+2026-07-27T16:16:42.695Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/introduction/what/index.md
+2026-07-27T16:16:42.703Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/introduction/index.md
+2026-07-27T16:16:42.708Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/index.md
+2026-07-27T16:16:42.715Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/debugging/what/index.md
+2026-07-27T16:16:42.751Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/debugging/index.md
+2026-07-27T16:16:42.755Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/workingWithRemotes/index.md
+2026-07-27T16:16:42.763Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/usingRevisionHistory/index.md
+2026-07-27T16:16:42.765Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/syncingBranches/index.md
+2026-07-27T16:16:42.789Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/remoteBranches/index.md
+2026-07-27T16:16:42.792Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/index.md
+2026-07-27T16:16:42.794Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/recordingFolderHistory/index.md
+2026-07-27T16:16:42.797Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/fineTuningHistory/index.md
+2026-07-27T16:16:42.830Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/branchingLocally/index.md
+2026-07-27T16:16:42.832Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/backingUpOnCloud/index.md
+2026-07-27T16:16:42.836Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/reviewPRs/index.md
+2026-07-27T16:16:42.838Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/managePRs/index.md
+2026-07-27T16:16:42.874Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/index.md
+2026-07-27T16:16:42.878Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/forkingWorkflow/index.md
+2026-07-27T16:16:42.880Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/userSurveys/index.md
+2026-07-27T16:16:42.882Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/createPRs/index.md
+2026-07-27T16:16:42.924Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/prototyping/index.md
+2026-07-27T16:16:42.927Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/productSurveys/index.md
+2026-07-27T16:16:42.929Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/observation/index.md
+2026-07-27T16:16:42.933Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/interviews/index.md
+2026-07-27T16:16:43.014Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/index.md
+2026-07-27T16:16:43.022Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/focusGroups/index.md
+2026-07-27T16:16:43.025Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/brainstorming/index.md
+2026-07-27T16:16:43.028Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/logging/what/index.md
+2026-07-27T16:16:43.083Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/logging/how/index.md
+2026-07-27T16:16:43.086Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/logging/index.md
+2026-07-27T16:16:43.090Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/introduction/what/index.md
+2026-07-27T16:16:43.092Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/introduction/index.md
+2026-07-27T16:16:43.310Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/exceptions/what/index.md
+2026-07-27T16:16:43.313Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/index.md
+2026-07-27T16:16:43.329Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/exceptions/index.md
+2026-07-27T16:16:43.333Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/exceptions/when/index.md
+2026-07-27T16:16:43.382Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/exceptions/how/index.md
+2026-07-27T16:16:43.386Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/designByContract/what/index.md
+2026-07-27T16:16:43.388Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/designByContract/index.md
+2026-07-27T16:16:43.391Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/when/index.md
+2026-07-27T16:16:43.540Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/referentialIntegrity/index.md
+2026-07-27T16:16:43.545Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/what/index.md
+2026-07-27T16:16:43.548Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/compulsoryAssociations/index.md
+2026-07-27T16:16:43.553Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/index.md
+2026-07-27T16:16:43.618Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/1to1Associations/index.md
+2026-07-27T16:16:43.621Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/assertions/when/index.md
+2026-07-27T16:16:43.624Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/assertions/what/index.md
+2026-07-27T16:16:43.627Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/assertions/index.md
+2026-07-27T16:16:43.664Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/assertions/how/index.md
+2026-07-27T16:16:43.667Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/markdown/how/index.md
+2026-07-27T16:16:43.669Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/markdown/index.md
+2026-07-27T16:16:43.672Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/markdown/what/index.md
+2026-07-27T16:16:43.738Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/javaDoc/what/index.md
+2026-07-27T16:16:43.741Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/javaDoc/index.md
+2026-07-27T16:16:43.746Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/javaDoc/how/index.md
+2026-07-27T16:16:43.748Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/index.md
+2026-07-27T16:16:43.798Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/asciiDoc/what/index.md
+2026-07-27T16:16:43.801Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/asciiDoc/index.md
+2026-07-27T16:16:43.806Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/introduction/what/index.md
+2026-07-27T16:16:43.811Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/introduction/index.md
+2026-07-27T16:16:43.966Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/index.md
+2026-07-27T16:16:43.977Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/index.md
+2026-07-27T16:16:43.982Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/goTopDown/why/index.md
+2026-07-27T16:16:43.983Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/goTopDown/what/index.md
+2026-07-27T16:16:44.026Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/goTopDown/how/index.md
+2026-07-27T16:16:44.029Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/goTopDown/index.md
+2026-07-27T16:16:44.032Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/documentMinimally/what/index.md
+2026-07-27T16:16:44.047Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/documentMinimally/index.md
+2026-07-27T16:16:44.064Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/documentMinimally/how/index.md
+2026-07-27T16:16:44.075Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/aimForComprehensibility/what/index.md
+2026-07-27T16:16:44.079Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/aimForComprehensibility/index.md
+2026-07-27T16:16:44.093Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/aimForComprehensibility/how/index.md
+2026-07-27T16:16:44.125Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/what/index.md
+2026-07-27T16:16:44.128Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/index.md
+2026-07-27T16:16:44.138Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/index.md
+2026-07-27T16:16:44.180Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/evaluation/index.md
+2026-07-27T16:16:44.188Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/observer/what/index.md
+2026-07-27T16:16:44.201Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/observer/index.md
+2026-07-27T16:16:44.205Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/vsPrinciples/index.md
+2026-07-27T16:16:44.223Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/usingDesignPatterns/index.md
+2026-07-27T16:16:44.251Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/otherTypesOfPatterns/index.md
+2026-07-27T16:16:44.263Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/otherDesignPatterns/index.md
+2026-07-27T16:16:44.265Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/index.md
+2026-07-27T16:16:44.287Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/combiningDesignPatterns/index.md
+2026-07-27T16:16:44.304Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/what/index.md
+2026-07-27T16:16:44.308Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/index.md
+2026-07-27T16:16:44.311Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/introduction/what/index.md
+2026-07-27T16:16:44.348Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/introduction/index.md
+2026-07-27T16:16:44.481Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/introduction/format/index.md
+2026-07-27T16:16:44.505Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/facade/what/index.md
+2026-07-27T16:16:44.510Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/index.md
+2026-07-27T16:16:44.524Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/facade/index.md
+2026-07-27T16:16:44.528Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/command/what/index.md
+2026-07-27T16:16:44.577Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/command/index.md
+2026-07-27T16:16:44.641Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/abstractionOccurrence/what/index.md
+2026-07-27T16:16:44.645Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/abstractionOccurrence/index.md
+2026-07-27T16:16:44.666Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/index.md
+2026-07-27T16:16:44.715Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/coupling/what/index.md
+2026-07-27T16:16:44.718Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/coupling/types/index.md
+2026-07-27T16:16:44.734Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/coupling/index.md
+2026-07-27T16:16:44.763Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/coupling/how/index.md
+2026-07-27T16:16:44.779Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/cohesion/what/index.md
+2026-07-27T16:16:44.793Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/cohesion/index.md
+2026-07-27T16:16:44.797Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/cohesion/how/index.md
+2026-07-27T16:16:44.823Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/abstraction/what/index.md
+2026-07-27T16:16:44.837Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/abstraction/index.md
+2026-07-27T16:16:44.842Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/topDownBottomUp/what/index.md
+2026-07-27T16:16:44.844Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/topDownBottomUp/index.md
+2026-07-27T16:16:44.892Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/multilevelDesign/what/index.md
+2026-07-27T16:16:44.904Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/multilevelDesign/index.md
+2026-07-27T16:16:44.919Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/index.md
+2026-07-27T16:16:44.926Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/agileDesign/what/index.md
+2026-07-27T16:16:44.934Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/agileDesign/index.md
+2026-07-27T16:16:44.958Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/design/introduction/what/index.md
+2026-07-27T16:16:44.976Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/design/introduction/index.md
+2026-07-27T16:16:44.978Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/design/index.md
+2026-07-27T16:16:44.996Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T16:16:45.088Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/index.md
+2026-07-27T16:16:45.092Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:16:45.101Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/index.md
+2026-07-27T16:16:45.105Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/fixing/index.md
+2026-07-27T16:16:45.189Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/index.md
+2026-07-27T16:16:45.194Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/wrapperClasses/index.md
+2026-07-27T16:16:45.198Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/stringClass/index.md
+2026-07-27T16:16:45.204Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/scannerClass/index.md
+2026-07-27T16:16:45.328Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/index.md
+2026-07-27T16:16:45.339Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/arraysClass/index.md
+2026-07-27T16:16:45.343Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/api/index.md
+2026-07-27T16:16:45.345Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/usingObjects/index.md
+2026-07-27T16:16:45.446Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/passingObjects/index.md
+2026-07-27T16:16:45.451Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/index.md
+2026-07-27T16:16:45.459Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/instanceMembers/index.md
+2026-07-27T16:16:45.463Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/garbageCollection/index.md
+2026-07-27T16:16:45.524Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/varargs/index.md
+2026-07-27T16:16:45.526Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/streams/index.md
+2026-07-27T16:16:45.529Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/javaFX/part02/index.md
+2026-07-27T16:16:45.536Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/packages/index.md
+2026-07-27T16:16:45.655Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/javaFX/part01/index.md
+2026-07-27T16:16:45.663Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/javaFX/index.md
+2026-07-27T16:16:45.665Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/index.md
+2026-07-27T16:16:45.677Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/jar/index.md
+2026-07-27T16:16:45.731Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/fileAccess/index.md
+2026-07-27T16:16:45.735Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/enums/index.md
+2026-07-27T16:16:45.738Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/constants/index.md
+2026-07-27T16:16:45.740Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/casting/index.md
+2026-07-27T16:16:45.799Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/accessModifiers/index.md
+2026-07-27T16:16:45.804Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/junit/index.md
+2026-07-27T16:16:45.808Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/junit/intermediate/index.md
+2026-07-27T16:16:45.816Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/junit/basic/index.md
+2026-07-27T16:16:45.850Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/javaWorld/what/index.md
+2026-07-27T16:16:45.853Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/javaWorld/index.md
+2026-07-27T16:16:45.856Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/javaWorld/how/index.md
+2026-07-27T16:16:45.890Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/javaWorld/editions/index.md
+2026-07-27T16:16:46.090Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/polymorphism/index.md
+2026-07-27T16:16:46.096Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/objectClass/index.md
+2026-07-27T16:16:46.103Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/interfaces/index.md
+2026-07-27T16:16:46.140Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/index.md
+2026-07-27T16:16:47.119Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/index.md
+2026-07-27T16:16:47.125Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/abstractClassesAndMethods/index.md
+2026-07-27T16:16:47.131Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/running/index.md
+2026-07-27T16:16:47.142Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/index.md
+2026-07-27T16:16:47.286Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/installation/index.md
+2026-07-27T16:16:47.289Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/index.md
+2026-07-27T16:16:47.304Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/helloWorld/index.md
+2026-07-27T16:16:47.345Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/compiling/index.md
+2026-07-27T16:16:47.365Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/generics/index.md
+2026-07-27T16:16:47.371Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/generics/what/index.md
+2026-07-27T16:16:47.473Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/generics/how/index.md
+2026-07-27T16:16:47.481Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/exceptions/what/index.md
+2026-07-27T16:16:47.483Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/exceptions/index.md
+2026-07-27T16:16:47.502Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/exceptions/how/index.md
+2026-07-27T16:16:47.588Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/variables/index.md
+2026-07-27T16:16:47.594Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/primitiveTypes/index.md
+2026-07-27T16:16:47.596Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/index.md
+2026-07-27T16:16:47.627Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/operators/index.md
+2026-07-27T16:16:47.686Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/arrays/index.md
+2026-07-27T16:16:47.770Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/controlFlow/methods/index.md
+2026-07-27T16:16:47.800Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/controlFlow/loops/index.md
+2026-07-27T16:16:47.805Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/controlFlow/index.md
+2026-07-27T16:16:47.888Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/controlFlow/branching/index.md
+2026-07-27T16:16:47.893Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/collections/what/index.md
+2026-07-27T16:16:47.912Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/collections/index.md
+2026-07-27T16:16:47.921Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/collections/hashMapClass/index.md
+2026-07-27T16:16:48.023Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/collections/arrayListClass/index.md
+2026-07-27T16:16:48.029Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/classes/index.md
+2026-07-27T16:16:48.038Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/classes/gettersAndSetters/index.md
+2026-07-27T16:16:48.065Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/classes/definingClasses/index.md
+2026-07-27T16:16:48.086Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/classes/classLevelMembers/index.md
+2026-07-27T16:16:48.100Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/about/index.md
+2026-07-27T16:16:48.103Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/introduction/index.md
+2026-07-27T16:16:48.112Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/intermediate/useNameExplain/index.md
+2026-07-27T16:16:48.178Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/intermediate/notTooLongNorShort/index.md
+2026-07-27T16:16:48.181Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/intermediate/index.md
+2026-07-27T16:16:48.185Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/intermediate/avoidMisleadingNames/index.md
+2026-07-27T16:16:48.188Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/index.md
+2026-07-27T16:16:48.230Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/basic/nounsAndVerbsAsNames/index.md
+2026-07-27T16:16:48.232Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/basic/useStandardWords/index.md
+2026-07-27T16:16:48.234Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/introduction/index.md
+2026-07-27T16:16:48.236Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/basic/index.md
+2026-07-27T16:16:48.306Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/slapHard/index.md
+2026-07-27T16:16:48.309Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/structureCodeLogically/index.md
+2026-07-27T16:16:48.311Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/practiceKISSing/index.md
+2026-07-27T16:16:48.313Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/index.md
+2026-07-27T16:16:48.427Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/dontTripReader/index.md
+2026-07-27T16:16:48.429Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/avoidPrematureOptimizations/index.md
+2026-07-27T16:16:48.433Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/index.md
+2026-07-27T16:16:48.443Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/makeCodeObvious/index.md
+2026-07-27T16:16:48.508Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/avoidMagicNumbers/index.md
+2026-07-27T16:16:48.511Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/index.md
+2026-07-27T16:16:48.517Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/avoidLongMethods/index.md
+2026-07-27T16:16:48.521Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/avoidDeepNesting/index.md
+2026-07-27T16:16:48.568Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/avoidComplicatedExpressions/index.md
+2026-07-27T16:16:48.570Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/advanced/makeHappyPathProminent/index.md
+2026-07-27T16:16:48.574Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/advanced/index.md
+2026-07-27T16:16:48.576Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/introduction/index.md
+2026-07-27T16:16:48.829Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/introduction/basic/index.md
+2026-07-27T16:16:48.831Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/index.md
+2026-07-27T16:16:48.856Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/followStandard/introduction/index.md
+2026-07-27T16:16:48.858Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/followStandard/intermediate/index.md
+2026-07-27T16:16:48.926Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/followStandard/index.md
+2026-07-27T16:16:48.931Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/followStandard/basic/index.md
+2026-07-27T16:16:48.934Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/introduction/index.md
+2026-07-27T16:16:48.936Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/intermediate/index.md
+2026-07-27T16:16:49.003Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/index.md
+2026-07-27T16:16:49.007Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/intermediate/explainWhatWhyNotHow/index.md
+2026-07-27T16:16:49.011Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/basic/writeToReader/index.md
+2026-07-27T16:16:49.014Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/basic/index.md
+2026-07-27T16:16:49.054Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/introduction/index.md
+2026-07-27T16:16:49.056Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/basic/dontRepeatObvious/index.md
+2026-07-27T16:16:49.058Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/intermediate/minimiseVariableScope/index.md
+2026-07-27T16:16:49.060Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/intermediate/minimiseCodeDuplication/index.md
+2026-07-27T16:16:49.149Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/intermediate/index.md
+2026-07-27T16:16:49.152Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/index.md
+2026-07-27T16:16:49.157Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/useDefaultBranch/index.md
+2026-07-27T16:16:49.176Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/index.md
+2026-07-27T16:16:49.189Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/dontRecycleVarsOrParams/index.md
+2026-07-27T16:16:49.202Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/deleteDeadCode/index.md
+2026-07-27T16:16:49.204Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/avoidEmptyCatchBlocks/index.md
+2026-07-27T16:16:49.260Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/why/index.md
+2026-07-27T16:16:49.283Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/index.md
+2026-07-27T16:16:49.286Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/index.md
+2026-07-27T16:16:49.450Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/components/index.md
+2026-07-27T16:16:49.461Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/index.md
+2026-07-27T16:16:49.480Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index.md
+2026-07-27T16:16:49.507Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/reading/index.md
+2026-07-27T16:16:49.538Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/index.md
+2026-07-27T16:16:49.562Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/drawing/index.md
+2026-07-27T16:16:49.565Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/serviceOriented/what/index.md
+2026-07-27T16:16:49.593Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/serviceOriented/index.md
+2026-07-27T16:16:49.597Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/more/usingStyles/index.md
+2026-07-27T16:16:49.621Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/more/moreStyles/index.md
+2026-07-27T16:16:49.634Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/more/index.md
+2026-07-27T16:16:49.660Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/monolith/what/index.md
+2026-07-27T16:16:49.663Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/monolith/index.md
+2026-07-27T16:16:49.685Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/index.md
+2026-07-27T16:16:49.697Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/index.md
+2026-07-27T16:16:49.774Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/introduction/what/index.md
+2026-07-27T16:16:49.780Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/introduction/index.md
+2026-07-27T16:16:49.782Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/index.md
+2026-07-27T16:16:49.796Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:16:49.796Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:16:49.798Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:16:49.798Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:16:49.798Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:16:49.810Z - [32minfo[39m: Pages built
+2026-07-27T16:16:49.904Z - [32minfo[39m: Site data built
+2026-07-27T16:16:49.904Z - [32minfo[39m: Website generation complete! Total build time: 42.136s
+2026-07-27T16:16:49.904Z - [32minfo[39m: Build success!
+2026-07-27T16:56:57.150Z - [32minfo[39m: [12:56:57 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md
+2026-07-27T16:56:58.370Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T16:57:00.139Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T16:57:00.146Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T16:57:00.149Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T16:57:03.379Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T16:57:04.191Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T16:57:04.239Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T16:57:04.239Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T16:57:04.241Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:57:04.241Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:57:04.241Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T16:57:04.249Z - [32minfo[39m: Site data built
+2026-07-27T16:57:04.249Z - [32minfo[39m: Pages rebuilt
+2026-07-27T16:57:04.249Z - [32minfo[39m: Website regeneration complete! Total build time: 5.997s
+2026-07-27T17:00:09.295Z - [32minfo[39m: [1:00:09 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md
+2026-07-27T17:00:10.328Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T17:00:12.172Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T17:00:13.320Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T17:00:13.324Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T17:00:15.219Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T17:00:15.992Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T17:00:16.035Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T17:00:16.035Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T17:00:16.037Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T17:00:16.037Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T17:00:16.037Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T17:00:16.050Z - [32minfo[39m: Site data built
+2026-07-27T17:00:16.050Z - [32minfo[39m: Pages rebuilt
+2026-07-27T17:00:16.051Z - [32minfo[39m: Website regeneration complete! Total build time: 5.737s
+2026-07-27T17:01:02.549Z - [32minfo[39m: [1:01:02 AM] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/text.md
+2026-07-27T17:01:03.620Z - [32minfo[39m: Rebuilding 5 pages
+2026-07-27T17:01:06.446Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/print.md
+2026-07-27T17:01:06.455Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-07-27T17:01:06.465Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-07-27T17:01:07.916Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/print.md
+2026-07-27T17:01:08.707Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/common/outcomes.md
+2026-07-27T17:01:08.748Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/text.md'
+2026-07-27T17:01:08.748Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/architecture/introduction/what/images/architecture.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/text.md'
+2026-07-27T17:01:08.750Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T17:01:08.750Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/incorrectDependencyWithInheritance.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T17:01:08.750Z - [33mwarn[39m: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/se-book/uml/classDiagrams/dependencies/what/images/correctDependencyWithAssociation.png' found in file '/Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/text.md'
+2026-07-27T17:01:08.754Z - [32minfo[39m: Site data built
+2026-07-27T17:01:08.754Z - [32minfo[39m: Pages rebuilt
+2026-07-27T17:01:08.754Z - [32minfo[39m: Website regeneration complete! Total build time: 5.138s

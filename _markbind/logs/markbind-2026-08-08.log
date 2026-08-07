@@ -1,0 +1,1193 @@
+2026-08-07T16:03:47.728Z - [32minfo[39m: [00:03:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/textbookTopics-fragment.md
+2026-08-07T16:03:47.749Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:03:47.750Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:03:47.750Z - [32minfo[39m: 1. schedule/week11/topics
+2026-08-07T16:03:47.752Z - [32minfo[39m: [00:03:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/weeklyTextbookTopics-fragment.md
+2026-08-07T16:03:47.752Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:03:47.752Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:03:47.752Z - [32minfo[39m: 1. schedule/week11/topics
+2026-08-07T16:03:48.929Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:03:49.681Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/topics.md
+2026-08-07T16:03:49.743Z - [32minfo[39m: Site data built
+2026-08-07T16:03:49.743Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:03:49.743Z - [32minfo[39m: Website regeneration complete! Total build time: 0.826s
+2026-08-07T16:03:55.308Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/index as some of its dependencies were changed since the last visit
+2026-08-07T16:03:55.443Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:03:55.612Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/index.md
+2026-08-07T16:03:55.623Z - [32minfo[39m: Site data built
+2026-08-07T16:03:55.623Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.316s
+2026-08-07T16:03:59.810Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:03:59.949Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:04:00.247Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:04:00.247Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/unit-inElsewhere-asPanelBody.md
+2026-08-07T16:04:00.600Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:04:00.658Z - [32minfo[39m: Site data built
+2026-08-07T16:04:00.658Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.848s
+2026-08-07T16:07:42.492Z - [32minfo[39m: [00:07:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/textbookTopics-fragment.md
+2026-08-07T16:07:42.500Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:07:42.501Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:07:42.501Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:07:42.502Z - [32minfo[39m: [00:07:42] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/weeklyTextbookTopics-fragment.md
+2026-08-07T16:07:42.502Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:07:42.502Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:07:42.502Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:07:43.620Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:07:43.738Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:07:44.046Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:07:44.046Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/unit-inElsewhere-asPanelBody.md
+2026-08-07T16:07:44.437Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:07:44.520Z - [32minfo[39m: Site data built
+2026-08-07T16:07:44.520Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:07:44.520Z - [32minfo[39m: Website regeneration complete! Total build time: 0.902s
+2026-08-07T16:08:07.745Z - [32minfo[39m: [00:08:07] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/textbookTopics-fragment.md
+2026-08-07T16:08:07.748Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:08:07.749Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:08:07.749Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:08:08.882Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:08:08.999Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:08:09.288Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:08:09.288Z - [31merror[39m: No such file: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+Missing reference in /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/unit-inElsewhere-asPanelBody.md
+2026-08-07T16:08:09.663Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:08:09.726Z - [32minfo[39m: Site data built
+2026-08-07T16:08:09.726Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:08:09.726Z - [32minfo[39m: Website regeneration complete! Total build time: 0.845s
+2026-08-07T16:10:02.526Z - [32minfo[39m: [00:10:02] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+2026-08-07T16:10:02.529Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:10:02.530Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:10:02.530Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:10:02.839Z - [32minfo[39m: [00:10:02] Reload for file add: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/index.md
+2026-08-07T16:10:02.839Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:10:02.839Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:10:02.839Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:10:03.843Z - [32minfo[39m: Pages or site config modified, updating pages...
+2026-08-07T16:10:05.023Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:10:06.132Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:10:06.196Z - [32minfo[39m: Site data built
+2026-08-07T16:10:06.196Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.174s
+2026-08-07T16:11:48.951Z - [32minfo[39m: [00:11:48] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/createPRs/text.md
+2026-08-07T16:11:48.953Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:11:48.954Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:11:48.954Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:11:49.965Z - [32minfo[39m: Assets built
+2026-08-07T16:11:55.704Z - [32minfo[39m: [00:11:55] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/createPRs/text.md
+2026-08-07T16:11:55.707Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:11:55.708Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:11:55.708Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:11:56.709Z - [32minfo[39m: Assets built
+2026-08-07T16:12:39.600Z - [32minfo[39m: [00:12:39] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/createPRs/text.md
+2026-08-07T16:12:39.601Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:12:39.602Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:12:39.602Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:12:40.606Z - [32minfo[39m: Assets built
+2026-08-07T16:12:52.339Z - [32minfo[39m: [00:12:52] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/text.md
+2026-08-07T16:12:52.340Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:12:52.341Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:12:52.341Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:12:53.369Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:12:54.215Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:12:54.280Z - [32minfo[39m: Site data built
+2026-08-07T16:12:54.280Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:12:54.280Z - [32minfo[39m: Website regeneration complete! Total build time: 0.926s
+2026-08-07T16:18:19.564Z - [32minfo[39m: [00:18:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/textbookTopics-fragment.md
+2026-08-07T16:18:19.567Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:18:19.568Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:18:19.568Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:18:19.644Z - [32minfo[39m: [00:18:19] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTextbookTopics-fragment.md
+2026-08-07T16:18:19.644Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:18:19.645Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:18:19.645Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:18:20.673Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:18:21.639Z - [32minfo[39m: Assets built
+2026-08-07T16:18:21.650Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:18:21.803Z - [32minfo[39m: Site data built
+2026-08-07T16:18:21.803Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:18:21.803Z - [32minfo[39m: Website regeneration complete! Total build time: 1.131s
+2026-08-07T16:19:10.728Z - [32minfo[39m: [00:19:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/weeklyTextbookTopics-fragment.md
+2026-08-07T16:19:10.729Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:19:10.730Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:19:10.731Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:19:10.823Z - [32minfo[39m: [00:19:10] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTextbookTopics-fragment.md
+2026-08-07T16:19:10.823Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:19:10.823Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:19:10.823Z - [32minfo[39m: 1. schedule/week6/topics
+2026-08-07T16:19:11.736Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:19:12.674Z - [32minfo[39m: Assets built
+2026-08-07T16:19:12.681Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:19:12.741Z - [32minfo[39m: Site data built
+2026-08-07T16:19:12.741Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:19:12.741Z - [32minfo[39m: Website regeneration complete! Total build time: 1.007s
+2026-08-07T16:19:16.780Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/index as some of its dependencies were changed since the last visit
+2026-08-07T16:19:17.054Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/index.md
+2026-08-07T16:19:17.061Z - [32minfo[39m: Site data built
+2026-08-07T16:19:17.061Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.283s
+2026-08-07T16:19:22.160Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:19:22.562Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/topics.md
+2026-08-07T16:19:22.593Z - [32minfo[39m: Site data built
+2026-08-07T16:19:22.593Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.433s
+2026-08-07T16:20:04.749Z - [32minfo[39m: [00:20:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/weeklyTextbookTopics-fragment.md
+2026-08-07T16:20:04.750Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:20:04.752Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:20:04.752Z - [32minfo[39m: 1. schedule/week12/topics
+2026-08-07T16:20:04.845Z - [32minfo[39m: [00:20:04] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2103/weeklyTextbookTopics-fragment.md
+2026-08-07T16:20:04.845Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:20:04.845Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:20:04.845Z - [32minfo[39m: 1. schedule/week12/topics
+2026-08-07T16:20:05.755Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:20:06.278Z - [32minfo[39m: Assets built
+2026-08-07T16:20:06.284Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/topics.md
+2026-08-07T16:20:06.336Z - [32minfo[39m: Site data built
+2026-08-07T16:20:06.336Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:20:06.336Z - [32minfo[39m: Website regeneration complete! Total build time: 0.582s
+2026-08-07T16:21:15.912Z - [32minfo[39m: Website generation started at 00:21:15
+2026-08-07T16:21:16.425Z - [32minfo[39m: Building assets...
+2026-08-07T16:21:16.843Z - [32minfo[39m: Assets built
+2026-08-07T16:21:16.843Z - [32minfo[39m: Generating pages...
+2026-08-07T16:21:19.263Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/acknowledgements.md
+2026-08-07T16:21:19.277Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixA-principles.md
+2026-08-07T16:21:19.288Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixB-policies.md
+2026-08-07T16:21:19.311Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixC-faq.md
+2026-08-07T16:21:26.497Z - [34mdebug[39m: 
+2026-08-07T16:21:26.498Z - [34mdebug[39m: 
+2026-08-07T16:21:26.498Z - [34mdebug[39m: 
+2026-08-07T16:21:26.498Z - [34mdebug[39m: 
+2026-08-07T16:21:26.676Z - [34mdebug[39m: 
+2026-08-07T16:21:26.694Z - [34mdebug[39m: 
+2026-08-07T16:21:26.696Z - [34mdebug[39m: 
+2026-08-07T16:21:26.696Z - [34mdebug[39m: 
+2026-08-07T16:21:26.697Z - [34mdebug[39m: 
+2026-08-07T16:21:26.706Z - [34mdebug[39m: 
+2026-08-07T16:21:26.711Z - [34mdebug[39m: 
+2026-08-07T16:21:26.713Z - [34mdebug[39m: 
+2026-08-07T16:21:26.714Z - [34mdebug[39m: 
+2026-08-07T16:21:26.714Z - [34mdebug[39m: 
+2026-08-07T16:21:26.970Z - [34mdebug[39m: 
+2026-08-07T16:21:26.975Z - [34mdebug[39m: 
+2026-08-07T16:21:27.096Z - [34mdebug[39m: 
+2026-08-07T16:21:27.105Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/stereotypes/what/index.md
+2026-08-07T16:21:27.124Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/print.md
+2026-08-07T16:21:27.300Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-07T16:21:27.312Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/stereotypes/index.md
+2026-08-07T16:21:27.391Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/selfInvocation/index.md
+2026-08-07T16:21:27.398Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/staticMethods/index.md
+2026-08-07T16:21:27.404Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/parallelPaths/index.md
+2026-08-07T16:21:27.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/referenceFrames/index.md
+2026-08-07T16:21:27.470Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/objectDeletion/index.md
+2026-08-07T16:21:27.476Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/optionalPaths/index.md
+2026-08-07T16:21:27.482Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/objectCreation/index.md
+2026-08-07T16:21:27.487Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/minimalNotation/index.md
+2026-08-07T16:21:27.585Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/loops/index.md
+2026-08-07T16:21:27.596Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/introduction/index.md
+2026-08-07T16:21:27.605Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/basic/index.md
+2026-08-07T16:21:27.614Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/index.md
+2026-08-07T16:21:27.746Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/objectDiagrams/objects/index.md
+2026-08-07T16:21:27.752Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/sequenceDiagrams/alternativePaths/index.md
+2026-08-07T16:21:27.758Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/objectDiagrams/introduction/index.md
+2026-08-07T16:21:27.763Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/objectDiagrams/index.md
+2026-08-07T16:21:27.819Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/objectDiagrams/associations/index.md
+2026-08-07T16:21:27.824Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/notes/notes/index.md
+2026-08-07T16:21:27.828Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/notes/index.md
+2026-08-07T16:21:27.836Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/notes/constraints/index.md
+2026-08-07T16:21:30.042Z - [34mdebug[39m: 
+2026-08-07T16:21:30.064Z - [34mdebug[39m: 
+2026-08-07T16:21:30.075Z - [34mdebug[39m: 
+2026-08-07T16:21:30.111Z - [34mdebug[39m: 
+2026-08-07T16:21:30.183Z - [34mdebug[39m: 
+2026-08-07T16:21:30.183Z - [34mdebug[39m: 
+2026-08-07T16:21:30.232Z - [34mdebug[39m: 
+2026-08-07T16:21:30.293Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/miscellaneous/objectVsClassDiagrams/index.md
+2026-08-07T16:21:30.303Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/miscellaneous/index.md
+2026-08-07T16:21:30.310Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/introduction/what/index.md
+2026-08-07T16:21:30.319Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/index.md
+2026-08-07T16:21:30.563Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/introduction/index.md
+2026-08-07T16:21:30.569Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/interfaces/what/index.md
+2026-08-07T16:21:30.574Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/interfaces/index.md
+2026-08-07T16:21:30.581Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/index.md
+2026-08-07T16:21:30.677Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/what/index.md
+2026-08-07T16:21:30.683Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/enumerations/what/index.md
+2026-08-07T16:21:30.691Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/enumerations/index.md
+2026-08-07T16:21:30.699Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/dependencies/index.md
+2026-08-07T16:21:30.812Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/composition/what/index.md
+2026-08-07T16:21:30.818Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/composition/index.md
+2026-08-07T16:21:30.826Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/combine/index.md
+2026-08-07T16:21:30.875Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/combine/basic/index.md
+2026-08-07T16:21:30.941Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classes/what/index.md
+2026-08-07T16:21:30.970Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classes/index.md
+2026-08-07T16:21:30.980Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classLevelMembers/what/index.md
+2026-08-07T16:21:31.019Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classLevelMembers/index.md
+2026-08-07T16:21:31.040Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classInheritance/index.md
+2026-08-07T16:21:31.052Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/classInheritance/what/index.md
+2026-08-07T16:21:31.083Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationsAsAttributes/what/index.md
+2026-08-07T16:21:31.120Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationsAsAttributes/index.md
+2026-08-07T16:21:31.150Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/roles/index.md
+2026-08-07T16:21:31.156Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/what/index.md
+2026-08-07T16:21:31.177Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/navigability/index.md
+2026-08-07T16:21:31.251Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/multiplicity/index.md
+2026-08-07T16:21:31.257Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/labels/index.md
+2026-08-07T16:21:31.262Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associations/index.md
+2026-08-07T16:21:31.289Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationClasses/what/index.md
+2026-08-07T16:21:31.352Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/associationClasses/index.md
+2026-08-07T16:21:31.360Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/aggregation/what/index.md
+2026-08-07T16:21:31.365Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/aggregation/index.md
+2026-08-07T16:21:31.371Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/abstractClasses/what/index.md
+2026-08-07T16:21:31.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/classDiagrams/abstractClasses/index.md
+2026-08-07T16:21:31.468Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/introduction/index.md
+2026-08-07T16:21:31.484Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/index.md
+2026-08-07T16:21:31.495Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/introduction/what/index.md
+2026-08-07T16:21:31.510Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/swimlanes/index.md
+2026-08-07T16:21:31.545Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/rakes/index.md
+2026-08-07T16:21:31.586Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/parallelPaths/index.md
+2026-08-07T16:21:31.592Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/linearPaths/index.md
+2026-08-07T16:21:31.614Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/index.md
+2026-08-07T16:21:31.674Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/uml/activityDiagrams/basicNotations/alternatePaths/index.md
+2026-08-07T16:21:31.726Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/unitTesting/what/index.md
+2026-08-07T16:21:31.733Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/unitTesting/stubs/index.md
+2026-08-07T16:21:31.756Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/unitTesting/index.md
+2026-08-07T16:21:31.815Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/systemTesting/index.md
+2026-08-07T16:21:31.822Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/systemTesting/what/index.md
+2026-08-07T16:21:31.829Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/regressionTesting/index.md
+2026-08-07T16:21:31.834Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/regressionTesting/what/index.md
+2026-08-07T16:21:32.021Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/integrationTesting/index.md
+2026-08-07T16:21:32.027Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/index.md
+2026-08-07T16:21:32.046Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/integrationTesting/how/index.md
+2026-08-07T16:21:32.051Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/integrationTesting/what/index.md
+2026-08-07T16:21:32.133Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/exploratoryVsScriptedTesting/index.md
+2026-08-07T16:21:32.140Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/exploratoryVsScriptedTesting/what/index.md
+2026-08-07T16:21:32.146Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/exploratoryVsScriptedTesting/when/index.md
+2026-08-07T16:21:32.167Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/dogfooding/what/index.md
+2026-08-07T16:21:32.200Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/dogfooding/index.md
+2026-08-07T16:21:32.224Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/developerTesting/why/index.md
+2026-08-07T16:21:32.241Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/developerTesting/what/index.md
+2026-08-07T16:21:32.260Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/developerTesting/index.md
+2026-08-07T16:21:32.303Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/alphaBetaTesting/index.md
+2026-08-07T16:21:32.309Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/alphaBetaTesting/what/index.md
+2026-08-07T16:21:32.331Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/acceptanceTesting/index.md
+2026-08-07T16:21:32.361Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/acceptanceTesting/what/index.md
+2026-08-07T16:21:32.395Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testingTypes/acceptanceTesting/acceptanceVsSystemTesting/index.md
+2026-08-07T16:21:32.419Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testCoverage/what/index.md
+2026-08-07T16:21:32.442Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testCoverage/index.md
+2026-08-07T16:21:32.449Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testCoverage/how/index.md
+2026-08-07T16:21:32.484Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/what/index.md
+2026-08-07T16:21:32.513Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/usingTestDrivers/index.md
+2026-08-07T16:21:32.518Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/tools/index.md
+2026-08-07T16:21:32.607Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/testingTextUis/index.md
+2026-08-07T16:21:32.614Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/testingGuis/index.md
+2026-08-07T16:21:32.643Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/testAutomation/index.md
+2026-08-07T16:21:32.655Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/tdd/what/index.md
+2026-08-07T16:21:32.673Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/tdd/index.md
+2026-08-07T16:21:32.711Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/tdd/how/index.md
+2026-08-07T16:21:32.742Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/introduction/what/index.md
+2026-08-07T16:21:32.750Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/introduction/testability/index.md
+2026-08-07T16:21:32.758Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/introduction/index.md
+2026-08-07T16:21:33.243Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/index.md
+2026-08-07T16:21:33.278Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/dependencyInjection/what/index.md
+2026-08-07T16:21:33.285Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/dependencyInjection/index.md
+2026-08-07T16:21:33.346Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testing/dependencyInjection/how/index.md
+2026-08-07T16:21:33.412Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/summary/index.md
+2026-08-07T16:21:33.420Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/summary/recap/index.md
+2026-08-07T16:21:33.424Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/summary/exercises/index.md
+2026-08-07T16:21:33.487Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/more/testingUseCases/index.md
+2026-08-07T16:21:33.492Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/more/index.md
+2026-08-07T16:21:33.499Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/introduction/positiveVsNegative/index.md
+2026-08-07T16:21:33.503Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/introduction/what/index.md
+2026-08-07T16:21:33.773Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/introduction/index.md
+2026-08-07T16:21:33.781Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/introduction/blackVsGlass/index.md
+2026-08-07T16:21:33.786Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/index.md
+2026-08-07T16:21:33.814Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/equivalencePartitions/what/index.md
+2026-08-07T16:21:33.909Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/equivalencePartitions/intermediate/index.md
+2026-08-07T16:21:33.915Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/equivalencePartitions/index.md
+2026-08-07T16:21:33.923Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/equivalencePartitions/basic/index.md
+2026-08-07T16:21:33.930Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/why/index.md
+2026-08-07T16:21:34.063Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/index.md
+2026-08-07T16:21:34.076Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/mix/index.md
+2026-08-07T16:21:34.084Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/heuristicValid/index.md
+2026-08-07T16:21:34.115Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/heuristicInvalid/index.md
+2026-08-07T16:21:34.169Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/combiningTestInputs/combinationStrategies/index.md
+2026-08-07T16:21:34.177Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/boundaryValueAnalysis/what/index.md
+2026-08-07T16:21:34.182Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/boundaryValueAnalysis/index.md
+2026-08-07T16:21:34.188Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/testCaseDesign/boundaryValueAnalysis/how/index.md
+2026-08-07T16:21:34.257Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/teamwork/teamStructures/index.md
+2026-08-07T16:21:34.298Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/teamwork/index.md
+2026-08-07T16:21:34.303Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/userStories/usage/index.md
+2026-08-07T16:21:34.379Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/userStories/introduction/index.md
+2026-08-07T16:21:34.463Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/userStories/index.md
+2026-08-07T16:21:34.476Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/userStories/details/index.md
+2026-08-07T16:21:34.482Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/usage/index.md
+2026-08-07T16:21:34.488Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/introduction/index.md
+2026-08-07T16:21:34.652Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/index.md
+2026-08-07T16:21:34.664Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/identifying/index.md
+2026-08-07T16:21:34.671Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/useCases/details/index.md
+2026-08-07T16:21:34.724Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/supplementaryRequirements/what/index.md
+2026-08-07T16:21:34.731Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/supplementaryRequirements/index.md
+2026-08-07T16:21:34.737Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/prose/index.md
+2026-08-07T16:21:34.923Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/prose/what/index.md
+2026-08-07T16:21:34.943Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/index.md
+2026-08-07T16:21:34.966Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/glossary/index.md
+2026-08-07T16:21:34.987Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/glossary/what/index.md
+2026-08-07T16:21:35.052Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/featureList/index.md
+2026-08-07T16:21:35.059Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/specifyingRequirements/featureList/what/index.md
+2026-08-07T16:21:35.090Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/softwareEngineering/introduction/index.md
+2026-08-07T16:21:35.113Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/softwareEngineering/introduction/prosAndCons/index.md
+2026-08-07T16:21:35.119Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/softwareEngineering/index.md
+2026-08-07T16:21:35.183Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/wrapUp/index.md
+2026-08-07T16:21:35.188Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/why/index.md
+2026-08-07T16:21:35.194Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/what/index.md
+2026-08-07T16:21:35.200Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/when/index.md
+2026-08-07T16:21:35.401Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/index.md
+2026-08-07T16:21:35.419Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/how/index.md
+2026-08-07T16:21:35.432Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/security/ai/index.md
+2026-08-07T16:21:35.439Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/platforms/what/index.md
+2026-08-07T16:21:35.499Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/platforms/index.md
+2026-08-07T16:21:35.505Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/libraries/index.md
+2026-08-07T16:21:35.510Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/libraries/what/index.md
+2026-08-07T16:21:35.531Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/libraries/how/index.md
+2026-08-07T16:21:35.643Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/introduction/when/index.md
+2026-08-07T16:21:35.649Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/introduction/index.md
+2026-08-07T16:21:35.656Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/introduction/what/index.md
+2026-08-07T16:21:35.694Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/index.md
+2026-08-07T16:21:35.724Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/frameworks/index.md
+2026-08-07T16:21:35.742Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/frameworks/what/index.md
+2026-08-07T16:21:35.749Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/frameworks/frameworksVsLibraries/index.md
+2026-08-07T16:21:35.754Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/cloudComputing/what/index.md
+2026-08-07T16:21:35.812Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/cloudComputing/services/index.md
+2026-08-07T16:21:35.842Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/cloudComputing/index.md
+2026-08-07T16:21:35.848Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/apis/index.md
+2026-08-07T16:21:35.854Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/apis/what/index.md
+2026-08-07T16:21:35.918Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/reuse/apis/designingAPIs/index.md
+2026-08-07T16:21:35.924Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/quality/index.md
+2026-08-07T16:21:35.929Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/prioritizing/index.md
+2026-08-07T16:21:35.933Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/nonFunctionalRequirements/index.md
+2026-08-07T16:21:36.049Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/introduction/index.md
+2026-08-07T16:21:36.056Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/requirements/index.md
+2026-08-07T16:21:36.063Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/when/index.md
+2026-08-07T16:21:36.068Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/what/index.md
+2026-08-07T16:21:36.171Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/index.md
+2026-08-07T16:21:36.184Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/refactoring/how/index.md
+2026-08-07T16:21:36.210Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/staticAnalysis/what/index.md
+2026-08-07T16:21:36.223Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/staticAnalysis/index.md
+2026-08-07T16:21:36.311Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/introduction/what/index.md
+2026-08-07T16:21:36.319Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/introduction/validationVsVerification/index.md
+2026-08-07T16:21:36.324Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/introduction/index.md
+2026-08-07T16:21:36.329Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/index.md
+2026-08-07T16:21:36.408Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/formalVerification/what/index.md
+2026-08-07T16:21:36.413Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/formalVerification/index.md
+2026-08-07T16:21:36.419Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/index.md
+2026-08-07T16:21:36.457Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/qualityAssurance/codeReviews/what/index.md
+2026-08-07T16:21:36.476Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/pertCharts/index.md
+2026-08-07T16:21:36.481Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/workBreakdownStructure/index.md
+2026-08-07T16:21:36.499Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/milestones/index.md
+2026-08-07T16:21:36.555Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/issueTrackers/index.md
+2026-08-07T16:21:36.601Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/ganttCharts/index.md
+2026-08-07T16:21:36.606Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/index.md
+2026-08-07T16:21:36.617Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/projectPlanning/buffers/index.md
+2026-08-07T16:21:36.677Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/summary/recap/index.md
+2026-08-07T16:21:36.683Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/more/index.md
+2026-08-07T16:21:36.688Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/summary/index.md
+2026-08-07T16:21:36.720Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/more/continuousApproaches/index.md
+2026-08-07T16:21:36.755Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/more/cmmi/index.md
+2026-08-07T16:21:36.759Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/what/index.md
+2026-08-07T16:21:36.764Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/sequentialModels/index.md
+2026-08-07T16:21:36.798Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/iterativeModels/index.md
+2026-08-07T16:21:36.940Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/index.md
+2026-08-07T16:21:36.948Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/index.md
+2026-08-07T16:21:36.969Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/introduction/agileModels/index.md
+2026-08-07T16:21:36.975Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/xp/index.md
+2026-08-07T16:21:37.077Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/unifiedProcess/index.md
+2026-08-07T16:21:37.082Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/index.md
+2026-08-07T16:21:37.092Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/scrum/index.md
+2026-08-07T16:21:37.098Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/processModels/exampleProcessModels/choosing/index.md
+2026-08-07T16:21:37.243Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/yagniPrinciple/index.md
+2026-08-07T16:21:37.248Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/solidPrinciples/index.md
+2026-08-07T16:21:37.256Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/singleResponsibilityPrinciple/index.md
+2026-08-07T16:21:37.261Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/separationOfConcernsPrinciple/index.md
+2026-08-07T16:21:37.425Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/openClosedPrinciple/index.md
+2026-08-07T16:21:37.433Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/liskovSubstitutionPrinciple/index.md
+2026-08-07T16:21:37.439Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/lawOfDemeter/index.md
+2026-08-07T16:21:37.445Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/review/index.md
+2026-08-07T16:21:37.717Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/interfaceSegregationPrinciple/index.md
+2026-08-07T16:21:37.723Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/index.md
+2026-08-07T16:21:37.744Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/dryPrinciple/index.md
+2026-08-07T16:21:37.749Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/dependencyInversionPrinciple/index.md
+2026-08-07T16:21:37.832Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/principles/brooksLaw/index.md
+2026-08-07T16:21:37.839Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/polymorphism/what/index.md
+2026-08-07T16:21:37.846Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/polymorphism/index.md
+2026-08-07T16:21:37.853Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/polymorphism/how/index.md
+2026-08-07T16:21:37.973Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/objects/index.md
+2026-08-07T16:21:37.983Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/objects/what/index.md
+2026-08-07T16:21:37.991Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/objects/encapsulation/index.md
+2026-08-07T16:21:37.996Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/objects/abstraction/index.md
+2026-08-07T16:21:38.070Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/more/review/index.md
+2026-08-07T16:21:38.075Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/more/miscellaneous/index.md
+2026-08-07T16:21:38.082Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/more/index.md
+2026-08-07T16:21:38.130Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/introduction/what/index.md
+2026-08-07T16:21:38.152Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/introduction/index.md
+2026-08-07T16:21:38.159Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/what/index.md
+2026-08-07T16:21:38.189Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/substitutability/index.md
+2026-08-07T16:21:38.225Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/overriding/index.md
+2026-08-07T16:21:38.329Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/interfaces/index.md
+2026-08-07T16:21:38.383Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/overloading/index.md
+2026-08-07T16:21:38.388Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/index.md
+2026-08-07T16:21:38.766Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/dynamicAndStaticBinding/index.md
+2026-08-07T16:21:38.774Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/inheritance/abstractClasses/index.md
+2026-08-07T16:21:38.782Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/index.md
+2026-08-07T16:21:38.815Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/classes/what/index.md
+2026-08-07T16:21:38.883Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/classes/index.md
+2026-08-07T16:21:38.904Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/classes/enumerations/index.md
+2026-08-07T16:21:38.910Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/classes/classLevelMembers/index.md
+2026-08-07T16:21:38.935Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/what/index.md
+2026-08-07T16:21:39.036Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/navigability/index.md
+2026-08-07T16:21:39.060Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/multiplicity/index.md
+2026-08-07T16:21:39.084Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/index.md
+2026-08-07T16:21:39.098Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/dependencies/index.md
+2026-08-07T16:21:39.121Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/composition/index.md
+2026-08-07T16:21:39.157Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/associationClasses/index.md
+2026-08-07T16:21:39.177Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/oop/associations/aggregation/index.md
+2026-08-07T16:21:39.183Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/packageDiagrams/index.md
+2026-08-07T16:21:39.209Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/ooStructures/index.md
+2026-08-07T16:21:40.365Z - [34mdebug[39m: 
+2026-08-07T16:21:40.443Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/objectOrientedDomainModels/index.md
+2026-08-07T16:21:40.467Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/objectDiagrams/index.md
+2026-08-07T16:21:40.474Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/index.md
+2026-08-07T16:21:40.495Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/deploymentDiagrams/index.md
+2026-08-07T16:21:40.575Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/customisingUml/index.md
+2026-08-07T16:21:40.582Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/componentDiagrams/index.md
+2026-08-07T16:21:40.587Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/compositeStructureDiagrams/index.md
+2026-08-07T16:21:40.592Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/classDiagramsIntermediate/index.md
+2026-08-07T16:21:41.978Z - [34mdebug[39m: 
+2026-08-07T16:21:42.017Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/classDiagramsBasic/index.md
+2026-08-07T16:21:42.036Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/classDiagramsAdvanced/index.md
+2026-08-07T16:21:42.042Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingStructures/addingMoreInfo/index.md
+2026-08-07T16:21:42.048Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/useCaseDiagrams/index.md
+2026-08-07T16:21:42.142Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/timingDiagrams/index.md
+2026-08-07T16:21:42.147Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/stateMachineDiagrams/index.md
+2026-08-07T16:21:42.154Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/index.md
+2026-08-07T16:21:42.160Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/sequenceDiagramsBasic/index.md
+2026-08-07T16:21:42.279Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/interactionOverviewDiagrams/index.md
+2026-08-07T16:21:42.335Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/communicationDiagrams/index.md
+2026-08-07T16:21:42.353Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/sequenceDiagramsAdvanced/index.md
+2026-08-07T16:21:42.358Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/index.md
+2026-08-07T16:21:42.416Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/activityDiagramsIntermediate/index.md
+2026-08-07T16:21:42.447Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingBehaviors/activityDiagrams/index.md
+2026-08-07T16:21:42.454Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingASolution/introduction/index.md
+2026-08-07T16:21:42.494Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingASolution/intermediate/index.md
+2026-08-07T16:21:42.546Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingASolution/index.md
+2026-08-07T16:21:42.571Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/modelingASolution/basic/index.md
+2026-08-07T16:21:42.622Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/introduction/what/index.md
+2026-08-07T16:21:42.628Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/introduction/umlModels/index.md
+2026-08-07T16:21:42.979Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/introduction/index.md
+2026-08-07T16:21:43.015Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/introduction/how/index.md
+2026-08-07T16:21:43.022Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/modeling/index.md
+2026-08-07T16:21:43.063Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/refactoring/index.md
+2026-08-07T16:21:43.083Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/projectSetup/index.md
+2026-08-07T16:21:43.122Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/index.md
+2026-08-07T16:21:43.140Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/productivityShortcuts/index.md
+2026-08-07T16:21:43.148Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/debuggingBasic/index.md
+2026-08-07T16:21:43.184Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/intellij/codeNavigation/index.md
+2026-08-07T16:21:43.274Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/introduction/index.md
+2026-08-07T16:21:43.280Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/introduction/what/index.md
+2026-08-07T16:21:43.286Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/more/index.md
+2026-08-07T16:21:43.291Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/more/review/index.md
+2026-08-07T16:21:43.411Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/index.md
+2026-08-07T16:21:43.421Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/buildAutomation/what/index.md
+2026-08-07T16:21:43.426Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/buildAutomation/index.md
+2026-08-07T16:21:43.434Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/buildAutomation/continuousIntegrationDeployment/index.md
+2026-08-07T16:21:43.527Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/approaches/lateVsEarly/index.md
+2026-08-07T16:21:43.532Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/approaches/index.md
+2026-08-07T16:21:43.539Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/approaches/topDownVsBottomUp/index.md
+2026-08-07T16:21:43.581Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/integration/approaches/bigBangVsIncremental/index.md
+2026-08-07T16:21:43.629Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/index.md
+2026-08-07T16:21:43.637Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/introduction/index.md
+2026-08-07T16:21:43.643Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/index.md
+2026-08-07T16:21:43.649Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/introduction/what/index.md
+2026-08-07T16:21:43.701Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/debugging/index.md
+2026-08-07T16:21:43.706Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/ides/debugging/what/index.md
+2026-08-07T16:21:43.713Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/workingWithRemotes/index.md
+2026-08-07T16:21:43.718Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/usingRevisionHistory/index.md
+2026-08-07T16:21:43.769Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/remoteBranches/index.md
+2026-08-07T16:21:43.774Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/syncingBranches/index.md
+2026-08-07T16:21:43.780Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/index.md
+2026-08-07T16:21:43.785Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/recordingFolderHistory/index.md
+2026-08-07T16:21:43.840Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/branchingLocally/index.md
+2026-08-07T16:21:43.845Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/fineTuningHistory/index.md
+2026-08-07T16:21:43.850Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/trail/backingUpOnCloud/index.md
+2026-08-07T16:21:43.854Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/reviewPRs/index.md
+2026-08-07T16:21:43.912Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/managePRs/index.md
+2026-08-07T16:21:43.916Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/mergeConflicts/index.md
+2026-08-07T16:21:43.921Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/index.md
+2026-08-07T16:21:43.926Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/forkingWorkflow/index.md
+2026-08-07T16:21:43.988Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/userSurveys/index.md
+2026-08-07T16:21:43.993Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gitAndGithub/createPRs/index.md
+2026-08-07T16:21:43.997Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/prototyping/index.md
+2026-08-07T16:21:44.002Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/productSurveys/index.md
+2026-08-07T16:21:44.094Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/interviews/index.md
+2026-08-07T16:21:44.099Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/index.md
+2026-08-07T16:21:44.106Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/observation/index.md
+2026-08-07T16:21:44.113Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/focusGroups/index.md
+2026-08-07T16:21:44.194Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/gatheringRequirements/brainstorming/index.md
+2026-08-07T16:21:44.201Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/logging/index.md
+2026-08-07T16:21:44.208Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/logging/what/index.md
+2026-08-07T16:21:44.240Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/logging/how/index.md
+2026-08-07T16:21:44.456Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/introduction/index.md
+2026-08-07T16:21:44.463Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/index.md
+2026-08-07T16:21:44.487Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/introduction/what/index.md
+2026-08-07T16:21:44.506Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/exceptions/when/index.md
+2026-08-07T16:21:44.567Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/exceptions/what/index.md
+2026-08-07T16:21:44.575Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/exceptions/how/index.md
+2026-08-07T16:21:44.580Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/exceptions/index.md
+2026-08-07T16:21:44.631Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/designByContract/what/index.md
+2026-08-07T16:21:44.639Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/designByContract/index.md
+2026-08-07T16:21:44.645Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/when/index.md
+2026-08-07T16:21:44.703Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/what/index.md
+2026-08-07T16:21:44.870Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/referentialIntegrity/index.md
+2026-08-07T16:21:44.882Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/compulsoryAssociations/index.md
+2026-08-07T16:21:44.889Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/index.md
+2026-08-07T16:21:44.924Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/defensiveProgramming/1to1Associations/index.md
+2026-08-07T16:21:44.993Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/assertions/when/index.md
+2026-08-07T16:21:45.000Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/assertions/index.md
+2026-08-07T16:21:45.009Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/assertions/what/index.md
+2026-08-07T16:21:45.014Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/errorHandling/assertions/how/index.md
+2026-08-07T16:21:45.072Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/markdown/index.md
+2026-08-07T16:21:45.077Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/markdown/what/index.md
+2026-08-07T16:21:45.081Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/markdown/how/index.md
+2026-08-07T16:21:45.086Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/javaDoc/what/index.md
+2026-08-07T16:21:45.178Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/javaDoc/index.md
+2026-08-07T16:21:45.185Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/index.md
+2026-08-07T16:21:45.193Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/javaDoc/how/index.md
+2026-08-07T16:21:45.249Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/asciiDoc/what/index.md
+2026-08-07T16:21:45.255Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/tools/asciiDoc/index.md
+2026-08-07T16:21:45.260Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/introduction/index.md
+2026-08-07T16:21:45.344Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/introduction/what/index.md
+2026-08-07T16:21:45.394Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/index.md
+2026-08-07T16:21:45.417Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/index.md
+2026-08-07T16:21:45.458Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/goTopDown/why/index.md
+2026-08-07T16:21:45.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/goTopDown/what/index.md
+2026-08-07T16:21:45.466Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/goTopDown/index.md
+2026-08-07T16:21:45.485Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/goTopDown/how/index.md
+2026-08-07T16:21:45.530Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/documentMinimally/index.md
+2026-08-07T16:21:45.535Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/documentMinimally/what/index.md
+2026-08-07T16:21:45.539Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/documentMinimally/how/index.md
+2026-08-07T16:21:45.574Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/aimForComprehensibility/what/index.md
+2026-08-07T16:21:45.599Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/aimForComprehensibility/index.md
+2026-08-07T16:21:45.633Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/what/index.md
+2026-08-07T16:21:45.638Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/documentation/guidelines/aimForComprehensibility/how/index.md
+2026-08-07T16:21:45.663Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/index.md
+2026-08-07T16:21:45.735Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/implementation/index.md
+2026-08-07T16:21:45.770Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/observer/what/index.md
+2026-08-07T16:21:45.777Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/singleton/evaluation/index.md
+2026-08-07T16:21:45.796Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/observer/index.md
+2026-08-07T16:21:45.844Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/vsPrinciples/index.md
+2026-08-07T16:21:45.849Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/usingDesignPatterns/index.md
+2026-08-07T16:21:45.853Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/otherTypesOfPatterns/index.md
+2026-08-07T16:21:45.889Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/otherDesignPatterns/index.md
+2026-08-07T16:21:45.912Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/index.md
+2026-08-07T16:21:45.949Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/more/combiningDesignPatterns/index.md
+2026-08-07T16:21:45.975Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/what/index.md
+2026-08-07T16:21:45.979Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/modelViewController/index.md
+2026-08-07T16:21:46.013Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/introduction/what/index.md
+2026-08-07T16:21:46.170Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/introduction/index.md
+2026-08-07T16:21:46.213Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/index.md
+2026-08-07T16:21:46.230Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/introduction/format/index.md
+2026-08-07T16:21:46.238Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/facade/what/index.md
+2026-08-07T16:21:46.244Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/facade/index.md
+2026-08-07T16:21:46.327Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/command/what/index.md
+2026-08-07T16:21:46.333Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/command/index.md
+2026-08-07T16:21:46.338Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/abstractionOccurrence/what/index.md
+2026-08-07T16:21:46.416Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designPatterns/abstractionOccurrence/index.md
+2026-08-07T16:21:46.497Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/index.md
+2026-08-07T16:21:46.510Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/coupling/what/index.md
+2026-08-07T16:21:46.515Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/coupling/index.md
+2026-08-07T16:21:46.523Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/coupling/types/index.md
+2026-08-07T16:21:46.605Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/coupling/how/index.md
+2026-08-07T16:21:46.612Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/cohesion/index.md
+2026-08-07T16:21:46.618Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/cohesion/what/index.md
+2026-08-07T16:21:46.624Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/cohesion/how/index.md
+2026-08-07T16:21:46.699Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/abstraction/index.md
+2026-08-07T16:21:46.705Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/topDownBottomUp/index.md
+2026-08-07T16:21:46.710Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designFundamentals/abstraction/what/index.md
+2026-08-07T16:21:46.717Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/topDownBottomUp/what/index.md
+2026-08-07T16:21:46.797Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/multilevelDesign/index.md
+2026-08-07T16:21:46.804Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/index.md
+2026-08-07T16:21:46.811Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/multilevelDesign/what/index.md
+2026-08-07T16:21:46.834Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/agileDesign/what/index.md
+2026-08-07T16:21:46.866Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/designApproaches/agileDesign/index.md
+2026-08-07T16:21:46.909Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/design/index.md
+2026-08-07T16:21:46.915Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/design/introduction/what/index.md
+2026-08-07T16:21:46.919Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/design/introduction/index.md
+2026-08-07T16:21:47.018Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/what/index.md
+2026-08-07T16:21:47.051Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/tools/index.md
+2026-08-07T16:21:47.057Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/index.md
+2026-08-07T16:21:47.085Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/how/index.md
+2026-08-07T16:21:47.188Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/fixing/index.md
+2026-08-07T16:21:47.194Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/debugging/advanced/index.md
+2026-08-07T16:21:47.198Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/wrapperClasses/index.md
+2026-08-07T16:21:47.205Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/stringClass/index.md
+2026-08-07T16:21:47.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/scannerClass/index.md
+2026-08-07T16:21:47.418Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/index.md
+2026-08-07T16:21:47.438Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/arraysClass/index.md
+2026-08-07T16:21:47.444Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/usefulClasses/api/index.md
+2026-08-07T16:21:47.620Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/usingObjects/index.md
+2026-08-07T16:21:47.627Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/instanceMembers/index.md
+2026-08-07T16:21:47.634Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/passingObjects/index.md
+2026-08-07T16:21:47.659Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/index.md
+2026-08-07T16:21:47.729Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/objects/garbageCollection/index.md
+2026-08-07T16:21:47.734Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/varargs/index.md
+2026-08-07T16:21:47.739Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/streams/index.md
+2026-08-07T16:21:47.786Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/packages/index.md
+2026-08-07T16:21:47.836Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/javaFX/part02/index.md
+2026-08-07T16:21:47.866Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/javaFX/index.md
+2026-08-07T16:21:47.871Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/javaFX/part01/index.md
+2026-08-07T16:21:48.008Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/jar/index.md
+2026-08-07T16:21:48.075Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/index.md
+2026-08-07T16:21:48.109Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/fileAccess/index.md
+2026-08-07T16:21:48.147Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/enums/index.md
+2026-08-07T16:21:48.155Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/constants/index.md
+2026-08-07T16:21:48.176Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/casting/index.md
+2026-08-07T16:21:48.232Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/misc/accessModifiers/index.md
+2026-08-07T16:21:48.257Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/junit/index.md
+2026-08-07T16:21:48.278Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/junit/intermediate/index.md
+2026-08-07T16:21:48.286Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/junit/basic/index.md
+2026-08-07T16:21:48.325Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/javaWorld/what/index.md
+2026-08-07T16:21:48.345Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/javaWorld/index.md
+2026-08-07T16:21:48.351Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/javaWorld/how/index.md
+2026-08-07T16:21:48.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/javaWorld/editions/index.md
+2026-08-07T16:21:48.764Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/polymorphism/index.md
+2026-08-07T16:21:48.777Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/objectClass/index.md
+2026-08-07T16:21:48.831Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/interfaces/index.md
+2026-08-07T16:21:48.840Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/index.md
+2026-08-07T16:21:50.423Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/basic/index.md
+2026-08-07T16:21:50.438Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/inheritance/abstractClassesAndMethods/index.md
+2026-08-07T16:21:50.460Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/index.md
+2026-08-07T16:21:50.592Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/running/index.md
+2026-08-07T16:21:50.647Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/installation/index.md
+2026-08-07T16:21:50.682Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/index.md
+2026-08-07T16:21:50.711Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/compiling/index.md
+2026-08-07T16:21:50.715Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/gettingStarted/helloWorld/index.md
+2026-08-07T16:21:50.791Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/generics/what/index.md
+2026-08-07T16:21:50.811Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/generics/index.md
+2026-08-07T16:21:50.915Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/generics/how/index.md
+2026-08-07T16:21:50.923Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/exceptions/what/index.md
+2026-08-07T16:21:50.928Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/exceptions/index.md
+2026-08-07T16:21:50.958Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/exceptions/how/index.md
+2026-08-07T16:21:51.010Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/variables/index.md
+2026-08-07T16:21:51.089Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/primitiveTypes/index.md
+2026-08-07T16:21:51.093Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/operators/index.md
+2026-08-07T16:21:51.136Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/index.md
+2026-08-07T16:21:51.232Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/dataTypes/arrays/index.md
+2026-08-07T16:21:51.352Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/controlFlow/methods/index.md
+2026-08-07T16:21:51.360Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/controlFlow/loops/index.md
+2026-08-07T16:21:51.405Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/controlFlow/index.md
+2026-08-07T16:21:51.525Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/controlFlow/branching/index.md
+2026-08-07T16:21:51.533Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/collections/what/index.md
+2026-08-07T16:21:51.539Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/collections/index.md
+2026-08-07T16:21:51.551Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/collections/hashMapClass/index.md
+2026-08-07T16:21:51.758Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/classes/index.md
+2026-08-07T16:21:51.775Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/collections/arrayListClass/index.md
+2026-08-07T16:21:51.782Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/classes/gettersAndSetters/index.md
+2026-08-07T16:21:51.791Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/classes/definingClasses/index.md
+2026-08-07T16:21:51.874Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/about/index.md
+2026-08-07T16:21:51.879Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/cppToJava/classes/classLevelMembers/index.md
+2026-08-07T16:21:51.888Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/introduction/index.md
+2026-08-07T16:21:51.905Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/intermediate/useNameExplain/index.md
+2026-08-07T16:21:51.956Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/intermediate/notTooLongNorShort/index.md
+2026-08-07T16:21:52.005Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/intermediate/index.md
+2026-08-07T16:21:52.015Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/intermediate/avoidMisleadingNames/index.md
+2026-08-07T16:21:52.033Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/index.md
+2026-08-07T16:21:52.097Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/basic/index.md
+2026-08-07T16:21:52.103Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/basic/useStandardWords/index.md
+2026-08-07T16:21:52.108Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/nameWell/basic/nounsAndVerbsAsNames/index.md
+2026-08-07T16:21:52.113Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/introduction/index.md
+2026-08-07T16:21:52.231Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/practiceKISSing/index.md
+2026-08-07T16:21:52.237Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/slapHard/index.md
+2026-08-07T16:21:52.245Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/index.md
+2026-08-07T16:21:52.260Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/structureCodeLogically/index.md
+2026-08-07T16:21:52.442Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/dontTripReader/index.md
+2026-08-07T16:21:52.447Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/index.md
+2026-08-07T16:21:52.464Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/intermediate/avoidPrematureOptimizations/index.md
+2026-08-07T16:21:52.470Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/makeCodeObvious/index.md
+2026-08-07T16:21:52.590Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/index.md
+2026-08-07T16:21:52.600Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/avoidMagicNumbers/index.md
+2026-08-07T16:21:52.606Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/avoidLongMethods/index.md
+2026-08-07T16:21:52.611Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/avoidDeepNesting/index.md
+2026-08-07T16:21:52.698Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/basic/avoidComplicatedExpressions/index.md
+2026-08-07T16:21:52.704Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/advanced/index.md
+2026-08-07T16:21:52.712Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/introduction/index.md
+2026-08-07T16:21:52.717Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/maximizeReadability/advanced/makeHappyPathProminent/index.md
+2026-08-07T16:21:53.068Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/introduction/basic/index.md
+2026-08-07T16:21:53.073Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/index.md
+2026-08-07T16:21:53.108Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/followStandard/introduction/index.md
+2026-08-07T16:21:53.114Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/followStandard/intermediate/index.md
+2026-08-07T16:21:53.209Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/followStandard/index.md
+2026-08-07T16:21:53.219Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/followStandard/basic/index.md
+2026-08-07T16:21:53.244Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/introduction/index.md
+2026-08-07T16:21:53.249Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/intermediate/index.md
+2026-08-07T16:21:53.316Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/intermediate/explainWhatWhyNotHow/index.md
+2026-08-07T16:21:53.350Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/index.md
+2026-08-07T16:21:53.376Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/basic/index.md
+2026-08-07T16:21:53.395Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/basic/writeToReader/index.md
+2026-08-07T16:21:53.401Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/commentMinimally/basic/dontRepeatObvious/index.md
+2026-08-07T16:21:53.441Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/introduction/index.md
+2026-08-07T16:21:53.470Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/intermediate/minimiseCodeDuplication/index.md
+2026-08-07T16:21:53.524Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/intermediate/minimiseVariableScope/index.md
+2026-08-07T16:21:53.529Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/intermediate/index.md
+2026-08-07T16:21:53.602Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/index.md
+2026-08-07T16:21:53.615Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/index.md
+2026-08-07T16:21:53.635Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/dontRecycleVarsOrParams/index.md
+2026-08-07T16:21:53.641Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/useDefaultBranch/index.md
+2026-08-07T16:21:53.677Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/deleteDeadCode/index.md
+2026-08-07T16:21:53.704Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/codeQuality/avoidShortcuts/basic/avoidEmptyCatchBlocks/index.md
+2026-08-07T16:21:53.709Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/why/index.md
+2026-08-07T16:21:53.763Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/what/index.md
+2026-08-07T16:21:53.793Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/index.md
+2026-08-07T16:21:55.918Z - [34mdebug[39m: 
+2026-08-07T16:21:56.179Z - [34mdebug[39m: 
+2026-08-07T16:21:56.281Z - [34mdebug[39m: 
+2026-08-07T16:21:56.282Z - [34mdebug[39m: 
+2026-08-07T16:21:56.292Z - [34mdebug[39m: 
+2026-08-07T16:21:56.304Z - [34mdebug[39m: 
+2026-08-07T16:21:56.331Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/introduction/components/index.md
+2026-08-07T16:21:56.353Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/index.md
+2026-08-07T16:21:56.386Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/views/index.md
+2026-08-07T16:21:56.392Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/reading/index.md
+2026-08-07T16:21:56.511Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/drawing/index.md
+2026-08-07T16:21:56.517Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architectureDiagrams/index.md
+2026-08-07T16:21:56.524Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/serviceOriented/what/index.md
+2026-08-07T16:21:56.533Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/serviceOriented/index.md
+2026-08-07T16:21:56.624Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/more/index.md
+2026-08-07T16:21:56.635Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/more/usingStyles/index.md
+2026-08-07T16:21:56.641Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/more/moreStyles/index.md
+2026-08-07T16:21:56.646Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/monolith/what/index.md
+2026-08-07T16:21:56.724Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/what/index.md
+2026-08-07T16:21:56.730Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/monolith/index.md
+2026-08-07T16:21:56.736Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/layered/index.md
+2026-08-07T16:21:56.871Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/introduction/what/index.md
+2026-08-07T16:21:56.878Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/introduction/index.md
+2026-08-07T16:21:56.883Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/index.md
+2026-08-07T16:21:56.898Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/eventDriven/what/index.md
+2026-08-07T16:21:57.078Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/eventDriven/index.md
+2026-08-07T16:21:57.084Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/clientServer/what/index.md
+2026-08-07T16:21:57.091Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/architecture/architecturalStyles/clientServer/index.md
+2026-08-07T16:21:57.535Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/combined/exercises.md
+2026-08-07T16:21:57.544Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/git-trail/index.md
+2026-08-07T16:21:57.552Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/common/definitions.md
+2026-08-07T16:21:57.560Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/common/exercises.md
+2026-08-07T16:21:57.997Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/uml-printable.md
+2026-08-07T16:21:58.021Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/testing-printable.md
+2026-08-07T16:21:58.042Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/teamwork-printable.md
+2026-08-07T16:21:58.047Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/testCaseDesign-printable.md
+2026-08-07T16:21:58.277Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/specifyingRequirements-printable.md
+2026-08-07T16:21:58.289Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/softwareEngineering-printable.md
+2026-08-07T16:21:58.295Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/reuse-printable.md
+2026-08-07T16:21:58.300Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/requirements-printable.md
+2026-08-07T16:21:58.470Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/refactoring-printable.md
+2026-08-07T16:21:58.478Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/qualityAssurance-printable.md
+2026-08-07T16:21:58.484Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/projectPlanning-printable.md
+2026-08-07T16:21:58.493Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/processModels-printable.md
+2026-08-07T16:21:58.933Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/principles-printable.md
+2026-08-07T16:21:58.944Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/modeling-printable.md
+2026-08-07T16:21:58.964Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/oop-printable.md
+2026-08-07T16:21:58.989Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/intellij-printable.md
+2026-08-07T16:21:59.214Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/integration-printable.md
+2026-08-07T16:21:59.227Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/ides-printable.md
+2026-08-07T16:21:59.232Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/gatheringRequirements-printable.md
+2026-08-07T16:21:59.240Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/errorHandling-printable.md
+2026-08-07T16:21:59.428Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/documentation-printable.md
+2026-08-07T16:21:59.436Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/designFundamentals-printable.md
+2026-08-07T16:21:59.444Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/designPatterns-printable.md
+2026-08-07T16:21:59.462Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/designApproaches-printable.md
+2026-08-07T16:22:00.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/design-printable.md
+2026-08-07T16:22:00.417Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/cppToJava-printable.md
+2026-08-07T16:22:00.498Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/architecture-printable.md
+2026-08-07T16:22:00.506Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters-printable/codeQuality-printable.md
+2026-08-07T16:22:01.567Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/uml.md
+2026-08-07T16:22:01.625Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/testing.md
+2026-08-07T16:22:01.662Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/test.md
+2026-08-07T16:22:01.666Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/testCaseDesign.md
+2026-08-07T16:22:02.068Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/teamwork.md
+2026-08-07T16:22:02.074Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/specifyingRequirements.md
+2026-08-07T16:22:02.098Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/softwareEngineering.md
+2026-08-07T16:22:02.107Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/security.md
+2026-08-07T16:22:02.357Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/reuse.md
+2026-08-07T16:22:02.367Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/requirements.md
+2026-08-07T16:22:02.375Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/refactoring.md
+2026-08-07T16:22:02.389Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/qualityAssurance.md
+2026-08-07T16:22:02.899Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/projectPlanning.md
+2026-08-07T16:22:02.907Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/processModels.md
+2026-08-07T16:22:02.916Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/principles.md
+2026-08-07T16:22:03.276Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/oop.md
+2026-08-07T16:22:03.342Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/intellij.md
+2026-08-07T16:22:03.349Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/integration.md
+2026-08-07T16:22:03.355Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/modeling.md
+2026-08-07T16:22:03.605Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/ides.md
+2026-08-07T16:22:03.614Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/gatheringRequirements.md
+2026-08-07T16:22:03.623Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/errorHandling.md
+2026-08-07T16:22:03.709Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/documentation.md
+2026-08-07T16:22:03.847Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designPatterns.md
+2026-08-07T16:22:03.861Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designFundamentals.md
+2026-08-07T16:22:03.968Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/design.md
+2026-08-07T16:22:03.977Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/designApproaches.md
+2026-08-07T16:22:06.019Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/debugging.md
+2026-08-07T16:22:06.055Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/architecture.md
+2026-08-07T16:22:06.076Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/cppToJava.md
+2026-08-07T16:22:06.223Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/chapters/codeQuality.md
+2026-08-07T16:22:06.268Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/se-book-adapted/index.md
+2026-08-07T16:22:06.513Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/book/about/acknowledgements.md
+2026-08-07T16:22:06.519Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week9/tutorial.md
+2026-08-07T16:22:06.526Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/tutorial.md
+2026-08-07T16:22:06.569Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/tutorial.md
+2026-08-07T16:22:07.183Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/tutorial.md
+2026-08-07T16:22:07.192Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial.md
+2026-08-07T16:22:07.197Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial.md
+2026-08-07T16:22:07.218Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/tutorial.md
+2026-08-07T16:22:07.311Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial.md
+2026-08-07T16:22:07.441Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week13/tutorial.md
+2026-08-07T16:22:07.447Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/tutorial.md
+2026-08-07T16:22:07.529Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/tutorial.md
+2026-08-07T16:22:08.402Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/tutorial.md
+2026-08-07T16:22:08.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/tutorial.md
+2026-08-07T16:22:08.415Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week9/topics.md
+2026-08-07T16:22:09.917Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/topics.md
+2026-08-07T16:22:10.717Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/topics.md
+2026-08-07T16:22:10.734Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:22:10.793Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/topics.md
+2026-08-07T16:22:12.145Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-07T16:22:12.211Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week13/topics.md
+2026-08-07T16:22:12.216Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/topics.md
+2026-08-07T16:22:12.274Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/topics.md
+2026-08-07T16:22:13.546Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/topics.md
+2026-08-07T16:22:13.578Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/topics.md
+2026-08-07T16:22:13.602Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/topics.md
+2026-08-07T16:22:13.643Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/topics.md
+2026-08-07T16:22:16.751Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week9/project.md
+2026-08-07T16:22:16.760Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/project.md
+2026-08-07T16:22:16.768Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/project.md
+2026-08-07T16:22:16.785Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/project.md
+2026-08-07T16:22:19.324Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md
+2026-08-07T16:22:19.337Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/project.md
+2026-08-07T16:22:19.356Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/project.md
+2026-08-07T16:22:19.546Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-07T16:22:23.859Z - [34mdebug[39m: 
+2026-08-07T16:22:23.860Z - [34mdebug[39m: 
+2026-08-07T16:22:23.860Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week13/project.md
+2026-08-07T16:22:24.380Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/project.md
+2026-08-07T16:22:24.429Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/project.md
+2026-08-07T16:22:24.438Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/project.md
+2026-08-07T16:22:24.986Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/project.md
+2026-08-07T16:22:24.991Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week9/index.md
+2026-08-07T16:22:25.381Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/index.md
+2026-08-07T16:22:25.387Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/index.md
+2026-08-07T16:22:25.680Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/index.md
+2026-08-07T16:22:25.821Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/index.md
+2026-08-07T16:22:25.998Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/index.md
+2026-08-07T16:22:26.004Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/index.md
+2026-08-07T16:22:26.217Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week13/index.md
+2026-08-07T16:22:26.470Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/index.md
+2026-08-07T16:22:26.683Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/index.md
+2026-08-07T16:22:26.692Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/index.md
+2026-08-07T16:22:26.804Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/index.md
+2026-08-07T16:22:26.854Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/index.md
+2026-08-07T16:22:26.898Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week9/admin.md
+2026-08-07T16:22:26.909Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/admin.md
+2026-08-07T16:22:27.506Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/admin.md
+2026-08-07T16:22:27.614Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/admin.md
+2026-08-07T16:22:28.101Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/admin.md
+2026-08-07T16:22:28.113Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/admin.md
+2026-08-07T16:22:28.407Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/admin.md
+2026-08-07T16:22:28.500Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/admin.md
+2026-08-07T16:22:28.515Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week13/admin.md
+2026-08-07T16:22:28.600Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week12/admin.md
+2026-08-07T16:22:31.924Z - [34mdebug[39m: 
+2026-08-07T16:22:31.925Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/admin.md
+2026-08-07T16:22:32.035Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week11/admin.md
+2026-08-07T16:22:32.042Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week10/admin.md
+2026-08-07T16:22:32.046Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/timeline.md
+2026-08-07T16:22:32.376Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/print.md
+2026-08-07T16:22:32.380Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/index.md
+2026-08-07T16:22:32.386Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/text.md
+2026-08-07T16:22:32.423Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/path.md
+2026-08-07T16:22:32.778Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/weeklySchedule.md
+2026-08-07T16:22:32.784Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/projectDuke/index.md
+2026-08-07T16:22:32.824Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/uml-reference-sheet.md
+2026-08-07T16:22:32.828Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/usingThisWebsite.md
+2026-08-07T16:22:34.309Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutors-info.md
+2026-08-07T16:22:34.316Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tutorials.md
+2026-08-07T16:22:34.327Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w9.md
+2026-08-07T16:22:34.336Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w8.md
+2026-08-07T16:22:36.733Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w7.md
+2026-08-07T16:22:36.744Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w5.md
+2026-08-07T16:22:36.758Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w6.md
+2026-08-07T16:22:36.770Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w4.md
+2026-08-07T16:22:37.220Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w3.md
+2026-08-07T16:22:38.844Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w2.md
+2026-08-07T16:22:38.849Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w13.md
+2026-08-07T16:22:40.801Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w12.md
+2026-08-07T16:22:42.627Z - [34mdebug[39m: 
+2026-08-07T16:22:42.989Z - [34mdebug[39m: 
+2026-08-07T16:22:43.037Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w11.md
+2026-08-07T16:22:43.096Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-w10.md
+2026-08-07T16:22:43.110Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-timeline.md
+2026-08-07T16:22:43.118Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-teams.md
+2026-08-07T16:22:45.153Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-supervision.md
+2026-08-07T16:22:45.163Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-ped.md
+2026-08-07T16:22:45.191Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-overview.md
+2026-08-07T16:22:45.199Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-pe.md
+2026-08-07T16:22:45.867Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-grading.md
+2026-08-07T16:22:45.879Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-deliverables.md
+2026-08-07T16:22:45.890Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-expectations.md
+2026-08-07T16:22:45.915Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-constraints.md
+2026-08-07T16:22:46.019Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-common-fragments.md
+2026-08-07T16:22:46.033Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tools.md
+2026-08-07T16:22:46.047Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/textbooks.md
+2026-08-07T16:22:46.077Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/teamList.md
+2026-08-07T16:22:46.143Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/syllabus.md
+2026-08-07T16:22:46.164Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/standardsAndConventions.md
+2026-08-07T16:22:46.174Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/reposenseAuthorAnnotation.md
+2026-08-07T16:22:46.315Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/programmingLanguages.md
+2026-08-07T16:22:46.360Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/peerEvaluations.md
+2026-08-07T16:22:46.381Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/participation.md
+2026-08-07T16:22:46.411Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/overview-for-teachers.md
+2026-08-07T16:22:46.511Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/mid-semester-survey-results.md
+2026-08-07T16:22:46.519Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/lectures.md
+2026-08-07T16:22:47.092Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w8.md
+2026-08-07T16:22:47.378Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w7.md
+2026-08-07T16:22:47.630Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w6.md
+2026-08-07T16:22:47.912Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w5.md
+2026-08-07T16:22:48.407Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w4.md
+2026-08-07T16:22:48.418Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w3.md
+2026-08-07T16:22:48.483Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-showcase.md
+2026-08-07T16:22:48.488Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-w2.md
+2026-08-07T16:22:48.571Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-overview.md
+2026-08-07T16:22:48.579Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/ip-grading.md
+2026-08-07T16:22:49.022Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/instructors.md
+2026-08-07T16:22:49.028Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/index.md
+2026-08-07T16:22:49.211Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/gradeBreakdown.md
+2026-08-07T16:22:49.252Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams.md
+2026-08-07T16:22:49.260Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exam-reference-sheet.md
+2026-08-07T16:22:49.281Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exams-f2f.md
+2026-08-07T16:22:49.410Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/exam-pen-and-paper.md
+2026-08-07T16:22:49.419Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseOverview.md
+2026-08-07T16:22:49.427Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseBriefings.md
+2026-08-07T16:22:49.460Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/courseExpectations.md
+2026-08-07T16:22:49.495Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixH-tipsFromStudents.md
+2026-08-07T16:22:49.544Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixG-troubleshooting.md
+2026-08-07T16:22:49.552Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixG-CS2103R.md
+2026-08-07T16:22:49.774Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixF-teamworkIssues.md
+2026-08-07T16:22:49.911Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixE-gitHub.md
+2026-08-07T16:22:49.929Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/appendixD-help.md
+2026-08-07T16:22:49.941Z - [32minfo[39m: Pages built
+2026-08-07T16:22:50.079Z - [32minfo[39m: Site data built
+2026-08-07T16:22:50.080Z - [32minfo[39m: Website generation complete! Total build time: 94.355s
+2026-08-07T16:22:50.080Z - [32minfo[39m: Build success!
+2026-08-07T16:23:39.578Z - [32minfo[39m: Website generation (lazy) started at 00:23:39
+2026-08-07T16:23:40.176Z - [32minfo[39m: Building assets...
+2026-08-07T16:23:40.710Z - [32minfo[39m: Assets built
+2026-08-07T16:23:40.711Z - [32minfo[39m: Generating landing page...
+2026-08-07T16:23:41.084Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-07T16:23:41.134Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-07T16:23:41.245Z - [32minfo[39m: Site data built
+2026-08-07T16:23:41.245Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 2.022s
+2026-08-07T16:23:41.258Z - [32minfo[39m: Serving "/Users/damithch/Repos/nus-cs2103/cs2103-website-base/_site" at http://127.0.0.1:8080
+2026-08-07T16:23:41.258Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-07T16:37:22.957Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/index as some of its dependencies were changed since the last visit
+2026-08-07T16:37:23.189Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/index.md
+2026-08-07T16:37:23.199Z - [32minfo[39m: Site data built
+2026-08-07T16:37:23.199Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.243s
+2026-08-07T16:37:29.947Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/admin as some of its dependencies were changed since the last visit
+2026-08-07T16:37:32.053Z - [34mdebug[39m: 
+2026-08-07T16:37:32.081Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/admin.md
+2026-08-07T16:37:32.104Z - [32minfo[39m: Site data built
+2026-08-07T16:37:32.104Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 2.157s
+2026-08-07T16:38:42.928Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:38:43.069Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/topics.md
+2026-08-07T16:38:43.090Z - [32minfo[39m: Site data built
+2026-08-07T16:38:43.090Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.163s
+2026-08-07T16:38:46.132Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/project as some of its dependencies were changed since the last visit
+2026-08-07T16:38:46.237Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/project.md
+2026-08-07T16:38:46.245Z - [32minfo[39m: Site data built
+2026-08-07T16:38:46.246Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.114s
+2026-08-07T16:38:49.038Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/tutorial as some of its dependencies were changed since the last visit
+2026-08-07T16:38:49.111Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week1/tutorial.md
+2026-08-07T16:38:49.118Z - [32minfo[39m: Site data built
+2026-08-07T16:38:49.118Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.08s
+2026-08-07T16:38:56.802Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/index as some of its dependencies were changed since the last visit
+2026-08-07T16:38:57.006Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/index.md
+2026-08-07T16:38:57.018Z - [32minfo[39m: Site data built
+2026-08-07T16:38:57.018Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.217s
+2026-08-07T16:39:02.760Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/admin as some of its dependencies were changed since the last visit
+2026-08-07T16:39:03.064Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/admin.md
+2026-08-07T16:39:03.077Z - [32minfo[39m: Site data built
+2026-08-07T16:39:03.077Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.317s
+2026-08-07T16:39:13.845Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:39:14.537Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/topics.md
+2026-08-07T16:39:14.594Z - [32minfo[39m: Site data built
+2026-08-07T16:39:14.594Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.75s
+2026-08-07T16:40:21.856Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project as some of its dependencies were changed since the last visit
+2026-08-07T16:40:22.460Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/project.md
+2026-08-07T16:40:22.475Z - [32minfo[39m: Site data built
+2026-08-07T16:40:22.475Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.62s
+2026-08-07T16:43:02.630Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial as some of its dependencies were changed since the last visit
+2026-08-07T16:43:02.739Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week2/tutorial.md
+2026-08-07T16:43:02.750Z - [32minfo[39m: Site data built
+2026-08-07T16:43:02.750Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.121s
+2026-08-07T16:43:05.311Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/index as some of its dependencies were changed since the last visit
+2026-08-07T16:43:05.529Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/index.md
+2026-08-07T16:43:05.536Z - [32minfo[39m: Site data built
+2026-08-07T16:43:05.536Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.226s
+2026-08-07T16:43:37.560Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/admin as some of its dependencies were changed since the last visit
+2026-08-07T16:43:38.116Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/admin.md
+2026-08-07T16:43:38.138Z - [32minfo[39m: Site data built
+2026-08-07T16:43:38.138Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.579s
+2026-08-07T16:43:46.050Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:43:46.779Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/topics.md
+2026-08-07T16:43:46.845Z - [32minfo[39m: Site data built
+2026-08-07T16:43:46.845Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.795s
+2026-08-07T16:46:47.489Z - [32minfo[39m: [00:46:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/textbookTopics-fragment.md
+2026-08-07T16:46:47.498Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:46:47.499Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:46:47.499Z - [32minfo[39m: 1. schedule/week3/topics
+2026-08-07T16:46:47.506Z - [32minfo[39m: [00:46:47] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/weeklyTextbookTopics-fragment.md
+2026-08-07T16:46:47.507Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:46:47.507Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:46:47.507Z - [32minfo[39m: 1. schedule/week3/topics
+2026-08-07T16:46:48.639Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:46:49.383Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/topics.md
+2026-08-07T16:46:49.450Z - [32minfo[39m: Site data built
+2026-08-07T16:46:49.450Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:46:49.450Z - [32minfo[39m: Website regeneration complete! Total build time: 0.812s
+2026-08-07T16:47:17.162Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/project as some of its dependencies were changed since the last visit
+2026-08-07T16:47:17.784Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/project.md
+2026-08-07T16:47:17.798Z - [32minfo[39m: Site data built
+2026-08-07T16:47:17.798Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.637s
+2026-08-07T16:47:55.055Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index as some of its dependencies were changed since the last visit
+2026-08-07T16:47:55.267Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/index.md
+2026-08-07T16:47:55.288Z - [32minfo[39m: Site data built
+2026-08-07T16:47:55.288Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.234s
+2026-08-07T16:48:01.246Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-timeline as some of its dependencies were changed since the last visit
+2026-08-07T16:48:03.389Z - [34mdebug[39m: 
+2026-08-07T16:48:03.519Z - [34mdebug[39m: 
+2026-08-07T16:48:03.617Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/admin/tp-timeline.md
+2026-08-07T16:48:03.654Z - [32minfo[39m: Site data built
+2026-08-07T16:48:03.654Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 2.409s
+2026-08-07T16:48:13.875Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/tutorial as some of its dependencies were changed since the last visit
+2026-08-07T16:48:14.342Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week3/tutorial.md
+2026-08-07T16:48:14.354Z - [32minfo[39m: Site data built
+2026-08-07T16:48:14.354Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.48s
+2026-08-07T16:48:30.217Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/index as some of its dependencies were changed since the last visit
+2026-08-07T16:48:30.684Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/index.md
+2026-08-07T16:48:30.709Z - [32minfo[39m: Site data built
+2026-08-07T16:48:30.709Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.493s
+2026-08-07T16:48:35.837Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/admin as some of its dependencies were changed since the last visit
+2026-08-07T16:48:36.073Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/admin.md
+2026-08-07T16:48:36.087Z - [32minfo[39m: Site data built
+2026-08-07T16:48:36.087Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.25s
+2026-08-07T16:48:40.203Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:48:42.071Z - [34mdebug[39m: 
+2026-08-07T16:48:42.151Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-07T16:48:42.247Z - [32minfo[39m: Site data built
+2026-08-07T16:48:42.247Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 2.045s
+2026-08-07T16:49:44.011Z - [32minfo[39m: [00:49:44] Reload for file change: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/_course-CS2113/textbookTopics-fragment.md
+2026-08-07T16:49:44.014Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-08-07T16:49:44.015Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-08-07T16:49:44.015Z - [32minfo[39m: 1. schedule/week4/topics
+2026-08-07T16:49:45.142Z - [32minfo[39m: Rebuilding 1 pages
+2026-08-07T16:49:46.040Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/topics.md
+2026-08-07T16:49:46.114Z - [32minfo[39m: Site data built
+2026-08-07T16:49:46.114Z - [32minfo[39m: Pages rebuilt
+2026-08-07T16:49:46.114Z - [32minfo[39m: Website regeneration complete! Total build time: 0.973s
+2026-08-07T16:50:53.960Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project as some of its dependencies were changed since the last visit
+2026-08-07T16:50:55.017Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/project.md
+2026-08-07T16:50:55.033Z - [32minfo[39m: Site data built
+2026-08-07T16:50:55.033Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.074s
+2026-08-07T16:51:32.021Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial as some of its dependencies were changed since the last visit
+2026-08-07T16:51:32.212Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week4/tutorial.md
+2026-08-07T16:51:32.225Z - [32minfo[39m: Site data built
+2026-08-07T16:51:32.225Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.204s
+2026-08-07T16:51:35.980Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/index as some of its dependencies were changed since the last visit
+2026-08-07T16:51:36.231Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/index.md
+2026-08-07T16:51:36.239Z - [32minfo[39m: Site data built
+2026-08-07T16:51:36.239Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.259s
+2026-08-07T16:51:40.704Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/admin as some of its dependencies were changed since the last visit
+2026-08-07T16:51:41.109Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/admin.md
+2026-08-07T16:51:41.125Z - [32minfo[39m: Site data built
+2026-08-07T16:51:41.125Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.421s
+2026-08-07T16:51:45.770Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:51:46.299Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/topics.md
+2026-08-07T16:51:46.343Z - [32minfo[39m: Site data built
+2026-08-07T16:51:46.343Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.573s
+2026-08-07T16:52:15.162Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/project as some of its dependencies were changed since the last visit
+2026-08-07T16:52:15.960Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/project.md
+2026-08-07T16:52:15.978Z - [32minfo[39m: Site data built
+2026-08-07T16:52:15.978Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.816s
+2026-08-07T16:52:26.725Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial as some of its dependencies were changed since the last visit
+2026-08-07T16:52:27.027Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week5/tutorial.md
+2026-08-07T16:52:27.036Z - [32minfo[39m: Site data built
+2026-08-07T16:52:27.036Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.311s
+2026-08-07T16:52:31.899Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/index as some of its dependencies were changed since the last visit
+2026-08-07T16:52:32.231Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/index.md
+2026-08-07T16:52:32.247Z - [32minfo[39m: Site data built
+2026-08-07T16:52:32.247Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.349s
+2026-08-07T16:52:36.729Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/admin as some of its dependencies were changed since the last visit
+2026-08-07T16:52:37.092Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/admin.md
+2026-08-07T16:52:37.101Z - [32minfo[39m: Site data built
+2026-08-07T16:52:37.101Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.373s
+2026-08-07T16:52:52.432Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:52:53.294Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/topics.md
+2026-08-07T16:52:53.358Z - [32minfo[39m: Site data built
+2026-08-07T16:52:53.358Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.926s
+2026-08-07T16:53:37.709Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/project as some of its dependencies were changed since the last visit
+2026-08-07T16:53:38.659Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/project.md
+2026-08-07T16:53:38.683Z - [32minfo[39m: Site data built
+2026-08-07T16:53:38.683Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.976s
+2026-08-07T16:54:18.905Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/tutorial as some of its dependencies were changed since the last visit
+2026-08-07T16:54:19.056Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week6/tutorial.md
+2026-08-07T16:54:19.067Z - [32minfo[39m: Site data built
+2026-08-07T16:54:19.067Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.163s
+2026-08-07T16:54:21.391Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/index as some of its dependencies were changed since the last visit
+2026-08-07T16:54:21.646Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/index.md
+2026-08-07T16:54:21.654Z - [32minfo[39m: Site data built
+2026-08-07T16:54:21.654Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.263s
+2026-08-07T16:54:45.952Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/admin as some of its dependencies were changed since the last visit
+2026-08-07T16:54:46.065Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/admin.md
+2026-08-07T16:54:46.074Z - [32minfo[39m: Site data built
+2026-08-07T16:54:46.074Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.122s
+2026-08-07T16:54:48.511Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:54:48.807Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/topics.md
+2026-08-07T16:54:48.827Z - [32minfo[39m: Site data built
+2026-08-07T16:54:48.827Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.317s
+2026-08-07T16:55:06.807Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/project as some of its dependencies were changed since the last visit
+2026-08-07T16:55:07.988Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/project.md
+2026-08-07T16:55:08.006Z - [32minfo[39m: Site data built
+2026-08-07T16:55:08.006Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.2s
+2026-08-07T16:55:20.715Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/tutorial as some of its dependencies were changed since the last visit
+2026-08-07T16:55:20.911Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week7/tutorial.md
+2026-08-07T16:55:20.929Z - [32minfo[39m: Site data built
+2026-08-07T16:55:20.930Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.216s
+2026-08-07T16:55:23.442Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/index as some of its dependencies were changed since the last visit
+2026-08-07T16:55:23.677Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/index.md
+2026-08-07T16:55:23.684Z - [32minfo[39m: Site data built
+2026-08-07T16:55:23.684Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.243s
+2026-08-07T16:55:26.809Z - [32minfo[39m: Building /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/topics as some of its dependencies were changed since the last visit
+2026-08-07T16:55:30.930Z - [34mdebug[39m: 
+2026-08-07T16:55:30.936Z - [34mdebug[39m: 
+2026-08-07T16:55:30.945Z - [34mdebug[39m: 
+2026-08-07T16:55:31.003Z - [34mdebug[39m: 
+2026-08-07T16:55:31.007Z - [34mdebug[39m: 
+2026-08-07T16:55:31.043Z - [34mdebug[39m: 
+2026-08-07T16:55:31.104Z - [34mdebug[39m: 
+2026-08-07T16:55:31.107Z - [34mdebug[39m: 
+2026-08-07T16:55:31.111Z - [34mdebug[39m: 
+2026-08-07T16:55:31.222Z - [34mdebug[39m: 
+2026-08-07T16:55:31.253Z - [34mdebug[39m: 
+2026-08-07T16:55:31.325Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/nus-cs2103/cs2103-website-base/schedule/week8/topics.md
+2026-08-07T16:55:31.400Z - [32minfo[39m: Site data built
+2026-08-07T16:55:31.400Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 4.591s
+2026-08-07T16:56:44.850Z - [32minfo[39m: Website generation started at 00:56:44
+2026-08-07T16:56:45.521Z - [32minfo[39m: Building assets...

@@ -1,30 +1,22 @@
 ISSUES_FOUND = [
-    ('**Here are two alternative approaches to testing a software: _Scripted_ testing and _Exploratory_ testing.**',
-     '**Here are two alternative approaches to testing software: _Scripted_ testing and _Exploratory_ testing.**',
-     'testing/testingTypes/exploratoryVsScriptedTesting/what/text.md',
-     'Fix exploratory testing wording'),  # [grammar issue] 'software' is normally uncountable in this usage.
-    ('> The earlier a bug is found, the easier and cheaper to have it fixed.',
-     '> The earlier a bug is found, the easier and cheaper it is to fix.',
-     'testing/testingTypes/developerTesting/why/text.md',
-     'Clarify early bug-fixing rule'),  # [phrasing issue] The revised wording is smoother and more direct.
-    ('Such early testing software is usually, and often by necessity, done by the developers themselves i.e., developer testing.',
-     'Such early testing of software is usually, and often by necessity, done by the developers themselves i.e., developer testing.',
-     'testing/testingTypes/developerTesting/why/text.md',
-     'Fix developer testing sentence'),  # [grammar issue] Adds the missing preposition after 'testing'.
-    ('If a software product has a GUI (Graphical User Interface) component, all product-level testing (i.e., the types of testing mentioned above) need to be done using the GUI.',
-     'If a software product has a GUI (Graphical User Interface) component, all product-level testing (i.e., the types of testing mentioned above) needs to be done using the GUI.',
-     'testing/testAutomation/testingGuis/text.md',
-     'Fix GUI testing agreement'),  # [grammar issue] 'testing' takes the singular verb 'needs'.
-    ('For example, a GUI can behave differently based on whether it is minimized or maximized, in focus or out of focus, and in a high resolution display or a low resolution display.',
-     'For example, a GUI can behave differently based on whether it is minimized or maximized, in focus or out of focus, and on a high-resolution display or a low-resolution display.',
-     'testing/testAutomation/testingGuis/text.md',
-     'Tighten GUI display wording'),  # [phrasing issue] Uses the natural preposition and hyphenates compound modifiers.
-    ('  _Entry points_ refer to all places from which the method is called from the rest of the code i.e., all places where the control is handed over to the method in concern.<br>',
-     '  _Entry points_ refer to all places from which the method is called by the rest of the code i.e., all places where control is handed over to the method in question.<br>',
-     'testing/testCoverage/what/text.md',
-     'Clarify entry point definition'),  # [phrasing issue] Removes repeated 'from' wording and uses a more natural phrase.
-    ('**_Test-Driven Development(TDD)_ advocates writing the tests before writing the SUT, while evolving functionality and tests in small increments**.',
-     '**_Test-Driven Development (TDD)_ advocates writing the tests before writing the SUT, while evolving functionality and tests in small increments**.',
-     'testing/tdd/what/text.md',
-     'Add space before TDD acronym'),  # [punctuation issue] Adds the missing space before the parenthetical acronym.
+    ('The component that detects it is the _emitter_; components that react are _consumers_.',
+     'The component that emits an event is the _emitter_; components that react are _consumers_.',
+     'architecture/architecturalStyles/eventDriven/what/text.md',
+     'Define the event emitter precisely'),  # [phrasing] The pronoun `it` has no clear antecedent, and an emitter emits rather than merely detects an event.
+    ('**A good architecture contains many kinds of change, but not every kind:**',
+     '**A good architecture contains the effects of many kinds of change, but not every kind:**',
+     'architecture/introduction/components/q-list-whichComponentChanges.md',
+     'Clarify what architecture contains'),  # [phrasing] An architecture contains the effects of a change; it does not contain the change itself.
+    ('%%Notation used in this diagram and the next: a dashed arrow is the path along which events travel, each oval is one event, and the small red arrows show events in flight along that path.%%',
+     '%%Notation used in this diagram and the next: a dashed arrow is the path along which events travel, each oval is one event, and the small red arrows show their direction of travel.%%',
+     'architecture/architecturalStyles/eventDriven/what/text.md',
+     'Clarify event diagram notation'),  # [phrasing] The ovals show the events; the red arrows show their direction rather than the events themselves.
+    ('1. `Storage` mainly — the others asked it to save and never knew the format, assuming its interface still fits.',
+     '1. `Storage` mainly — the others ask it to save and do not know the format, assuming its interface still fits.',
+     'architecture/introduction/components/q-list-whichComponentChanges.md',
+     'Keep exercise answer in present tense'),  # [grammar] The hypothetical answer should use the same present tense as the surrounding exercise.
+    ('(a)(b)',
+     '(a), (b)',
+     'architecture/introduction/what/q-tick-correctStatement.md',
+     'Punctuate multiple answer labels'),  # [punctuation] A comma and space are needed between the two answer labels.
 ]
