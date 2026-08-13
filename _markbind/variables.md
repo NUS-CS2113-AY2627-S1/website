@@ -14,13 +14,13 @@
 
 <variable name="canvas_course_id">96989</variable>
 <variable name="url_instructors">https://docs.google.com/document/d/e/2PACX-1vQ3yMfxtxatSX5XxWnZparVJN9UkEOu504YHyShketpCzdqQth4JDcwQwhWvOBi-XH8-gkdgMgGpg1t/pub?embedded=true</variable>
-<variable name="url_coursemology_classroom">https://coursemology.org/courses/x</variable>
-<variable name="url_ms_teams_class">x</variable>
+<variable name="url_coursemology_classroom">https://coursemology.org/courses/3389</variable>
+<variable name="url_ms_teams_class">https://teams.microsoft.com/l/team/19%3AaQ-cbdzaQ1chXlotJJsFZofFKmA0sCM6lpfqSfgzeiU1%40thread.tacv2/conversations?groupId=13317c1a-8979-4324-bc2b-2289a41e2ca5&tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82</variable>
 
-<variable name="date_w1_start">2026-01-12</variable>
+<variable name="date_w1_start">2026-08-10</variable>
 <variable name="day_first_tutorial">Wednesday</variable>
 <variable name="recess_after_week">6</variable>
-<variable name="lecture_venue">LT16</variable>
+<variable name="lecture_venue">LT12</variable>
 <variable name="time_lecture_start">1600</variable>
 <variable name="time_lecture_end">1800</variable>
 <variable name="time_t_lecture_start">1600</variable>
@@ -44,7 +44,7 @@
 <variable name="version_final">v2.1</variable>
 <variable name="version_future">v3.0</variable>
 
-<variable name="example_team_id">{{ course }}-T09-2</variable>
+<variable name="example_team_id">{{ course }}-T10-2</variable>
 <variable name="tp_pe_bug_count">6</variable>
 
 <variable name="ug_pages_per_person">1</variable>
