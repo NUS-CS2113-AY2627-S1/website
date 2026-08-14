@@ -1,0 +1,16 @@
+2026-08-14T04:24:42.588Z - [32minfo[39m: Website generation (lazy) started at 12:24:42
+2026-08-14T04:24:42.766Z - [32minfo[39m: Building assets...
+2026-08-14T04:24:42.945Z - [32minfo[39m: Assets built
+2026-08-14T04:24:42.945Z - [32minfo[39m: Generating landing page...
+2026-08-14T04:24:43.242Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/NUS-CS2113-AY2627-S1/website/index.md
+2026-08-14T04:24:43.261Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-14T04:24:43.338Z - [32minfo[39m: Site data built
+2026-08-14T04:24:43.338Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 0.808s
+2026-08-14T04:24:43.350Z - [32minfo[39m: Serving "/Users/damithch/Repos/NUS-CS2113-AY2627-S1/website/_site" at http://127.0.0.1:8080
+2026-08-14T04:24:43.350Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-14T04:24:50.715Z - [32minfo[39m: Building /Users/damithch/Repos/NUS-CS2113-AY2627-S1/website/schedule/week2/topics as some of its dependencies were changed since the last visit
+2026-08-14T04:24:51.413Z - [36mverbose[39m: Rendering page: /Users/damithch/Repos/NUS-CS2113-AY2627-S1/website/schedule/week2/topics.md
+2026-08-14T04:24:51.472Z - [32minfo[39m: Site data built
+2026-08-14T04:24:51.472Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.758s
+2026-08-14T04:24:59.729Z - [32minfo[39m: Website generation started at 12:24:59
+2026-08-14T04:24:59.912Z - [32minfo[39m: Building assets...
