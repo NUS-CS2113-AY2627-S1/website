@@ -267,6 +267,19 @@ Your GitHub username : <cv-placeholder-input name="username" appearance="underli
 {% endmacro %}
 <!-- ============================================================ -->
 
+{% macro show_ai_impact(heading)%}
+<box type="info" theme="primary" icon=":fas-robot:"seamless>
+<div slot="header">
+
+**<span style="color: #0c1ff6;">AI's impact on &raquo;</span> {{ heading }}**
+</div>
+
+{{ caller() }}
+</box>
+{% endmacro %}
+
+<!-- ============================================================ -->
+
 {#
   mdblock -- renders a block of Markdown inside a bordered box, with a
   'Copy as Markdown' button that puts the original Markdown on the clipboard.
@@ -285,13 +298,15 @@ Your GitHub username : <cv-placeholder-input name="username" appearance="underli
        attribute early and silently truncate the copied Markdown.
   The button's JS calls decodeURIComponent() to undo it.
 #}
-{% macro mdblock(label="Copy as Markdown") %}
+{% macro mdblock(label="Copy as Markdown", indented_level=0) %}
+{% if indented_level %}<div class="indented-level{{ indented_level }}">{% endif %}
 <div class="mdblock" data-md="{{ (caller() + "") | trim | urlencode }}">
 <button class="mdblock-copy" type="button" data-label="{{ label }}" onclick="mdblockCopy(this)">{{ label }}</button>
 
 {{ caller() }}
 
 </div>
+{% if indented_level %}</div>{% endif %}
 {% endmacro %}
 <!-- ============================================================ -->
 
