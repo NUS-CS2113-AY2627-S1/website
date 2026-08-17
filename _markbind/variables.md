@@ -13,7 +13,7 @@
 <variable name="algolia">yes</variable>
 
 <variable name="canvas_course_id">96989</variable>
-<variable name="url_instructors">https://docs.google.com/document/d/e/2PACX-1vQ3yMfxtxatSX5XxWnZparVJN9UkEOu504YHyShketpCzdqQth4JDcwQwhWvOBi-XH8-gkdgMgGpg1t/pub?embedded=true</variable>
+<variable name="url_instructors">https://docs.google.com/document/d/e/2PACX-1vRQvFnziZU0wgYGRydp198UV2mn9sLLrnr-0GXFh_iKYBKAL0Ta8pjiFax2sEaa7k4ipaSurF4fibGQ/pub?embedded=true</variable>
 <variable name="url_coursemology_classroom">https://coursemology.org/courses/3389</variable>
 <variable name="url_ms_teams_class">https://teams.microsoft.com/l/team/19%3AaQ-cbdzaQ1chXlotJJsFZofFKmA0sCM6lpfqSfgzeiU1%40thread.tacv2/conversations?groupId=13317c1a-8979-4324-bc2b-2289a41e2ca5&tenantId=5ba5ef5e-3109-4e77-85bd-cfeb0d347e82</variable>
 
