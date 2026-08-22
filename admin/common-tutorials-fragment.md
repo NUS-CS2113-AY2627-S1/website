@@ -22,7 +22,7 @@
 <!-- ------------------------------------------------------------------------------------------------------ -->
 <div id="decide-meeting-time">
 
-* If you haven't done so already, do the following tP task.
+* Complete the following tP task.
 
 {{ embed_topic("tp-tasks-fragment.md#desc_set_up_meeting_time", "Admin " + icon_embedding + " **tP → Set up a meeting time**", "2", indent="1") }}
 </div>
@@ -49,7 +49,7 @@ So, for each coding standard violation you identify, you should be able to trace
 <!-- ------------------------------------------------------------------------------------------------------ -->
 <div id="help-troubleshoot-ip">
 
-* If there is time, do the following tP task (if there isn't enough time, you can do this later during the week).
+* If there is time, do the following iP task (if there isn't enough time, you can do this later during the week).
 
 {{ embed_topic("tp-tasks-fragment.md#desc_check_collective_ip_status", "Admin " + icon_embedding + " **tP → Check collective iP status**", "2", indent="1") }}
 </div>
