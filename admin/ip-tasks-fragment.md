@@ -33,6 +33,7 @@
 </div>
 <div id="tag-push">
 
+* Remember, certain _increments_ have _extensions_ embeded within them. E.g., {{ as_tag('Level-3') }} has {{ as_tag('A-Classes') }}. You are required to complete both the increment and associated extension(s), unless they are marked optional.
 * From this point onward, after completing each increment,
   * **`git tag` the commit that _completed_ the increment with the exact increment ID** e.g., {{ as_tag('Level-2') }}, {{ as_tag('A-Classes') }}
     <box type="warning" seamless><md>[Git tags](https://git-mastery.org/lessons/tag/) are not the same as [Git commit messages](https://git-mastery.org/lessons/commit/).</md></box>
@@ -47,7 +48,7 @@
       commit id: "Add support for list"
       commit id: "Add support for bye"
     </mermaid>
-  * **`git push` the code to your fork**
+  * **`git push` both the code _and the tags_ to your fork**
     <box type="warning" seamless><md>Git doesn't push tags unless you [specifically ask it to](https://git-mastery.org/lessons/tag/?cv-highlight=W3sidCI6IlAiLCJpIjo0MSwicCI6Im1haW4iLCJzIjoiUHVzaGluZyBjb21taXRzIHRvIGEgcmVtb3RlIGRvZXMiLCJoIjotMzYxMjczNDgzLCJpZCI6IiJ9XQ%3D%3D).
     After pushing a tag to your fork, you should be able to see that tag by visiting `https://github.com/YOUR_USER_NAME/REPO_NAME/tags` e.g., <a href="https://github.com/[[username: JohnDoe]]/ip/tags" target="_blank" class="cv-bind">https://github.com/[[username: JohnDoe]]/ip/tags</a></md></box>
     <box type="tip" seamless><md>If you encounter issues connecting Sourcetree with your GitHub account, refer to this [Sourcetree Tutorial](https://se-education.org/guides/tutorials/sourcetree.html).</md></box>
