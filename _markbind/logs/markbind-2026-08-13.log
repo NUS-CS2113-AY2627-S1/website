@@ -1,0 +1,946 @@
+2026-08-13T14:48:22.505Z - [32minfo[39m: Website generation started at 10:48:22 PM
+2026-08-13T14:48:56.456Z - [32minfo[39m: Building assets...
+2026-08-13T14:49:16.366Z - [32minfo[39m: Assets built
+2026-08-13T14:49:16.367Z - [32minfo[39m: Generating pages...
+2026-08-13T14:49:17.274Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/CP3108A-option.md
+2026-08-13T14:49:17.295Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixA-principles.md
+2026-08-13T14:49:17.764Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/acknowledgements.md
+2026-08-13T14:49:17.770Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixB-policies.md
+2026-08-13T14:49:23.178Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.178Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.178Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.178Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.178Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.178Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.178Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.178Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.179Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:23.420Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/index.md
+2026-08-13T14:49:23.440Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/stereotypes/index.md
+2026-08-13T14:49:24.206Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/stereotypes/what/index.md
+2026-08-13T14:49:24.353Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/staticMethods/index.md
+2026-08-13T14:49:24.368Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/print.md
+2026-08-13T14:49:24.593Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/selfInvocation/index.md
+2026-08-13T14:49:24.641Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/referenceFrames/index.md
+2026-08-13T14:49:24.778Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/optionalPaths/index.md
+2026-08-13T14:49:24.818Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/parallelPaths/index.md
+2026-08-13T14:49:24.873Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/objectDeletion/index.md
+2026-08-13T14:49:24.886Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/objectCreation/index.md
+2026-08-13T14:49:25.067Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/minimalNotation/index.md
+2026-08-13T14:49:25.230Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/loops/index.md
+2026-08-13T14:49:25.236Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/introduction/index.md
+2026-08-13T14:49:25.390Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/index.md
+2026-08-13T14:49:25.509Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/alternativePaths/index.md
+2026-08-13T14:49:25.514Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/sequenceDiagrams/basic/index.md
+2026-08-13T14:49:25.520Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/objectDiagrams/objects/index.md
+2026-08-13T14:49:25.694Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/objectDiagrams/introduction/index.md
+2026-08-13T14:49:25.845Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/objectDiagrams/index.md
+2026-08-13T14:49:25.853Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/objectDiagrams/associations/index.md
+2026-08-13T14:49:25.857Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/notes/notes/index.md
+2026-08-13T14:49:26.150Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:26.150Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:26.150Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:26.150Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:26.150Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:26.150Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:26.253Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/notes/index.md
+2026-08-13T14:49:26.267Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/miscellaneous/objectVsClassDiagrams/index.md
+2026-08-13T14:49:26.274Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/miscellaneous/index.md
+2026-08-13T14:49:26.280Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/notes/constraints/index.md
+2026-08-13T14:49:27.416Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:27.550Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/index.md
+2026-08-13T14:49:27.691Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/introduction/what/index.md
+2026-08-13T14:49:27.696Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/interfaces/what/index.md
+2026-08-13T14:49:27.739Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/introduction/index.md
+2026-08-13T14:49:28.301Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/interfaces/index.md
+2026-08-13T14:49:28.307Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/index.md
+2026-08-13T14:49:28.339Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/enumerations/what/index.md
+2026-08-13T14:49:28.649Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/enumerations/index.md
+2026-08-13T14:49:28.661Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/dependencies/index.md
+2026-08-13T14:49:28.667Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/dependencies/what/index.md
+2026-08-13T14:49:28.671Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/composition/what/index.md
+2026-08-13T14:49:29.012Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/composition/index.md
+2026-08-13T14:49:29.018Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/classes/what/index.md
+2026-08-13T14:49:29.026Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/combine/index.md
+2026-08-13T14:49:29.033Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/combine/basic/index.md
+2026-08-13T14:49:29.452Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/classLevelMembers/what/index.md
+2026-08-13T14:49:29.458Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/classes/index.md
+2026-08-13T14:49:29.473Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/classLevelMembers/index.md
+2026-08-13T14:49:29.482Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/classInheritance/what/index.md
+2026-08-13T14:49:29.848Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associationsAsAttributes/what/index.md
+2026-08-13T14:49:29.855Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/classInheritance/index.md
+2026-08-13T14:49:29.861Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associationsAsAttributes/index.md
+2026-08-13T14:49:29.878Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associations/what/index.md
+2026-08-13T14:49:30.189Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associations/roles/index.md
+2026-08-13T14:49:30.195Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associations/multiplicity/index.md
+2026-08-13T14:49:30.201Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associations/navigability/index.md
+2026-08-13T14:49:30.254Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associations/labels/index.md
+2026-08-13T14:49:30.661Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associations/index.md
+2026-08-13T14:49:30.672Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associationClasses/what/index.md
+2026-08-13T14:49:30.677Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/associationClasses/index.md
+2026-08-13T14:49:30.727Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/aggregation/what/index.md
+2026-08-13T14:49:30.941Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/aggregation/index.md
+2026-08-13T14:49:30.986Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/abstractClasses/what/index.md
+2026-08-13T14:49:30.991Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/classDiagrams/abstractClasses/index.md
+2026-08-13T14:49:31.328Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/introduction/what/index.md
+2026-08-13T14:49:31.359Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/introduction/index.md
+2026-08-13T14:49:31.367Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/index.md
+2026-08-13T14:49:31.377Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/basicNotations/swimlanes/index.md
+2026-08-13T14:49:31.665Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/basicNotations/rakes/index.md
+2026-08-13T14:49:31.726Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/basicNotations/parallelPaths/index.md
+2026-08-13T14:49:31.740Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/basicNotations/linearPaths/index.md
+2026-08-13T14:49:31.794Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/basicNotations/index.md
+2026-08-13T14:49:31.842Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/uml/activityDiagrams/basicNotations/alternatePaths/index.md
+2026-08-13T14:49:32.243Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/unitTesting/what/index.md
+2026-08-13T14:49:32.250Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/unitTesting/stubs/index.md
+2026-08-13T14:49:32.258Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/unitTesting/index.md
+2026-08-13T14:49:32.266Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/systemTesting/what/index.md
+2026-08-13T14:49:32.567Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/systemTesting/index.md
+2026-08-13T14:49:32.576Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/regressionTesting/index.md
+2026-08-13T14:49:32.582Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/regressionTesting/what/index.md
+2026-08-13T14:49:32.589Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/integrationTesting/what/index.md
+2026-08-13T14:49:33.254Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/integrationTesting/index.md
+2026-08-13T14:49:33.261Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/integrationTesting/how/index.md
+2026-08-13T14:49:33.266Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/index.md
+2026-08-13T14:49:33.422Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/exploratoryVsScriptedTesting/when/index.md
+2026-08-13T14:49:33.588Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/exploratoryVsScriptedTesting/index.md
+2026-08-13T14:49:33.634Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/exploratoryVsScriptedTesting/what/index.md
+2026-08-13T14:49:33.640Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/dogfooding/what/index.md
+2026-08-13T14:49:33.729Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/dogfooding/index.md
+2026-08-13T14:49:33.906Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/developerTesting/why/index.md
+2026-08-13T14:49:33.944Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/developerTesting/index.md
+2026-08-13T14:49:33.950Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/developerTesting/what/index.md
+2026-08-13T14:49:34.133Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/alphaBetaTesting/what/index.md
+2026-08-13T14:49:34.223Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/alphaBetaTesting/index.md
+2026-08-13T14:49:34.272Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/acceptanceTesting/index.md
+2026-08-13T14:49:34.313Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/acceptanceTesting/what/index.md
+2026-08-13T14:49:34.447Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testingTypes/acceptanceTesting/acceptanceVsSystemTesting/index.md
+2026-08-13T14:49:34.600Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testCoverage/index.md
+2026-08-13T14:49:34.653Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testCoverage/how/index.md
+2026-08-13T14:49:34.658Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testCoverage/what/index.md
+2026-08-13T14:49:34.850Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testAutomation/what/index.md
+2026-08-13T14:49:34.952Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testAutomation/tools/index.md
+2026-08-13T14:49:35.011Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testAutomation/usingTestDrivers/index.md
+2026-08-13T14:49:35.017Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testAutomation/testingTextUis/index.md
+2026-08-13T14:49:35.072Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testAutomation/testingGuis/index.md
+2026-08-13T14:49:35.412Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/testAutomation/index.md
+2026-08-13T14:49:35.422Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/tdd/index.md
+2026-08-13T14:49:35.435Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/tdd/what/index.md
+2026-08-13T14:49:35.740Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/introduction/what/index.md
+2026-08-13T14:49:35.747Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/tdd/how/index.md
+2026-08-13T14:49:35.764Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/introduction/index.md
+2026-08-13T14:49:35.771Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/introduction/testability/index.md
+2026-08-13T14:49:37.226Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/dependencyInjection/what/index.md
+2026-08-13T14:49:37.233Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/index.md
+2026-08-13T14:49:37.401Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/dependencyInjection/index.md
+2026-08-13T14:49:37.410Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testing/dependencyInjection/how/index.md
+2026-08-13T14:49:37.831Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/summary/recap/index.md
+2026-08-13T14:49:37.896Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/summary/index.md
+2026-08-13T14:49:37.992Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/summary/exercises/index.md
+2026-08-13T14:49:38.160Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/more/testingUseCases/index.md
+2026-08-13T14:49:38.172Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/more/index.md
+2026-08-13T14:49:38.275Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/introduction/what/index.md
+2026-08-13T14:49:38.405Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/introduction/index.md
+2026-08-13T14:49:38.883Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/introduction/positiveVsNegative/index.md
+2026-08-13T14:49:38.923Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/introduction/blackVsGlass/index.md
+2026-08-13T14:49:39.000Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/index.md
+2026-08-13T14:49:39.217Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/equivalencePartitions/index.md
+2026-08-13T14:49:39.226Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/equivalencePartitions/what/index.md
+2026-08-13T14:49:39.231Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/equivalencePartitions/intermediate/index.md
+2026-08-13T14:49:39.532Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/equivalencePartitions/basic/index.md
+2026-08-13T14:49:39.680Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/combiningTestInputs/index.md
+2026-08-13T14:49:39.691Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/combiningTestInputs/why/index.md
+2026-08-13T14:49:39.696Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/combiningTestInputs/mix/index.md
+2026-08-13T14:49:39.790Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/combiningTestInputs/heuristicValid/index.md
+2026-08-13T14:49:40.035Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/combiningTestInputs/combinationStrategies/index.md
+2026-08-13T14:49:40.042Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/combiningTestInputs/heuristicInvalid/index.md
+2026-08-13T14:49:40.049Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/boundaryValueAnalysis/what/index.md
+2026-08-13T14:49:40.096Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/boundaryValueAnalysis/index.md
+2026-08-13T14:49:40.431Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/teamwork/index.md
+2026-08-13T14:49:40.438Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/testCaseDesign/boundaryValueAnalysis/how/index.md
+2026-08-13T14:49:40.443Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/teamwork/teamStructures/index.md
+2026-08-13T14:49:40.788Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/userStories/usage/index.md
+2026-08-13T14:49:40.935Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/userStories/introduction/index.md
+2026-08-13T14:49:41.007Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/userStories/index.md
+2026-08-13T14:49:41.018Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/userStories/details/index.md
+2026-08-13T14:49:41.108Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/useCases/usage/index.md
+2026-08-13T14:49:41.612Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/useCases/introduction/index.md
+2026-08-13T14:49:41.618Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/useCases/index.md
+2026-08-13T14:49:41.629Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/useCases/identifying/index.md
+2026-08-13T14:49:41.804Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/useCases/details/index.md
+2026-08-13T14:49:41.999Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/supplementaryRequirements/index.md
+2026-08-13T14:49:42.049Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/supplementaryRequirements/what/index.md
+2026-08-13T14:49:42.054Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/requirementsDocument/what/index.md
+2026-08-13T14:49:42.114Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/requirementsDocument/index.md
+2026-08-13T14:49:42.933Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/prose/index.md
+2026-08-13T14:49:42.939Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/index.md
+2026-08-13T14:49:42.969Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/prose/what/index.md
+2026-08-13T14:49:43.017Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/glossary/what/index.md
+2026-08-13T14:49:43.180Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/glossary/index.md
+2026-08-13T14:49:43.311Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/featureList/index.md
+2026-08-13T14:49:43.318Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/specifyingRequirements/featureList/what/index.md
+2026-08-13T14:49:43.522Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/softwareEngineering/introduction/index.md
+2026-08-13T14:49:43.528Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/softwareEngineering/introduction/prosAndCons/index.md
+2026-08-13T14:49:43.603Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/softwareEngineering/index.md
+2026-08-13T14:49:43.685Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/security/wrapUp/index.md
+2026-08-13T14:49:43.775Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/security/why/index.md
+2026-08-13T14:49:43.982Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/security/when/index.md
+2026-08-13T14:49:44.124Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/security/what/index.md
+2026-08-13T14:49:44.169Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/security/index.md
+2026-08-13T14:49:44.294Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/security/ai/index.md
+2026-08-13T14:49:44.299Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/security/how/index.md
+2026-08-13T14:49:44.515Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/platforms/index.md
+2026-08-13T14:49:44.603Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/platforms/what/index.md
+2026-08-13T14:49:44.644Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/libraries/index.md
+2026-08-13T14:49:44.707Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/libraries/what/index.md
+2026-08-13T14:49:44.777Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/libraries/how/index.md
+2026-08-13T14:49:44.856Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/introduction/when/index.md
+2026-08-13T14:49:45.268Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/introduction/index.md
+2026-08-13T14:49:45.274Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/introduction/what/index.md
+2026-08-13T14:49:45.343Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/index.md
+2026-08-13T14:49:45.453Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/frameworks/what/index.md
+2026-08-13T14:49:45.520Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/frameworks/index.md
+2026-08-13T14:49:45.559Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/frameworks/frameworksVsLibraries/index.md
+2026-08-13T14:49:45.754Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/cloudComputing/what/index.md
+2026-08-13T14:49:45.759Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/cloudComputing/services/index.md
+2026-08-13T14:49:45.836Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/cloudComputing/index.md
+2026-08-13T14:49:45.933Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/apis/what/index.md
+2026-08-13T14:49:46.011Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/apis/index.md
+2026-08-13T14:49:46.061Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/reuse/apis/designingAPIs/index.md
+2026-08-13T14:49:46.309Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/requirements/quality/index.md
+2026-08-13T14:49:46.315Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/requirements/prioritizing/index.md
+2026-08-13T14:49:46.330Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/requirements/nonFunctionalRequirements/index.md
+2026-08-13T14:49:46.340Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/requirements/introduction/index.md
+2026-08-13T14:49:46.539Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/requirements/index.md
+2026-08-13T14:49:46.699Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/requirements/changing/index.md
+2026-08-13T14:49:46.915Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/refactoring/when/index.md
+2026-08-13T14:49:46.921Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/refactoring/what/index.md
+2026-08-13T14:49:47.032Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/refactoring/index.md
+2026-08-13T14:49:47.077Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/refactoring/how/index.md
+2026-08-13T14:49:47.186Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/staticAnalysis/index.md
+2026-08-13T14:49:47.200Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/staticAnalysis/what/index.md
+2026-08-13T14:49:47.321Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/introduction/what/index.md
+2026-08-13T14:49:47.567Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/introduction/index.md
+2026-08-13T14:49:47.623Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/introduction/validationVsVerification/index.md
+2026-08-13T14:49:47.628Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/index.md
+2026-08-13T14:49:47.792Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/formalVerification/what/index.md
+2026-08-13T14:49:47.892Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/formalVerification/index.md
+2026-08-13T14:49:47.944Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/codeReviews/index.md
+2026-08-13T14:49:47.954Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/qualityAssurance/codeReviews/what/index.md
+2026-08-13T14:49:48.047Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/projectPlanning/workBreakdownStructure/index.md
+2026-08-13T14:49:48.178Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/projectPlanning/pertCharts/index.md
+2026-08-13T14:49:48.183Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/projectPlanning/milestones/index.md
+2026-08-13T14:49:48.188Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/projectPlanning/issueTrackers/index.md
+2026-08-13T14:49:48.488Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/projectPlanning/index.md
+2026-08-13T14:49:48.606Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/projectPlanning/ganttCharts/index.md
+2026-08-13T14:49:48.612Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/projectPlanning/buffers/index.md
+2026-08-13T14:49:48.723Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/summary/recap/index.md
+2026-08-13T14:49:48.852Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/summary/index.md
+2026-08-13T14:49:49.037Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/more/index.md
+2026-08-13T14:49:49.083Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/more/continuousApproaches/index.md
+2026-08-13T14:49:49.089Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/more/cmmi/index.md
+2026-08-13T14:49:49.319Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/introduction/what/index.md
+2026-08-13T14:49:49.439Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/introduction/iterativeModels/index.md
+2026-08-13T14:49:49.445Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/introduction/sequentialModels/index.md
+2026-08-13T14:49:49.493Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/introduction/index.md
+2026-08-13T14:49:49.941Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/introduction/agileModels/index.md
+2026-08-13T14:49:50.082Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/exampleProcessModels/xp/index.md
+2026-08-13T14:49:50.088Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/index.md
+2026-08-13T14:49:50.101Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/exampleProcessModels/unifiedProcess/index.md
+2026-08-13T14:49:50.159Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/exampleProcessModels/scrum/index.md
+2026-08-13T14:49:50.677Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/exampleProcessModels/index.md
+2026-08-13T14:49:50.684Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/processModels/exampleProcessModels/choosing/index.md
+2026-08-13T14:49:50.689Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/yagniPrinciple/index.md
+2026-08-13T14:49:51.098Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/solidPrinciples/index.md
+2026-08-13T14:49:51.192Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/singleResponsibilityPrinciple/index.md
+2026-08-13T14:49:51.237Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/separationOfConcernsPrinciple/index.md
+2026-08-13T14:49:51.304Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/openClosedPrinciple/index.md
+2026-08-13T14:49:51.440Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/review/index.md
+2026-08-13T14:49:51.540Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/liskovSubstitutionPrinciple/index.md
+2026-08-13T14:49:52.040Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/lawOfDemeter/index.md
+2026-08-13T14:49:52.178Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/interfaceSegregationPrinciple/index.md
+2026-08-13T14:49:52.184Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/index.md
+2026-08-13T14:49:52.323Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/dependencyInversionPrinciple/index.md
+2026-08-13T14:49:52.329Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/dryPrinciple/index.md
+2026-08-13T14:49:52.439Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/principles/brooksLaw/index.md
+2026-08-13T14:49:52.605Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/polymorphism/what/index.md
+2026-08-13T14:49:52.618Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/polymorphism/index.md
+2026-08-13T14:49:52.696Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/polymorphism/how/index.md
+2026-08-13T14:49:52.962Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/objects/index.md
+2026-08-13T14:49:52.971Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/objects/what/index.md
+2026-08-13T14:49:53.083Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/objects/encapsulation/index.md
+2026-08-13T14:49:53.215Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/objects/abstraction/index.md
+2026-08-13T14:49:53.498Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/more/miscellaneous/index.md
+2026-08-13T14:49:53.506Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/more/review/index.md
+2026-08-13T14:49:53.618Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/more/index.md
+2026-08-13T14:49:53.759Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/introduction/what/index.md
+2026-08-13T14:49:53.889Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/introduction/index.md
+2026-08-13T14:49:53.897Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/inheritance/what/index.md
+2026-08-13T14:49:54.160Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/inheritance/substitutability/index.md
+2026-08-13T14:49:54.167Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/inheritance/overriding/index.md
+2026-08-13T14:49:54.276Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/inheritance/interfaces/index.md
+2026-08-13T14:49:54.282Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/inheritance/overloading/index.md
+2026-08-13T14:49:55.979Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/inheritance/index.md
+2026-08-13T14:49:55.998Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/inheritance/dynamicAndStaticBinding/index.md
+2026-08-13T14:49:56.021Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/inheritance/abstractClasses/index.md
+2026-08-13T14:49:56.027Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/index.md
+2026-08-13T14:49:56.474Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/classes/index.md
+2026-08-13T14:49:56.484Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/classes/what/index.md
+2026-08-13T14:49:56.598Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/classes/enumerations/index.md
+2026-08-13T14:49:56.713Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/classes/classLevelMembers/index.md
+2026-08-13T14:49:56.934Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/associations/what/index.md
+2026-08-13T14:49:57.132Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/associations/navigability/index.md
+2026-08-13T14:49:57.139Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/associations/multiplicity/index.md
+2026-08-13T14:49:57.310Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/associations/index.md
+2026-08-13T14:49:57.428Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/associations/dependencies/index.md
+2026-08-13T14:49:57.434Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/associations/composition/index.md
+2026-08-13T14:49:57.440Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/associations/associationClasses/index.md
+2026-08-13T14:49:57.686Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/oop/associations/aggregation/index.md
+2026-08-13T14:49:57.747Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/packageDiagrams/index.md
+2026-08-13T14:49:57.759Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/objectOrientedDomainModels/index.md
+2026-08-13T14:49:57.766Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/ooStructures/index.md
+2026-08-13T14:49:58.429Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:58.628Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/objectDiagrams/index.md
+2026-08-13T14:49:58.638Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/index.md
+2026-08-13T14:49:58.794Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/deploymentDiagrams/index.md
+2026-08-13T14:49:58.801Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/customisingUml/index.md
+2026-08-13T14:49:59.283Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/compositeStructureDiagrams/index.md
+2026-08-13T14:49:59.288Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/componentDiagrams/index.md
+2026-08-13T14:49:59.373Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/classDiagramsBasic/index.md
+2026-08-13T14:49:59.441Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/classDiagramsIntermediate/index.md
+2026-08-13T14:49:59.553Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/classDiagramsAdvanced/index.md
+2026-08-13T14:49:59.650Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:49:59.731Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/timingDiagrams/index.md
+2026-08-13T14:49:59.776Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/useCaseDiagrams/index.md
+2026-08-13T14:49:59.785Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingStructures/addingMoreInfo/index.md
+2026-08-13T14:49:59.832Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/stateMachineDiagrams/index.md
+2026-08-13T14:50:00.284Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/sequenceDiagramsIntermediate/index.md
+2026-08-13T14:50:00.291Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/sequenceDiagramsBasic/index.md
+2026-08-13T14:50:00.345Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/interactionOverviewDiagrams/index.md
+2026-08-13T14:50:00.350Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/sequenceDiagramsAdvanced/index.md
+2026-08-13T14:50:01.018Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/communicationDiagrams/index.md
+2026-08-13T14:50:01.123Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/activityDiagrams/index.md
+2026-08-13T14:50:01.133Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/index.md
+2026-08-13T14:50:01.147Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingBehaviors/activityDiagramsIntermediate/index.md
+2026-08-13T14:50:01.261Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingASolution/introduction/index.md
+2026-08-13T14:50:01.548Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingASolution/index.md
+2026-08-13T14:50:01.556Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingASolution/basic/index.md
+2026-08-13T14:50:01.562Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/modelingASolution/intermediate/index.md
+2026-08-13T14:50:01.750Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/introduction/what/index.md
+2026-08-13T14:50:03.270Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/introduction/umlModels/index.md
+2026-08-13T14:50:03.279Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/introduction/index.md
+2026-08-13T14:50:03.288Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/introduction/how/index.md
+2026-08-13T14:50:03.492Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/modeling/index.md
+2026-08-13T14:50:03.726Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/intellij/refactoring/index.md
+2026-08-13T14:50:03.732Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/intellij/productivityShortcuts/index.md
+2026-08-13T14:50:03.737Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/intellij/projectSetup/index.md
+2026-08-13T14:50:03.966Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/intellij/index.md
+2026-08-13T14:50:04.462Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/intellij/codeNavigation/index.md
+2026-08-13T14:50:04.468Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/intellij/debuggingBasic/index.md
+2026-08-13T14:50:04.696Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/more/index.md
+2026-08-13T14:50:04.792Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/more/review/index.md
+2026-08-13T14:50:04.806Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/introduction/index.md
+2026-08-13T14:50:05.145Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/introduction/what/index.md
+2026-08-13T14:50:05.316Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/index.md
+2026-08-13T14:50:05.392Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/buildAutomation/what/index.md
+2026-08-13T14:50:05.492Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/buildAutomation/index.md
+2026-08-13T14:50:05.604Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/buildAutomation/continuousIntegrationDeployment/index.md
+2026-08-13T14:50:05.846Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/approaches/lateVsEarly/index.md
+2026-08-13T14:50:05.851Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/approaches/topDownVsBottomUp/index.md
+2026-08-13T14:50:05.960Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/approaches/bigBangVsIncremental/index.md
+2026-08-13T14:50:05.966Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/integration/approaches/index.md
+2026-08-13T14:50:06.144Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/index.md
+2026-08-13T14:50:06.405Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/ides/introduction/what/index.md
+2026-08-13T14:50:06.420Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/ides/index.md
+2026-08-13T14:50:06.429Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/ides/introduction/index.md
+2026-08-13T14:50:06.722Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/ides/debugging/index.md
+2026-08-13T14:50:06.796Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/ides/debugging/what/index.md
+2026-08-13T14:50:06.960Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/workingWithRemotes/index.md
+2026-08-13T14:50:06.965Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/usingRevisionHistory/index.md
+2026-08-13T14:50:06.979Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/syncingBranches/index.md
+2026-08-13T14:50:06.984Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/remoteBranches/index.md
+2026-08-13T14:50:07.298Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/index.md
+2026-08-13T14:50:07.303Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/recordingFolderHistory/index.md
+2026-08-13T14:50:07.308Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/branchingLocally/index.md
+2026-08-13T14:50:07.313Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/fineTuningHistory/index.md
+2026-08-13T14:50:07.684Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/trail/backingUpOnCloud/index.md
+2026-08-13T14:50:07.690Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/reviewPRs/index.md
+2026-08-13T14:50:07.696Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/mergeConflicts/index.md
+2026-08-13T14:50:07.701Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/managePRs/index.md
+2026-08-13T14:50:08.051Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/index.md
+2026-08-13T14:50:08.057Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/forkingWorkflow/index.md
+2026-08-13T14:50:08.062Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gitAndGithub/createPRs/index.md
+2026-08-13T14:50:08.068Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/validation/index.md
+2026-08-13T14:50:08.398Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/prototyping/index.md
+2026-08-13T14:50:08.407Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/userSurveys/index.md
+2026-08-13T14:50:08.413Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/productSurveys/index.md
+2026-08-13T14:50:08.419Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/observation/index.md
+2026-08-13T14:50:08.990Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/index.md
+2026-08-13T14:50:09.001Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/interviews/index.md
+2026-08-13T14:50:09.018Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/focusGroups/index.md
+2026-08-13T14:50:09.025Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/gatheringRequirements/brainstorming/index.md
+2026-08-13T14:50:09.367Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/logging/index.md
+2026-08-13T14:50:09.375Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/logging/what/index.md
+2026-08-13T14:50:09.520Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/logging/how/index.md
+2026-08-13T14:50:10.393Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/introduction/what/index.md
+2026-08-13T14:50:10.467Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/introduction/index.md
+2026-08-13T14:50:10.542Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/index.md
+2026-08-13T14:50:10.729Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/exceptions/when/index.md
+2026-08-13T14:50:10.734Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/exceptions/what/index.md
+2026-08-13T14:50:10.870Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/exceptions/index.md
+2026-08-13T14:50:10.877Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/exceptions/how/index.md
+2026-08-13T14:50:11.117Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/designByContract/index.md
+2026-08-13T14:50:11.123Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/designByContract/what/index.md
+2026-08-13T14:50:11.205Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/defensiveProgramming/when/index.md
+2026-08-13T14:50:11.509Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/defensiveProgramming/what/index.md
+2026-08-13T14:50:11.655Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/defensiveProgramming/referentialIntegrity/index.md
+2026-08-13T14:50:11.698Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/defensiveProgramming/index.md
+2026-08-13T14:50:11.779Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/defensiveProgramming/1to1Associations/index.md
+2026-08-13T14:50:11.785Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/defensiveProgramming/compulsoryAssociations/index.md
+2026-08-13T14:50:12.102Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/assertions/when/index.md
+2026-08-13T14:50:12.134Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/assertions/what/index.md
+2026-08-13T14:50:12.185Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/assertions/index.md
+2026-08-13T14:50:12.245Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/errorHandling/assertions/how/index.md
+2026-08-13T14:50:12.448Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/markdown/index.md
+2026-08-13T14:50:12.509Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/markdown/what/index.md
+2026-08-13T14:50:12.584Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/javaDoc/what/index.md
+2026-08-13T14:50:12.593Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/markdown/how/index.md
+2026-08-13T14:50:12.698Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/javaDoc/index.md
+2026-08-13T14:50:12.865Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/javaDoc/how/index.md
+2026-08-13T14:50:12.966Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/index.md
+2026-08-13T14:50:13.092Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/asciiDoc/what/index.md
+2026-08-13T14:50:13.103Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/tools/asciiDoc/index.md
+2026-08-13T14:50:13.523Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/introduction/what/index.md
+2026-08-13T14:50:13.592Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/introduction/index.md
+2026-08-13T14:50:13.765Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/index.md
+2026-08-13T14:50:13.879Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/index.md
+2026-08-13T14:50:13.959Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/goTopDown/why/index.md
+2026-08-13T14:50:14.042Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/goTopDown/index.md
+2026-08-13T14:50:14.093Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/goTopDown/what/index.md
+2026-08-13T14:50:14.298Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/goTopDown/how/index.md
+2026-08-13T14:50:14.379Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/documentMinimally/what/index.md
+2026-08-13T14:50:14.392Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/documentMinimally/index.md
+2026-08-13T14:50:14.435Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/documentMinimally/how/index.md
+2026-08-13T14:50:14.674Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/aimForComprehensibility/index.md
+2026-08-13T14:50:14.742Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/aimForComprehensibility/what/index.md
+2026-08-13T14:50:14.755Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/singleton/what/index.md
+2026-08-13T14:50:14.832Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/documentation/guidelines/aimForComprehensibility/how/index.md
+2026-08-13T14:50:14.956Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/singleton/index.md
+2026-08-13T14:50:15.082Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/singleton/implementation/index.md
+2026-08-13T14:50:15.227Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/singleton/evaluation/index.md
+2026-08-13T14:50:15.274Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/observer/what/index.md
+2026-08-13T14:50:15.420Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/observer/index.md
+2026-08-13T14:50:15.496Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/more/vsPrinciples/index.md
+2026-08-13T14:50:15.593Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/more/usingDesignPatterns/index.md
+2026-08-13T14:50:15.762Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/more/otherTypesOfPatterns/index.md
+2026-08-13T14:50:15.943Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/more/index.md
+2026-08-13T14:50:15.951Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/more/otherDesignPatterns/index.md
+2026-08-13T14:50:16.087Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/more/combiningDesignPatterns/index.md
+2026-08-13T14:50:16.093Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/modelViewController/what/index.md
+2026-08-13T14:50:16.244Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/modelViewController/index.md
+2026-08-13T14:50:16.401Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/introduction/what/index.md
+2026-08-13T14:50:16.483Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/introduction/index.md
+2026-08-13T14:50:17.061Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/introduction/format/index.md
+2026-08-13T14:50:17.191Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/facade/what/index.md
+2026-08-13T14:50:17.261Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/index.md
+2026-08-13T14:50:17.375Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/facade/index.md
+2026-08-13T14:50:17.381Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/command/what/index.md
+2026-08-13T14:50:17.810Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/command/index.md
+2026-08-13T14:50:17.817Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/abstractionOccurrence/what/index.md
+2026-08-13T14:50:17.885Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designPatterns/abstractionOccurrence/index.md
+2026-08-13T14:50:17.986Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/index.md
+2026-08-13T14:50:18.159Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/coupling/what/index.md
+2026-08-13T14:50:18.165Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/coupling/types/index.md
+2026-08-13T14:50:18.301Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/coupling/index.md
+2026-08-13T14:50:18.417Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/coupling/how/index.md
+2026-08-13T14:50:18.585Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/cohesion/index.md
+2026-08-13T14:50:18.591Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/cohesion/what/index.md
+2026-08-13T14:50:18.706Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/cohesion/how/index.md
+2026-08-13T14:50:18.809Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/abstraction/what/index.md
+2026-08-13T14:50:18.835Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designFundamentals/abstraction/index.md
+2026-08-13T14:50:19.019Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designApproaches/topDownBottomUp/what/index.md
+2026-08-13T14:50:19.034Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designApproaches/topDownBottomUp/index.md
+2026-08-13T14:50:19.101Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designApproaches/multilevelDesign/what/index.md
+2026-08-13T14:50:19.373Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designApproaches/multilevelDesign/index.md
+2026-08-13T14:50:19.433Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designApproaches/index.md
+2026-08-13T14:50:19.668Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designApproaches/agileDesign/index.md
+2026-08-13T14:50:19.737Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/designApproaches/agileDesign/what/index.md
+2026-08-13T14:50:19.889Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/design/introduction/index.md
+2026-08-13T14:50:19.895Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/design/introduction/what/index.md
+2026-08-13T14:50:19.905Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/design/index.md
+2026-08-13T14:50:20.174Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/debugging/what/index.md
+2026-08-13T14:50:20.339Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/debugging/index.md
+2026-08-13T14:50:20.381Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/debugging/tools/index.md
+2026-08-13T14:50:20.387Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/debugging/how/index.md
+2026-08-13T14:50:20.731Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/debugging/fixing/index.md
+2026-08-13T14:50:20.874Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/debugging/advanced/index.md
+2026-08-13T14:50:20.961Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/usefulClasses/wrapperClasses/index.md
+2026-08-13T14:50:20.969Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/usefulClasses/stringClass/index.md
+2026-08-13T14:50:21.332Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/usefulClasses/scannerClass/index.md
+2026-08-13T14:50:21.500Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/usefulClasses/index.md
+2026-08-13T14:50:21.520Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/usefulClasses/api/index.md
+2026-08-13T14:50:21.525Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/usefulClasses/arraysClass/index.md
+2026-08-13T14:50:21.737Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/objects/usingObjects/index.md
+2026-08-13T14:50:22.089Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/objects/instanceMembers/index.md
+2026-08-13T14:50:22.097Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/objects/passingObjects/index.md
+2026-08-13T14:50:22.107Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/objects/index.md
+2026-08-13T14:50:22.172Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/objects/garbageCollection/index.md
+2026-08-13T14:50:22.502Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/varargs/index.md
+2026-08-13T14:50:22.508Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/streams/index.md
+2026-08-13T14:50:22.514Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/packages/index.md
+2026-08-13T14:50:22.695Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/javaFX/part02/index.md
+2026-08-13T14:50:22.815Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/javaFX/index.md
+2026-08-13T14:50:22.820Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/javaFX/part01/index.md
+2026-08-13T14:50:22.829Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/jar/index.md
+2026-08-13T14:50:23.360Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/index.md
+2026-08-13T14:50:23.475Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/fileAccess/index.md
+2026-08-13T14:50:23.483Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/constants/index.md
+2026-08-13T14:50:23.488Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/enums/index.md
+2026-08-13T14:50:23.745Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/casting/index.md
+2026-08-13T14:50:23.860Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/misc/accessModifiers/index.md
+2026-08-13T14:50:23.866Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/junit/index.md
+2026-08-13T14:50:23.912Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/junit/intermediate/index.md
+2026-08-13T14:50:24.130Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/junit/basic/index.md
+2026-08-13T14:50:24.258Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/javaWorld/index.md
+2026-08-13T14:50:24.293Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/javaWorld/what/index.md
+2026-08-13T14:50:24.299Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/javaWorld/how/index.md
+2026-08-13T14:50:24.640Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/javaWorld/editions/index.md
+2026-08-13T14:50:25.157Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/inheritance/interfaces/index.md
+2026-08-13T14:50:25.167Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/inheritance/polymorphism/index.md
+2026-08-13T14:50:25.184Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/inheritance/objectClass/index.md
+2026-08-13T14:50:25.307Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/inheritance/index.md
+2026-08-13T14:50:28.155Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/inheritance/basic/index.md
+2026-08-13T14:50:28.173Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/inheritance/abstractClassesAndMethods/index.md
+2026-08-13T14:50:28.241Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/index.md
+2026-08-13T14:50:28.706Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/gettingStarted/running/index.md
+2026-08-13T14:50:28.823Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/gettingStarted/installation/index.md
+2026-08-13T14:50:28.829Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/gettingStarted/index.md
+2026-08-13T14:50:28.882Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/gettingStarted/helloWorld/index.md
+2026-08-13T14:50:29.169Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/gettingStarted/compiling/index.md
+2026-08-13T14:50:29.377Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/generics/index.md
+2026-08-13T14:50:29.388Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/generics/what/index.md
+2026-08-13T14:50:29.396Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/generics/how/index.md
+2026-08-13T14:50:29.778Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/exceptions/what/index.md
+2026-08-13T14:50:29.929Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/exceptions/index.md
+2026-08-13T14:50:29.989Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/exceptions/how/index.md
+2026-08-13T14:50:29.999Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/dataTypes/variables/index.md
+2026-08-13T14:50:30.112Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/dataTypes/primitiveTypes/index.md
+2026-08-13T14:50:30.563Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/dataTypes/operators/index.md
+2026-08-13T14:50:30.571Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/dataTypes/index.md
+2026-08-13T14:50:30.586Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/dataTypes/arrays/index.md
+2026-08-13T14:50:31.015Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/controlFlow/methods/index.md
+2026-08-13T14:50:31.201Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/controlFlow/loops/index.md
+2026-08-13T14:50:31.211Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/controlFlow/branching/index.md
+2026-08-13T14:50:31.220Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/controlFlow/index.md
+2026-08-13T14:50:31.566Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/collections/what/index.md
+2026-08-13T14:50:31.694Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/collections/index.md
+2026-08-13T14:50:31.864Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/collections/hashMapClass/index.md
+2026-08-13T14:50:31.872Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/collections/arrayListClass/index.md
+2026-08-13T14:50:32.135Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/classes/index.md
+2026-08-13T14:50:32.310Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/classes/definingClasses/index.md
+2026-08-13T14:50:32.320Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/classes/gettersAndSetters/index.md
+2026-08-13T14:50:32.328Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/classes/classLevelMembers/index.md
+2026-08-13T14:50:32.595Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/cppToJava/about/index.md
+2026-08-13T14:50:32.817Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/introduction/index.md
+2026-08-13T14:50:32.823Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/intermediate/useNameExplain/index.md
+2026-08-13T14:50:32.829Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/intermediate/notTooLongNorShort/index.md
+2026-08-13T14:50:33.138Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/intermediate/index.md
+2026-08-13T14:50:33.257Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/intermediate/avoidMisleadingNames/index.md
+2026-08-13T14:50:33.263Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/index.md
+2026-08-13T14:50:33.273Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/basic/useStandardWords/index.md
+2026-08-13T14:50:33.574Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/basic/nounsAndVerbsAsNames/index.md
+2026-08-13T14:50:33.669Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/nameWell/basic/index.md
+2026-08-13T14:50:33.683Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/introduction/index.md
+2026-08-13T14:50:33.815Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/intermediate/structureCodeLogically/index.md
+2026-08-13T14:50:34.093Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/intermediate/slapHard/index.md
+2026-08-13T14:50:34.099Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/intermediate/practiceKISSing/index.md
+2026-08-13T14:50:34.611Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/intermediate/dontTripReader/index.md
+2026-08-13T14:50:34.616Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/intermediate/index.md
+2026-08-13T14:50:34.895Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/intermediate/avoidPrematureOptimizations/index.md
+2026-08-13T14:50:34.900Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/index.md
+2026-08-13T14:50:35.062Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/basic/index.md
+2026-08-13T14:50:35.074Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/basic/makeCodeObvious/index.md
+2026-08-13T14:50:35.395Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/basic/avoidMagicNumbers/index.md
+2026-08-13T14:50:35.404Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/basic/avoidLongMethods/index.md
+2026-08-13T14:50:35.516Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/basic/avoidDeepNesting/index.md
+2026-08-13T14:50:35.648Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/basic/avoidComplicatedExpressions/index.md
+2026-08-13T14:50:35.819Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/advanced/index.md
+2026-08-13T14:50:35.826Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/maximizeReadability/advanced/makeHappyPathProminent/index.md
+2026-08-13T14:50:35.915Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/introduction/index.md
+2026-08-13T14:50:36.943Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/introduction/basic/index.md
+2026-08-13T14:50:37.156Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/index.md
+2026-08-13T14:50:37.190Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/followStandard/introduction/index.md
+2026-08-13T14:50:37.301Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/followStandard/index.md
+2026-08-13T14:50:37.309Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/followStandard/intermediate/index.md
+2026-08-13T14:50:37.415Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/followStandard/basic/index.md
+2026-08-13T14:50:37.514Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/commentMinimally/introduction/index.md
+2026-08-13T14:50:37.688Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/commentMinimally/intermediate/index.md
+2026-08-13T14:50:37.809Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/commentMinimally/intermediate/explainWhatWhyNotHow/index.md
+2026-08-13T14:50:37.822Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/commentMinimally/index.md
+2026-08-13T14:50:37.922Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/commentMinimally/basic/writeToReader/index.md
+2026-08-13T14:50:38.086Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/commentMinimally/basic/index.md
+2026-08-13T14:50:38.093Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/commentMinimally/basic/dontRepeatObvious/index.md
+2026-08-13T14:50:38.275Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/introduction/index.md
+2026-08-13T14:50:38.280Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/intermediate/minimiseVariableScope/index.md
+2026-08-13T14:50:38.546Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/intermediate/index.md
+2026-08-13T14:50:38.552Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/intermediate/minimiseCodeDuplication/index.md
+2026-08-13T14:50:38.757Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/index.md
+2026-08-13T14:50:38.768Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/basic/useDefaultBranch/index.md
+2026-08-13T14:50:38.854Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/basic/index.md
+2026-08-13T14:50:38.934Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/basic/dontRecycleVarsOrParams/index.md
+2026-08-13T14:50:39.137Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/basic/avoidEmptyCatchBlocks/index.md
+2026-08-13T14:50:39.142Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/codeQuality/avoidShortcuts/basic/deleteDeadCode/index.md
+2026-08-13T14:50:39.422Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/introduction/why/index.md
+2026-08-13T14:50:39.496Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/introduction/what/index.md
+2026-08-13T14:50:39.599Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/introduction/index.md
+2026-08-13T14:50:40.287Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:50:40.287Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:50:40.287Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:50:40.287Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:50:40.287Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:50:40.287Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:50:40.383Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/introduction/components/index.md
+2026-08-13T14:50:40.401Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architectureDiagrams/views/index.md
+2026-08-13T14:50:40.448Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/index.md
+2026-08-13T14:50:40.712Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architectureDiagrams/reading/index.md
+2026-08-13T14:50:40.718Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architectureDiagrams/index.md
+2026-08-13T14:50:40.863Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architectureDiagrams/drawing/index.md
+2026-08-13T14:50:40.994Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/serviceOriented/what/index.md
+2026-08-13T14:50:41.117Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/serviceOriented/index.md
+2026-08-13T14:50:41.123Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/more/usingStyles/index.md
+2026-08-13T14:50:41.355Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/more/index.md
+2026-08-13T14:50:41.362Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/more/moreStyles/index.md
+2026-08-13T14:50:41.433Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/monolith/index.md
+2026-08-13T14:50:41.439Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/monolith/what/index.md
+2026-08-13T14:50:41.641Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/layered/index.md
+2026-08-13T14:50:41.702Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/layered/what/index.md
+2026-08-13T14:50:42.305Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/introduction/index.md
+2026-08-13T14:50:42.312Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/introduction/what/index.md
+2026-08-13T14:50:42.401Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/eventDriven/what/index.md
+2026-08-13T14:50:42.407Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/index.md
+2026-08-13T14:50:42.703Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/eventDriven/index.md
+2026-08-13T14:50:42.709Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/clientServer/what/index.md
+2026-08-13T14:50:43.336Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/architecture/architecturalStyles/clientServer/index.md
+2026-08-13T14:50:44.409Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/combined/exercises.md
+2026-08-13T14:50:44.418Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/git-trail/index.md
+2026-08-13T14:50:44.423Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/common/exercises.md
+2026-08-13T14:50:44.475Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/common/definitions.md
+2026-08-13T14:50:45.479Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/uml-printable.md
+2026-08-13T14:50:45.503Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/testing-printable.md
+2026-08-13T14:50:45.522Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/testCaseDesign-printable.md
+2026-08-13T14:50:45.590Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/teamwork-printable.md
+2026-08-13T14:50:46.116Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/softwareEngineering-printable.md
+2026-08-13T14:50:46.123Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/security-printable.md
+2026-08-13T14:50:46.138Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/specifyingRequirements-printable.md
+2026-08-13T14:50:46.165Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/reuse-printable.md
+2026-08-13T14:50:46.509Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/requirements-printable.md
+2026-08-13T14:50:46.516Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/refactoring-printable.md
+2026-08-13T14:50:46.559Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/qualityAssurance-printable.md
+2026-08-13T14:50:46.574Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/projectPlanning-printable.md
+2026-08-13T14:50:47.664Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/processModels-printable.md
+2026-08-13T14:50:47.673Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/principles-printable.md
+2026-08-13T14:50:47.682Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/oop-printable.md
+2026-08-13T14:50:47.717Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/modeling-printable.md
+2026-08-13T14:50:48.019Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/intellij-printable.md
+2026-08-13T14:50:48.026Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/integration-printable.md
+2026-08-13T14:50:48.063Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/ides-printable.md
+2026-08-13T14:50:48.221Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/gatheringRequirements-printable.md
+2026-08-13T14:50:48.405Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/errorHandling-printable.md
+2026-08-13T14:50:48.479Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/documentation-printable.md
+2026-08-13T14:50:48.487Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/designPatterns-printable.md
+2026-08-13T14:50:48.554Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/designFundamentals-printable.md
+2026-08-13T14:50:48.813Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/designApproaches-printable.md
+2026-08-13T14:50:49.613Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/design-printable.md
+2026-08-13T14:50:49.619Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/debugging-printable.md
+2026-08-13T14:50:51.365Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/cppToJava-printable.md
+2026-08-13T14:50:51.550Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/architecture-printable.md
+2026-08-13T14:50:51.560Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters-printable/codeQuality-printable.md
+2026-08-13T14:50:51.584Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/uml.md
+2026-08-13T14:50:53.015Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/testing.md
+2026-08-13T14:50:53.177Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/testCaseDesign.md
+2026-08-13T14:50:53.204Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/test.md
+2026-08-13T14:50:53.209Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/teamwork.md
+2026-08-13T14:50:54.221Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/softwareEngineering.md
+2026-08-13T14:50:54.228Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/specifyingRequirements.md
+2026-08-13T14:50:54.265Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/security.md
+2026-08-13T14:50:54.284Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/reuse.md
+2026-08-13T14:50:54.593Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/requirements.md
+2026-08-13T14:50:54.604Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/refactoring.md
+2026-08-13T14:50:54.856Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/qualityAssurance.md
+2026-08-13T14:50:55.322Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/projectPlanning.md
+2026-08-13T14:50:55.332Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/processModels.md
+2026-08-13T14:50:56.033Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/principles.md
+2026-08-13T14:50:57.120Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/oop.md
+2026-08-13T14:50:57.284Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/integration.md
+2026-08-13T14:50:57.292Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/intellij.md
+2026-08-13T14:50:57.299Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/modeling.md
+2026-08-13T14:50:57.757Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/ides.md
+2026-08-13T14:50:57.946Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/gatheringRequirements.md
+2026-08-13T14:50:57.956Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/errorHandling.md
+2026-08-13T14:50:58.131Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/documentation.md
+2026-08-13T14:50:58.334Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/designPatterns.md
+2026-08-13T14:50:58.523Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/designFundamentals.md
+2026-08-13T14:50:58.536Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/design.md
+2026-08-13T14:50:58.543Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/designApproaches.md
+2026-08-13T14:51:01.453Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/debugging.md
+2026-08-13T14:51:01.613Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/architecture.md
+2026-08-13T14:51:01.634Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/cppToJava.md
+2026-08-13T14:51:01.784Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/chapters/codeQuality.md
+2026-08-13T14:51:01.908Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/se-book-adapted/index.md
+2026-08-13T14:51:02.295Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/book/about/acknowledgements.md
+2026-08-13T14:51:02.341Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week8/tutorial.md
+2026-08-13T14:51:02.348Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week9/tutorial.md
+2026-08-13T14:51:02.404Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week7/tutorial.md
+2026-08-13T14:51:02.840Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week6/tutorial.md
+2026-08-13T14:51:03.296Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week5/tutorial.md
+2026-08-13T14:51:03.306Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week4/tutorial.md
+2026-08-13T14:51:03.532Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/tutorial.md
+2026-08-13T14:51:03.825Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week13/tutorial.md
+2026-08-13T14:51:03.830Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week2/tutorial.md
+2026-08-13T14:51:03.835Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week12/tutorial.md
+2026-08-13T14:51:04.953Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week11/tutorial.md
+2026-08-13T14:51:05.067Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/tutorial.md
+2026-08-13T14:51:05.073Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week10/tutorial.md
+2026-08-13T14:51:06.309Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week9/topics.md
+2026-08-13T14:51:07.026Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week8/topics.md
+2026-08-13T14:51:10.156Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week7/topics.md
+2026-08-13T14:51:10.178Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week6/topics.md
+2026-08-13T14:51:10.231Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week5/topics.md
+2026-08-13T14:51:13.661Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week4/topics.md
+2026-08-13T14:51:15.546Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week13/topics.md
+2026-08-13T14:51:15.553Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week2/topics.md
+2026-08-13T14:51:15.601Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/topics.md
+2026-08-13T14:51:19.144Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week12/topics.md
+2026-08-13T14:51:19.304Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/topics.md
+2026-08-13T14:51:19.309Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week10/topics.md
+2026-08-13T14:51:19.328Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week11/topics.md
+2026-08-13T14:51:20.565Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week9/project.md
+2026-08-13T14:51:23.364Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week8/project.md
+2026-08-13T14:51:23.373Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week6/project.md
+2026-08-13T14:51:23.386Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week7/project.md
+2026-08-13T14:51:25.385Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week5/project.md
+2026-08-13T14:51:25.504Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week4/project.md
+2026-08-13T14:51:25.518Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/project.md
+2026-08-13T14:51:25.695Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week2/project.md
+2026-08-13T14:51:25.750Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week13/project.md
+2026-08-13T14:51:28.791Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:51:28.792Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:51:28.926Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week10/project.md
+2026-08-13T14:51:28.936Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week11/project.md
+2026-08-13T14:51:28.950Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week12/project.md
+2026-08-13T14:51:29.031Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/project.md
+2026-08-13T14:51:30.592Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week9/index.md
+2026-08-13T14:51:30.599Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week8/index.md
+2026-08-13T14:51:30.606Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week7/index.md
+2026-08-13T14:51:30.674Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week6/index.md
+2026-08-13T14:51:32.124Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week5/index.md
+2026-08-13T14:51:32.131Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/index.md
+2026-08-13T14:51:32.137Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week4/index.md
+2026-08-13T14:51:32.857Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week2/index.md
+2026-08-13T14:51:33.176Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week13/index.md
+2026-08-13T14:51:33.181Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week12/index.md
+2026-08-13T14:51:33.186Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week11/index.md
+2026-08-13T14:51:33.239Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week10/index.md
+2026-08-13T14:51:33.587Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/index.md
+2026-08-13T14:51:33.592Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week9/admin.md
+2026-08-13T14:51:33.601Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week8/admin.md
+2026-08-13T14:51:33.652Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week7/admin.md
+2026-08-13T14:51:35.064Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week4/admin.md
+2026-08-13T14:51:35.071Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week6/admin.md
+2026-08-13T14:51:35.079Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week5/admin.md
+2026-08-13T14:51:35.559Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/admin.md
+2026-08-13T14:51:35.740Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week13/admin.md
+2026-08-13T14:51:35.746Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week12/admin.md
+2026-08-13T14:51:35.754Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week2/admin.md
+2026-08-13T14:51:35.810Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week11/admin.md
+2026-08-13T14:51:39.927Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:51:40.070Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week10/admin.md
+2026-08-13T14:51:40.137Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/admin.md
+2026-08-13T14:51:40.155Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/timeline.md
+2026-08-13T14:51:40.585Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/index.md
+2026-08-13T14:51:40.719Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/projectDuke/print.md
+2026-08-13T14:51:41.056Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/projectDuke/path.md
+2026-08-13T14:51:41.061Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/projectDuke/text.md
+2026-08-13T14:51:41.525Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/projectDuke/index.md
+2026-08-13T14:51:41.877Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/weeklySchedule.md
+2026-08-13T14:51:41.885Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/projectDuke/cs3227.md
+2026-08-13T14:51:41.911Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/usingThisWebsite.md
+2026-08-13T14:51:42.044Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/uml-reference-sheet.md
+2026-08-13T14:51:43.087Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tutors-info.md
+2026-08-13T14:51:43.568Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tutorials.md
+2026-08-13T14:51:43.580Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w9.md
+2026-08-13T14:51:44.304Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w8.md
+2026-08-13T14:51:45.333Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w7.md
+2026-08-13T14:51:46.218Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w5.md
+2026-08-13T14:51:46.230Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w6.md
+2026-08-13T14:51:46.310Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w3.md
+2026-08-13T14:51:46.526Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w4.md
+2026-08-13T14:51:46.609Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w2.md
+2026-08-13T14:51:46.614Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w13.md
+2026-08-13T14:51:49.401Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:51:49.478Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T14:51:49.489Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-timeline.md
+2026-08-13T14:51:49.497Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w10.md
+2026-08-13T14:51:49.508Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w11.md
+2026-08-13T14:51:49.522Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-w12.md
+2026-08-13T14:51:51.572Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-supervision.md
+2026-08-13T14:51:51.580Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-teams.md
+2026-08-13T14:51:51.588Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-ped.md
+2026-08-13T14:51:51.610Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-pe.md
+2026-08-13T14:51:52.489Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-overview.md
+2026-08-13T14:51:52.498Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-grading.md
+2026-08-13T14:51:52.510Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-expectations.md
+2026-08-13T14:51:52.519Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-deliverables.md
+2026-08-13T14:51:52.839Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-common-fragments.md
+2026-08-13T14:51:52.845Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tp-constraints.md
+2026-08-13T14:51:52.854Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/textbooks.md
+2026-08-13T14:51:52.861Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tools.md
+2026-08-13T14:51:53.093Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/teamList.md
+2026-08-13T14:51:53.098Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/syllabus.md
+2026-08-13T14:51:53.104Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/standardsAndConventions.md
+2026-08-13T14:51:53.110Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/reposenseAuthorAnnotation.md
+2026-08-13T14:51:53.445Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/programmingLanguages.md
+2026-08-13T14:51:53.452Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/participation.md
+2026-08-13T14:51:53.460Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/peerEvaluations.md
+2026-08-13T14:51:53.470Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/overview-for-teachers.md
+2026-08-13T14:51:54.110Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/mid-semester-survey-results.md
+2026-08-13T14:51:54.115Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/lectures.md
+2026-08-13T14:51:54.122Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-w8.md
+2026-08-13T14:51:54.129Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-w7.md
+2026-08-13T14:51:55.370Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-w6.md
+2026-08-13T14:51:55.381Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-w4.md
+2026-08-13T14:51:55.394Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-w5.md
+2026-08-13T14:51:55.406Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-w3.md
+2026-08-13T14:51:56.125Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-showcase.md
+2026-08-13T14:51:56.130Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-overview.md
+2026-08-13T14:51:56.139Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-grading.md
+2026-08-13T14:51:56.152Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/ip-w2.md
+2026-08-13T14:51:56.959Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/instructors.md
+2026-08-13T14:51:56.967Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/index.md
+2026-08-13T14:51:56.975Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/exams.md
+2026-08-13T14:51:56.984Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/gradeBreakdown.md
+2026-08-13T14:51:57.258Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/exam-reference-sheet.md
+2026-08-13T14:51:57.264Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/exams-f2f.md
+2026-08-13T14:51:57.272Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/exam-pen-and-paper.md
+2026-08-13T14:51:57.278Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/courseOverview.md
+2026-08-13T14:51:57.525Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/courseBriefings.md
+2026-08-13T14:51:57.533Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixG-troubleshooting.md
+2026-08-13T14:51:57.537Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixH-tipsFromStudents.md
+2026-08-13T14:51:57.545Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/courseExpectations.md
+2026-08-13T14:51:58.026Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixG-CS2103R.md
+2026-08-13T14:51:58.035Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixF-teamworkIssues.md
+2026-08-13T14:51:58.046Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixE-gitHub.md
+2026-08-13T14:51:58.059Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixD-help.md
+2026-08-13T14:52:00.124Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/appendixC-faq.md
+2026-08-13T14:52:00.204Z - [32minfo[39m: Pages built
+2026-08-13T14:52:02.735Z - [32minfo[39m: Site data built
+2026-08-13T14:52:02.735Z - [32minfo[39m: Website generation complete! Total build time: 220.247s
+2026-08-13T14:52:02.748Z - [32minfo[39m: Serving "/mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/_site" at http://127.0.0.1:8080
+2026-08-13T14:52:02.748Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-13T15:07:46.493Z - [32minfo[39m: Website generation (lazy) started at 11:07:22 PM
+2026-08-13T15:08:21.425Z - [32minfo[39m: Building assets...
+2026-08-13T15:08:39.675Z - [32minfo[39m: Assets built
+2026-08-13T15:08:39.676Z - [32minfo[39m: Generating landing page...
+2026-08-13T15:08:40.681Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/index.md
+2026-08-13T15:08:40.734Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-13T15:08:42.759Z - [32minfo[39m: Site data built
+2026-08-13T15:08:42.760Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 80.204s
+2026-08-13T15:08:42.771Z - [32minfo[39m: Serving "/mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/_site" at http://127.0.0.1:8080
+2026-08-13T15:08:42.771Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-13T15:09:25.753Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/index as some of its dependencies were changed since the last visit
+2026-08-13T15:09:26.063Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/index.md
+2026-08-13T15:09:26.094Z - [32minfo[39m: Site data built
+2026-08-13T15:09:26.094Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.341s
+2026-08-13T15:10:50.048Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week2/index as some of its dependencies were changed since the last visit
+2026-08-13T15:10:50.585Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week2/index.md
+2026-08-13T15:10:50.616Z - [32minfo[39m: Site data built
+2026-08-13T15:10:50.616Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.568s
+2026-08-13T15:11:46.952Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/index as some of its dependencies were changed since the last visit
+2026-08-13T15:11:47.596Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/index.md
+2026-08-13T15:11:47.623Z - [32minfo[39m: Site data built
+2026-08-13T15:11:47.623Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.671s
+2026-08-13T15:12:23.243Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tutorials as some of its dependencies were changed since the last visit
+2026-08-13T15:12:23.799Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/tutorials.md
+2026-08-13T15:12:23.841Z - [32minfo[39m: Site data built
+2026-08-13T15:12:23.841Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.598s
+2026-08-13T15:16:17.185Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/admin as some of its dependencies were changed since the last visit
+2026-08-13T15:16:18.056Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/admin.md
+2026-08-13T15:16:18.097Z - [32minfo[39m: Site data built
+2026-08-13T15:16:18.097Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.912s
+2026-08-13T15:16:31.096Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/tutorial as some of its dependencies were changed since the last visit
+2026-08-13T15:16:31.806Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week3/tutorial.md
+2026-08-13T15:16:31.841Z - [32minfo[39m: Site data built
+2026-08-13T15:16:31.841Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.745s
+2026-08-13T15:16:55.861Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/standardsAndConventions as some of its dependencies were changed since the last visit
+2026-08-13T15:16:56.006Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/standardsAndConventions.md
+2026-08-13T15:16:56.038Z - [32minfo[39m: Site data built
+2026-08-13T15:16:56.039Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.178s
+2026-08-13T15:18:42.154Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/index as some of its dependencies were changed since the last visit
+2026-08-13T15:18:42.901Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/index.md
+2026-08-13T15:18:42.932Z - [32minfo[39m: Site data built
+2026-08-13T15:18:42.932Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.778s
+2026-08-13T15:19:03.418Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/participation as some of its dependencies were changed since the last visit
+2026-08-13T15:19:03.657Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/admin/participation.md
+2026-08-13T15:19:03.693Z - [32minfo[39m: Site data built
+2026-08-13T15:19:03.693Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.275s
+2026-08-13T15:21:33.668Z - [32minfo[39m: Website generation (lazy) started at 11:21:24 PM
+2026-08-13T15:22:07.803Z - [32minfo[39m: Building assets...
+2026-08-13T15:22:29.120Z - [32minfo[39m: Assets built
+2026-08-13T15:22:29.121Z - [32minfo[39m: Generating landing page...
+2026-08-13T15:22:29.576Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/index.md
+2026-08-13T15:22:29.677Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-08-13T15:22:31.699Z - [32minfo[39m: Site data built
+2026-08-13T15:22:31.699Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 66.792s
+2026-08-13T15:22:31.708Z - [32minfo[39m: Serving "/mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/_site" at http://127.0.0.1:8080
+2026-08-13T15:22:31.709Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-08-13T15:22:57.744Z - [32minfo[39m: Building /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/admin as some of its dependencies were changed since the last visit
+2026-08-13T15:22:59.107Z - [34mdebug[39m: /bin/sh: 1: java: not found
+
+2026-08-13T15:22:59.169Z - [36mverbose[39m: Rendering page: /mnt/d/Workspace/CS2113/AY2627-S1/ay2627s1-website/schedule/week1/admin.md
+2026-08-13T15:22:59.213Z - [32minfo[39m: Site data built
+2026-08-13T15:22:59.213Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 1.469s
