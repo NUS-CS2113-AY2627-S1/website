@@ -1,0 +1,14 @@
+2026-09-03T16:54:16.203Z - [32minfo[39m: Building D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week5\index as some of its dependencies were changed since the last visit
+2026-09-03T16:54:16.676Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week5\index.md
+2026-09-03T16:54:16.699Z - [32minfo[39m: Site data built
+2026-09-03T16:54:16.700Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.496s
+2026-09-03T16:54:18.972Z - [32minfo[39m: Building D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week5\topics as some of its dependencies were changed since the last visit
+2026-09-03T16:54:19.759Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week5\topics.md
+2026-09-03T16:54:19.845Z - [32minfo[39m: Site data built
+2026-09-03T16:54:19.845Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.873s
+2026-09-03T16:56:19.372Z - [32minfo[39m: Building D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-constraints as some of its dependencies were changed since the last visit
+2026-09-03T16:56:19.575Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-constraints.md
+2026-09-03T16:56:19.608Z - [32minfo[39m: Site data built
+2026-09-03T16:56:19.608Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.237s
+2026-09-03T17:14:49.671Z - [32minfo[39m: Website generation started at 1:14:47 am
+2026-09-03T17:14:51.579Z - [32minfo[39m: Building assets...

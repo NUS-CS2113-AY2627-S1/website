@@ -1,0 +1,14 @@
+2026-09-03T15:56:46.361Z - [32minfo[39m: Website generation (lazy) started at 11:56:40 pm
+2026-09-03T15:56:48.076Z - [32minfo[39m: Building assets...
+2026-09-03T15:56:50.110Z - [32minfo[39m: Assets built
+2026-09-03T15:56:50.111Z - [32minfo[39m: Generating landing page...
+2026-09-03T15:56:51.307Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\index.md
+2026-09-03T15:56:51.434Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-09-03T15:56:52.961Z - [32minfo[39m: Site data built
+2026-09-03T15:56:52.962Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 12.311s
+2026-09-03T15:56:53.005Z - [32minfo[39m: Serving "D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\_site" at http://127.0.0.1:8080
+2026-09-03T15:56:53.006Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-09-03T15:57:12.092Z - [32minfo[39m: Building D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-overview as some of its dependencies were changed since the last visit
+2026-09-03T15:57:12.502Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-overview.md
+2026-09-03T15:57:12.817Z - [32minfo[39m: Site data built
+2026-09-03T15:57:12.817Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.725s
