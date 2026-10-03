@@ -199,9 +199,9 @@ During the tutorial, **demo your ability to do debugging using an IDE** by perfo
 
 * **[Each person] Verify that you know how to do the following** by performing each on your computer and posting a screenshot in the _tutorial workspace_ document:
   * run the code in your IDE
-  * run I/O redirection tests
   * verify compliance with the coding standard automatically using Gradle
 </div>
+ <!-- * run I/O redirection tests -->
 <!-- ------------------------------------------------------------------------------------------------------ -->
 <div id="update-code-using-forking-workflow">
 <div class="indented">
