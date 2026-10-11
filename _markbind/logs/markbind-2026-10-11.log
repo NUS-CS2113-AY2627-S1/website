@@ -1,0 +1,35 @@
+2026-10-11T08:45:23.984Z - [32minfo[39m: Website generation (lazy) started at 4:45:17 pm
+2026-10-11T08:45:25.352Z - [32minfo[39m: Building assets...
+2026-10-11T08:45:27.166Z - [32minfo[39m: Assets built
+2026-10-11T08:45:27.166Z - [32minfo[39m: Generating landing page...
+2026-10-11T08:45:27.746Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\index.md
+2026-10-11T08:45:27.793Z - [32minfo[39m: Landing page built, other pages will be built as you navigate to them!
+2026-10-11T08:45:29.010Z - [32minfo[39m: Site data built
+2026-10-11T08:45:29.011Z - [32minfo[39m: Website generation (lazy) complete! Total build time: 11.462s
+2026-10-11T08:45:29.042Z - [32minfo[39m: Serving "D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\_site" at http://127.0.0.1:8080
+2026-10-11T08:45:29.042Z - [32minfo[39m: Press CTRL+C to stop ...
+2026-10-11T08:48:06.760Z - [32minfo[39m: Building D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week9\admin as some of its dependencies were changed since the last visit
+2026-10-11T08:48:07.092Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week9\admin.md
+2026-10-11T08:48:07.125Z - [32minfo[39m: Site data built
+2026-10-11T08:48:07.125Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.365s
+2026-10-11T08:48:34.452Z - [32minfo[39m: Building D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week9\topics as some of its dependencies were changed since the last visit
+2026-10-11T08:48:37.624Z - [34mdebug[39m: 
+2026-10-11T08:48:38.137Z - [34mdebug[39m: 
+2026-10-11T08:48:38.153Z - [34mdebug[39m: 
+2026-10-11T08:48:38.155Z - [34mdebug[39m: 
+2026-10-11T08:48:38.160Z - [34mdebug[39m: 
+2026-10-11T08:48:38.178Z - [34mdebug[39m: 
+2026-10-11T08:48:38.426Z - [34mdebug[39m: 
+2026-10-11T08:48:38.446Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week9\topics.md
+2026-10-11T08:48:38.519Z - [32minfo[39m: Site data built
+2026-10-11T08:48:38.519Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 4.067s
+2026-10-11T08:48:56.557Z - [32minfo[39m: Building D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week9\project as some of its dependencies were changed since the last visit
+2026-10-11T08:48:57.408Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week9\project.md
+2026-10-11T08:48:57.434Z - [32minfo[39m: Site data built
+2026-10-11T08:48:57.434Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.877s
+2026-10-11T08:49:26.862Z - [32minfo[39m: Building D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week9\tutorial as some of its dependencies were changed since the last visit
+2026-10-11T08:49:27.026Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\schedule\week9\tutorial.md
+2026-10-11T08:49:27.051Z - [32minfo[39m: Site data built
+2026-10-11T08:49:27.052Z - [32minfo[39m: Lazy website regeneration complete! Total build time: 0.189s
+2026-10-11T08:52:04.874Z - [32minfo[39m: Website generation started at 4:52:02 pm
+2026-10-11T08:52:06.575Z - [32minfo[39m: Building assets...
