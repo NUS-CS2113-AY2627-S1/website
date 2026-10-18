@@ -429,7 +429,7 @@
           {
             name: "monolith",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "4"}
+              {name: "what", heading: "What", priority: "3"}
             ]
           },
           {
@@ -441,7 +441,7 @@
           {
             name: "clientServer",
             level_three_topics: [
-              {name: "what", heading: "What", priority: "4"}
+              {name: "what", heading: "What", priority: "3"}
             ]
           },
           {
