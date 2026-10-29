@@ -1857,7 +1857,7 @@ This week, we would like you to smoke-test the CATcher app **to ensure it can wo
 <span class="text-danger">**This task is time-sensitive.**</span> If done later than the iteration deadline given above, it will not be counted as 'done'.
 </box>
 
-* {{ icon_important_big_red }} **Update the User Guide** to match the current version of the product. %%Reason: testers will need to refer to the UG during the practical exam dry run%%.
+* {{ icon_important_big_red }} **Update the User Guide** to match the current version of the product.
   * {% if cs2103 %}Remove mentions of features not implemented yet, if any. As you are not allowed to change features during the iteration {{ version_final }}, there is no point keeping those in the UG.<br>
   Alternatively, clearly{% else %}Clearly{% endif %} indicate which features are not implemented yet %%e.g., tag those features with a `Coming soon` label%%.
   * For those features already implemented, ensure their descriptions match the exact behavior of the product %%e.g., replace mockups with actual screenshots%%
