@@ -6,11 +6,6 @@
     "auditLog": "_markbind/logs/audit.json",
     "files": [
         {
-            "date": 1791035841219,
-            "name": "_markbind\\logs\\markbind-2026-10-03.log",
-            "hash": "a9f3054bdd15e6558a174da066b8815232bfe57c64ef883880ddf67e6806df9c"
-        },
-        {
             "date": 1791708313755,
             "name": "_markbind\\logs\\markbind-2026-10-11.log",
             "hash": "39187c849649298f1f792863fd07dd0865a93cb37f59ead59c3c0b6f47418ca9"
@@ -29,6 +24,11 @@
             "date": 1793287018539,
             "name": "_markbind\\logs\\markbind-2026-10-29.log",
             "hash": "e972ffef55beb59665e4a4752de983330ee760eb18fb7d31e1a811c5c47c59ac"
+        },
+        {
+            "date": 1793648667881,
+            "name": "_markbind\\logs\\markbind-2026-11-03.log",
+            "hash": "3cec5aeab97cd7dedef51492c7d5a8019f82f623414142ba2631cc1481701f65"
         }
     ],
     "hashType": "sha256"
