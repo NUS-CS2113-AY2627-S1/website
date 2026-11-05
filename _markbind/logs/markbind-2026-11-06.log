@@ -1,0 +1,56 @@
+2026-11-05T16:01:47.285Z - [32minfo[39m: [12:01:47 am] Reload for file change: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe-fragment.md
+2026-11-05T16:01:47.293Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-05T16:01:47.293Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-05T16:01:47.293Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-05T16:01:48.307Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-05T16:01:49.400Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe.md
+2026-11-05T16:01:49.466Z - [32minfo[39m: Site data built
+2026-11-05T16:01:49.467Z - [32minfo[39m: Pages rebuilt
+2026-11-05T16:01:49.467Z - [32minfo[39m: Website regeneration complete! Total build time: 1.161s
+2026-11-05T16:04:24.412Z - [32minfo[39m: [12:04:24 am] Reload for file change: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe-fragment.md
+2026-11-05T16:04:24.412Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-05T16:04:24.412Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-05T16:04:24.412Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-05T16:04:25.423Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-05T16:04:26.555Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe.md
+2026-11-05T16:04:26.630Z - [32minfo[39m: Site data built
+2026-11-05T16:04:26.630Z - [32minfo[39m: Pages rebuilt
+2026-11-05T16:04:26.630Z - [32minfo[39m: Website regeneration complete! Total build time: 1.207s
+2026-11-05T16:05:10.025Z - [32minfo[39m: [12:05:10 am] Reload for file change: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe-fragment.md
+2026-11-05T16:05:10.025Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-05T16:05:10.026Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-05T16:05:10.026Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-05T16:05:11.039Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-05T16:05:12.113Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe.md
+2026-11-05T16:05:12.180Z - [32minfo[39m: Site data built
+2026-11-05T16:05:12.181Z - [32minfo[39m: Pages rebuilt
+2026-11-05T16:05:12.181Z - [32minfo[39m: Website regeneration complete! Total build time: 1.142s
+2026-11-05T16:12:31.193Z - [32minfo[39m: [12:12:31 am] Reload for file change: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe-bug-triaging-guidelines-fragment.md
+2026-11-05T16:12:31.194Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-05T16:12:31.194Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-05T16:12:31.194Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-05T16:12:32.207Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-05T16:12:33.165Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe.md
+2026-11-05T16:12:33.228Z - [32minfo[39m: Site data built
+2026-11-05T16:12:33.228Z - [32minfo[39m: Pages rebuilt
+2026-11-05T16:12:33.228Z - [32minfo[39m: Website regeneration complete! Total build time: 1.022s
+2026-11-05T16:12:40.512Z - [32minfo[39m: [12:12:40 am] Reload for file change: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe-bug-triaging-guidelines-fragment.md
+2026-11-05T16:12:40.513Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-05T16:12:40.513Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-05T16:12:40.513Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-05T16:12:41.518Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-05T16:12:42.404Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe.md
+2026-11-05T16:12:42.474Z - [32minfo[39m: Site data built
+2026-11-05T16:12:42.474Z - [32minfo[39m: Pages rebuilt
+2026-11-05T16:12:42.474Z - [32minfo[39m: Website regeneration complete! Total build time: 0.957s
+2026-11-05T16:16:52.212Z - [32minfo[39m: [12:16:52 am] Reload for file change: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe-fragment.md
+2026-11-05T16:16:52.212Z - [32minfo[39m: Synchronizing opened pages list before reload
+2026-11-05T16:16:52.213Z - [32minfo[39m: Current opened pages, from most-to-least recent:
+2026-11-05T16:16:52.213Z - [32minfo[39m: 1. admin/tp-pe
+2026-11-05T16:16:53.225Z - [32minfo[39m: Rebuilding 1 pages
+2026-11-05T16:16:54.286Z - [36mverbose[39m: Rendering page: D:\Workspace\CS2113\AY2627-S1\ay2627s1-website\admin\tp-pe.md
+2026-11-05T16:16:54.350Z - [32minfo[39m: Site data built
+2026-11-05T16:16:54.350Z - [32minfo[39m: Pages rebuilt
+2026-11-05T16:16:54.350Z - [32minfo[39m: Website regeneration complete! Total build time: 1.126s
+2026-11-05T16:17:40.695Z - [32minfo[39m: Website generation started at 12:17:38 am
+2026-11-05T16:17:42.673Z - [32minfo[39m: Building assets...
