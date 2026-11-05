@@ -48,6 +48,12 @@ These are considered _functionality bugs_:<br>
 * hard to read/understand
 * unnecessary repetitions %%(i.e., hard to see what's similar and what's different)%%
 </span>
+<span id="usabilityBugs">
+
+:fas-bug: Usability:
+* Hard to navigate
+* Hard to read/see contents
+  </span>
 </div>
 
 <div id="ugBugs">
