@@ -28,8 +28,7 @@ Accordingly, we hope you'll **accept bug reports graciously** (rather than fight
   (a) The exact same bug reported multiple times.<br>
   (b) Multiple buggy behaviors that are actually caused by the same defect and ==cannot be fixed independently== (i.e., fixing one fixes the others automatically).<br>
   <br>
-  In real projects, similar bugs (e.g., the same typo in multiple places) tend to get combined into a single issue/PR; in the PE, we have to keep independently-fixable things as separate bugs, to avoid complications in grading. After all, having the same typo in two places is not exactly the same as having it in only one place.<br><br>
-  If an independently-fixable yet similar problem appears in more than five distinct places, the dev team (not the tester) can ask for our permission to combine them as one bug (in which case we'll require you to increase the severity to match the frequency of the bug).
+  In real projects, similar bugs (e.g., the same typo in multiple places) tend to get combined into a single issue/PR; in the PE, we have to keep independently-fixable things as separate bugs, to avoid complications in grading. After all, having the same typo in two places is not exactly the same as having it in only one place.<br>
 
 <div id="how-to-prove-out-of-scope">
 
@@ -52,7 +51,7 @@ Accordingly, we hope you'll **accept bug reports graciously** (rather than fight
 
 <div id="triaging-functionality-bugs">
 
-##### Functionality bugs
+##### Triaging functionality bugs
 
 * **Problems caused by _extreme_ user behaviors**:
   * If the problem happens only in cases of deliberate sabotage %%(e.g., user entered a 30-digit telephone number)%%, it will not be considered a bug (in our context).<br>
@@ -74,7 +73,7 @@ However, if it is possible for a user mistake to cause such inputs %%(e.g., the 
 </div>
 <div id="triaging-feature-flaws">
 
-##### Feature flaws
+##### Triaging feature flaws
 
 
 * Missing features and problems in how a feature is designed are considered feature flaws, i.e., `type.FeatureFlaw`.
@@ -99,9 +98,9 @@ However, if it is possible for a user mistake to cause such inputs %%(e.g., the 
 </div>
 
 
-##### Documentation bugs
+##### Triaging documentation bugs
 * **Broken/incorrect links**: Severity can be `Low` or `Medium` depending on how much inconvenience they cause to the reader.
-* **Extra white space** introduced by the PDF conversion: Not counted as bugs unless it hinders the reader. Cases such as a diagram being split between pages are considered bugs, because they hinder the reader.<br>
+* **Layout and formatting issues**: Counted as bugs if they hinder the reader.<br>
   {{ icon_info }} **'Hinder' the reader?** Don't interpret 'hinder' as 'impossible to read'. Even formatting issues such as too much/little padding, font size, alignment, inconsistencies, etc. can 'hinder' the reader in the sense they can slow down the reader or require the reader to put more effort than necessary. Those things that 'need to be fixed' are still bugs but of lower severities (depending on how much they hinder the reader -- most likely `severity.VeryLow` if the issue is purely cosmetic).
 * **UML notation variations** caused by the diagramming tool: Can be not-accepted if not contradicting the standard notation (as given by the textbook) i.e., extra decorations that are not misleading.<br>
   Omitting optional notations is not a bug as long as it doesn't hinder understanding.
