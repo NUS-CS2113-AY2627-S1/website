@@ -8,6 +8,7 @@
 {% elseif pe_week == '12' %}
   {% set week12_tasks = [
     {id: 'submit_final_deliverables', deadline: get_date(date_final_submission, time=time_final_submission)},
+    {id: 'demo_the_product', deadline: get_date(date_final_submission, 2, time=time_final_submission)},
     {id: 'prepare_for_PE'},
     {id: 'attend_the_PE', deadline: (get_date(date_w12_start, 4, format=format_normal, time="12 noon") + " to " + get_date(date_w12_start, 5, format=format_normal, time="12 noon")), deadline_type: 'warning'}
   ]%}
