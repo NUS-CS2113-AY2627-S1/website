@@ -80,15 +80,10 @@ While PE are primarily _manual_ testing sessions, **you may also use any test au
 
 ###### <div class="text-white bg-secondary p-1">a) Downloading and launching the JAR file</div>
 
-* Download the zip file from the given location (to be given to you at least a few hours before the PE), if you haven't done that already.
-* The file is zipped using a two-part password.
-  * We will email you the second part in advance (it's unique to each student). Keep it safe, and have it ready at the start of the PE.
-  * At the start of the PE, we'll give you the first part of the password (common to the whole class), via a Canvas announcement. Use the combined password to unzip the file, which should give you another zip file with the name suffix `_inner.zip`.
-  * Unzip that second zip file normally (no password required). That will give you a folder containing the JAR file to test and other PDF files needed for the PE. ==Warning: do not run the JAR file while it is still inside the zip file==.<br>
-  Ignore the `padding_file` found among the extracted files. %%Its only purpose is to mask the true size of the JAR file so that someone cannot guess which team they will be testing based on the zip file size.%%<br>
-    :fab-apple: Some macOS versions will automatically unzip the inner zip file after you unzip the outer zip file using the password.
-  * {{ icon_tip }} Strongly recommended: Try the above steps using [this sample zip file](https://github.com/nus-cs2103/website-base/files/14849276/JohnDoe.zip) if you wish (first part of the password: `password1-`, second part: `password2` i.e., you should use `password1-password2` to unzip it).<br>
-    Use the JAR file inside it to try the steps given below as well, to confirm that your computer's Java environment is as expected and can run PE JAR files.
+* Download the zip file from the given location (to be given to you at least a few hours before the PE), if you haven't done that already. !!Part B!! of the panel below explains how to unzip it.
+
+{{ embed_topic(baseUrl+"/admin/tp-testing-fragment.md#zip-download-unzip-info",  icon_embedding + " Downloading and unzipping the files you will need in the PE", indent=1, status="peek")}}
+
 
 <box type="important" id="tp-jar-testing-steps" seamless>
 
@@ -103,8 +98,7 @@ While PE are primarily _manual_ testing sessions, **you may also use any test au
   {{ icon_info }} We strongly recommend surrounding the jar filename with double quotes, in case special characters in the filename cause the `java -jar` command to break.<br>
   e.g., `java -jar "jar_file_name.jar"`<br>
   {{ icon_info }} Note that the name of the JAR file inside the zip file can be different from the one given in their UG. This is because our scripts rename the JAR file using a different naming format before distribution. So, adapt your `java -jar` command to match the actual JAR file name.<br>
-  :fab-windows: Windows users: use the DOS prompt or the PowerShell (not the WSL terminal) to run the JAR file.{% if cs2103 %}<br>
-  :fab-linux: Linux users: If the JAR fails with an error labeled `Gdk-CRITICAL` (happens in Wayland display servers), try running it using the `GDK_BACKEND=x11 java -jar jar_file_name.jar` command instead.{% endif %}
+   :fab-linux: Linux users: If the JAR fails with an error labeled `Gdk-CRITICAL` (happens in Wayland display servers), try running it using the `GDK_BACKEND=x11 java -jar jar_file_name.jar` command instead.
 </box>
 
 <box type="info">
@@ -137,9 +131,7 @@ While PE are primarily _manual_ testing sessions, **you may also use any test au
   You can also report `type.DocumentationBug` bugs if any of the enhancements in this list combines more than one enhancement.{% endif %}
 * **You may do both _system testing_ and _acceptance testing_**.
 * **Focus on product testing first**, before expanding the focus to reporting documentation bugs.<br>
-  Reason: If there are serious issues with the jar file that make product testing impossible, you need to find that out quickly (within the first 10 minutes) so that you can switch to a different product to test. If you find yourself in such a situation much later, the time spent testing the previous product would go to waste.
-* {{ icon_tip }} **Be careful when copying commands from the UG** (PDF version) to the app, as some PDF viewers can affect the pasted text. If that happens, you might want to open the UG in a different PDF viewer.<br>
-  If the command you copied spans multiple lines, check to ensure the line break did not mess up the copied command.
+  Reason: If there are serious issues with the jar file that make product testing impossible, you need to find that out quickly so that you can switch to a different product to test.
 
 ###### <div class="text-white bg-secondary p-1">c) What bugs to report?</div>
 
